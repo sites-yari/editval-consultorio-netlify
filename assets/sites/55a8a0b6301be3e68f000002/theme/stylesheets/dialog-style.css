@@ -1,0 +1,4964 @@
+/* used in iframes */
+
+
+.ev {
+  background: #fff;
+  margin: 0;
+}
+
+/* HELPERS */
+div#main_container {
+  margin: 0px auto 0px auto;
+  /* FF centers de container */
+  width: 100%;
+  border: none;
+}
+
+div#middle_container {
+  padding: 0 24px;
+  border: none;
+  /*overflow: hidden;*/
+  position: relative;
+}
+
+/* CONTENTORES */
+div#container1 {
+  margin: 0;
+  padding: 0;
+}
+
+div#container2 {
+  display: none;
+}
+
+div#container3 {
+  display: none;
+}
+
+div#container4 {
+  display: none;
+}
+
+/***************************************************************************************/
+/* para o IE6 */
+div#main_container div ol.contents {
+  *_list-style: none;
+  *_position: relative;
+  *_float: left;
+  *_width: 100%;
+  *_border: none;
+  *_margin: 0;
+  *_padding: 0;
+  overflow: hidden;
+  height: auto;
+}
+
+div#main_container div ol.contents li {
+  *_position: relative;
+  *_margin: 0;
+}
+
+/* para os restantes */
+div#main_container div > ol.contents {
+  list-style: none;
+  position: relative;
+  *float: left;
+  *width: 100%;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div#main_container div > ol.contents > li {
+  position: relative;
+  margin: 0;
+}
+
+/***************************************************************************************/
+/* reset style */
+body, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  border: none;
+}
+
+/* clearfix */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+
+
+
+
+
+/* used in iframes */
+
+/*************
+ *** STYLE ***
+ *************/
+@media -sass-debug-info{filename{}line{font-family:\000039}}
+.journal.ev-journal-agenda {
+  height: 308px;
+}
+
+/* definições base */
+@media -sass-debug-info{filename{}line{font-family:\0000314}}
+html {
+  scrollbar-face-color: #888;
+  scrollbar-highlight-color: #ccc;
+  scrollbar-3dlight-color: #ccc;
+  scrollbar-darkshadow-color: #ccc;
+  scrollbar-shadow-color: #ccc;
+  scrollbar-arrow-color: #504a5e;
+  scrollbar-track-color: #ccc;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000323}}
+body {
+  font-family: "Lucida Sans", Helvetica, Tahoma, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #444;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000330}}
+a {
+  color: #b00000;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000331}}
+a:hover {
+  color: #e00000;
+}
+
+/* aplicar automáticamente a todos os links para pdf's (apenas por precaução dentro do container3) */
+@media -sass-debug-info{filename{}line{font-family:\0000334}}
+div#container3 a[href*='.pdf'] {
+  padding-left: 20px;
+  background: transparent url("../images/filemanager/pdfa887.png?1452626167") no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000335}}
+div#container3 a[href*='.doc'] {
+  padding-left: 20px;
+  background: transparent url("../images/filemanager/doca887.png?1452626167") no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000336}}
+div#container3 a[href*='.docx'] {
+  padding-left: 20px;
+  background: transparent url("../images/filemanager/docxa887.png?1452626167") no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000337}}
+div#container3 a[href*='.xls'] {
+  padding-left: 20px;
+  background: transparent url("../images/filemanager/xlsa887.png?1452626167") no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000338}}
+div#container3 a[href*='.ppt'] {
+  padding-left: 20px;
+  background: transparent url("../images/filemanager/ppta887.png?1452626167") no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000339}}
+div#container3 a[href*='.zip'] {
+  padding-left: 20px;
+  background: transparent url("../images/filemanager/zipa887.png?1452626167") no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000340}}
+body.chrome div#container3 a[href*='.pdf'],
+body.chrome div#container3 a[href*='.doc'],
+body.chrome div#container3 a[href*='.docx'],
+body.chrome div#container3 a[href*='.xls'],
+body.chrome div#container3 a[href*='.ppt'],
+body.chrome div#container3 a[href*='.zip'],
+body.safari div#container3 a[href*='.pdf'],
+body.safari div#container3 a[href*='.doc'],
+body.safari div#container3 a[href*='.docx'],
+body.safari div#container3 a[href*='.xls'],
+body.safari div#container3 a[href*='.ppt'],
+body.safari div#container3 a[href*='.zip'] {
+  padding-bottom: 1px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000354}}
+input[type="submit"] {
+  font-size: 12px;
+  color: #fff;
+  border: 1px solid;
+  border-color: #ccc #aaa #aaa #ccc;
+  background-color: #bbb;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000355}}
+input[type="submit"]:hover {
+  border: 1px solid;
+  border-color: #e18687 #912627 #912627 #e18687;
+  background-color: #d12627;
+}
+
+/**
+ * Estilo para a lightwindow que abre automáticamente
+ **/
+@media -sass-debug-info{filename{}line{font-family:\0000360}}
+div.auto-lightwindow {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000361}}
+body > .preview div.auto-lightwindow {
+  display: block;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000362}}
+body > .preview div.auto-lightwindow img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/**
+ * Powered by
+ **/
+@media -sass-debug-info{filename{}line{font-family:\0000367}}
+#poweredby {
+  text-align: center;
+  font-size: 10px;
+  margin: 20px 0 0;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000369}}
+#poweredby .i {
+  width: 130px;
+  height: 16px;
+  margin: 0 auto;
+  color: #999;
+  background-color: #eee;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+@media -sass-debug-info{filename{}line{font-family:\0000372}}
+#poweredby .i a {
+  float: right;
+  margin-right: 15px;
+  color: #888;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000375}}
+#poweredby .i a span {
+  display: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000376}}
+#poweredby .i a .icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(../images/shared/texto-virtual-logotipo-16x16a887.png?1452626167) no-repeat;
+  opacity: 0.3;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000382}}
+#poweredby .i a:hover {
+  color: #333;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000384}}
+#poweredby .i a:hover .icon {
+  opacity: 1;
+}
+
+/* desactivar nas páginas que abrem dentro de lightboxes */
+@media -sass-debug-info{filename{}line{font-family:\0000390}}
+body.etica div#poweredby,
+body.sugestoes-e-reclamacoes div#poweredby,
+body.oportunidades div#poweredby,
+body.responsabilidade-social div#poweredby,
+body.privacidade div#poweredby,
+body.newsletter div#poweredby,
+body.seguranca div#poweredby {
+  display: none;
+}
+
+/********************************** Menus ***************************************************/
+/***
+ * ev-main-menu (PT)
+ **/
+ /*
+div.ev-main-menu { width: 864px; height: 88px; overflow: hidden; display:block; background:transparent url('http://static.textovirtual.com/images/designs/edit-value/menu_top_sprite_pt.png') no-repeat 0px -176px; }
+*/
+@media -sass-debug-info{filename{}line{font-family:\00003106}}
+div.ev-main-menu {
+  width: 864px;
+  height: 88px;
+  overflow: hidden;
+  display: block;
+  background: transparent url("../foreigners/edit-value/58/46980/menu_top_sprite_pt.png") no-repeat 0px -176px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003107}}
+div.ev-main-menu h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003108}}
+div.ev-main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003109}}
+div.ev-main-menu ul li {
+  float: left;
+  margin-right: 1px;
+  width: 107px;
+  height: 83px;
+  display: block;
+  background: transparent url("../images/designs/edit-value/menu_top_sprite_pta887.png?1452626167") no-repeat top left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003110}}
+div.ev-main-menu ul li:last-child {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003111}}
+div.ev-main-menu ul li a,
+div.ev-main-menu ul li a:link,
+div.ev-main-menu ul li a:focus,
+div.ev-main-menu ul li a:active,
+div.ev-main-menu ul li a:visited {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  width: 107px;
+  height: 83px;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003116}}
+div.ev-main-menu ul li a div.icon {
+  display: block;
+  position: relative;
+  top: -83px;
+  width: 107px;
+  height: 166px;
+  background: transparent url("../images/designs/edit-value/menu_top_sprite_pta887.png?1452626167") no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003117}}
+div.ev-main-menu ul li a div {
+  display: block;
+}
+
+/* configuração de cada link (PT) */
+@media -sass-debug-info{filename{}line{font-family:\00003119}}
+div.ev-main-menu ul li.index {
+  background-position: 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003120}}
+div.ev-main-menu ul li.equipa {
+  background-position: -107px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003121}}
+div.ev-main-menu ul li.servicos {
+  background-position: -214px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003122}}
+div.ev-main-menu ul li.media {
+  background-position: -321px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003123}}
+div.ev-main-menu ul li.investigacao {
+  background-position: -428px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003124}}
+div.ev-main-menu ul li.rede {
+  background-position: -535px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003125}}
+div.ev-main-menu ul li.bolsa-de-ideias {
+  background-position: -642px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003126}}
+div.ev-main-menu ul li.contactos {
+  background-position: -749px 0px;
+}
+
+/* icon */
+@media -sass-debug-info{filename{}line{font-family:\00003128}}
+div.ev-main-menu ul li.index div.icon {
+  background-position: 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003129}}
+div.ev-main-menu ul li.equipa div.icon {
+  background-position: -107px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003130}}
+div.ev-main-menu ul li.servicos div.icon {
+  background-position: -214px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003131}}
+div.ev-main-menu ul li.media div.icon {
+  background-position: -321px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003132}}
+div.ev-main-menu ul li.investigacao div.icon {
+  background-position: -428px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003133}}
+div.ev-main-menu ul li.rede div.icon {
+  background-position: -535px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003134}}
+div.ev-main-menu ul li.bolsa-de-ideias div.icon {
+  background-position: -642px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003135}}
+div.ev-main-menu ul li.contactos div.icon {
+  background-position: -749px 0px;
+}
+
+/* aspecto do link activo */
+@media -sass-debug-info{filename{}line{font-family:\00003137}}
+div.ev-main-menu ul li.active div.icon {
+  background: none;
+}
+
+/* hack para o media também estar activo nos sublinks */
+@media -sass-debug-info{filename{}line{font-family:\00003140}}
+body.artigos-economia div.ev-main-menu ul li.media div.icon,
+body.videos div.ev-main-menu ul li.media div.icon,
+body.clipping div.ev-main-menu ul li.media div.icon,
+body.press-release div.ev-main-menu ul li.media div.icon,
+body.logo-marca div.ev-main-menu ul li.media div.icon,
+body.galeria-fotos div.ev-main-menu ul li.media div.icon {
+  background: none;
+}
+
+/***
+ * ev-main-menu (EN)
+ **/
+/*
+div.ev-main-menu-en { width: 864px; height: 88px; overflow: hidden; display:block; background:transparent url('http://static.textovirtual.com/images/designs/edit-value/menu_top_sprite_en.png') no-repeat 0px -176px; }
+*/
+@media -sass-debug-info{filename{}line{font-family:\00003153}}
+div.ev-main-menu-en {
+  width: 864px;
+  height: 88px;
+  overflow: hidden;
+  display: block;
+  background: transparent url("../foreigners/edit-value/58/46978/menu_top_sprite_en.png") no-repeat 0px -176px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003154}}
+div.ev-main-menu-en h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003155}}
+div.ev-main-menu-en ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003156}}
+div.ev-main-menu-en ul li {
+  float: left;
+  margin-right: 1px;
+  width: 107px;
+  height: 83px;
+  display: block;
+  background: transparent url("../foreigners/edit-value/58/46978/menu_top_sprite_en.png") no-repeat top left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003157}}
+div.ev-main-menu-en ul li:last-child {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003158}}
+div.ev-main-menu-en ul li a,
+div.ev-main-menu-en ul li a:link,
+div.ev-main-menu-en ul li a:focus,
+div.ev-main-menu-en ul li a:active,
+div.ev-main-menu-en ul li a:visited {
+  position: relative;
+  display: block;
+  width: 107px;
+  height: 83px;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003163}}
+div.ev-main-menu-en ul li a div.icon {
+  display: block;
+  position: relative;
+  top: -83px;
+  width: 107px;
+  height: 166px;
+  background: transparent url("../foreigners/edit-value/58/46978/menu_top_sprite_en.png") no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003164}}
+div.ev-main-menu-en ul li a div {
+  display: block;
+}
+
+/* configuração de cada link (EN) */
+@media -sass-debug-info{filename{}line{font-family:\00003166}}
+div.ev-main-menu-en ul li.index-en {
+  background-position: 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003167}}
+div.ev-main-menu-en ul li.team {
+  background-position: -107px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003168}}
+div.ev-main-menu-en ul li.services {
+  background-position: -214px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003169}}
+div.ev-main-menu-en ul li.research {
+  background-position: -321px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003170}}
+div.ev-main-menu-en ul li.contacts {
+  background-position: -428px 0px;
+}
+
+/* icon */
+@media -sass-debug-info{filename{}line{font-family:\00003172}}
+div.ev-main-menu-en ul li.index-en div.icon {
+  background-position: 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003173}}
+div.ev-main-menu-en ul li.team div.icon {
+  background-position: -107px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003174}}
+div.ev-main-menu-en ul li.services div.icon {
+  background-position: -214px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003175}}
+div.ev-main-menu-en ul li.research div.icon {
+  background-position: -321px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003176}}
+div.ev-main-menu-en ul li.contacts div.icon {
+  background-position: -428px 0px;
+}
+
+/* aspecto do link activo */
+@media -sass-debug-info{filename{}line{font-family:\00003178}}
+div.ev-main-menu-en ul li.active div.icon {
+  background: none;
+}
+
+/***
+ * ev-main-menu (ES)
+ **/
+@media -sass-debug-info{filename{}line{font-family:\00003184}}
+div.ev-main-menu-es {
+  width: 864px;
+  height: 88px;
+  overflow: hidden;
+  display: block;
+  background: transparent url("../foreigners/edit-value/58/46979/menu_top_sprite_es.png") no-repeat 0px -176px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003185}}
+div.ev-main-menu-es h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003186}}
+div.ev-main-menu-es ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003187}}
+div.ev-main-menu-es ul li {
+  float: left;
+  margin-right: 1px;
+  width: 107px;
+  height: 83px;
+  display: block;
+  background: transparent url("../foreigners/edit-value/58/46979/menu_top_sprite_es.png") no-repeat top left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003188}}
+div.ev-main-menu-es ul li:last-child {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003189}}
+div.ev-main-menu-es ul li a,
+div.ev-main-menu-es ul li a:link,
+div.ev-main-menu-es ul li a:focus,
+div.ev-main-menu-es ul li a:active,
+div.ev-main-menu-es ul li a:visited {
+  position: relative;
+  display: block;
+  width: 107px;
+  height: 83px;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003194}}
+div.ev-main-menu-es ul li a div.icon {
+  display: block;
+  position: relative;
+  top: -83px;
+  width: 107px;
+  height: 166px;
+  background: transparent url("../foreigners/edit-value/58/46979/menu_top_sprite_es.png") no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003195}}
+div.ev-main-menu-es ul li a div {
+  display: block;
+}
+
+/* configuração de cada link (EN) */
+@media -sass-debug-info{filename{}line{font-family:\00003197}}
+div.ev-main-menu-es ul li.index-es {
+  background-position: 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003198}}
+div.ev-main-menu-es ul li.equipo {
+  background-position: -107px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003199}}
+div.ev-main-menu-es ul li.servicios {
+  background-position: -214px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003200}}
+div.ev-main-menu-es ul li.investigacion {
+  background-position: -321px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003201}}
+div.ev-main-menu-es ul li.contactos-es {
+  background-position: -428px 0px;
+}
+
+/* icon */
+@media -sass-debug-info{filename{}line{font-family:\00003203}}
+div.ev-main-menu-es ul li.index-es div.icon {
+  background-position: 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003204}}
+div.ev-main-menu-es ul li.equipo div.icon {
+  background-position: -107px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003205}}
+div.ev-main-menu-es ul li.servicios div.icon {
+  background-position: -214px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003206}}
+div.ev-main-menu-es ul li.investigacion div.icon {
+  background-position: -321px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003207}}
+div.ev-main-menu-es ul li.contactos-es div.icon {
+  background-position: -428px 0px;
+}
+
+/* aspecto do link activo */
+@media -sass-debug-info{filename{}line{font-family:\00003209}}
+div.ev-main-menu-es ul li.active div.icon {
+  background: none;
+}
+
+/** MENU/TEXTO :: redes sociais **/
+@media -sass-debug-info{filename{}line{font-family:\00003213}}
+.menu-redes-sociais p {
+  margin: 0;
+  paddin: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003214}}
+.menu-redes-sociais a {
+  width: 24px;
+  height: 24px;
+  margin: 0px 4px;
+  overflow: hidden;
+  float: left;
+  display: block;
+  background: transparent url("../images/designs/edit-value/social-icons-spritea887.png?1452626167") no-repeat 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003215}}
+.menu-redes-sociais a span {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003216}}
+.menu-redes-sociais a.twitter {
+  background-position: 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003217}}
+.menu-redes-sociais a.facebook {
+  background-position: -24px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003218}}
+.menu-redes-sociais a.linkedin {
+  background-position: -48px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003219}}
+.menu-redes-sociais a.blogger {
+  background-position: -72px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003220}}
+.menu-redes-sociais a.twitter:hover {
+  background-position: 0px -24px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003221}}
+.menu-redes-sociais a.facebook:hover {
+  background-position: -24px -24px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003222}}
+.menu-redes-sociais a.linkedin:hover {
+  background-position: -48px -24px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003223}}
+.menu-redes-sociais a.blogger:hover {
+  background-position: -72px -24px;
+}
+
+/*** menu destaques ***/
+@media -sass-debug-info{filename{}line{font-family:\00003226}}
+div.ev-menu-destaques {
+  width: 216px;
+  height: 259px;
+  margin-left: 13px;
+  overflow: hidden;
+  display: block;
+  background: transparent url("../images/designs/edit-value/menu-destaques-spritea887.png?1452626167") no-repeat -432px 0px;
+}
+
+/* hack para a página - galeria de imagens - para as galerias ficarem alinhadas à direita
+   importante, para funcionar no firefox, tem de estar aqui (depois da da definição inicial do height) */
+@media -sass-debug-info{filename{}line{font-family:\00003229}}
+body.galeria-fotos div.ev-menu-destaques {
+  width: 216px;
+  height: 510px;
+}
+
+/* */
+@media -sass-debug-info{filename{}line{font-family:\00003231}}
+div.ev-menu-destaques h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003232}}
+div.ev-menu-destaques ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003233}}
+div.ev-menu-destaques ul li {
+  margin-bottom: 1px;
+  width: 212px;
+  height: 36px;
+  *height: 33px;
+  display: block;
+  background: transparent url("../images/designs/edit-value/menu-destaques-spritea887.png?1452626167") no-repeat top left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003234}}
+div.ev-menu-destaques ul li:last-child {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003235}}
+div.ev-menu-destaques ul li a,
+div.ev-menu-destaques ul li a:link,
+div.ev-menu-destaques ul li a:focus,
+div.ev-menu-destaques ul li a:active,
+div.ev-menu-destaques ul li a:visited {
+  position: relative;
+  display: block;
+  width: 212px;
+  height: 36px;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003240}}
+div.ev-menu-destaques ul li a span {
+  display: none;
+}
+
+/* configuração de cada link */
+@media -sass-debug-info{filename{}line{font-family:\00003242}}
+div.ev-menu-destaques ul li.media {
+  background-position: -216px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003243}}
+div.ev-menu-destaques ul li.artigos-economia {
+  background-position: -216px  -37px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003244}}
+div.ev-menu-destaques ul li.videos {
+  background-position: -216px  -74px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003245}}
+div.ev-menu-destaques ul li.clipping {
+  background-position: -216px -111px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003246}}
+div.ev-menu-destaques ul li.press-release {
+  background-position: -216px -147px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003247}}
+div.ev-menu-destaques ul li.logo-marca {
+  background-position: -216px -183px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003248}}
+div.ev-menu-destaques ul li.galeria-fotos {
+  background-position: -216px -219px;
+}
+
+/* propriedades hover e active - esconder do IE6 */
+@media -sass-debug-info{filename{}line{font-family:\00003250}}
+div.ev-menu-destaques ul > li.media.active,
+div.ev-menu-destaques ul > li.media:hover {
+  background-position: 0 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003252}}
+div.ev-menu-destaques ul > li.artigos-economia.active,
+div.ev-menu-destaques ul > li.artigos-economia:hover {
+  background-position: 0  -37px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003254}}
+div.ev-menu-destaques ul > li.videos.active,
+div.ev-menu-destaques ul > li.videos:hover {
+  background-position: 0  -74px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003256}}
+div.ev-menu-destaques ul > li.clipping.active,
+div.ev-menu-destaques ul > li.clipping:hover {
+  background-position: 0 -111px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003258}}
+div.ev-menu-destaques ul > li.press-release.active,
+div.ev-menu-destaques ul > li.press-release:hover {
+  background-position: 0 -147px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003260}}
+div.ev-menu-destaques ul > li.logo-marca.active,
+div.ev-menu-destaques ul > li.logo-marca:hover {
+  background-position: 0 -183px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003262}}
+div.ev-menu-destaques ul > li.galeria-fotos.active,
+div.ev-menu-destaques ul > li.galeria-fotos:hover {
+  background-position: 0 -219px;
+}
+
+/*** menu linguas ***/
+@media -sass-debug-info{filename{}line{font-family:\00003266}}
+div.ev-menu-linguas {
+  overflow: hidden;
+  display: block;
+  font-size: 11px;
+  line-height: 10px;
+}
+
+/*** menu linguas nas outras linguas simula o menu clientes com uma imagem ***/
+@media -sass-debug-info{filename{}line{font-family:\00003268}}
+body.index-en div.ev-menu-header,
+body.index-es div.ev-menu-header {
+  padding-right: 97px;
+  background: transparent url("../images/designs/edit-value/menu-clientes-spritea887.png?1452626167") no-repeat right -42px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003271}}
+.nested-menu.language_header {
+  overflow: hidden;
+  display: block;
+  font-size: 11px;
+  line-height: 10px;
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003277}}
+.nested-menu.language_header ul {
+  list-style: none;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003280}}
+.nested-menu.language_header ul li {
+  float: left;
+  border-left: 1px solid #999;
+  margin: 5px 2px;
+  padding: 0 0 2px 4px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003285}}
+.nested-menu.language_header ul li a {
+  text-decoration: none;
+  color: #999;
+  outline: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003290}}
+.nested-menu.language_header ul li a:hover {
+  color: #cc1111;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003294}}
+.nested-menu.language_header ul li:first-child, .nested-menu.language_header ul li.formacao, .nested-menu.language_header ul li.clientes {
+  border: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003297}}
+.nested-menu.language_header ul li.formacao {
+  border: none;
+  margin: 0 10px 0 0;
+  padding: 0;
+  /*a:hover { background-color: #d12627; border-color: #e89494 #c92a2b #c61d1e #e89494; color: #fff; }*/
+}
+@media -sass-debug-info{filename{}line{font-family:\00003301}}
+.nested-menu.language_header ul li.formacao a {
+  display: block;
+  margin: 0 0 0 10px;
+  padding: 5px 0;
+  height: 9px;
+  width: 6.5em;
+  text-align: center;
+  border: 1px solid;
+  border-color: #dddddd #b2b2b2 #adadad #dddddd;
+  color: #fff;
+  background: #bbb;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003305}}
+.nested-menu.language_header ul li.formacao a:hover {
+  border-color: #30a8e7 #004887 #004887 #30a8e7;
+  background: #0078b7;
+  color: #fff;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003308}}
+.nested-menu.language_header ul li.clientes {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003310}}
+.nested-menu.language_header ul li.clientes a {
+  display: block;
+  height: 9px;
+  margin: 0;
+  padding: 5px 7px 5px 22px;
+  border: 1px solid;
+  border-color: #dddddd #b2b2b2 #adadad #dddddd;
+  color: #fff;
+  background: #bbbbbb url(../foreigners/edit-value-formacao/213/41846/icon-area-clientes.png) no-repeat 8px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003315}}
+.nested-menu.language_header ul li.clientes a:hover {
+  background-color: #d12627;
+  border-color: #e89494 #c92a2b #c61d1e #e89494;
+  color: #fff;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003317}}
+.nested-menu.language_header ul li.clientes.active a {
+  background-color: #d12627;
+}
+
+/*** menu clientes ***/
+@media -sass-debug-info{filename{}line{font-family:\00003322}}
+div.ev-menu-clientes {
+  overflow: hidden;
+  display: block;
+  font-size: 10px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003323}}
+div.ev-menu-clientes h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003324}}
+div.ev-menu-clientes ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003325}}
+div.ev-menu-clientes ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003326}}
+div.ev-menu-clientes ul li a,
+div.ev-menu-clientes ul li a:link,
+div.ev-menu-clientes ul li a:focus,
+div.ev-menu-clientes ul li a:active,
+div.ev-menu-clientes ul li a:visited {
+  display: block;
+  width: 97px;
+  height: 21px;
+  background: transparent url("../images/designs/edit-value/menu-clientes-spritea887.png?1452626167") no-repeat 0px -21px;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003331}}
+div.ev-menu-clientes ul li a:hover {
+  display: block;
+  background-position: 0px 0px;
+  *width: 97px;
+  *height: 21px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003332}}
+div.ev-menu-clientes ul li a span {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003333}}
+div.ev-menu-clientes ul li.active a {
+  background-position: 0px 0px;
+}
+
+/* manter o link activo mesmo quando estamos numa "subpágina" */
+@media -sass-debug-info{filename{}line{font-family:\00003335}}
+body.clientes div.ev-menu-clientes ul li a,
+body.lista-de-clientes div.ev-menu-clientes ul li a,
+body.testemunhos-de-clientes div.ev-menu-clientes ul li a {
+  background-position: 0px 0px;
+}
+
+/*** menu clientes-v ***/
+@media -sass-debug-info{filename{}line{font-family:\00003340}}
+div.ev-menu-v-clientes {
+  width: 216px;
+  height: 259px;
+  margin-left: 13px;
+  overflow: hidden;
+  display: block;
+  background: transparent url("../images/designs/edit-value/menu-clientes-v-spritea887.png?1452626167") no-repeat -432px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003341}}
+div.ev-menu-v-clientes h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003342}}
+div.ev-menu-v-clientes ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003343}}
+div.ev-menu-v-clientes ul li {
+  margin-bottom: 1px;
+  width: 212px;
+  height: 36px;
+  *height: 33px;
+  display: block;
+  background: transparent url("../images/designs/edit-value/menu-clientes-v-spritea887.png?1452626167") no-repeat top left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003344}}
+div.ev-menu-v-clientes ul li:last-child {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003345}}
+div.ev-menu-v-clientes ul li a,
+div.ev-menu-v-clientes ul li a:link,
+div.ev-menu-v-clientes ul li a:focus,
+div.ev-menu-v-clientes ul li a:active,
+div.ev-menu-v-clientes ul li a:visited {
+  position: relative;
+  display: block;
+  width: 212px;
+  height: 36px;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003350}}
+div.ev-menu-v-clientes ul li a span {
+  display: none;
+}
+
+/* configuração de cada link */
+@media -sass-debug-info{filename{}line{font-family:\00003352}}
+div.ev-menu-v-clientes ul li.testemunhos-de-clientes {
+  background-position: -216px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003353}}
+div.ev-menu-v-clientes ul li.lista-de-clientes {
+  background-position: -216px  -37px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003354}}
+div.ev-menu-v-clientes ul li.clientes {
+  background-position: -216px  -74px;
+}
+
+/* propriedades hover e active */
+@media -sass-debug-info{filename{}line{font-family:\00003356}}
+div.ev-menu-v-clientes ul li.testemunhos-de-clientes.active,
+div.ev-menu-v-clientes ul li.testemunhos-de-clientes:hover {
+  background-position: 0 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003358}}
+div.ev-menu-v-clientes ul li.lista-de-clientes.active,
+div.ev-menu-v-clientes ul li.lista-de-clientes:hover {
+  background-position: 0  -37px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003360}}
+div.ev-menu-v-clientes ul li.clientes.active,
+div.ev-menu-v-clientes ul li.clientes:hover {
+  background-position: 0  -74px;
+}
+
+/*** menu rodapé ***/
+@media -sass-debug-info{filename{}line{font-family:\00003364}}
+div.menu1 {
+  overflow: hidden;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003365}}
+div.menu1 h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003366}}
+div.menu1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003367}}
+div.menu1 ul li {
+  display: block;
+  float: left;
+  color: #847b74;
+  padding: 2px 4px;
+  background: transparent url("../images/designs/edit-value/verticalbara887.gif?1452626167") no-repeat 0px 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003368}}
+div.menu1 ul li:first-child {
+  background: none;
+  padding-left: 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003369}}
+div.menu1 ul li a,
+div.menu1 ul li a:link,
+div.menu1 ul li a:active,
+div.menu1 ul li a:focus,
+div.menu1 ul li a:visited {
+  padding: 0 5px;
+  color: #262525;
+  text-decoration: none;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003374}}
+div.menu1 ul li a:hover {
+  color: #cc1111;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003375}}
+div.menu1 ul li a span {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+/* for all browsers */
+@media -sass-debug-info{filename{}line{font-family:\00003376}}
+body:last-child div.menu1 ul li a span {
+  font-size: 11px;
+  *font-size: 10px;
+  /* for IE7 */
+}
+
+/* hide from IE8 */
+@media -sass-debug-info{filename{}line{font-family:\00003377}}
+div.menu1 ul li a span.icon {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003378}}
+div.menu1 ul li.active a {
+  color: #cc1111;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003379}}
+body.older_browser div.menu1 ul li,
+body.ie7 div.menu1 ul li,
+body.ie8 div.menu1 ul li,
+body.ie9 div.menu1 ul li,
+body.ie10 div.menu1 ul li {
+  padding: 2px 2px;
+}
+
+/********************************** Aliens ***************************************************/
+/* alien media/destaques (rumo económico) */
+@media -sass-debug-info{filename{}line{font-family:\00003388}}
+div.ev-alien-media {
+  overflow: hidden;
+  margin-left: 12px;
+  width: 161px;
+  *padding-left: 12px;
+  *width: 147px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003389}}
+div.ev-alien-media h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003390}}
+div.ev-alien-media ul {
+  font-size: 10px;
+  line-height: 11px;
+  display: block;
+  width: 100%;
+  margin: 0 0 0 -10px;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003391}}
+div.ev-alien-media ul li {
+  margin: 5px 0px 5px 10px;
+  *margin: 0;
+  float: left;
+  overflow: hidden;
+  width: 156px;
+  *width: 161px;
+  height: 60px;
+  *height: 50px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003392}}
+div.ev-alien-media div.i {
+  width: 154px;
+  height: 46px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003393}}
+div.ev-alien-media div.i div.name {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003394}}
+div.ev-alien-media div.i div.link {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003395}}
+div.ev-alien-media div.i div.link a {
+  color: #666;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003396}}
+div.ev-alien-media div.i div.link a:hover {
+  color: #bb2222;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003397}}
+div.ev-alien-media div.i div.player {
+  position: absolute;
+  top: 15px;
+  display: block;
+  width: 148px;
+  height: 30px;
+  padding: 0 3px;
+  border-top: 1px solid #eee;
+}
+
+/* twitter */
+@media -sass-debug-info{filename{}line{font-family:\00003400}}
+.twitter {
+  width: 213px;
+  overflow: hidden;
+  margin: 0px 5px 0 0;
+  background-color: #eee;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003401}}
+.twitter .name {
+  font-weight: bold;
+  height: 32px;
+  padding-left: 15px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003402}}
+.twitter .name span {
+  display: block;
+  padding: 4px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003403}}
+.twitter h2 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003404}}
+.twitter ul {
+  height: 108px;
+  margin: 0;
+  padding: 0 15px 5px;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003405}}
+.twitter ul > li {
+  padding-bottom: 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003406}}
+.twitter ul > li > span {
+  line-height: 12px;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003407}}
+.twitter a {
+  color: #444;
+}
+
+/********************************** Jornais ***************************************************/
+/* jornal destaques */
+@media -sass-debug-info{filename{}line{font-family:\00003412}}
+.ev-journal-slidedown {
+  overflow: hidden;
+  margin: 0 0 0 3px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003413}}
+.ev-journal-slidedown h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003414}}
+.ev-journal-slidedown ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003415}}
+.ev-journal-slidedown ul li {
+  float: left;
+  margin-left: 6px;
+  *_padding-left: 7px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003416}}
+.ev-journal-slidedown ul li + li {
+  margin-left: 9px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003417}}
+.ev-journal-slidedown .article {
+  width: 300px;
+  height: 300px;
+  padding: 7px;
+  background: transparent url("../images/designs/edit-value/bg_destaquesa887.png?1452626167") no-repeat 0 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003418}}
+.ev-journal-slidedown .article .header {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003419}}
+.ev-journal-slidedown .article .body {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003420}}
+.ev-journal-slidedown .article .body .img {
+  position: absolute;
+  top: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003421}}
+.ev-journal-slidedown .article .body .img .title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 2px 6px;
+  max-width: 265px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003422}}
+.ev-journal-slidedown .article .body .text {
+  color: #444;
+  padding: 15px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003423}}
+.ev-journal-slidedown .article .body .text h1 {
+  color: #222;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* diferenças entre o jornal slidedown e jornal missão visao valores (apenas as dimensões das imagens)*/
+@media -sass-debug-info{filename{}line{font-family:\00003426}}
+div.ev-journal-slide-team {
+  overflow: hidden;
+  margin: 0 0 0 3px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003427}}
+div.ev-journal-slide-team > h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003428}}
+div.ev-journal-slide-team h1 {
+  *display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003429}}
+div.ev-journal-slide-team > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003430}}
+div.ev-journal-slide-team > ul > li {
+  float: left;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003431}}
+div.ev-journal-slide-team div.article {
+  height: 273px;
+  background: transparent url("../images/designs/edit-value/bg_destaquesa887.png?1452626167") no-repeat -5px -5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003432}}
+div.ev-journal-slide-team div.article div.header {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003433}}
+div.ev-journal-slide-team div.article div.body {
+  position: relative;
+  height: 267px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 3px solid #262525;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003434}}
+div.ev-journal-slide-team div.article div.body div.img {
+  position: absolute;
+  top: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003435}}
+div.ev-journal-slide-team div.article div.body div.text {
+  color: #444;
+  padding: 15px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003436}}
+div.ev-journal-slide-team div.article div.body div.text h1 {
+  color: #222;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003438}}
+div.ev-journal-missao {
+  margin: 20px 0 0 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003439}}
+div.ev-journal-visao {
+  margin: 20px 0 0 10px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003440}}
+div.ev-journal-valores {
+  margin: 20px 0 0 10px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003442}}
+div.ev-journal-missao div.article,
+div.ev-journal-visao div.article,
+div.ev-journal-valores div.article {
+  width: 280px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003446}}
+div.ev-journal-missao div.article div.body,
+div.ev-journal-visao div.article div.body,
+div.ev-journal-valores div.article div.body {
+  width: 274px;
+}
+
+/* jornal agenda */
+@media -sass-debug-info{filename{}line{font-family:\00003451}}
+div.ev-journal-agenda {
+  width: 213px;
+  overflow: hidden;
+  margin: 3px 5px 0 0;
+  background-color: #eee;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003452}}
+div.ev-journal-agenda > h3,
+div.ev-journal-agenda > h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003455}}
+div.ev-journal-agenda > ul {
+  margin: 0;
+  padding: 15px;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003456}}
+div.ev-journal-agenda > ul > li {
+  border-bottom: 1px dotted #666;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003457}}
+body.index-en div.ev-journal-agenda > ul > li,
+body.index-es div.ev-journal-agenda > ul > li {
+  margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003459}}
+div.ev-journal-agenda > ul > li + li {
+  border-bottom: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003461}}
+div.ev-journal-agenda div.article div.data {
+  background-color: black;
+  color: white;
+  display: inline;
+  font-family: tahoma;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1px 3px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003462}}
+div.ev-journal-agenda div.article div.img {
+  position: absolute;
+  top: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003463}}
+div.ev-journal-agenda div.article div.title {
+  margin: 8px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003464}}
+div.ev-journal-agenda div.article div.title span {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003465}}
+div.ev-journal-agenda div.article div.title a:hover {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003466}}
+div.ev-journal-agenda div.article div.text {
+  line-height: 12px;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003467}}
+div.ev-journal-agenda div.article div.more {
+  display: none;
+}
+
+/* jornal soluções */
+@media -sass-debug-info{filename{}line{font-family:\00003470}}
+div.ev-journal-solucoes {
+  font-size: 8pt;
+  color: #fff;
+  overflow: hidden;
+  margin: 0;
+  width: 863px;
+  height: 530px;
+  background: transparent url("../images/designs/edit-value/servicos-middlea887.jpg?1452626167") no-repeat bottom;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003471}}
+div.ev-journal-solucoes > h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003472}}
+div.ev-journal-solucoes > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003473}}
+div.ev-journal-solucoes > ul > li {
+  margin: 0;
+  float: left;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003474}}
+div.ev-journal-solucoes > ul > li.article-0 {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003475}}
+div.ev-journal-solucoes > ul > li.article-1 {
+  margin: 0 0 0 1px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003476}}
+div.ev-journal-solucoes > ul > li.article-2 {
+  margin: 0 0 0 1px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003478}}
+div.ev-journal-solucoes div.article {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003479}}
+div.ev-journal-solucoes div.article div.header {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003480}}
+div.ev-journal-solucoes div.article div.body {
+  position: relative;
+  width: 287px;
+  height: 267px;
+  overflow: hidden;
+  margin: 0;
+  background-color: #ddd0d0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003481}}
+div.ev-journal-solucoes div.article div.body div.img {
+  position: absolute;
+  top: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003482}}
+div.ev-journal-solucoes div.article div.body div.text {
+  margin: 15px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003483}}
+div.ev-journal-solucoes div.article div.body div.more {
+  cursor: pointer;
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003484}}
+div.ev-journal-solucoes div.article div.body div.more div {
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003485}}
+div.ev-journal-solucoes li.article-0 div.article div.body {
+  background: #7b7e7c;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003486}}
+div.ev-journal-solucoes li.article-0 div.article div.body div.more {
+  bottom: 0;
+  right: 0;
+  width: 267px;
+  height: 60px;
+  background: #505251;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003487}}
+div.ev-journal-solucoes li.article-0 div.article div.body div.more div {
+  right: 10px;
+  top: 25px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003488}}
+div.ev-journal-solucoes li.article-1 div.article div.body {
+  background: #585c5d;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003489}}
+div.ev-journal-solucoes li.article-1 div.article div.body div.more {
+  bottom: 0;
+  right: 0;
+  width: 287px;
+  height: 60px;
+  background: #3a3c3d;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003490}}
+div.ev-journal-solucoes li.article-1 div.article div.body div.more div {
+  right: 10px;
+  top: 25px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003491}}
+div.ev-journal-solucoes li.article-2 div.article div.body {
+  background: #45484b;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003492}}
+div.ev-journal-solucoes li.article-2 div.article div.body div.more {
+  bottom: 0;
+  left: 0;
+  width: 267px;
+  height: 60px;
+  background: #2e3032;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003493}}
+div.ev-journal-solucoes li.article-2 div.article div.body div.more div {
+  right: 10px;
+  top: 25px;
+}
+
+/* linguas */
+@media -sass-debug-info{filename{}line{font-family:\00003495}}
+div.ev-journal-solucoes div.article div.body div.more div span {
+  display: block;
+  width: 76px;
+  height: 14px;
+  background: transparent url("../images/designs/edit-value/saber-mais-spritea887.png?1452626167") no-repeat bottom;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003496}}
+div.ev-journal-solucoes div.article div.body div.more div span {
+  *_background-image: url("../images/designs/edit-value/saber-mais-sprite-8bita887.png?1452626167");
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003497}}
+body.servicos div.ev-journal-solucoes div.article div.body div.more div span {
+  background-position: 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003498}}
+body.services div.ev-journal-solucoes div.article div.body div.more div span {
+  background-position: 0px -14px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003499}}
+body.servicios div.ev-journal-solucoes div.article div.body div.more div span {
+  background-position: 0px -28px;
+}
+
+/* jornal áreas de actuação */
+@media -sass-debug-info{filename{}line{font-family:\00003502}}
+div.ev-journal-areas {
+  overflow: hidden;
+  margin: 0;
+  width: 863px;
+  height: 190px;
+  background: #999;
+  color: #fff;
+  font-size: 10px;
+  line-height: 11px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003503}}
+div.ev-journal-areas > h3,
+div.ev-journal-areas > h1 {
+  display: block;
+  width: 287px;
+  height: 190px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: #777;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003505}}
+div.ev-journal-areas > h3 span,
+div.ev-journal-areas > h1 span {
+  float: right;
+  margin: 15px;
+  line-height: 16px;
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003507}}
+div.ev-journal-areas > ul {
+  display: block;
+  width: 576px;
+  height: 190px;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003508}}
+div.ev-journal-areas > ul > li {
+  margin: 15px -10px -5px 15px;
+  float: left;
+  overflow: hidden;
+  width: 275px;
+  height: 80px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003509}}
+div.ev-journal-areas div.article div.data {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003510}}
+div.ev-journal-areas div.article div.title {
+  margin-left: 77px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003511}}
+div.ev-journal-areas div.article div.img {
+  float: left;
+  margin-top: -14px;
+  border: 1px solid #fff;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003512}}
+div.ev-journal-areas div.article div.text {
+  margin-left: 77px;
+}
+
+/* jornal videos */
+@media -sass-debug-info{filename{}line{font-family:\00003515}}
+.ev-journal-videos {
+  margin: 0;
+  width: 618px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003516}}
+.ev-journal-videos > .head {
+  margin: 7px 0 25px 25px;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003517}}
+.ev-journal-videos > ul {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003518}}
+.ev-journal-videos > ul li {
+  margin: 0 0 0 25px;
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003519}}
+.ev-journal-videos .article a {
+  text-decoration: none;
+  border: 1px solid #e0e0e0;
+  display: block;
+  padding: 5px;
+  width: 160px;
+  height: 132px;
+  overflow: hidden;
+  color: #000;
+  *cursor: pointer;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003520}}
+.ev-journal-videos .article a:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fffafa;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003521}}
+.ev-journal-videos .article a:hover .head .title,
+.ev-journal-videos .article a:hover .foot .text {
+  color: #330000;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003523}}
+.ev-journal-videos .article .head .title {
+  text-align: left;
+  height: 1.5em;
+  font-weight: bold;
+  font-size: 10px;
+  overflow: hidden;
+  margin-left: 0.2em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003524}}
+.ev-journal-videos .article .body .img {
+  text-align: center;
+  height: 90px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003525}}
+.ev-journal-videos .article .body .img img {
+  height: 120px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003526}}
+.ev-journal-videos .article .foot .data {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003527}}
+.ev-journal-videos .article .foot .text {
+  text-align: right;
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003528}}
+body.videos div.player {
+  display: block;
+  position: relative;
+  width: 425px;
+  height: 344px;
+  margin: 9px 0 0 9px;
+}
+
+/* editvalue galerias de imagens */
+@media -sass-debug-info{filename{}line{font-family:\00003531}}
+.ev-picasa {
+  margin-left: 25px;
+  overflow: hidden;
+  width: 610px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003532}}
+.ev-picasa > h1 {
+  margin: 0 0 5px;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003533}}
+.ev-picasa ul li.pwi_album .content,
+.ev-picasa ul.photos a {
+  font-size: 0.8em;
+  color: black;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003535}}
+.ev-picasa ul li.pwi_album .content:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fff9f9;
+}
+
+/* preview das galerias */
+@media -sass-debug-info{filename{}line{font-family:\00003537}}
+.ev-picasa ul li.pwi_album {
+  margin: 0;
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003538}}
+.ev-picasa ul li.pwi_album .content {
+  position: relative;
+  width: 160px;
+  height: 132px;
+  margin: 0 0 25px 25px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003539}}
+.ev-picasa ul li.pwi_album .content .title,
+.ev-picasa ul li.pwi_album .content .date,
+.ev-picasa ul li.pwi_album .content .location {
+  position: absolute;
+  z-index: 100;
+  width: 160px;
+  background: #fff;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003542}}
+.ev-picasa ul li.pwi_album .content .title {
+  top: 0;
+  left: 0;
+  height: 14px;
+  padding: 3px 6px 2px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003543}}
+.ev-picasa ul li.pwi_album .content .date {
+  bottom: 14px;
+  *bottom: 16px;
+  right: 0;
+  height: 12px;
+  *height: 13px;
+  text-align: right;
+  color: #aaa;
+  padding: 2px 6px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003544}}
+.ev-picasa ul li.pwi_album .content .location {
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  *height: 13px;
+  text-align: right;
+  color: #aaa;
+  padding: 0 6px 5px;
+  *padding: 0 6px 3px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003545}}
+.ev-picasa ul li.pwi_album .content:hover .title,
+.ev-picasa ul li.pwi_album .content:hover .date,
+.ev-picasa ul li.pwi_album .content:hover .location {
+  color: inherit;
+}
+
+/* imagens */
+@media -sass-debug-info{filename{}line{font-family:\00003549}}
+.ev-picasa .album-photos {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003550}}
+.ev-picasa .album-photos .pwi_album_backlink {
+  margin: 3px 0 10px;
+  padding: 3px;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003551}}
+.ev-picasa .album-photos .pwi_album_backlink .i {
+  color: #666;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003552}}
+.ev-picasa .album-photos .pwi_album_backlink .i .icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: transparent url("../images/designs/edit-value/arrows-spritea887.png?1452626167") no-repeat 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003553}}
+.ev-picasa .album-photos .pwi_album_backlink .i .label {
+  float: left;
+  padding-left: 4px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003554}}
+.ev-picasa .album-photos .pwi_album_backlink .i:hover {
+  color: #ff6262;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003555}}
+.ev-picasa .album-photos .pwi_album_backlink .i:hover .icon {
+  background-position: 0px -16px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003556}}
+.ev-picasa .album-photos .pwi_album_description {
+  float: right;
+  margin-top: -29px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003557}}
+.ev-picasa .album-photos .pwi_album_description > div {
+  float: left;
+  margin-left: 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003558}}
+.ev-picasa .album-photos .pwi_album_description .show-presentation {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003559}}
+.ev-picasa .album-photos .pwi_album_description .details {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003560}}
+.ev-picasa .album-photos ul.photos {
+  display: block;
+  width: 608px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003561}}
+.ev-picasa .album-photos ul.photos li {
+  display: block;
+  margin: 5px;
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003562}}
+.ev-picasa .album-photos ul.photos a {
+  width: 128px;
+  height: 94px;
+  overflow: hidden;
+  *cursor: pointer;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003563}}
+.ev-picasa .album-photos ul.photos a .title {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003564}}
+.ev-picasa .album-photos ul.photos a .image {
+  width: 126px;
+  height: 92px;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003565}}
+.ev-picasa .album-photos ul.photos a .image img {
+  max-width: 126px;
+  max-height: 126px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003566}}
+.ev-picasa .album-photos ul.photos a .description {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003567}}
+.ev-picasa .album-photos ul.photos a:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fff9f9;
+}
+
+/* ligeira diferença para as fotos do clipping */
+@media -sass-debug-info{filename{}line{font-family:\00003569}}
+.ev-picasa.ev-clipping ul li.pwi_album .content .date {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003570}}
+.ev-picasa.ev-clipping .album-photos ul.photos a {
+  width: 128px;
+  height: 124px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003571}}
+.ev-picasa.ev-clipping .album-photos ul.photos a div.description {
+  display: block;
+  line-height: 11px;
+}
+
+/* editvalue galerias de imagens */
+@media -sass-debug-info{filename{}line{font-family:\00003578}}
+.gallery {
+  margin-left: 25px;
+  overflow: hidden;
+  width: 610px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003579}}
+.gallery > h1 {
+  margin: 0 0 5px;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003580}}
+.gallery .albums ul li.album a,
+.gallery .photos ul a {
+  font-size: 0.8em;
+  color: black;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003582}}
+.gallery ul li.album a:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fff9f9;
+}
+
+/* preview das galerias */
+@media -sass-debug-info{filename{}line{font-family:\00003584}}
+.gallery ul li.album {
+  margin: 0;
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003585}}
+.gallery ul li.album a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 160px;
+  height: 132px;
+  margin: 0 0 25px 25px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003586}}
+.gallery ul li.album a .name,
+.gallery ul li.album a .description {
+  position: absolute;
+  z-index: 100;
+  width: 160px;
+  background: #fff;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003588}}
+.gallery ul li.album a .name {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 14px;
+  padding: 3px 6px 2px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003589}}
+.gallery ul li.album a .description {
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  *height: 13px;
+  text-align: right;
+  color: #aaa;
+  padding: 0 6px 5px;
+  *padding: 0 6px 3px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003590}}
+.gallery ul li.album a:hover .name,
+.gallery ul li.album a:hover .description {
+  color: inherit;
+}
+
+/* imagens */
+@media -sass-debug-info{filename{}line{font-family:\00003593}}
+.gallery .photos {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003594}}
+.gallery .photos .back {
+  margin: 3px 0 10px;
+  padding: 3px;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003595}}
+.gallery .photos .back a {
+  display: block;
+  overflow: hidden;
+  color: #666;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003596}}
+.gallery .photos .back a .icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: transparent url("../images/designs/edit-value/arrows-spritea887.png?1452626167") no-repeat 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003597}}
+.gallery .photos .back a .label {
+  float: left;
+  padding-left: 4px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003598}}
+.gallery .photos .back a:hover {
+  color: #ff6262;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003599}}
+.gallery .photos .back a:hover .icon {
+  background-position: 0px -16px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003600}}
+.gallery .photos .album {
+  float: right;
+  margin-top: -29px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003601}}
+.gallery .photos .album .title {
+  float: left;
+  margin-left: 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003602}}
+.gallery .photos .album .details {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003603}}
+.gallery .photos ul {
+  display: block;
+  width: 608px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003604}}
+.gallery .photos ul li {
+  display: block;
+  margin: 5px;
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003605}}
+.gallery .photos ul a {
+  display: block;
+  width: 128px;
+  height: 94px;
+  overflow: hidden;
+  *cursor: pointer;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003606}}
+.gallery .photos ul a .name {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003607}}
+.gallery .photos ul a .thumb {
+  width: 126px;
+  height: 92px;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003608}}
+.gallery .photos ul a .thumb img {
+  max-width: 126px;
+  max-height: 126px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003609}}
+.gallery .photos ul a .description {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003610}}
+.gallery .photos ul a:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fff9f9;
+}
+
+/* ligeira diferença para as fotos do clipping */
+@media -sass-debug-info{filename{}line{font-family:\00003612}}
+.gallery.clipping ul li.album .content .date {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003613}}
+.gallery.clipping .photos ul a {
+  width: 128px;
+  height: 124px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003614}}
+.gallery.clipping .photos ul a .description {
+  display: block;
+  line-height: 11px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003616}}
+.list.testemunhos {
+  width: 613px;
+  margin-left: 20px;
+  overflow: hidden;
+  background-color: #eee;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003618}}
+.list.testemunhos h1 {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003627}}
+.list.testemunhos ul {
+  background-color: #f6f6f6;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003629}}
+.list.testemunhos ul li {
+  margin: 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003632}}
+.list.testemunhos ul li .label {
+  display: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003633}}
+.list.testemunhos ul li .name {
+  float: left;
+  width: 580px;
+  margin: 15px 15px 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003640}}
+.list.testemunhos ul li .image {
+  float: left;
+  margin: 5px 15px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003641}}
+.list.testemunhos ul li .text1 {
+  width: 580px;
+  margin: 0 15px 15px;
+}
+
+/* jornal parcerias */
+@media -sass-debug-info{filename{}line{font-family:\00003650}}
+.ev-journal-parcerias {
+  overflow: hidden;
+  margin: 0;
+  width: 863px;
+  *width: 865px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003651}}
+.ev-journal-parcerias h1 {
+  position: absolute;
+  top: 0;
+  *left: 1px;
+  width: 833px;
+  *width: 831px;
+  height: 20px;
+  margin: 0;
+  padding: 6px 15px;
+  background: #eaeaea;
+  font-size: 1.3em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003653}}
+.ev-journal-parcerias ul {
+  display: block;
+  margin: 32px 0 0 -1px;
+  *_margin: 41px 0 0 0;
+  padding: 0;
+  *_padding-left: 2px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003654}}
+.ev-journal-parcerias ul li {
+  margin: 1px 0 0 1px;
+  *border-right: 1px solid white;
+  *border-top: 1px solid white;
+  float: left;
+  overflow: hidden;
+  width: 431px;
+  *width: 429px;
+  height: 180px;
+  background: #f2f2f2;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003655}}
+.ev-journal-parcerias .article {
+  padding: 10px;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003656}}
+.ev-journal-parcerias .article a {
+  display: block;
+  color: #444;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003657}}
+.ev-journal-parcerias .article a:hover {
+  color: #e00000;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003658}}
+.ev-journal-parcerias .article .data {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003659}}
+.ev-journal-parcerias .article .title {
+  margin-left: 107px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003660}}
+.ev-journal-parcerias .article .img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border: 1px solid #222;
+  width: 94px;
+  height: 94px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003661}}
+.ev-journal-parcerias .article .img img {
+  margin: -1px;
+  width: 96px;
+  height: 96px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003662}}
+.ev-journal-parcerias .article .img a {
+  width: 96px;
+  height: 96px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003663}}
+.ev-journal-parcerias .article .text {
+  font-size: 11px;
+  line-height: 13px;
+  margin-left: 107px;
+}
+
+/* jornal publicações */
+@media -sass-debug-info{filename{}line{font-family:\00003666}}
+div.ev-journal-publicacoes {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 260px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003667}}
+div.ev-journal-publicacoes .header .name {
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 20px;
+  margin: 0 0 5px 1px;
+  padding: 5px 15px;
+  background: #eaeaea;
+}
+
+/* Vertical Accordion */
+@media -sass-debug-info{filename{}line{font-family:\00003669}}
+div.ev-journal-publicacoes .contents {
+  min-height: 800px;
+  border-left: 1px solid #eaeaea;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003670}}
+div.ev-journal-publicacoes .ui-accordion-header {
+  padding: 5px 10px;
+  margin: 0;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003671}}
+div.ev-journal-publicacoes .ui-accordion-header a {
+  overflow: hidden;
+  display: block;
+  width: 230px;
+  line-height: 20px;
+  padding: 0 5px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+  color: #444;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003686}}
+div.ev-journal-publicacoes .ui-state-hover a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003687}}
+div.ev-journal-publicacoes .ui-state-active a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003688}}
+div.ev-journal-publicacoes .ui-accordion-content {
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 10px 15px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003689}}
+div.ev-journal-publicacoes .ui-accordion-content span {
+  border-bottom: 1px dotted #aaa;
+  display: block;
+}
+
+/* jornal bolsa de ideias */
+@media -sass-debug-info{filename{}line{font-family:\00003692}}
+div.ev-journal-ideias {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003693}}
+div.ev-journal-ideias .header .name {
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 20px;
+  margin: 0 1px 5px 1px;
+  padding: 5px 15px;
+  background: #eaeaea;
+}
+
+/* Vertical Accordion */
+@media -sass-debug-info{filename{}line{font-family:\00003696}}
+div.ev-journal-ideias .ui-accordion-header {
+  outline: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003697}}
+div.ev-journal-ideias .ui-accordion-header a {
+  overflow: hidden;
+  display: block;
+  width: 570px;
+  line-height: 20px;
+  padding: 0 14px;
+  margin: 2px 0 0 1px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+  color: #444;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003712}}
+div.ev-journal-ideias .ui-state-hover a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003713}}
+div.ev-journal-ideias .ui-state-active a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003714}}
+div.ev-journal-ideias .ui-accordion-content {
+  border-left: 1px dotted #aaa;
+  border-bottom: 1px dotted #aaa;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 1px 15px 1px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003715}}
+div.ev-journal-ideias .ui-accordion-content span {
+  display: block;
+}
+
+/* Journal - Lista de clientes */
+@media -sass-debug-info{filename{}line{font-family:\00003719}}
+.ev-journal-clientes {
+  float: left;
+  margin-left: 20px;
+  width: 610px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003720}}
+.ev-journal-clientes .header .name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Vertical Accordion */
+@media -sass-debug-info{filename{}line{font-family:\00003723}}
+.ev-journal-clientes .ui-accordion-header {
+  padding: 2px 0 0 1px;
+  margin: 0;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003724}}
+.ev-journal-clientes .ui-accordion-header a {
+  overflow: hidden;
+  display: block;
+  width: 570px;
+  line-height: 20px;
+  padding: 0 14px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #444;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003737}}
+.ev-journal-clientes .ui-state-hover a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003738}}
+.ev-journal-clientes .ui-state-active a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003739}}
+.ev-journal-clientes .ui-accordion-content {
+  background-color: #fff;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 15px 15px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003740}}
+.ev-journal-clientes .ui-accordion-content span {
+  display: block;
+}
+
+/* journal press release */
+@media -sass-debug-info{filename{}line{font-family:\00003744}}
+.ev-journal-minimized {
+  overflow: hidden;
+  margin: 0;
+  margin-left: 25px;
+  width: 600px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003745}}
+.ev-journal-minimized h1 {
+  margin: 7px 0 25px;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003746}}
+.ev-journal-minimized h1 .feed {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003747}}
+.ev-journal-minimized h1 .feed a {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003748}}
+.ev-journal-minimized h1 .feed .label {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003749}}
+.ev-journal-minimized h1 .feed .icon {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: transparent url("../images/designs/edit-value/feed-icon-14x14a887.png?1452626167") no-repeat 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003750}}
+.ev-journal-minimized ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003751}}
+.ev-journal-minimized ul li {
+  margin: 0;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003752}}
+.ev-journal-minimized .article {
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003753}}
+.ev-journal-minimized .article .header,
+.ev-journal-minimized .article .head {
+  position: relative;
+  height: 20px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003755}}
+.ev-journal-minimized .article div.data {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003756}}
+.ev-journal-minimized .article div.data span {
+  color: #fff;
+  background-color: #444;
+  padding: 1px 4px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003757}}
+.ev-journal-minimized .article div.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000000;
+  height: 1em;
+  margin-top: 3px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003758}}
+.ev-journal-minimized .article div.author {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003759}}
+.ev-journal-minimized .article div.text {
+  color: #666;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003760}}
+.ev-journal-minimized .article div.foot {
+  margin-top: 3px;
+  padding: 3px 0;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003761}}
+.ev-journal-minimized .article .more a {
+  color: #666;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003762}}
+.ev-journal-minimized .article .more a .icon {
+  float: right;
+  width: 16px;
+  height: 16px;
+  background: transparent url("../images/designs/edit-value/arrows-spritea887.png?1452626167") no-repeat -16px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003763}}
+.ev-journal-minimized .article .more a .label {
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003764}}
+.ev-journal-minimized .article .more a:hover .icon {
+  background-position: -16px -16px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003765}}
+.ev-journal-minimized .article .more a:hover .label {
+  color: #ff6262;
+}
+
+/* */
+@media -sass-debug-info{filename{}line{font-family:\00003767}}
+.ev-journal-minimized li.article .article .foot {
+  margin-top: 3px;
+  padding: 3px 0;
+  border: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003768}}
+.ev-journal-minimized .back {
+  margin: 3px 0 10px;
+  padding: 3px;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003769}}
+.ev-journal-minimized .back a {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003770}}
+.ev-journal-minimized .back a .icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: transparent url("../images/designs/edit-value/arrows-spritea887.png?1452626167") no-repeat 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003771}}
+.ev-journal-minimized .back a .label {
+  color: #666;
+  float: left;
+  padding-left: 4px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003772}}
+.ev-journal-minimized .back a:hover .icon {
+  background-position: 0px -16px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003773}}
+.ev-journal-minimized .back a:hover .label {
+  color: #ff6262;
+}
+
+/* journal economia */
+@media -sass-debug-info{filename{}line{font-family:\00003776}}
+.ev-journal-economia {
+  overflow: hidden;
+  margin: 0;
+  margin-left: 25px;
+  width: 600px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003777}}
+.ev-journal-economia h1 {
+  margin: 7px 0 25px;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003778}}
+.ev-journal-economia h1 .feed {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003779}}
+.ev-journal-economia h1 .feed a {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003780}}
+.ev-journal-economia h1 .feed .label {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003781}}
+.ev-journal-economia h1 .feed .icon {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: transparent url("../images/designs/edit-value/feed-icon-14x14a887.png?1452626167") no-repeat 0px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003782}}
+.ev-journal-economia ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003783}}
+.ev-journal-economia ul li {
+  margin: 0;
+  overflow: hidden;
+}
+
+/* consulta de artigo */
+@media -sass-debug-info{filename{}line{font-family:\00003785}}
+.ev-journal-economia li.article .article {
+  margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003786}}
+.ev-journal-economia li.article .header {
+  overflow: hidden;
+  font-size: 1.1em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003787}}
+.ev-journal-economia li.article .header .title,
+.ev-journal-economia li.article .header .data {
+  float: left;
+  color: #fff;
+  background-color: #555;
+  padding: 1px 4px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003789}}
+.ev-journal-economia li.article .header .data {
+  padding-left: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003790}}
+.ev-journal-economia li.article .header .title:after {
+  content: ' |';
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003791}}
+.ev-journal-economia li.article .header .author {
+  float: right;
+  color: #555;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003792}}
+.ev-journal-economia li.article .text {
+  color: #666;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003793}}
+.ev-journal-economia li.article .footer {
+  margin-top: 3px;
+  padding: 3px 0;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003794}}
+.ev-journal-economia li.article .footer .back a {
+  color: #666;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  padding-left: 16px;
+  background: transparent url("../images/designs/edit-value/bullet-arrow-backa887.png?1452626167") no-repeat bottom left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003795}}
+.ev-journal-economia li.article .footer .back a:hover {
+  color: #ff6262;
+  background-position: top left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003796}}
+.ev-journal-economia li.article .more a {
+  color: #666;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  background: transparent url("../images/designs/edit-value/bullet-arrowa887.png?1452626167") no-repeat 588px -16px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003797}}
+.ev-journal-economia li.article .more a:hover {
+  color: #ff6262;
+  background-position: 588px 0px;
+}
+
+/* lista de artigos */
+@media -sass-debug-info{filename{}line{font-family:\00003799}}
+.ev-journal-economia li .article {
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003800}}
+.ev-journal-economia li .article .head {
+  overflow: hidden;
+  font-size: 1.1em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003801}}
+.ev-journal-economia li .article .head .title,
+.ev-journal-economia li .article .head .data {
+  float: left;
+  color: #fff;
+  background-color: #555;
+  padding: 1px 4px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003803}}
+.ev-journal-economia li .article .head .data {
+  padding-left: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003804}}
+.ev-journal-economia li .article .head .title:after {
+  content: ' |';
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003805}}
+.ev-journal-economia li .article .head .author {
+  float: right;
+  color: #555;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003806}}
+.ev-journal-economia li .article .foot {
+  margin-top: 3px;
+  padding: 3px 0;
+  border: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003807}}
+.ev-journal-economia li .article .foot .more {
+  margin: 3px 0 10px;
+  padding: 3px;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003808}}
+.ev-journal-economia li .article .foot .more a {
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  display: block;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003809}}
+.ev-journal-economia li .article .foot .more a .icon {
+  width: 16px;
+  height: 16px;
+  float: right;
+  background: transparent url("../images/designs/edit-value/arrows-spritea887.png?1452626167") no-repeat -16px 0px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003810}}
+.ev-journal-economia li .article .foot .more a .label {
+  color: #666;
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003811}}
+.ev-journal-economia li .article .foot .more a:hover .icon {
+  background-position: -16px -16px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003812}}
+.ev-journal-economia li .article .foot .more a:hover .label {
+  background-color: #fffafa;
+  color: #ff6262;
+}
+
+/* paginator style shared with ev-journal-economia and ev-journal-minimized */
+@media -sass-debug-info{filename{}line{font-family:\00003815}}
+.pagination {
+  padding: 3px;
+  margin: 3px;
+  float: right;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003816}}
+.pagination a {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #aaa;
+  text-decoration: none;
+  color: #999;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003817}}
+.pagination a:hover, div.pagination a:active {
+  border: 1px solid #d12627;
+  color: #d12627;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003818}}
+.pagination span.current {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #d12627;
+  font-weight: bold;
+  background-color: #d12627;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003819}}
+.pagination span.disabled {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #eee;
+  color: #ddd;
+}
+
+/********************************** Equipas ***************************************************/
+@media -sass-debug-info{filename{}line{font-family:\00003822}}
+div.ev-team {
+  font-size: 10px;
+  *margin: -5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003823}}
+div.ev-team > div.name {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003824}}
+div.ev-team div.name {
+  *display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003826}}
+div.ev-team > ul {
+  margin: -5px;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003827}}
+div.ev-team ul {
+  *_width: 874px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003829}}
+div.ev-team li.unit {
+  position: relative;
+  margin: 5px;
+  padding: 10px;
+  float: left;
+  width: 188px;
+  height: 188px;
+  background: #ececec;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003830}}
+div.ev-team li.unit {
+  *_width: 196px;
+  *_margin: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003832}}
+div.ev-team li.unit div.icon {
+  background-repeat: no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003834}}
+div.ev-team li.unit div.name {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003835}}
+div.ev-team ul li.unit div.name {
+  *display: block;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003836}}
+div.ev-team li.unit div.role {
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: 5px;
+  background: transparent url("../images/designs/edit-value/equipa-spritea887.gif?1452626167") no-repeat 0px 15px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003837}}
+div.ev-team li.unit div.text {
+  clear: left;
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003838}}
+div.ev-team li.unit div.place {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003839}}
+div.ev-team li.unit div.phone {
+  position: absolute;
+  bottom: 55px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003840}}
+div.ev-team li.unit div.phone div.icon {
+  background-position: -7px -4px;
+  margin-top: 2px;
+  float: left;
+  width: 13px;
+  height: 11px;
+  background-image: url("../images/designs/edit-value/equipa-spritea887.gif?1452626167");
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003841}}
+div.ev-team li.unit div.phone span {
+  margin-left: 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003842}}
+div.ev-team li.unit div.email {
+  position: absolute;
+  bottom: 40px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003843}}
+div.ev-team li.unit div.email div.icon {
+  background-position: -25px -4px;
+  margin-top: 2px;
+  float: left;
+  width: 13px;
+  height: 11px;
+  background-image: url("../images/designs/edit-value/equipa-spritea887.gif?1452626167");
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003844}}
+div.ev-team li.unit div.email span {
+  margin-left: 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003845}}
+div.ev-team li.unit div.email a {
+  text-decoration: none;
+  color: #666;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003846}}
+div.ev-team li.unit div.email a:hover {
+  text-decoration: underline;
+}
+
+/* configuração da área de consultores */
+@media -sass-debug-info{filename{}line{font-family:\00003849}}
+div.ev-team li.unit.area-de-consultores div.text span {
+  display: block;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003850}}
+div.ev-team li.unit.area-de-consultores div.text a {
+  display: block;
+  width: 180px;
+  height: 140px;
+  background: url("../images/designs/edit-value/equipa-clidesa887.png?1452626167") no-repeat -15px -55px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003851}}
+div.ev-team li.unit.area-de-consultores div.text a span {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003852}}
+div.ev-team li.unit.area-de-consultores div.place,
+div.ev-team li.unit.area-de-consultores div.phone,
+div.ev-team li.unit.area-de-consultores div.email {
+  display: none;
+}
+
+/********************************** Textos ***************************************************/
+@media -sass-debug-info{filename{}line{font-family:\00003859}}
+div.ev-texto p {
+  margin: 0;
+  padding: 0;
+}
+
+/*** contactos - titulo ***/
+@media -sass-debug-info{filename{}line{font-family:\00003862}}
+div.ev-texto-contactos-titulo {
+  position: relative;
+  width: 833px;
+  height: 20px;
+  padding: 6px 15px;
+  margin: 0 0 1px;
+  font-size: 1.3em;
+  font-weight: bold;
+  background: #eaeaea;
+}
+
+/*** contactos ***/
+@media -sass-debug-info{filename{}line{font-family:\00003867}}
+.ev-texto-contactos {
+  width: 289px;
+  height: 325px;
+  margin: 0 1px 0 0;
+  font-size: 12px;
+  color: #fff;
+  background-color: #a8b1b6;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003869}}
+.ev-texto-contactos .i {
+  padding: 0 15px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003871}}
+.ev-texto-contactos .i h1 {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 15px 0 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003875}}
+div.ev-texto-contactos-guima {
+  background-color: #939a9f;
+  width: 573px;
+  height: 270px;
+}
+
+/* Investigação */
+@media -sass-debug-info{filename{}line{font-family:\00003878}}
+div.ev-texto-investigacao {
+  width: 600px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003879}}
+div.ev-texto-investigacao .i {
+  padding: 0 20px 0 15px;
+  line-height: 1.5em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003880}}
+div.ev-texto-investigacao .i h1 {
+  font-size: 1.2em;
+  margin: 0 -20px 0.3em;
+  text-indent: 0;
+  line-height: 30px;
+  padding: 0 15px;
+  background-color: #eaeaea;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003881}}
+div.ev-texto-investigacao .i h2 {
+  font-size: 1.15em;
+  margin: 0 0 0.3em;
+  text-indent: 0;
+  line-height: normal;
+}
+
+/* Bolsa de ideias */
+@media -sass-debug-info{filename{}line{font-family:\00003884}}
+.ev-bolsa-de-ideias {
+  font-size: 1.1em;
+  *font-size: 1.2em;
+  *line-height: 17px;
+  margin: 0;
+  width: 600px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003885}}
+.ev-bolsa-de-ideias .i {
+  padding: 0 20px 0 15px;
+  line-height: 1.5em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003886}}
+.ev-bolsa-de-ideias .i h1 {
+  font-size: 1.2em;
+  line-height: 30px;
+  margin: 0 -20px 0.3em;
+  padding: 0 15px;
+  text-indent: 0;
+  background-color: #eaeaea;
+}
+
+/* Logo marca */
+@media -sass-debug-info{filename{}line{font-family:\00003889}}
+.ev-texto-logomarca {
+  float: left;
+  margin-left: 25px;
+  *margin-left: 20px;
+  width: 600px;
+  *width: 590px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003891}}
+.ev-texto-logomarca .i img {
+  border: 1px solid #fff;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003892}}
+.ev-texto-logomarca .i h1 {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0 0 0.5em;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003893}}
+.ev-texto-logomarca .i a:hover img {
+  border: 1px solid #e00000;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003895}}
+#container3 .ev-texto-logomarca .i a {
+  background: none;
+  padding-left: 0;
+}
+
+/* Rumo económico */
+@media -sass-debug-info{filename{}line{font-family:\00003898}}
+div.ev-texto-rumo-titulo {
+  float: left;
+  margin-left: 25px;
+  width: 600px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003899}}
+div.ev-texto-rumo-titulo h1 {
+  font-size: 1.2em;
+  margin: 0 0 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003900}}
+div.ev-texto-rumo {
+  float: left;
+  margin-left: 15px;
+  width: 150px;
+  line-height: 1.1em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003901}}
+div.ev-texto-rumo .i h1 {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 1em 0 0.5em;
+}
+
+/* Texto nas lightboxes */
+@media -sass-debug-info{filename{}line{font-family:\00003904}}
+div.ev-texto-lightbox {
+  font-size: 1em;
+  *font-size: 1.2em;
+  *line-height: 17px;
+  margin: 10px;
+  font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003905}}
+div.ev-texto-lightbox h1 {
+  font-size: 1.45em;
+  *font-size: 1.2em;
+  margin: 10px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003906}}
+div.ev-texto-lightbox h2 {
+  font-size: 1.30em;
+  *font-size: 1.05em;
+  margin: 10px 0;
+}
+
+/* Texto de copyright */
+@media -sass-debug-info{filename{}line{font-family:\00003909}}
+div.ev-texto-copyright {
+  font-size: 0.75em;
+  padding: 3px 0 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003910}}
+body.ie7 div.ev-texto-copyright,
+body.ie8 div.ev-texto-copyright,
+body.ie9 div.ev-texto-copyright {
+  font-size: 0.75em;
+}
+
+/********************************** Imagens ***************************************************/
+@media -sass-debug-info{filename{}line{font-family:\00003916}}
+.ev-imagem-rumo {
+  margin-left: 25px;
+}
+
+/********************************** GMAP e GMAP container *************************************/
+@media -sass-debug-info{filename{}line{font-family:\00003919}}
+div.gmap h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003921}}
+.ev-container-gmap-braga {
+  float: left;
+  width: 573px;
+  height: 325px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003923}}
+.ev-container-gmap-braga > div {
+  width: 100%;
+  height: 325px;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003924}}
+.ev-container-gmap-braga div.gmap {
+  float: left;
+  width: 573px;
+  height: 325px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003927}}
+li.ev-container-gmap-guimaraes {
+  float: left;
+  width: 290px;
+  height: 270px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003928}}
+li.ev-container-gmap-guimaraes > div {
+  width: 100%;
+  height: 270px;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003929}}
+li.ev-container-gmap-guimaraes div.gmap {
+  float: left;
+  width: 290px;
+  height: 270px;
+}
+
+/********************************** Formulários *************************************/
+@media -sass-debug-info{filename{}line{font-family:\00003932}}
+.form {
+  font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003934}}
+.form fieldset {
+  border: none;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003935}}
+.form fieldset {
+  *padding: 0 0 10px 10px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003936}}
+.form fieldset ul {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003937}}
+.form li {
+  margin: 0.5em 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003938}}
+.form li span {
+  display: block;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003939}}
+.form li .label {
+  font-size: 13px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003940}}
+.form li .error {
+  padding-left: 0.5em;
+  color: red;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003941}}
+.form li .input input,
+.form li .input textarea {
+  background: white url("../images/designs/edit-value/fieldbga887.gif?1452626167") repeat-x scroll center top;
+  border-color: #7c7c7c #c3c3c3 #dddddd;
+  border-style: solid;
+  border-width: 1px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003943}}
+.form li .input textarea {
+  height: 6em;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003945}}
+.form .actions {
+  margin: 10px 0 0 8px;
+  *margin: 10px 0 0 4px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003946}}
+.form .actions input[type="reset"] {
+  display: none;
+}
+
+/* form - bolsa de ideias */
+@media -sass-debug-info{filename{}line{font-family:\00003950}}
+div.ev-form-ideias {
+  width: 260px;
+  margin-right: 6px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003951}}
+div.ev-form-ideias div.form {
+  border-left: 1px solid #eaeaea;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003952}}
+div.ev-form-ideias h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 20px;
+  margin: 0 0 5px 1px;
+  padding: 7px 15px 3px;
+  background: #eaeaea none repeat scroll 0 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003953}}
+div.ev-form-ideias fieldset {
+  border: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003954}}
+div.ev-form-ideias li.field span.input input,
+div.ev-form-ideias li.field span.input textarea {
+  width: 240px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003956}}
+div.ev-form-ideias li.field span.input textarea {
+  height: 8em;
+  *height: 6em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003957}}
+div.ev-form-ideias fieldset {
+  *padding-bottom: 0;
+}
+
+/* form - sugestões */
+@media -sass-debug-info{filename{}line{font-family:\00003960}}
+div.ev-form-sugestoes h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003961}}
+div.ev-form-sugestoes li.field {
+  float: left;
+  position: relative;
+  margin: 0.5em 1em 0 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003962}}
+div.ev-form-sugestoes li.field span.input input#form_nome {
+  width: 463px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003963}}
+div.ev-form-sugestoes li.field span.input input#form_telefone {
+  width: 130px;
+  *width: 127px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003964}}
+div.ev-form-sugestoes li.field span.input input#form_email {
+  width: 320px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003965}}
+div.ev-form-sugestoes li.field.Mensagem {
+  *float: none;
+  *clear: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003966}}
+div.ev-form-sugestoes li.field span.input textarea {
+  width: 463px;
+}
+
+/* form - oportunidades */
+@media -sass-debug-info{filename{}line{font-family:\00003969}}
+div.ev-form-oportunidades h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003970}}
+div.ev-form-oportunidades li.field {
+  float: left;
+  position: relative;
+  margin: 0.5em 1em 0 0;
+  *margin: 0.25em 1em 0 0;
+}
+
+/* configurações individuais dos campos */
+@media -sass-debug-info{filename{}line{font-family:\00003972}}
+div.ev-form-oportunidades li.field span.input input#form_nome {
+  width: 579px;
+  *width: 574px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003973}}
+div.ev-form-oportunidades li.field span.input input#form_curso {
+  width: 285px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003974}}
+div.ev-form-oportunidades li.field span.input input#form_instituicao-de-ensino {
+  width: 280px;
+  *width: 273px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003975}}
+div.ev-form-oportunidades li.field span.input input#form_telemovel {
+  width: 130px;
+  *width: 127px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003976}}
+div.ev-form-oportunidades li.field span.input input#form_email {
+  width: 435px;
+  *width: 431px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003979}}
+.form.oportunidades fieldset.root > legend {
+  display: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003980}}
+.form.oportunidades li {
+  float: left;
+  position: relative;
+  margin: 0.5em 1em 0 0;
+  *margin: 0.25em 1em 0 0;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003982}}
+.form.oportunidades li .label {
+  font-size: 13px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003983}}
+.form.oportunidades li input#form_nome {
+  width: 579px;
+  *width: 574px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003984}}
+.form.oportunidades li input#form_curso {
+  width: 285px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003985}}
+.form.oportunidades li input#form_instituicao-de-ensino {
+  width: 280px;
+  *width: 273px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003986}}
+.form.oportunidades li input#form_telemovel {
+  width: 130px;
+  *width: 127px;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003987}}
+.form.oportunidades li input#form_email {
+  width: 435px;
+  *width: 431px;
+}
+
+/* form - newsletter */
+@media -sass-debug-info{filename{}line{font-family:\00003992}}
+div.ev-form-newsletter h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003993}}
+div.ev-form-newsletter li.field span.input input#form_email {
+  width: 385px;
+}
+
+/********************************** Área de clientes *************************************/
+@media -sass-debug-info{filename{}line{font-family:\00003996}}
+.questionario-clientes > div {
+  width: 595px;
+  height: 30px;
+  padding: 10px;
+  margin: 0 0 20px 20px;
+  font-weight: bold;
+  text-align: center;
+  background: #f3f3f3;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px #aaa;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031004}}
+div.ev-area-de-clientes {
+  margin-left: 20px;
+  padding: 0;
+  width: 615px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031005}}
+div.ev-area-de-clientes .notice-message {
+  color: #dd3333;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031006}}
+div.ev-area-de-clientes h1 {
+  border-bottom: 1px dotted #a8b1b6;
+  margin: 5px 0 15px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031007}}
+div.ev-area-de-clientes ul {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031008}}
+div.ev-area-de-clientes li span.age {
+  position: absolute;
+  right: 0;
+  width: 70px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031009}}
+div.ev-area-de-clientes li span.size {
+  display: none;
+}
+
+/* tree default style */
+/*
+ * jsTree default theme 1.0
+ * Supported features: dots/no-dots, icons/no-icons, focused, loading
+ * Supported plugins: ui (hovered, clicked), checkbox, contextmenu, search
+ */
+@media -sass-debug-info{filename{}line{font-family:\000031017}}
+.jstree-default li,
+.jstree-default ins {
+  background-image: url("../images/plataforma/jstree-spritea887.png?1452626167");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031019}}
+.jstree-default li {
+  background-position: -90px 0;
+  background-repeat: repeat-y;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031020}}
+.jstree-default li.jstree-last {
+  background: transparent;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031021}}
+.jstree-default .jstree-open > ins {
+  background-position: -72px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031022}}
+.jstree-default .jstree-closed > ins {
+  background-position: -54px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031023}}
+.jstree-default .jstree-leaf > ins {
+  background-position: -36px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031025}}
+.jstree-default .jstree-hovered {
+  background: #e7f4f9;
+  border: 1px solid #d8f0fa;
+  padding: 0 2px 0 1px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031026}}
+.jstree-default .jstree-clicked {
+  background: #beebff;
+  border: 1px solid #99defd;
+  padding: 0 2px 0 1px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031027}}
+.jstree-default a .jstree-icon {
+  background-position: -56px -19px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031028}}
+.jstree-default a.jstree-loading .jstree-icon {
+  background: url("../images/plataforma/throbbera887.gif?1452626167") center center no-repeat !important;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031030}}
+.jstree-default.jstree-focused {
+  background: #ffffee;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031032}}
+.jstree-default .jstree-no-dots li,
+.jstree-default .jstree-no-dots .jstree-leaf > ins {
+  background: transparent;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031034}}
+.jstree-default .jstree-no-dots .jstree-open > ins {
+  background-position: -18px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031035}}
+.jstree-default .jstree-no-dots .jstree-closed > ins {
+  background-position: 0 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031037}}
+.jstree-default .jstree-no-icons a .jstree-icon {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031039}}
+.jstree-default .jstree-search {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031041}}
+.jstree-default .jstree-no-icons .checkbox {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031042}}
+.jstree-default .jstree-no-checkboxes .checkbox {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031043}}
+.jstree-default .jstree-checked > a > .checkbox {
+  background-position: -38px -19px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031044}}
+.jstree-default .jstree-unchecked > a > .checkbox {
+  background-position: -2px -19px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031045}}
+.jstree-default .jstree-undetermined > a > .checkbox {
+  background-position: -20px -19px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031046}}
+.jstree-default .jstree-checked > a > .checkbox:hover {
+  background-position: -38px -37px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031047}}
+.jstree-default .jstree-unchecked > a > .checkbox:hover {
+  background-position: -2px -37px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031048}}
+.jstree-default .jstree-undetermined > a > .checkbox:hover {
+  background-position: -20px -37px;
+}
+
+/********************************
+ *** CUSTOMERS FILES SETTINGS ***
+ ********************************/
+@media -sass-debug-info{filename{}line{font-family:\000031054}}
+.jstree-default li[rel='folder'] > a ins {
+  background-image: url("../images/filemanager/foldera887.png?1452626167");
+  background-position: 0 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031055}}
+.jstree-default li > a ins {
+  background-image: url(../images/plataforma/filea887.png?1452626167);
+  background-position: 0 0;
+}
+
+/** icons por tipo de ficheiro **/
+@media -sass-debug-info{filename{}line{font-family:\000031057}}
+.jstree-default li > a ins {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: url(../images/plataforma/file-extensions-spritea887.png?1452626167) no-repeat;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031058}}
+.jstree-default li[rel='jpg'] > a ins,
+.jstree-default li[rel='jpeg'] > a ins,
+.jstree-default li[rel='png'] > a ins,
+.jstree-default li[rel='gif'] > a ins {
+  background-position: 0px -96px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031062}}
+.jstree-default li[rel='pdf'] > a ins {
+  background-position: 0px -80px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031063}}
+.jstree-default li[rel='arj'] > a ins,
+.jstree-default li[rel='rar'] > a ins,
+.jstree-default li[rel='zip'] > a ins {
+  background-position: 0px -144px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031066}}
+.jstree-default li[rel='doc'] > a ins {
+  background-position: 0px -32px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031067}}
+.jstree-default li[rel='xls'] > a ins,
+.jstree-default li[rel='xlsx'] > a ins {
+  background-position: 0px -48px;
+}
+
+/* identity area tool */
+@media -sass-debug-info{filename{}line{font-family:\000031072}}
+div.identity-tool {
+  display: block;
+  margin: 0px;
+  padding: 0;
+  width: 610px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031073}}
+div.identity-tool .header h1 {
+  font-size: 1.2em;
+  margin: 1em 1em 0.5em 0.5em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031074}}
+div.identity-tool .header p {
+  font-size: 1.15em;
+  margin: 1em 1em 0.5em 0.5em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031075}}
+div.identity-tool .header p sup {
+  line-height: 1.3em;
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031076}}
+div.identity-tool .header div {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #dd3333;
+  padding: 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031077}}
+div.identity-tool .body p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1em 1em 0.5em 0.5em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031078}}
+div.identity-tool.change-password .body p {
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031079}}
+div.identity-tool div.footer {
+  margin: 0;
+  padding: 10px 0 0 80px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031080}}
+div.identity-tool div.footer a {
+  font-style: italic;
+  color: #666;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031081}}
+div.identity-tool div.footer a:hover {
+  font-style: italic;
+  color: #b00000;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031082}}
+div.identity-tool p {
+  font-size: 13px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031083}}
+div.identity-tool ul,
+div.identity-tool form fieldset {
+  border: 1px solid #eee;
+  background-color: #fafafa;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031085}}
+div.identity-tool form fieldset {
+  padding: 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031086}}
+div.identity-tool .field {
+  overflow: hidden;
+  padding: 5px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031087}}
+div.identity-tool .field.password a {
+  padding: 0 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031088}}
+div.identity-tool label {
+  float: left;
+  display: block;
+  width: 6em;
+  margin-top: 2px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031089}}
+div.identity-tool fieldset input {
+  border: 1px solid #5555aa;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031090}}
+div.identity-tool fieldset input[name="email"] {
+  width: 20em;
+  display: block;
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031091}}
+div.identity-tool fieldset input[name="password"],
+div.identity-tool fieldset input[name="password_confirmation"] {
+  width: 20em;
+  display: block;
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031093}}
+div.identity-tool fieldset input[type="submit"] {
+  margin-left: 6em;
+  font-size: 12px;
+  color: #fff;
+  border: 1px solid;
+  border-color: #ccc #aaa #aaa #ccc;
+  background-color: #bbb;
+  cursor: pointer;
+  height: 24px;
+  padding: 4px 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031094}}
+div.identity-tool fieldset input[type="submit"]:hover {
+  border: 1px solid;
+  border-color: #e18687 #912627 #912627 #e18687;
+  background-color: #d12627;
+}
+
+/* change-password */
+@media -sass-debug-info{filename{}line{font-family:\000031096}}
+div.identity-tool.change-password label {
+  width: 12em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031097}}
+div.identity-tool.change-password fieldset input[type="submit"] {
+  margin-left: 12em;
+}
+
+/* activation tool */
+@media -sass-debug-info{filename{}line{font-family:\000031100}}
+div.activation-tool {
+  display: block;
+  margin-left: 20px;
+  padding: 0;
+  width: 610px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031101}}
+div.activation-tool h1 {
+  font-size: 16px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031102}}
+div.activation-tool div.footer {
+  margin: 20px 0 10px 0;
+  padding: 10px;
+  background: #ffe;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031103}}
+div.activation-tool p {
+  font-size: 13px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031104}}
+div.activation-tool ul,
+div.activation-tool form fieldset {
+  border: 1px solid #eee;
+  background-color: #fafafa;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031106}}
+div.activation-tool ul li {
+  margin: 5px 10px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031107}}
+div.activation-tool ul li.google {
+  background: url(../../../../../www.google.pt/favicon.ico) no-repeat;
+  padding-left: 22px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031108}}
+div.activation-tool ul li.yahoo {
+  background: url(../../../../../www.yahoo.com/favicon.ico) no-repeat;
+  padding-left: 22px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031109}}
+div.activation-tool ul li.myopenid {
+  background: url(../../../../../www.myopenid.com/favicon.ico) no-repeat;
+  padding-left: 22px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031110}}
+div.activation-tool input[type="text"] {
+  width: 20em;
+  height: 18px;
+  background: white url(../images/openid-icon-16x16a887.png?1452626167) no-repeat 2px 3px;
+  padding: 4px 0 0 21px;
+  border: 1px solid #5555aa;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031111}}
+div.activation-tool input[type="submit"] {
+  border: 1px solid #bbb;
+  cursor: pointer;
+  height: 24px;
+  padding: 3px 5px 2px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031112}}
+div.activation-tool input[type="submit"]:hover {
+  border: 1px solid #990000;
+  background-color: orange;
+}
+
+/* user info tool */
+@media -sass-debug-info{filename{}line{font-family:\000031115}}
+div.user-info-tool {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031116}}
+div.user-info-tool a {
+  font-size: 11px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid;
+  border-color: #ccc #aaa #aaa #ccc;
+  background-color: #bbb;
+  cursor: pointer;
+  height: 18px;
+  padding: 0px 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031117}}
+div.user-info-tool a:hover {
+  border: 1px solid;
+  border-color: #e18687 #912627 #912627 #e18687;
+  background-color: #d12627;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031121}}
+.list.destaques_equipa {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031123}}
+.list.destaques_equipa ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031127}}
+.list.destaques_equipa ul li {
+  float: left;
+  margin: 20px 0 0 10px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031132}}
+.list.destaques_equipa ul li .item {
+  width: 274px;
+  height: 267px;
+  background: transparent url("../images/designs/edit-value/bg_destaquesa887.png?1452626167") no-repeat -5px -5px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  border: 3px solid #262525;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031140}}
+.list.destaques_equipa ul li .item .label {
+  display: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031141}}
+.list.destaques_equipa ul li .item .folder {
+  position: absolute;
+  top: 0px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031144}}
+.list.destaques_equipa ul li .item .folder .image {
+  position: absolute;
+  width: 300px;
+  overflow: hidden;
+  height: 300px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031150}}
+.list.destaques_equipa ul li .item .folder .name {
+  /*position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 1;*/
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  z-index: 1;
+  padding: 2px 5px;
+  background: black;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031165}}
+.list.destaques_equipa ul li .item .folder .name a {
+  padding: 2px 6px;
+  max-width: 265px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031175}}
+.list.destaques_equipa ul li .item .text1 {
+  color: #444;
+  padding: 15px;
+  width: 250px;
+  height: 243px;
+  overflow-y: auto;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031184}}
+.list.destaques_equipa ul li:first-child {
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031190}}
+.list.equip_list {
+  width: 872px;
+  margin: 20px 0 0px -5px;
+  font-size: 10px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031195}}
+.list.equip_list > .items ul li {
+  position: relative;
+  float: left;
+  width: 188px;
+  height: 188px;
+  padding: 10px;
+  margin: 5px;
+  overflow: hidden;
+  background: #ececec;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031198}}
+.list.equip_list > .items ul li .label {
+  display: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031199}}
+.list.equip_list > .items ul li .text1 {
+  min-height: 100px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031200}}
+.list.equip_list > .items ul li .name {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031201}}
+.list.equip_list > .items ul li .string1 {
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: 5px;
+  background: transparent url("../images/designs/edit-value/equipa-spritea887.gif?1452626167") no-repeat 0px 15px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031205}}
+.list.equip_list > .items ul li .string2 {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031207}}
+.list.equip_list > .items ul li .string2 .label {
+  display: block;
+  float: left;
+  width: 13px;
+  height: 11px;
+  margin: 2px 5px 0 0;
+  background: url("../images/designs/edit-value/equipa-spritea887.gif?1452626167") -7px -4px;
+  text-indent: -20000px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031213}}
+.list.equip_list > .items ul li .string3 {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031215}}
+.list.equip_list > .items ul li .string3 .label {
+  display: block;
+  float: left;
+  width: 13px;
+  height: 11px;
+  margin: 2px 5px 0 0;
+  background: url("../images/designs/edit-value/equipa-spritea887.gif?1452626167") -25px -4px;
+  text-indent: -20000px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031220}}
+.list.equip_list > .items ul li .string3 a {
+  text-decoration: none;
+  color: #666;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031221}}
+.list.equip_list > .items ul li .string3 a:hover {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031228}}
+.nested-menu.list_equipa {
+  position: relative;
+  float: left;
+  width: 184px;
+  height: 184px;
+  padding: 12px;
+  margin: 5px;
+  overflow: hidden;
+  font-size: 10px;
+  color: #444;
+  background: #ececec;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031231}}
+.nested-menu.list_equipa .label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031232}}
+.nested-menu.list_equipa .alt {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  background: transparent url("../images/designs/edit-value/equipa-spritea887.gif?1452626167") no-repeat 0px 15px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031236}}
+.nested-menu.list_equipa a {
+  display: block;
+  width: 180px;
+  height: 187px;
+  color: #444;
+  text-decoration: none;
+  background: url("../images/designs/edit-value/equipa-clidesa887.png?1452626167") no-repeat -15px -20px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031242}}
+.list.left_agenda {
+  width: 213px;
+  height: 308px;
+  overflow: hidden;
+  margin: 3px 5px 0 0;
+  background-color: #eee;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031248}}
+.list.left_agenda ul {
+  margin: 0;
+  padding: 15px;
+  list-style: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031252}}
+.list.left_agenda ul li {
+  border-bottom: 1px dotted #666;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031256}}
+.list.left_agenda ul li .label {
+  display: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031257}}
+.list.left_agenda ul li .date {
+  background-color: black;
+  color: white;
+  display: inline;
+  font-family: tahoma;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1px 3px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031265}}
+.list.left_agenda ul li .date .time {
+  display: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031267}}
+.list.left_agenda ul li .name {
+  margin: 8px 0;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031271}}
+.list.left_agenda ul li .text1 {
+  line-height: 12px;
+  text-align: left;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031276}}
+.list.left_agenda ul li:last-child {
+  border: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031281}}
+.list.areas_actuacao {
+  overflow: hidden;
+  margin: 0;
+  width: 863px;
+  height: 190px;
+  background: #999;
+  color: #fff;
+  font-size: 10px;
+  line-height: 11px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031290}}
+.list.areas_actuacao h1 {
+  display: block;
+  width: 287px;
+  height: 190px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: #777;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031298}}
+.list.areas_actuacao h1 span {
+  float: right;
+  margin: 15px;
+  line-height: 16px;
+  font-size: 14px;
+  color: white;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031306}}
+.list.areas_actuacao .items {
+  display: block;
+  width: 576px;
+  height: 190px;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031313}}
+.list.areas_actuacao .items li {
+  margin: 15px -10px -5px 15px;
+  float: left;
+  overflow: hidden;
+  width: 275px;
+  height: 80px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031319}}
+.list.areas_actuacao .items li .label {
+  display: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031320}}
+.list.areas_actuacao .items li .name {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031321}}
+.list.areas_actuacao .items li .image {
+  float: left;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031321}}
+.list.areas_actuacao .items li .image img {
+  width: 64px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031322}}
+.list.areas_actuacao .items li .folder {
+  float: right;
+  width: 195px;
+  margin-left: -5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031326}}
+.list.destaques_right {
+  overflow: hidden;
+  margin: 0 0 0 2px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031329}}
+.list.destaques_right ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031333}}
+.list.destaques_right ul li {
+  float: left;
+  margin-left: 6px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031338}}
+.list.destaques_right ul li .item {
+  width: 300px;
+  height: 300px;
+  padding: 7px;
+  background: transparent url("../images/designs/edit-value/bg_destaquesa887.png?1452626167") no-repeat 0 0;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031346}}
+.list.destaques_right ul li .item .label {
+  display: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031347}}
+.list.destaques_right ul li .item .folder {
+  position: absolute;
+  top: 0px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031350}}
+.list.destaques_right ul li .item .folder .image {
+  position: absolute;
+  top: 7px;
+  width: 300px;
+  overflow: hidden;
+  height: 300px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031357}}
+.list.destaques_right ul li .item .folder .name {
+  position: relative;
+  top: 15px;
+  left: 10px;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031362}}
+.list.destaques_right ul li .item .folder .name a {
+  padding: 2px 6px;
+  max-width: 265px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031373}}
+.list.destaques_right ul li .item .text1 {
+  color: #444;
+  padding: 15px;
+  width: 270px;
+  height: 270px;
+  overflow-y: auto;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\000031385}}
+.gallery.album.clipping {
+  width: 610px;
+  margin: 0px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031388}}
+.gallery.album.clipping .album {
+  margin: 0;
+  float: left;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031391}}
+.gallery.album.clipping .album a {
+  font-size: 0.8em;
+  color: black;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  width: 160px;
+  height: 132px;
+  margin: 0 0 25px 25px;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031403}}
+.gallery.album.clipping .album a .name {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 14px;
+  padding: 3px 6px 2px;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  z-index: 100;
+  width: 160px;
+  background: #fff;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031416}}
+.gallery.album.clipping .album a .description {
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  text-align: right;
+  color: #aaa;
+  padding: 0 6px 5px;
+  position: absolute;
+  z-index: 100;
+  width: 160px;
+  background: #fff;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031429}}
+.gallery.album.clipping .album a:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fff9f9;
+}
+@media -sass-debug-info{filename{}line{font-family:\000031435}}
+.gallery.album.clipping > .photos .album {
+  float: right;
+  margin-top: -29px;
+}
+
+form fieldset li.field {
+  min-height: 60px;
+}
