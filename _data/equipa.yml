@@ -1,0 +1,112 @@
+lista:
+  equipa_pt:
+    -
+      nome: Nuno pinto Bastos
+      cargo: Administrador
+      texto: Consultor Nacional de Benchmarking do IAPMEI e especialista na área de consultoria em Gestão Estratégica, Marketing e Comunicação.
+      telefone: +351 918 880 033
+      email: nuno.pintobastos@editvalue.com
+    -
+      nome: Cristiano Guimarães
+      cargo: Administrador
+      texto: Contabilista Certificado, Consultor Nacional de Benchmarking do IAPMEI e especialista na área de consultoria em Contabilidade e Fiscalidade.
+      telefone: +351 918 889 590
+      email: cristiano.guimaraes@editvalue.com
+    -
+      nome: Manuel Fernandes
+      cargo: Consultor
+      texto: Consultor Nacional de Benchmarking do IAPMEI e especialista na área de consultoria em Projetos de Investimento e Informática.
+      telefone: +351 918 889 924
+      email: manuel.fernandes@editvalue.com
+    -
+      nome: André Costa
+      cargo: Consultor
+      texto: Consultor Nacional de Benchmarking do IAPMEI e especialista na área de consultoria em Gestão de Recursos Humanos.
+      telefone: +351 918 889 992
+      email: andre.costa@editvalue.com
+    -
+      nome: Carla Silva
+      cargo: Consultora
+      texto: Contabilista Certificada, Consultora Nacional de Benchmarking do IAPMEI e especialista na área de consultoria em Contabilidade e Fiscalidade.
+      telefone: +351 916 308 489
+      email: carla.silva@editvalue.com
+    -
+      nome: Andreia Leite
+      cargo: Consultora
+      texto: Contabilista Certificada, Consultora Nacional de Benchmarking do IAPMEI e especialista na área de consultoria em Gestão Empresarial.
+      telefone: +351 918 889 885
+      email: andreia.leite@editvalue.com
+    -
+      nome: Paula Ferreira
+      cargo: Consultora
+      texto: Contabilista Certificada, Consultora Nacional de Benchmarking do IAPMEI e especialista na área de consultoria em Contabilidade e Fiscalidade.
+      telefone: +351 918 889 444
+      email: paula.ferreira@editvalue.com
+    -
+      nome: Tânia Rodrigues
+      cargo: Consultora
+      texto: Contabilista Certificada, Consultora Nacional de Benchmarking do IAPMEI e especialista na área de consultoria em Contabilidade e Fiscalidade.
+      telefone: +351 918 889 704
+      email: tania.rodrigues@editvalue.com
+    -
+      nome: Fábio Cruz
+      cargo: Consultor
+      texto: Contabilista Certificado e especialista na área de consultoria em Contabilidade.
+      telefone: +351 918 889 492
+      email: fabio.cruz@editvalue.com
+    -
+      nome: Bruna Dias
+      cargo: Consultora
+      texto: Consultora, especialista na área de consultoria em Economia e Mercados.
+      telefone: +351 918 889 715
+      email: bruna.dias@editvalue.com
+    -
+      nome: Teresa Magalhães
+      cargo: Consultora
+      texto: Contabilista Certificada e especialista na área de consultoria em Contabilidade.
+      telefone: +351 918 880 049
+      email: teresa.magalhaes@editvalue.com
+    -
+      nome: Marco Vilaça
+      cargo: Consultor
+      texto: Consultor, especialista na área de consultoria em Gestão Empresarial.
+      telefone: +351 911 047 498
+      email: marco.vilaca@editvalue.com
+    -
+      nome: Vânia Campos
+      cargo: Consultora
+      texto: Contabilista Certificada e especialista na área de consultoria em Contabilidade.
+      telefone: +351 917 830 991
+      email: vania.campos@editvalue.com
+    -
+      nome: Daniel Azevedo
+      cargo: Consultor
+      texto: Contabilista Certificado e especialista na área de consultoria em Contabilidade.
+      telefone: +351 918 678 889
+      email: daniel.azevedo@editvalue.com
+    -
+      nome: Sandra Araújo
+      cargo: Consultora
+      texto: Embaixadora da Rede Europeia de Empreendedorismo Feminino, Consultora Nacional de Benchmarking do IAPMEI e especialista na área de consultoria em Gestão de Recursos Humanos.
+      telefone: +351 933 666 144
+      email: sandra.araujo@editvalue.com
+    -
+      nome: Álvaro Cristóvam
+      cargo: Consultor Principal
+      texto: Consultor Principal do Núcelo de I&D, Consultor Nacional de Benchmarking do IAPMEI e especialista na área de consultoria em Análise Estratégica.
+      telefone: +351 253 283 091
+      email: alvaro.cristovam@editvalue.com
+    -
+      nome: Carolina Machado
+      cargo: Mentora Científica
+      texto: Mentora Científica e Professora Investigadora do Departamento de Gestão da Escola de Economia e Gestão da Universidade do Minho.
+      telefone: +351 253 604 560
+      email: carolina.machado@editvalue.com
+    -
+      nome: António Tavares
+      cargo: Mentor Científico
+      texto: Mentor Científico e Professor Investigador do Departamento de Relações Internacionais e Administração Pública da Escola de Economia e Gestão da Universidade do Minho.
+      telefone: +351 253 604 518
+      email: antonio.tavares@editvalue.com
+
+    

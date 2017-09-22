@@ -1,64 +1,91 @@
 <div id='header_container'>
-    <div class='clearfix' id='container1' style="position: relative;">
-      <div style="position: absolute; top: 20px; left: 368px; height: 60px;">
-        <img src="assets/sites/55a8a0b6301be3e68f000002/theme/images/distico-ral.png" style="height: 100%;" >
-      </div>
+  <div class='clearfix' id='container1' style="position: relative;">
+    <div style="position: absolute; top: 20px; left: 368px; height: 60px;">
+      <img src="assets/sites/55a8a0b6301be3e68f000002/theme/images/distico-ral.png" style="height: 100%;" >
+    </div>
 
-      <div class='contents'>
-        <ol class='contents clearfix'>
-          <li class="container right">
-            <div class='content' id='content_15577_container'>
-              <div class='nested-menu language_header'>
-                <ul>
-                  <li class='en-index-en'>
-                    <div class='wrapper'>
+    <div class='contents'>
+      <ol class='contents clearfix'>
+        <li class="container right">
+          <div class='content' id='content_15577_container'>
+            <div class='nested-menu language_header'>
+              <ul>
+                <li class='en-index-en'>
+                  <div class='wrapper'>
+                    {% if page.class == "index-pt" or page.class == "rede-pt" or page.class == "bolsa-pt" %}
                       <a href='en.html' target='_self' alt=''><span class='icon'></span><span class='label'>en</span></a>
-                    </div>
-                  </li>
+                    {% elsif page.class == "equipa-pt" %}
+                      <a href='en/team.html' target='_self' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                    {% elsif page.class == "servicos-pt" %}
+                      <a href='en/services.html' target='_self' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                    {% elsif page.class == "investigacao-pt" %}
+                      <a href='en/research.html' target='_self' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                    {% elsif page.class == "contactos-pt" %}
+                      <a href='en/contacts.html'   target='_self' alt=''><span class='icon'></span><span class='label'>en</span></a>
+                    {% endif %}                  
+                  </div>
+                </li>
 
-                  <li class='es-index-es'>
-                    <div class='wrapper'>
+                <li class='es-index-es'>
+                  <div class='wrapper'>
+                    {% if page.class == "index-pt" or page.class == "rede-pt" or page.class == "bolsa-pt" %}
                       <a href='es.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                    {% elsif page.class == "equipa-pt" %}
+                      <a href='es/equipo.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a> 
+                    {% elsif page.class == "servicos-pt" %}
+                      <a href='es/servicios.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                    {% elsif page.class == "investigacao-pt" %}
+                      <a href='es/investigacion.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                    {% elsif page.class == "contactos-pt" %}     
+                      <a href='es/contactos.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                    {% endif %}
+                  </div>
+                </li>
+                
+                <li class='formacao'>
+                  <div class='wrapper'>
+                    {% if page.class == "index-pt" or page.class == "bolsa-pt" %}
+                      <a href='http://formacao.editvalue.com/index' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Formação</span></a>
+                    {% elsif page.class == "equipa-pt" %}
+                      <a href='http://formacao.editvalue.com/equipa' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Formação</span></a>
+                    {% elsif page.class == "servicos-pt" %}
+                      <a href='http://formacao.editvalue.com/servicos' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Formação</span></a>
+                    {% elsif page.class == "investigacao-pt" %}
+                      <a href='http://formacao.editvalue.com/index' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Formação</span></a>
+                    {% elsif page.class == "rede-pt" %}
+                      <a href='http://formacao.editvalue.com/rede' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Formação</span></a>
+                    {% elsif page.class == "contactos-pt" %}    
+                      <a href='http://formacao.editvalue.com/contactos' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Formação</span></a>
+                    {% endif %}
                     </div>
-                  </li>
-                  
-                  <li class='formacao'>
-                    <div class='wrapper'>
-                      <a href='http://formacao.editvalue.com/index' data-href-domain-fix="com" target='_self' alt=''>
-                        <span class='icon'></span>
-                        <span class='label'>
-                          Formação
-                        </span>
-                      </a>
-                    </div>
-                  </li>
+                </li>
 
-                  <li class='clientes -last ' >
-                    <div class='wrapper'>
-                      <a href='https://dynamicvalue.editvalue.com/' target='_self' alt=''><span class='icon'></span><span class='label'>Área de clientes</span></a>
-                    </div>
-                  </li>
-                </ul>
+                <li class='clientes -last ' >
+                  <div class='wrapper'>
+                    <a href='https://dynamicvalue.editvalue.com/' target='_self' alt=''><span class='icon'></span><span class='label'>Área de clientes</span></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="container container-float-right">
+          <div class='content' id='content_1139_container'>
+            <div class='text menu-redes-sociais'>
+              <div class='i'>
+                  <p>
+                  <a class="blogger" href="http://editvalue.blogspot.com/" target="_blank"><span>Blogger</span></a>
+                  <a class="twitter" href="http://twitter.com/editvalue" target="_blank"><span>Twitter</span></a>
+                  <a class="linkedin" href="http://www.linkedin.com/companies/edit-value-consultoria-empresarial" target="_blank"><span>LinkedIn</span></a>
+                  <a class="facebook" href="http://www.facebook.com/EDITVALUE" target="_blank"><span>Facebook</span></a>
+                  </p>
               </div>
             </div>
-          </li>
-
-          <li class="container container-float-right">
-            <div class='content' id='content_1139_container'>
-              <div class='text menu-redes-sociais'>
-                <div class='i'>
-                    <p>
-                    <a class="blogger" href="http://editvalue.blogspot.com/" target="_blank"><span>Blogger</span></a>
-                    <a class="twitter" href="http://twitter.com/editvalue" target="_blank"><span>Twitter</span></a>
-                    <a class="linkedin" href="http://www.linkedin.com/companies/edit-value-consultoria-empresarial" target="_blank"><span>LinkedIn</span></a>
-                    <a class="facebook" href="http://www.facebook.com/EDITVALUE" target="_blank"><span>Facebook</span></a>
-                    </p>
-                </div>
-              </div>
-            </div>
-          </li>
+          </div>
+        </li>
           
-        </ol>
-      </div>
+      </ol>
     </div>
   </div>
+</div>
