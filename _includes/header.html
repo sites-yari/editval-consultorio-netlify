@@ -1,18 +1,18 @@
 <div id='header_container'>
-  <div class='clearfix' id='container1' style="position: relative;">
+  <div class='' id='container1' style="position: relative;">
     <div style="position: absolute; top: 20px; left: 368px; height: 60px;">
       <img src="assets/sites/55a8a0b6301be3e68f000002/theme/images/distico-ral.png" style="height: 100%;" >
     </div>
 
     <div class='contents'>
-      <ol class='contents clearfix'>
+      <ol class='contents'>
         <li class="container right">
           <div class='content' id='content_15577_container'>
             <div class='nested-menu language_header'>
               <ul>
                 <li class='en-index-en'>
                   <div class='wrapper'>
-                    {% if page.class == "index-pt" or page.class == "rede-pt" or page.class == "bolsa-pt" %}
+                    {% if page.class == "index-pt" or page.class == "rede-pt" or page.class == "bolsa-pt" or page.class == "media-pt" %}
                       <a href='en.html' target='_self' alt=''><span class='icon'></span><span class='label'>en</span></a>
                     {% elsif page.class == "equipa-pt" %}
                       <a href='en/team.html' target='_self' alt=''><span class='icon'></span><span class='label'>en</span></a>
@@ -28,7 +28,7 @@
 
                 <li class='es-index-es'>
                   <div class='wrapper'>
-                    {% if page.class == "index-pt" or page.class == "rede-pt" or page.class == "bolsa-pt" %}
+                    {% if page.class == "index-pt" or page.class == "rede-pt" or page.class == "bolsa-pt" or page.class == "media-pt" %}
                       <a href='es.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a>
                     {% elsif page.class == "equipa-pt" %}
                       <a href='es/equipo.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a> 
@@ -56,6 +56,8 @@
                       <a href='http://formacao.editvalue.com/rede' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Formação</span></a>
                     {% elsif page.class == "contactos-pt" %}    
                       <a href='http://formacao.editvalue.com/contactos' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Formação</span></a>
+                    {% elsif page.class == "media-pt" %}    
+                      <a href='http://formacao.editvalue.com/pt-media/rumo-economico' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Formação</span></a>                    
                     {% endif %}
                     </div>
                 </li>
