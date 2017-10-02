@@ -110,3 +110,223 @@ lista:
       email: antonio.tavares@editvalue.com
 
     
+  equipa_en:
+    -
+      nome: Nuno pinto Bastos
+      cargo: CEO
+      texto: National Consultant of Benchmarking of the IAPMEI and specialist in the area of consultancy in Strategical Management, Marketing and Communication.
+      telefone: +351 918 880 033
+      email: nuno.pintobastos@editvalue.com
+    -
+      nome: Cristiano Guimarães
+      cargo: CEO
+      texto: Official Technician of Accounts, National Consultant of Benchmarking of the IAPMEI and specialist in the area of consultancy in Accounting and Fiscal organization.
+      telefone: +351 918 889 590
+      email: cristiano.guimaraes@editvalue.com
+    -
+      nome: Manuel Fernandes
+      cargo: Consultant
+      texto: National Consultant of Benchmarking of the IAPMEI and specialist in the area of consultancy in investment projects and Information.
+      telefone: +351 918 889 924
+      email: manuel.fernandes@editvalue.com
+    -
+      nome: André Costa
+      cargo: Consultant
+      texto: National Consultant of Benchmarking of the IAPMEI and specialist in the area of consultancy in Human Resources Management.
+      telefone: +351 918 889 992
+      email: andre.costa@editvalue.com
+    -
+      nome: Carla Silva
+      cargo: Consultant
+      texto: Official Technician of Accounts, National consultant of Benchmarking of the IAPMEI and specialist in the area of consultancy in Accounting and Fiscal organization.
+      telefone: +351 916 308 489
+      email: carla.silva@editvalue.com
+    -
+      nome: Andreia Leite
+      cargo: Consultant
+      texto: Official Technician of Accounts, National Consultant of Benchmarking of the IAPMEI and specialist in the area of consultancy in business management.
+      telefone: +351 918 889 885
+      email: andreia.leite@editvalue.com
+    -
+      nome: Paula Ferreira
+      cargo: Consultant
+      texto: Official technician of Accounts, National consultant of Benchmarking of the IAPMEI and specialist in the area of consultancy in Accounting and Fiscal organization.
+      telefone: +351 918 889 444
+      email: paula.ferreira@editvalue.com
+    -
+      nome: Tânia Rodrigues
+      cargo: Consultant
+      texto: Official Technician of Accounts, National consultant of Benchmarking of the IAPMEI and specialist in the area of consultancy in Accounting and Fiscal organization.
+      telefone: +351 918 889 704
+      email: tania.rodrigues@editvalue.com
+    -
+      nome: Fábio Cruz
+      cargo: Consultant
+      texto: Official Technician of Accounts and specialist in the area of consultancy in Accounting and Fiscal organization.
+      telefone: +351 918 889 492
+      email: fabio.cruz@editvalue.com
+    -
+      nome: Bruna Dias
+      cargo: Consultant
+      texto: Consultant and specialist in the area of consultancy in economics and markets.
+      telefone: +351 918 889 715
+      email: bruna.dias@editvalue.com
+    -
+      nome: Teresa Magalhães
+      cargo: Consultant
+      texto: Official Technician of Accounts and specialist in the area of consultancy in Accounting.
+      telefone: +351 918 880 049
+      email: teresa.magalhaes@editvalue.com
+    -
+      nome: Marco Vilaça
+      cargo: Consultant
+      texto: Consultant and specialist in the area of consultancy in Accounting.
+      telefone: +351 911 047 498
+      email: marco.vilaca@editvalue.com
+    -
+      nome: Vânia Campos
+      cargo: Consultant
+      texto: Official Technician of Accounts and specialist in the area of consultancy in Accounting.
+      telefone: +351 917 830 991
+      email: vania.campos@editvalue.com
+    -
+      nome: Daniel Azevedo
+      cargo: Consultant
+      texto: Official Technician of Accounts and specialist in the area of consultancy in Accounting.
+      telefone: +351 918 678 889
+      email: daniel.azevedo@editvalue.com
+    -
+      nome: Sandra Araújo
+      cargo: Consultant
+      texto: National Consultant of Benchmarking of the IAPMEI and specialist in the area of consultancy in Human Resources Management.
+      telefone: +351 933 666 144
+      email: sandra.araujo@editvalue.com
+    -
+      nome: Álvaro Cristóvam
+      cargo: Principal Consultant
+      texto: Principal Consultant of the Office of I&D, Consultant of the National Benchmarking IAPMEI and specialist in the area of consultancy Strategic Analysis.
+      telefone: +351 253 283 091
+      email: alvaro.cristovam@editvalue.com
+    -
+      nome: Carolina Machado
+      cargo: Scientific Mentor
+      texto: Scientific Mentor Research and Professor, Department of Management, School of Economics and Management, University of Minho.
+      telefone: +351 253 604 560
+      email: carolina.machado@editvalue.com
+    -
+      nome: António Tavares
+      cargo: Scientific Mentor
+      texto: Scientific Mentor Research and Professor, Department of International Relations and Public Administration, School of Economics and Management, University of Minho.
+      telefone: +351 253 604 518
+      email: antonio.tavares@editvalue.com
+
+
+  equipa_es:
+    -
+      nome: Nuno pinto Bastos
+      cargo: Administrador
+      texto: Consultor del Consejo Nacional de Benchmarking del IAPMEI y experto en el ámbito de la consultoría en gestión estratégica, marketing y comunicación.
+      telefone: +351 918 880 033
+      email: nuno.pintobastos@editvalue.com
+    -
+      nome: Cristiano Guimarães
+      cargo: Administrador
+      texto: Contable Autorizado, Consultor del Consejo Nacional de Benchmarking del IAPMEI y experto en el ámbito de la consultoría en contabilidad y fiscalidad.
+      telefone: +351 918 889 590
+      email: cristiano.guimaraes@editvalue.com
+    -
+      nome: Manuel Fernandes
+      cargo: Consultor
+      texto: Consultor del Consejo Nacional de Benchmarking del IAPMEI y experto en el ámbito de proyectos de consultoría de inversión y información.
+      telefone: +351 918 889 924
+      email: manuel.fernandes@editvalue.com
+    -
+      nome: André Costa
+      cargo: Consultor
+      texto: Consultor del Consejo Nacional de Benchmarking del IAPMEI y experto en el ámbito de la consultoría en Gestión de Recursos Humanos.
+      telefone: +351 918 889 992
+      email: andre.costa@editvalue.com
+    -
+      nome: Carla Silva
+      cargo: Consultora
+      texto: Contable Autorizada, Consultora del Consejo Nacional de Benchmarking del IAPMEI y experta en el ámbito de la consultoría en contabilidad y fiscalidad.
+      telefone: +351 916 308 489
+      email: carla.silva@editvalue.com
+    -
+      nome: Andreia Leite
+      cargo: Consultora
+      texto: Contable Autorizada, Consultora del Consejo Nacional de Benchmarking del IAPMEI y experta en el ámbito de la consultoría en gestión empresarial.
+      telefone: +351 918 889 885
+      email: andreia.leite@editvalue.com
+    -
+      nome: Paula Ferreira
+      cargo: Consultora
+      texto: Contable Autorizada, Consultora del Consejo Nacional de Benchmarking del IAPMEI y experta en el ámbito de la consultoría en contabilidad y fiscalidad.
+      telefone: +351 918 889 444
+      email: paula.ferreira@editvalue.com
+    -
+      nome: Tânia Rodrigues
+      cargo: Consultora
+      texto: Contable Autorizada, Consultora del Consejo Nacional de Benchmarking de IAPMEI y experta en el ámbito de la consultoría en contabilidad y fiscalidad.
+      telefone: +351 918 889 704
+      email: tania.rodrigues@editvalue.com
+    -
+      nome: Fábio Cruz
+      cargo: Consultor
+      texto: Contable Autorizado, experto en el campo de la consultoría en el ámbito de la consultoría en contabilidad y fiscalidad.
+      telefone: +351 918 889 492
+      email: fabio.cruz@editvalue.com
+    -
+      nome: Bruna Dias
+      cargo: Consultora
+      texto: Consultora, experta en el ámbito de la consultoría en economia y mercados.
+      telefone: +351 918 889 715
+      email: bruna.dias@editvalue.com
+    -
+      nome: Teresa Magalhães
+      cargo: Consultora
+      texto: Contable Autorizada, experta en el ámbito de la consultoría en contabilidad.
+      telefone: +351 918 880 049
+      email: teresa.magalhaes@editvalue.com
+    -
+      nome: Marco Vilaça
+      cargo: Consultor
+      texto: Consultor, experto en el ámbito de la consultoría en contabilidad.
+      telefone: +351 911 047 498
+      email: marco.vilaca@editvalue.com
+    -
+      nome: Vânia Campos
+      cargo: Consultora
+      texto: Contable Autorizada, experta en el ámbito de la consultoría en contabilidad.
+      telefone: +351 917 830 991
+      email: vania.campos@editvalue.com
+    -
+      nome: Daniel Azevedo
+      cargo: Consultor
+      texto: Contable Autorizado, experto en el ámbito de la consultoría en contabilidad.
+      telefone: +351 918 678 889
+      email: daniel.azevedo@editvalue.com
+    -
+      nome: Sandra Araújo
+      cargo: Consultora
+      texto: Consultora del Consejo Nacional de Benchmarking del IAPMEI y experta en el ámbito de la consultoría en Gestión de Recursos Humanos.
+      telefone: +351 933 666 144
+      email: sandra.araujo@editvalue.com
+    -
+      nome: Álvaro Cristóvam
+      cargo: Consultor Principal
+      texto: Consultor Principal de la Oficina de I&D, Consultor del Consejo Nacional de Benchmarking del IAPMEI y experto en el ámbito de la consultoría de Análisis Estratégico.
+      telefone: +351 253 283 091
+      email: alvaro.cristovam@editvalue.com
+    -
+      nome: Carolina Machado
+      cargo: Mentor de la Ciencia
+      texto: Mentor de la Investigación Científica y Profesor, Departamento de Gestión, Escuela de Economía y Gestión, Universidad de Minho.
+      telefone: +351 253 604 560
+      email: carolina.machado@editvalue.com
+    -
+      nome: António Tavares
+      cargo: Mentor de la Ciencia
+      texto: Mentor de la Investigación Científica y Profesor, Departamento de Relaciones Internacionales y Administración Pública, Escuela de Economía y Gestión, Universidad de Minho.
+      telefone: +351 253 604 518
+      email: antonio.tavares@editvalue.com

@@ -1,41 +1,64 @@
 <div id='header_container'>
-    <div class='clearfix' id='container1' style="position: relative;">
+    <div class='' id='container1' style="position: relative;">
         <div style="position: absolute; top: 20px; left: 368px; height: 60px;">
-            <img src="assets/sites/55a8a0b6301be3e68f000002/theme/images/distico-ral.png" style="height: 100%;" >
+            <img src="../assets/sites/55a8a0b6301be3e68f000002/theme/images/distico-ral.png" style="height: 100%;" >
         </div>
 
         <div class='contents'>
-            <ol class='contents clearfix'>
+            <ol class='contents '>
                 <li class="container right">
                 <div class='content' id='content_15577_container'>
                     <div class='nested-menu language_header'>
                     <ul>
                         <li class='es-index-es'>
                             <div class='wrapper'>
-                                <a href='es.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                {% if page.class == "index-en" %}
+                                    <a href='es.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                {% elsif page.class == "team-en" %}
+                                    <a href='../es/equipo.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a> 
+                                {% elsif page.class == "services-en" %}
+                                    <a href='../es/servicios.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                {% elsif page.class == "research-en" %}
+                                    <a href='../es/investigacion.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a>
+                                {% elsif page.class == "contacts-en" %}  
+                                    <a href='../es/contactos.html' target='_self' alt=''><span class='icon'></span><span class='label'>es</span></a>                                
+                                {% endif %}
                             </div>
-                            </li>
-                            <li class='index'>
+                        </li>
+
+                        <li class='index'>
                             <div class='wrapper'>
-                                <a href='index.html' target='_self' alt=''><span class='icon'></span><span class='label'>pt</span></a>
+                                {% if page.class == "index-en" %}
+                                    <a href='index.html' target='_self' alt=''><span class='icon'></span><span class='label'>pt</span></a>
+                                {% elsif page.class == "team-en" %}
+                                    <a href='../equipa.html' target='_self' alt=''><span class='icon'></span><span class='label'>pt</span></a>                                
+                                {% elsif page.class == "services-en" %}
+                                    <a href='../servicos.html' target='_self' alt=''><span class='icon'></span><span class='label'>pt</span></a>
+                                {% elsif page.class == "research-en" %} 
+                                    <a href='../investigacao.html' target='_self' alt=''><span class='icon'></span><span class='label'>pt</span></a>
+                                {% elsif page.class == "contacts-en" %}        
+                                    <a href='../contactos.html' target='_self' alt=''><span class='icon'></span><span class='label'>pt</span></a>                                
+                                {% endif %}
                             </div>
                         </li>
 
                         <li class='formacao'>
                             <div class='wrapper'>
-                            <a href='http://formacao.editvalue.com/en' data-href-domain-fix="com" target='_self' alt=''>
-                                <span class='icon'></span>
-                                <span class='label'>
-                                Training
-                                
-                                </span>
-                            </a>
+                                {% if page.class == "index-en" or page.class == "research-en" %}                                    
+                                    <a href='http://formacao.editvalue.com/en' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Training</span></a>
+                                {% elsif page.class == "team-en" %}
+                                    <a href='http://formacao.editvalue.com/en/team' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Training</span></a>                                
+                                {% elsif page.class == "services-en" %}
+                                    <a href='http://formacao.editvalue.com/en/services' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Training</span></a>                                
+                                {% elsif page.class == "contacts-en" %}  
+                                    <a href='http://formacao.editvalue.com/en/contacts' data-href-domain-fix="com" target='_self' alt=''><span class='icon'></span><span class='label'>Training</span></a>                                
+                                {% endif %}
                             </div>
                         </li>
 
                         <li class='clientes -last ' style="display: none;">
                             <div class='wrapper'>
-                            <a href='https://dynamicvalue.editvalue.com/' target='_self' alt=''><span class='icon'></span><span class='label'>Área de clientes</span></a>
+                                <a href='https://dynamicvalue.editvalue.com/' target='_self' alt=''><span class='icon'></span><span class='label'>Área de clientes</span></a>
                             </div>
                         </li>
                     </ul>
