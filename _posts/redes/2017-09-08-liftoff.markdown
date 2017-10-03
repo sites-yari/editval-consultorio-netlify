@@ -1,0 +1,7 @@
+---
+title: Liftoff
+category: Parcerias
+imagem_image_path: images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/liftoff918e.jpg?sha=32202f2f6ae14257
+link: http://liftoff.aaum.pt/
+text: O Liftoff - Gabinete do Empreendedor da Associação Académica da Universidade do Minho surge em 2000 tendo como propósito ser um ponto de referência na Universidade do Minho na criação de condições sociais, económicas e culturais que facilitem, apoiem e incrementem a qualificação contínua do empreendedorismo académico. A sua atuação tem-se pautado pelo fomento de uma cultura empreendedora, procurando minimizar as dificuldades com que de defrontam os (potenciais) empreendedores da comunidade académica da UM.
+---

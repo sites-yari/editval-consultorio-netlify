@@ -18,11 +18,14 @@ bolsa_active?: active
                 <div class="content" id="content_705_container">
                   <div class="text ev-bolsa-de-ideias">
                     <div class="i">
-                      <h1>Bolsa de ideias</h1>
-                      <div style="text-align: center;"> </div>
-                      <div style="text-align: center;"><strong>"Um homem com uma ideia nova é um excêntrico, até que a ideia resulte."</strong></div>
-                      <div style="text-align: right;">Mark Twain</div>
-                      <p>A Bolsa de Ideias pretende ser um espaço criativo para promoção do empreendedorismo. Nem sempre o empreendedor encontra ideias de negócio válidas para as colocar em prática por via do seu espírito de iniciativa. Do mesmo modo, nem sempre o detentor de ideias novas tem a capacidade e a motivação suficientes para avançar da teoria à prática. Este pretende ser um ponto de encontro que vai premiar as ideias até que resultem.</p>
+                      {% for bolsa-de-ideias in site.data.bolsa-ideias.bolsa %}
+                        <h1>{{bolsa-de-ideias.titulo}}</h1>
+                        <div style="text-align: center;"> </div><br>
+                        <div style="text-align: center;"><strong>{{bolsa-de-ideias.ditado}}</strong></div>
+                        <div style="text-align: right;">{{bolsa-de-ideias.autor}}</div>
+                        <p>{{bolsa-de-ideias.paragrafo1}}</p>
+                        <p>{{bolsa-de-ideias.paragrafo2}}</p>
+                      {% endfor %}
                     </div>
                   </div>
 
@@ -35,87 +38,87 @@ bolsa_active?: active
                     <div class="form" id="form_5_div">
 
                       <form method="POST"
-                  action="https://formspree.io/websites_forms+editvalue-consultoria@yarilabs.com"
-                  data-ajax-form="true"
-                  data-ajax-form-fail-action="render-errors"
-                  data-ajax-form-fail-field-template="ideas-form-fail-field-template"
-                  data-ajax-form-success-action="replace-form"
-                  data-ajax-form-success-template="ideas-form-success-template">
-              <input type="hidden" name="authenticity_token" value="7BDwUYOwMoW3gqTdmD2n51L45DbmX+ykMPYJLRglM50=">
+                            action="https://formspree.io/websites_forms+editvalue-consultoria@yarilabs.com"
+                            data-ajax-form="true"
+                            data-ajax-form-fail-action="render-errors"
+                            data-ajax-form-fail-field-template="ideas-form-fail-field-template"
+                            data-ajax-form-success-action="replace-form"
+                            data-ajax-form-success-template="ideas-form-success-template">
+                        <input type="hidden" name="authenticity_token" value="7BDwUYOwMoW3gqTdmD2n51L45DbmX+ykMPYJLRglM50=">
 
-              <input type="hidden" value="/bolsa-de-ideias" name="success_callback" />
-              <input type="hidden" value="/bolsa-de-ideias" name="error_callback" />
+                        <input type="hidden" value="/bolsa-de-ideias" name="success_callback" />
+                        <input type="hidden" value="/bolsa-de-ideias" name="error_callback" />
 
-              <fieldset>
-                <ul>
-                  <li class="title field required text_field" data-ajax-form-field-wrapper="title">
-                    <span class="label">Ideia</span>
-                    <span class="input">
-                      <input name="title" value="" type="text" required>
-                    </span>
-                  </li>
-                  <li class="description field required text_area" data-ajax-form-field-wrapper="description">
-                    <span class="label">Resumo da ideia</span>
-                    <span class="input">
-                      <textarea name="description" required></textarea>
-                    </span>
-                  </li>
-                  <li class="kindfield required selection_field" data-ajax-form-field-wrapper="kind">
-                    <span class="label">Tipo</span>
-                    <div class="input">
-                      <select name="kind" required>
-                        <option value="Confidencial" >Confidencial</option>
-                        <option value="A partilhar"  >A partilhar</option>
-                      </select>
-                    </div>
-                  </li>
-                  <li class="author field required text_field" data-ajax-form-field-wrapper="author">
-                    <span class="label">Nome do promotor</span>
-                    <span class="input">
-                      <input name="author" value="" type="text" required>
-                    </span>
-                  </li>
-                  <li class="other_authors field text_field" data-ajax-form-field-wrapper="other_authors">
-                    <span class="label">Outros promotores</span>
-                    <span class="input">
-                      <input name="other_authors" value="" type="text">
-                    </span>
-                  </li>
-                  <li class="target field required text_field" data-ajax-form-field-wrapper="target">
-                    <span class="label">Público-alvo</span>
-                    <span class="input">
-                      <input name="target" value="" type="text" required>
-                    </span>
-                  </li>
-                  <li class="capital field required text_field" data-ajax-form-field-wrapper="capital">
-                    <span class="label">Necessidades de investimento</span>
-                    <span class="input">
-                      <input name="capital" value="" type="text" required>
-                    </span>
-                  </li>
-                  <li class="email field required text_field" data-ajax-form-field-wrapper="email">
-                    <span class="label">Email</span>
-                    <span class="input">
-                      <input name="email" value="" type="text" required>
-                    </span>
-                  </li>
-                </ul>
-              </fieldset>
+                        <fieldset>
+                          <ul>
+                            <li class="title field required text_field" data-ajax-form-field-wrapper="title">
+                              <span class="label">Ideia</span>
+                              <span class="input">
+                                <input name="title" value="" type="text" required>
+                              </span>
+                            </li>
+                            <li class="description field required text_area" data-ajax-form-field-wrapper="description">
+                              <span class="label">Resumo da ideia</span>
+                              <span class="input">
+                                <textarea name="description" required></textarea>
+                              </span>
+                            </li>
+                            <li class="kindfield required selection_field" data-ajax-form-field-wrapper="kind">
+                              <span class="label">Tipo</span>
+                              <div class="input">
+                                <select name="kind" required>
+                                  <option value="Confidencial" >Confidencial</option>
+                                  <option value="A partilhar"  >A partilhar</option>
+                                </select>
+                              </div>
+                            </li>
+                            <li class="author field required text_field" data-ajax-form-field-wrapper="author">
+                              <span class="label">Nome do promotor</span>
+                              <span class="input">
+                                <input name="author" value="" type="text" required>
+                              </span>
+                            </li>
+                            <li class="other_authors field text_field" data-ajax-form-field-wrapper="other_authors">
+                              <span class="label">Outros promotores</span>
+                              <span class="input">
+                                <input name="other_authors" value="" type="text">
+                              </span>
+                            </li>
+                            <li class="target field required text_field" data-ajax-form-field-wrapper="target">
+                              <span class="label">Público-alvo</span>
+                              <span class="input">
+                                <input name="target" value="" type="text" required>
+                              </span>
+                            </li>
+                            <li class="capital field required text_field" data-ajax-form-field-wrapper="capital">
+                              <span class="label">Necessidades de investimento</span>
+                              <span class="input">
+                                <input name="capital" value="" type="text" required>
+                              </span>
+                            </li>
+                            <li class="email field required text_field" data-ajax-form-field-wrapper="email">
+                              <span class="label">Email</span>
+                              <span class="input">
+                                <input name="email" value="" type="text" required>
+                              </span>
+                            </li>
+                          </ul>
+                        </fieldset>
 
-              <div class="actions">
-                <button class="submitBtn" type="submit"><span>Enviar</span></button>
-                <button class="resetBtn" data-action="reset-form"><span>Limpar</span></button>
-              </div>
-            </form>
+                        <div class="actions">
+                          <button class="submitBtn" type="submit"><span>Enviar</span></button>
+                          <button class="resetBtn" data-action="reset-form"><span>Limpar</span></button>
+                        </div>
+                      </form>
 
-            <script id="ideas-form-fail-field-template" type="text/x-handlebars-template">
-              <span class="error" data-role="form-field-error">{{message}}</span>
-            </script>
+                      <script id="ideas-form-fail-field-template" type="text/x-handlebars-template">
+                        <span class="error" data-role="form-field-error">{{message}}</span>
+                      </script>
 
-            <script id="ideas-form-success-template" type="text/x-handlebars-template">
-              <span>A sua mensagem foi enviada com sucesso.</span> <hr />
-              <a href="/bolsa-de-ideias">Voltar</a>
-            </script>
+                      <script id="ideas-form-success-template" type="text/x-handlebars-template">
+                        <span>A sua mensagem foi enviada com sucesso.</span> <hr />
+                        <a href="/bolsa-de-ideias">Voltar</a>
+                      </script>
 
 
                     </div>
@@ -132,44 +135,17 @@ bolsa_active?: active
                     <div class="contents">
                       <div id="journal54">
                         
-                        
-                        <h3><a href="#">Transporte coletivo de crianças</a></h3>
+                        {% for bolsa-de-ideias in site.data.bolsa-ideias.ideias_partilhadas %}
+                        <h3><a href="#">{{bolsa-de-ideias.tema}}</a></h3>
                         <div>
                           <span>
-                            <p>
-                              <strong>Resumo da ideia</strong>: <em>Organizar uma rede de transporte coletivo de crianças, entre os 0 e os 12 anos de idade, com acompanhamento, que assegure os horários de trabalho dos pais, dentro e fora do concelho do Entroncamento. esta é uma dificuldade que eu sinto dia-a-dia.</em>
-                            </p>
-                            <p>
-                              <strong>Promotora</strong>: Ana Margarida Melenas
-                            </p>
-                            <p>
-                              <strong>Público-alvo</strong>: Famílias
-                            </p>
-                            <p>
-                              <strong>Necessidades de Investimento</strong>: 50.000€
-                            </p>
+                            <p><strong>Resumo da ideia</strong>: <em>{{bolsa-de-ideias.resumo}}</em></p>
+                            <p><strong>Promotora</strong>: {{bolsa-de-ideias.promotora}}</p>
+                            <p><strong>Público-alvo</strong>: {{bolsa-de-ideias.publico_alvo}}</p>
+                            <p><strong>Necessidades de Investimento</strong>: {{bolsa-de-ideias.investimento}}</p>
                           </span>
-                        </div>
-                        
-                        <h3><a href="#">Site de busca</a></h3>
-                        <div>
-                          <span>
-                            <p>
-                              <strong>Resumo da ideia</strong>: <em>Um site de buscas orgânicas, atualizado em tempo real, com retorno financeiro através de publicidade.</em>
-                            </p>
-                            <p>
-                              <strong>Promotora</strong>: Silvex
-                            </p>
-                            <p>
-                              <strong>Público-alvo</strong>: Internautas
-                            </p>
-                            <p>
-                              <strong>Necessidades de Investimento</strong>: 100.000€
-                            </p>
-                          </span>
-                        </div>
-                        
-                        
+                        </div> 
+                        {% endfor %}
                       </div>
                       <script>
                         $(document).ready(function(){

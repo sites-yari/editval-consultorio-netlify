@@ -12,6 +12,9 @@ rede_active?: active
         {% include menu.html %}        
         <div class='clearfix' id='container3'>
           <div class='contents'>
+
+
+
             
             <ol class="contents clearfix">
               <li class="container container_expand">
@@ -20,17 +23,18 @@ rede_active?: active
                   <div class="ev-journal-parcerias">
                     <h1><span>Parcerias</span></h1>
                     <ul>
-                      {% for rede in site.data.rede.parcerias %}
+                      {% assign wire = site.posts | where: "category" , "Parcerias" %}                        
+                      {% for post in wire %}
                       <li>
                         <div class="article ">
                           <div class="title">
-                            <a href='{{rede.link}}' target="_blank"><span>{{rede.titulo}}</span></a>
+                            <a href='{{post.link}}' target="_blank"><span>{{post.title}}</span></a>
                           </div>
                           <div class="img">
-                            <a href='{{rede.link}}' target="_blank"><img alt="Spin-off" src='{{rede.img}}'></a>
+                            <a href='{{post.link}}' target="_blank"><img alt="Spin-off" src='{{post.imagem_image_path}}'></a>
                           </div>
                           <div class="text">
-                            <p>{{rede.texto}}</p>
+                            <p>{{post.text}}</p>
                           </div>
                         </div>
                       </li>
@@ -91,9 +95,11 @@ rede_active?: active
                   </div>
                 </li>
               </div>
-
-
             </ol>
+
+
+
+
           </div>
         </div>
       </div>
