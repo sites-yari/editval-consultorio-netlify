@@ -1,0 +1,93 @@
+---
+layout: media-post
+title: Recortes 2006
+category: clipping
+main_image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/22_02_2006_academicodf01.jpg?sha=4fe220899921da39
+image_list: 
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/22_02_2006_academicodf01.jpg?sha=4fe220899921da39
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfa7301be39827000354/files/22_02_2006_academico08ab.jpg?1450720103
+    subtitle: Artigo "Jornal Académico"
+    date: 22-02-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/28_03_2006_dm51d2.jpg?sha=009c4cd205b72e22
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfa7301be39827000355/files/28_03_2006_dmc24f.jpg?1450719371
+    subtitle: Artigo "Diário do Minho"
+    date: 28-03-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/02_03_2006_dm1d9e.jpg?sha=d417024b34cdccac
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfa8301be39827000356/files/02_03_2006_dm046a.jpg?1450719377
+    subtitle: Artigo "Diário do Minho"
+    date: 02-03-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/20_11_2006_academico6a56.jpg?sha=0a25c21b784bcc39
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfa9301be3439d000357/files/20_11_2006_academico1eb2.jpg?1450720064
+    subtitle: Artigo "Jornal Académico"
+    date: 20-11-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/26_01_2006_dm0546.jpg?sha=f4ec8e44d52d3462
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfaa301be34578000358/files/26_01_2006_dmbd5e.jpg?1450719385
+    subtitle: Artigo "Diário do Minho"
+    date: 26-01-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/22_02_2006_universia2146.jpg?sha=94f7bf55421ff7e0
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfaa301be34578000359/files/22_02_2006_universia3aae.jpg?1450720121
+    subtitle: Portal "Universia"
+    date: 22-02-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/29_03_2006_def02e.jpg?sha=2e60efa2a7cbbfd8
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfab301be3457800035a/files/29_03_2006_de0042.jpg?1450720090
+    subtitle: Notícia "Diário Económico / Lusa"
+    date: 29-03-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/24_11_2006_jnf790.jpg?sha=0a3b125953fdce6e
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfac301be3457800035b/files/24_11_2006_jn34bf.jpg?1450720041
+    subtitle: Notícia "Jornal de Notícias"
+    date: 24-11-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/23_02_2006_dm030f.jpg?sha=d767df443139cc92
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfad301be3457800035c/files/23_02_2006_dm5642.jpg?1450719381
+    subtitle: Artigo "Diário do Minho"
+    date: 23-02-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/03_05_2006_academico3b01.jpg?sha=e3d9882b83f243ac
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfae301be3870900035d/files/03_05_2006_academico36f4.jpg?1450720077
+    subtitle: Artigo "Jornal Académico"
+    date: 03-05-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/29_03_2006_dm7676.jpg?sha=0f2b8705346ebf81
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfaf301be3dc6500035e/files/29_03_2006_dm4069.jpg?1450719344
+    subtitle: Artigo "Diário do Minho"
+    date: 29-03-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/29_03_2006_bragacom053d.jpg?sha=6108904299f9fc3c
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfaf301be3dc6500035f/files/29_03_2006_bragacomda7b.jpg?1450719349
+    subtitle: Artigo "Diário do Minho"
+    date: 29-03-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/17_10_2006_dm9cae.jpg?sha=a90962872d9de7cf
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfb0301be3dc65000360/files/17_10_2006_dmf011.jpg?1450719338
+    subtitle: Artigo "Diário do Minho"
+    date: 17-10-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/22_11_2006_jnbe41.jpg?sha=3790f923d1e1bd2a
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfb1301be316ff000361/files/22_11_2006_jna593.jpg?1450720053
+    subtitle: Notícia "Jornal de Notícias"
+    date: 22-11-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/05_12_20060e15.jpg?sha=03baa22e32bbfc2a
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfb2301be3515d000362/files/05_12_200614ac.jpg?1450719334
+    subtitle: Artigo "Diário do Minho"
+    date: 05-12-2006
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/27_04_2006_cmc14a.jpg?sha=9129cc4af40dbd51
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfc4301be3dd97000375/files/27_04_2006_cmf07f.jpg?1450719528
+    subtitle: Notícia "Correio do Minho"
+    date: 27-04-2006
+
+class: media-pt
+media_active?: active
+formacao?: clipping
+--- 
+    
+{% include video-recorte.html %}

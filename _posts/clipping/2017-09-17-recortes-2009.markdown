@@ -1,0 +1,68 @@
+---
+layout: media-post
+title: Recortes 2009
+category: clipping
+main_image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/cm_17_07_2009d244.jpg?sha=c73be21611f18832
+image_list: 
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/cm_17_07_2009d244.jpg?sha=c73be21611f18832
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfd2301be3ce32000383/files/cm_17_07_20094d42.jpg?1450719810
+    subtitle: Notícia "Correio da Manhã"
+    date: 07-07-2015
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/24_03_2004_destakes5a7a.jpg?sha=d995fe985033ce8d
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfd2301be3ce32000384/files/24_03_2004_destakesdc56.jpg?1450719796
+    subtitle: Portal "RTP"
+    date: 24-03-2004
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/24_03_2009_iol_short06b9.jpg?sha=2df33a83eed7e5cb
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfd3301be3ce32000385/files/24_03_2009_iol_short15f1.jpg?1450719777
+    subtitle: Portal "IOL"
+    date: 24-03-2009
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/editvalue-o-comerciof7ce.jpg?sha=7dd0d4e0c20b98c1
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfd3301be3ce32000386/files/editvalue-o-comercio3af9.jpg?1450719764
+    subtitle: Notícia "O Comércio"
+    date: 01-04-2009
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/24_03_2009_rtp2eb1.jpg?sha=0a06c39ab10f11be
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfd4301be3c8bb000387/files/24_03_2009_rtpfe1b.jpg?1450719782
+    subtitle: Portal "RTP"
+    date: 24-03-2009
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/24_03_2009_iol4c02.jpg?sha=27c12f4632c65447
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfd5301be3a4a7000388/files/24_03_2009_iol9384.jpg?1450719789
+    subtitle: Portal "IOL"
+    date: 24-03-2009
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MDcxOTc3MSJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/25_03_2009_aveparkd491.jpg?sha=a9de8b94eb0accba
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfd7301be35f85000389/files/25_03_2009_avepark7314.jpg?1450719771
+    subtitle: Portal "Avepark"
+    date: 25-03-2009
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/01_04_2009_comum04f2.jpg?sha=89735ed0351f6019
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfd9301be3cec800038a/files/01_04_2009_comum37c5.jpg?1450719735
+    subtitle: Portal "ComUM"
+    date: 01-04-2009
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/06_01_20090325.jpg?sha=ed65457576941f92
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfda301be3a33c00038b/files/06_01_2009e31c.jpg?1450719253
+    subtitle: Artigo "Diário do Minho"
+    date: 06-01-2009
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/18_07_2009_dma542.jpg?sha=77636edeb52d01f3
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfdd301be33eb900038c/files/18_07_2009_dm6f14.jpg?1450719240
+    subtitle: Artigo "Diário do Minho"
+    date: 18-07-2009
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/diario-do-minho-5-04-2009098a.jpg?sha=b92e1ab663397aa5
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfdf301be37d0800038d/files/diario-do-minho-5-04-2009d7a9.jpg?1450719244
+    subtitle: Artigo "Diário do Minho"
+    date: 05-04-2009
+class: media-pt
+media_active?: active
+formacao?: clipping
+--- 
+    
+{% include video-recorte.html %}
+    

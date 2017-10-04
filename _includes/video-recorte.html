@@ -1,13 +1,5 @@
----
-layout: media-post
-title: Clipping
-class: media-pt
-media_active?: active
-formacao?: clipping
----
-
-<body class='older_browser ev media'>          
-  <ol class='contents '>
+<body class='older_browser ev media'>            
+  <ol class='contents clearfix'>
     <li class="container container_float_left">
       <div class='content' id='content_624_container'>
         <div class='menu ev-menu-destaques'>
@@ -18,7 +10,7 @@ formacao?: clipping
           </h1>
           <ul>
             <li class='media '>
-              <a href='rumo-economico.html'>
+              <a href='../rumo-economico.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Notícias Rumo Económico
@@ -26,7 +18,7 @@ formacao?: clipping
               </a>
             </li>
             <li class='artigos-economia  '>
-              <a href='artigos-economia.html'>
+              <a href='../artigos-economia.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Artigos Suplemento de Economia
@@ -34,15 +26,15 @@ formacao?: clipping
               </a>
             </li>
             <li class='videos '>
-              <a href='videos.html'>
+              <a href='../videos.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Vídeos
                 </span>
               </a>
             </li>
-            <li class='clipping active '>
-              <a href='clipping.html'>
+            <li class='clipping  active'>
+              <a href='../clipping.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Clipping
@@ -50,7 +42,7 @@ formacao?: clipping
               </a>
             </li>
             <li class='press-release  '>
-              <a href='press-release.html'>
+              <a href='../press-release.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Press Release
@@ -58,7 +50,7 @@ formacao?: clipping
               </a>
             </li>
             <li class='logo-marca '>
-              <a href='logo-marca.html'>
+              <a href='../logo-marca.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Logo Marca
@@ -66,7 +58,7 @@ formacao?: clipping
               </a>
             </li>
             <li class='galeria-fotos -last  '>
-              <a href='galeria-fotos.html'>
+              <a href='../galeria-fotos.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Galeria de Fotos
@@ -82,17 +74,42 @@ formacao?: clipping
       <div class='content' id='content_15079_container'>
         <div class='gallery album clipping'>
           <h1><span class=value>Clipping</span><span class=i18n></span></h1>
-          {% assign clip = site.posts | where: "category" , "clipping" %}
+
           
-          {% for post in  %}
-          <div class='album'>
-            <a href='{{post.url}}'>
-              <div class='thumb'><img class="image" src='{{post.main_image_path}}' /></div>
-              <div class='name'>{{post.title}}</div>
-              <div class='description'></div>
-            </a>
+          <div class='photos'>
+            <div class='back'>
+              <a href='../{{page.url}}'>
+                <div class='icon'></div>
+                <div class='label'>voltar</div>
+              </a>
+            </div>
+            <div class='album'><div class='title'>{{page.title}}</div></div>
+            <ul>
+              {% for page in page.image_list %}
+              <li>
+                <div class='wrapper'>
+                  <a class='lightbox' href='{{page.link_image_path}}' rel='fotos' title=''>
+                    <div class='thumb'><img class="image" src='{{page.image_path}}' /></div>
+                    <div class='description'>
+                      {{page.subtitle}}
+                      <br>
+                      
+                      {{page.date}}
+                      
+                    </div>
+                  </a>
+                </div>
+              </li>
+              {% endfor %} 
+            </ul>
+            <script>
+              $(document).ready(function() {
+              $("a.lightbox").fancybox({type : "image", 'overlayShow': true, 'titleShow': true, 'titlePosition': "inside" });
+              });
+            </script>
           </div>
-          {% endfor %}
+
+
         </div>
       </div>
     </li>

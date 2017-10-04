@@ -1,0 +1,57 @@
+---
+layout: media-post
+title: Recortes 2011
+category: clipping
+main_image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/noticia-newsletter-vida-economica-07-09-2011407b.jpg?sha=dcf1715c6c494ff5
+image_list: 
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/noticia-newsletter-vida-economica-07-09-2011407b.jpg?sha=dcf1715c6c494ff5
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfea301be3e0e0000396/files/noticia-newsletter-vida-economica-07-09-201114eb.jpg?1437122538 
+    subtitle:  Notícia Newsletter "Vida Económica "
+    date: 07-09-2011
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQzNzEyMjU0MCJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/artigo-diario-do-minho-14-06-2011df63.jpg?sha=85e749acb13c2356
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfec301be37c93000397/files/artigo-diario-do-minho-14-06-2011fb82.jpg?1437122540
+    subtitle: Artigo "Diário do Minho"
+    date: 14-06-2011
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQzNzEyMjU0MyJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/artigo-diario-do-minho-31-05-20110c4b.jpg?sha=922dca065935c48b
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfef301be3c489000398/files/artigo-diario-do-minho-31-05-2011eb9c.jpg?1437122543
+    subtitle: Artigo "Diário do Minho"
+    date: 31-05-2011
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQzNzEyMjU0NCJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/artigo-diario-do-minho-12-04-20116fad.jpg?sha=c2af60a4b22f49a7
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfef301be30fd0000399/files/artigo-diario-do-minho-12-04-20117043.jpg?1437122544
+    subtitle: Artigo "Diário do Minho"
+    date: 12-04-2011
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQzNzEyMjU0NCJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/artigo-diario-do-minho-15-03-2011e6b5.jpg?sha=7ba1654f4e824046
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bff0301be355ab00039a/files/artigo-diario-do-minho-15-03-20117043.jpg?1437122544
+    subtitle: Artigo Diário do Minho
+    date: 15-03-2011
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQzNzEyMjU0NSJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/noticia-portal-univ-minho-28-03-2011bc0f.jpg?sha=c8b202be2ecf3ce2
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bff1301be355ab00039b/files/noticia-portal-univ-minho-28-03-20113995.jpg?1437122545
+    subtitle: Notícia Portal Univ. Minho
+    date: 28-03-2011
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/noticia-correio-do-minho-05-01-2011ee33.png?sha=65bbe4c7ab5f039f
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bff1301be3843200039c/files/noticia-correio-do-minho-05-01-20113995.png?1437122545
+    subtitle: Notícia "Correio do Minho"
+    date: 05-01-2011
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/capa-correio-do-minho-05-01-2011666d.jpg?sha=3ed37119f45ef751
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bff2301be3843200039d/files/capa-correio-do-minho-05-01-20111e87.jpg?1437122546
+    subtitle: Capa "Correio do Minho"
+    date: 05-01-2011
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/noticia-correio-do-minho-5-01-20117e67.jpg?sha=730f475ad40ac18a
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bff2301be3843200039e/files/noticia-correio-do-minho-5-01-20111e87.jpg?1437122546
+    subtitle: Notícia "Correio do Minho"
+    date: 05-01-2011
+class: media-pt
+media_active?: active
+formacao?: clipping
+--- 
+    
+{% include video-recorte.html %}

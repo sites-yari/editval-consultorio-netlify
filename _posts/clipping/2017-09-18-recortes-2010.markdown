@@ -1,0 +1,43 @@
+---
+layout: media-post
+title: Recortes 2010
+category: clipping
+main_image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/noticias-de-guimaraes-31-12-20101312.jpg?sha=41eda0ba3ad2c5c9
+image_list: 
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/noticias-de-guimaraes-31-12-20101312.jpg?sha=41eda0ba3ad2c5c9
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfe0301be301cf00038e/files/noticias-de-guimaraes-31-12-20100146.jpg?1450718984
+    subtitle: Notícias de Guimarães
+    date: 31-12-2010
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/dm-10-11-2010d015.jpg?sha=400c92e096b8a576
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfe1301be3f4c8000390/files/dm-10-11-201083e0.jpg?1450719456
+    subtitle: Notícia "Correio do Minho"
+    date: 10-11-2010
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MDcxOTQ4MyJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/correio-do-minho-16-04-2010437b.jpg?sha=6c0489fa152eeeef
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfe1301be33f53000391/files/correio-do-minho-16-04-201097d2.jpg?1450719483
+    subtitle: Artigo "Correio do Minho"
+    date: 16-04-2010
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/dm-29-12-20103ad5.jpg?sha=357135962e36911e
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfe4301be3f268000392/files/dm-29-12-2010cb67.jpg?1450719164
+    subtitle: Artigo "Diário do Minho"
+    date: 29-12-2010
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MDcxOTIzNSJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/15-09-2010_-_dmb68f.jpg?sha=16318cf157201cac
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfe7301be3da11000394/files/15-09-2010_-_dme0a1.jpg?1450719235
+    subtitle: Artigo "Diário do Minho"
+    date: 15-09-2010
+  - 
+    image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MDcxOTQ2NSJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/15-09-2010_-_cm5241.jpg?sha=e585ba17ea8e42d3
+    link_image_path: ../../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2cd301be3f763000023/55a8bfe9301be3d8ff000395/files/15-09-2010_-_cm0d69.jpg?1450719465
+    subtitle: Notícia "Correio do Minho"
+    date: 15-09-2010
+class: media-pt
+media_active?: active
+formacao?: clipping
+--- 
+    
+{% include video-recorte.html %}
+  
