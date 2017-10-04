@@ -85,25 +85,22 @@ formacao?: videos
             <span>Videos</span>
           </div>
           <ul>
+            {% for videos in site.data.media-videos.videos %}
             <li id="article94">
               <div class="article clearfix">
                 <a href="#article94youtube" data-fancybox-ignore="overlay" data-fancybox-width="425" data-fancybox-height="355">
                   <div class="head">
-                    <div class="title">
-                      <span>
-                        Happening EDIT VALUE
-                      </span>
-                    </div>
+                    <div class="title"><span>{{videos.titulo}}</span></div>
                   </div>
                   <div class="body">
                     <div class="img">
-                      <img alt="0" src="http://img.youtube.com/vi/begKcXBZhRY/0.jpg">
+                      <img alt="0" src="{{videos.image_path}}">
                     </div>
                   </div>
                   <div class="foot">
                     <div class="text">
-                      <span><div>2006</div>
-                        <div>Braga</div></span>
+                      <span><div>{{videos.ano}}</div>
+                        <div>{{videos.cidade}}</div></span>
                     </div>
                     <div class="data">
                       <span></span>
@@ -113,45 +110,13 @@ formacao?: videos
               </div>
               <div id="article94youtube" style="display: none">
                 <object height="355" width="425">
-                  <param name="movie" value="http://www.youtube-nocookie.com/v/begKcXBZhRY">
+                  <param name="movie" value="{{videos.link}}">
                   <param name="wmode" value="transparent">
-                  <embed height="355" src="http://www.youtube-nocookie.com/v/begKcXBZhRY" type="application/x-shockwave-flash" width="425" wmode="transparent"></embed>
+                  <embed height="355" src="{{videos.link}}" type="application/x-shockwave-flash" width="425" wmode="transparent"></embed>
                 </object>
               </div>
             </li>
-            <li id="article78">
-              <div class="article clearfix">
-                <a href="#article78youtube" data-fancybox-ignore="overlay" data-fancybox-width="425" data-fancybox-height="355">
-                  <div class="head">
-                    <div class="title">
-                      <span>
-                        EDIT VALUE na SIC
-                      </span>
-                    </div>
-                  </div>
-                  <div class="body">
-                    <div class="img">
-                      <img alt="0" src="http://img.youtube.com/vi/begKcXBZhRY/0.jpg">
-                    </div>
-                  </div>
-                  <div class="foot">
-                    <div class="text">
-                      <span><div>2006</div></span>
-                    </div>
-                    <div class="data">
-                      <span></span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div id="article78youtube" style="display: none">
-                <object height="355" width="425">
-                  <param name="movie" value="http://www.youtube-nocookie.com/v/gwbHQVYhuj0">
-                  <param name="wmode" value="transparent">
-                  <embed height="355" src="http://www.youtube-nocookie.com/v/gwbHQVYhuj0" type="application/x-shockwave-flash" width="425" wmode="transparent"></embed>
-                </object>
-              </div>
-            </li>
+            {% endfor %}
           </ul>
         </div>
       </div>

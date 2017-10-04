@@ -18,7 +18,7 @@ investigacao_active?: active
                 <div class="content" id="content_699_container">
                   <div class="text ev-texto-investigacao">
                     <div class="i">
-                      {% for investigacao in site.data.investigacao.textos%}
+                      {% for investigacao in site.data.investigacao.pt.textos%}
                         <h1 style="text-align:justify">{{investigacao.titulo}}</h1>
                         <div style="text-align: justify;">
                           <p>{{investigacao.paragrafo1}}</p>
@@ -51,7 +51,7 @@ investigacao_active?: active
                     <div class="contents">
 
                       <div id="journal12">
-                        {% for investigacao in site.data.investigacao.publicacoes %}
+                        {% for investigacao in site.data.investigacao.pt.publicacoes %}
                           <h3><a href="#">{{investigacao.assunto}}</a></h3>
                           <div>
                             <p>{{investigacao.paragrafo1}}</p>

@@ -1,0 +1,15 @@
+videos:
+  -
+    titulo: Happening EDIT VALUE
+    category: videos
+    link: http://www.youtube-nocookie.com/v/begKcXBZhRY
+    image_path: http://img.youtube.com/vi/begKcXBZhRY/0.jpg
+    ano: 2006
+    cidade: Braga
+  -
+    titulo: EDIT VALUE na SIC
+    category: videos
+    link: http://www.youtube-nocookie.com/v/gwbHQVYhuj0
+    image_path: http://img.youtube.com/vi/begKcXBZhRY/0.jpg
+    ano: 2006
+    cidade:

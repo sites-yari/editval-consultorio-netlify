@@ -1,5 +1,5 @@
 ---
-title:  Instituto de Apoio às Pequenas e Médias Empresas e ao Investimento Spin-off
+title:  Instituto de Apoio às Pequenas e Médias Empresas e ao Investimento
 category: Parcerias
 imagem_image_path: images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQzNzEyMjI2MCJdLFsicCIsInRodW1iIiwiOTZ4OTYjIl1/iapmei0980.gif?sha=6d3a2e5b2e18994d
 link: http://www.iapmei.pt/

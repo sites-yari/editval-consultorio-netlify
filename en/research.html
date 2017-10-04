@@ -11,39 +11,24 @@ research_active?: active
       <div class="content" id="content_15719_container">
         <div class="text ev-texto-investigacao">
           <div class="i">
-            <h1>O Núcleo Científico</h1>
-
+            {% for investigacao in site.data.investigacao.en.textos%}
+            <h1 style="text-align:justify">{{investigacao.titulo}}</h1>
             <div style="text-align: justify;">
-              <p>A EDIT VALUE<sup>®</sup> diferencia-se no mercado pela sua filosofia de vanguarda e inovação. Neste sentido, o Núcleo Científico da EDIT VALUE<sup>®</sup> apresenta-se como uma mais-valia para empresa, em especial para o desenvolvimento das atividades de Investigação &amp; Desenvolvimento.</p>
-              <p>O Núcleo Científico visa promover condições para a elaboração de trabalhos de carácter académico e científico, valorizar o conhecimento produzido e fomentar uma cultura científica no seio da empresa. A existência de um núcleo com estas competências confere potencialidades únicas à EDIT VALUE<sup>®</sup> e permite-lhe acrescentar valor em todas as suas áreas de intervenção, reforçando a sua base de conhecimento.</p>
-              <p>A composição do Núcleo Científico demonstra a importância atribuída à ligação que existe entre a EDIT VALUE<sup>®</sup> e a Universidade do Minho, sendo este o elo mais tangível. O Núcleo Científico é composto por dois professores doutorados e investigadores da Universidade do Minho e por um consultor com vasta experiência nas áreas da economia e da gestão:</p>
+              <p>{{investigacao.paragrafo1}}</p>
+              <p>{{investigacao.paragrafo2}}</p>
+              <p>{{investigacao.paragrafo3}}</p>
+              <p>{{investigacao.paragrafo4}}</p>
+              <p>{{investigacao.paragrafo5}}</p>
             </div>
-
             <div style="text-align: justify;">
-              <div style="text-align: justify;">. Prof. Doutor António Tavares (Professor Associado do Departamento de Relações Internacionais e Administração Pública da Escola de Economia e Gestão da Universidade do Minho);</div>
-              <div style="text-align: justify;">. Prof.ª Doutora Carolina Machado (Professora Associada do Departamento de Gestão da Escola de Economia e Gestão da Universidade do Minho); e,</div>
-              <div style="text-align: justify;">. Dr. Álvaro Cristóvam (Consultor Formador).</div>
+              <div>{{investigacao.texto_alinhado1}}</div>
+              <div>{{investigacao.texto_alinhado2}}</div>
+              <div>{{investigacao.texto_alinhado3}}</div>
+              <div>{{investigacao.texto_alinhado4}}</div>
+              <div>{{investigacao.texto_alinhado5}}</div>
             </div>
-
             <p> </p>
-
-            <h1 style="text-align:justify">Departamento de IDI</h1>
-
-            <div style="text-align: justify;">
-              <p>O Departamento de IDI da EDIT VALUE<sup>®</sup> pretende impulsionar a inovação e a melhoria contínua de processos e produtos.</p>
-              <p>O Departamento de IDI da EDIT VALUE<sup>® </sup>é composto por pós-graduados e mestres em diversas áreas do conhecimento, formados na Universidade do Minho e em outras universidades de âmbito e relevo nacional. Tem como principais responsabilidades promover a geração de ideias dentro da organização e impulsionar a execução de projetos que permitam o desenvolvimento de competências para a inovação.</p>
-              <p>A Comissão Europeia define que a inovação, na sua aceção mais ampla, é sinónimo de novas ideias portadoras de valor acrescentado: “inovar é a capacidade de realizar o futuro a que aspiramos”. A EDIT VALUE<sup>®</sup> acredita e reconhece os elevados contributos do Departamento de IDI para o bom desenvolvimento da sua atividade e preocupa-se com a dinâmica de inovação ao longo de toda a sua cadeia de valor.</p>
-            </div>
-
-            <div style="text-align: justify;"> 
-              <h1>Projetos Internacionais de I&amp;D</h1>
-              <p>. ENTRExplorer | Serious Game for Immersive Entrepreneurs: <a href="http://www.entrexplorer.com/">www.entrexplorer.com</a> (concluído);</p>
-            </div>
-
-            <p>. YEU | Young Enterprise and Unemployment: <a href="http://www.y-e-u.eu/">www.y-e-u.eu</a> (concluído); e,</p>
-            <p>. dualTRAIN | Building a Sustainable Approach to the Dual Vocational Training System in Portugal, Spain and Germany: <a href="http://www.dualtrain.eu/">www.dualtrain.eu</a> (concluído).</p>
-            <p>. Learn2Work | Adapt Production Schools Model to Attract Learners Into Footwear Careers: <a href="http://www.learn2work.eu/">www.learn2work.eu</a> (em curso); e,</p>
-            <p>. CVTube | (em curso).</p>
+            {% endfor %}
           </div>
         </div>
 
@@ -57,124 +42,14 @@ research_active?: active
           </div>
           <div class="contents">
             <div id="journal12">
-              
-              <h3>
-                <a href="#">Internacionalização do Quadrilátero e Projeção de Estratégias Futuras de Promoção do Território (2013)</a>
-              </h3>
+              {% for investigacao in site.data.investigacao.en.publicacoes %}
+              <h3><a href="#">{{investigacao.assunto}}</a></h3>
               <div>
-                <p>Associação Industrial do Minho, CITEVE e EDIT VALUE (Nuno Pinto Bastos - coord., Bruna Dias, Cristiano Guimarães, Carlos Pereira, Lara Leite, Diana Carvalho, J. Cadima Ribeiro - consultor externo, Francisco Carballo-Cruz - consultor externo e Álvaro Cristóvam - consultor externo) - Estudo Estratégico N.º 1</p>
-                <p>O estudo estratégico desenvolvido para o "Quadrilátero Urbano" teve dois objetivos principais: identificar e avaliar os projetos de internacionalização bem-sucedidos das empresas localizadas no território; e, estabelecer um conjunto de estratégias e ações futuras de promoção territorial com vista à sua internacionalização e à atração de Investimento Direto Estrangeiro.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6a2301be387e5000158/files/internacionalizacao-do-quadrilatero-e-projecao-de-estrategias-futuras-de-p?1450602674" target="_blank">Download</a></p>
+                <p>{{investigacao.paragrafo1}}</p>
+                <p>{{investigacao.paragrafo2}}</p>
+                <p><a href="{{investigacao.link}}" target="_blank">Download</a></p>
               </div>
-              
-              <h3>
-                <a href="#">Atitudes e Perceção dos Impostos - O Caso Português (2013)</a>
-              </h3>
-              <div>
-                <p>Paula Ferreira (EDIT VALUE) - Dissertação N.º 3</p>
-                <p>Pretendendo compreender as atitudes e perceções dos doze impostos existentes em Portugal, no ano de 2013, este trabalho resulta da investigação efetuada no âmbito do curso de mestrado em Finanças e Fiscalidade da Faculdade de Economia da Universidade do Porto.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6a4301be35a26000159/files/atitudes-e-percecao-dos-impostos-o-caso-portuguesa966.pdf?1437122210" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">ENTRExplorer: a Serious Game for Immersive Entrepreneurs (2012)</a>
-              </h3>
-              <div>
-                <p>Nuno Pinto Bastos (EDIT VALUE), Beatriz Morán (Universidade de Vigo) &amp; Iván Costas (Universidade de Vigo) - Poster N.º 1</p>
-                <p>The main goal of this poster is to introduce a game-based learning, also known as “serious games”, games that engage the learner and contribute to the achievement of predefined objectives.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6a4301be3485400015a/files/entrexplorer_a_serious_game_for_immersive_entrepreneurs3773.pdf?1437122211" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">Uma Análise de Eficiência do Sector Bancário Português (2011)</a>
-              </h3>
-              <div>
-                <p>Bruna Dias (Universidade do Minho/EDIT VALUE) - Dissertação N.º 2</p>
-                <p>Pretendendo avaliar o nível de eficiência técnica dos bancos portugueses entre 1994 e 2010, este trabalho resulta da investigação efectuada no âmbito do curso de mestrado em Economia Monetária, Bancária e Financeira da Escola de Economia e Gestão da Universidade do Minho.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6a6301be3020f00015b/files/Uma_An_lise_de_Efici_ncia_do_Sector_Banc_rio_Portugu_s6d82.pdf?1437122213" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">Estudo de Caso: O Quadrilátero Urbano do Baixo Minho para a Competitividade e a Inovação (2011)</a>
-              </h3>
-              <div>
-                <p>Nuno Pinto Bastos (EDIT VALUE) e J. Cadima Ribeiro (Universidade do Minho) - Livro N.º 1</p>
-                <p>Estudo de caso publicado no livro “Casos de Desenvolvimento Regional” editado pela Principia Editores (com o apoio da APDR e do Observatório do QREN).</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6a7301be3020f00015c/files/Casos_de_Desenvolvimento_Regional5c4b.pdf?1437122214" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">O Quadrilátero Urbano enquanto Região Metropolitana Policêntrica (2010)</a>
-              </h3>
-              <div>
-                <p>Nuno Pinto Bastos (EDIT VALUE) e J. Cadima Ribeiro (Universidade do Minho) - Paper N.º 2</p>
-                <p>Acta de Conferência relativa ao 16.º Congresso da APDR - Associação Portuguesa para o Desenvolvimento Regional, subordinado ao tema "Regiões de Charneira, Canais de Fronteira e Nós", realizado na Universidade da Madeira (Funchal) entre os dias 5 e 10 de Julho de 2010.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6a7301be3020f00015d/files/O_Quadril_tero_Urbano_enquanto_Regi_o_Metropolitana_Polic_ntrica.395c4b.de?1437122214" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">Estratégia e competitividade territorial: Estudo de uma rede urbana no Baixo Minho (2009)</a>
-              </h3>
-              <div>
-                <p>Nuno Pinto Bastos (EDIT VALUE) - Dissertação N.º 1</p>
-                <p>Considerando a rede "Quadrilátero Urbano para a Competitividade, a Inovação e a Internacionalização", este trabalho resulta da investigação efectuada no âmbito do curso de mestrado em Marketing e Gestão Estratégica da Escola de Economia e Gestão da Universidade do Minho.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6aa301be3989300015e/files/Disserta__o_Quadril_tero_Urbano96a4.pdf?1437122217" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">Análise do Sector da Construção Civil (2008)</a>
-              </h3>
-              <div>
-                <p>Sandra Laranjeira Martins (Universidade do Minho/EDIT VALUE) - Estudo N.º 5</p>
-                <p>Este trabalho pretende contribuir para a compreensão do passado do sector da Construção Civil e Obras Públicas, apontando algumas perspectivas para o futuro. Estamos perante uma análise global através da qual se pretende fornecer uma visão actualizada do sector quanto à sua estrutura, desempenho e novas tendências.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6ac301be34c1e00015f/files/Estudo_CCOP192e.pdf?1437122218" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">Empreendedorismo e Novas Tendências (2007)</a>
-              </h3>
-              <div>
-                <p>Andreia Leite &amp; Filipe Oliveira (Universidade do Minho/EDIT VALUE) - Estudo N.º 4</p>
-                <p>Este trabalho pretende elucidar potenciais promotores de negócios, fomentar a abordagem da temática na sociedade civil e sensibilizar para a actualidade premente do Empreendedorismo em Portugal. O estudo realça a importância da atitude empreendedora, apresentando vários factores a considerar na criação do próprio negócio. Inclui ainda um estudo de vários casos reais, onde foram analisadas empresas diferentes, em dimensão, maturidade ou ramo de negócio.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6ae301be36dac000160/files/empreendedorismo-e-novas-tendencias-2007b5f4.pdf?1437122220" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">Contributos do Investimento em Educação para a Variação do Produto Interno Bruto (2006)</a>
-              </h3>
-              <div>
-                <p>António Fernandes (EDIT VALUE) - Paper N.º 1</p>
-                <p>Este trabalho teve como objectivo analisar o contributo dos investimentos em Educação para a variação do Produto Interno Bruto, através de uma comparação do investimento público em Educação entre três países da União Europeia: Portugal, França e Finlândia (no período 1988–1997).</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6ae301be3fafc000161/files/contributos-dos-investimentos-em-educacaofaa2.pdf?1437122221" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">Feiras Temáticas (2006)</a>
-              </h3>
-              <div>
-                <p>Joana Pereira de Almeida &amp; Joana Machado Correia Oliveira (Universidade do Minho/EDITVALUE) - Estudo N.º 3</p>
-                <p>As Feiras Temáticas são uma das ferramentas de marketing mais utilizadas para a promoção de produtos/serviços, para a ampliação da carteira de clientes e para uma exposição directa para compradores e fornecedores. Este estudo realça a importância das Feiras no desenvolvimento económico do país, nomeadamente no apoio à internacionalização das empresas nacionais, captação de investimento estrangeiro e ganhos directos e indirectos para o desenvolvimento das regiões.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6af301be37bae000162/files/feiras-tematicas0fff.pdf?1437122222" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">Análise da Indústria Têxtil e do Vestuário (2006)</a>
-              </h3>
-              <div>
-                <p>Eva Maria Araújo de Vasconcelos (Universidade do Minho/EDIT VALUE) - Estudo N.º 2</p>
-                <p>Este trabalho pretende prestar um contributo na compreensão da trajectória recente do comportamento do sector da Indústria Têxtil e do Vestuário e traçar algumas perspectivas para o futuro. Em causa, está uma análise global através da qual se pretende fornecer uma visão actualizada da ITV quanto à sua estrutura, desempenho passado e tendências futuras, explorando as especificidades que a distinguem dos demais sectores de actividade.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6b0301be358fe000163/files/analise-da-industria-textil-do-vestuario33bb.pdf?1437122223" target="_blank">Download</a></p>
-              </div>
-              
-              <h3>
-                <a href="#">As Empresas no Sistema Administrativo (2006)</a>
-              </h3>
-              <div>
-                <p>Isabel Cristina Santos Cachada &amp; Patrícia Azevedo (Universidade do Minho/EDIT VALUE) - Estudo N.º 1</p>
-                <p>Este estudo debruça-se sobre os Programas "Empresa na Hora" e "Marca na Hora" e nas medidas que dizem directamente respeito à desburocratização e agilização de processos no sector empresarial. Trata-se de um contributo para facilitar a avaliação do impacto destas acções governamentais no quotidiano das empresas portuguesas, onde se estabelece um paralelo entre o sistema tradicional e os novos métodos que agora vigoram.</p>
-                <p><a href="../assets/sites/55a8a0b6301be3e68f000002/content_entry55a8a2ce301be34700000057/55a8b6b1301be358fe000164/files/as-empresas-no-sistema-administrativo1dee.pdf?1437122224" target="_blank">Download</a></p>
-              </div>
-              
+              {% endfor %}
             </div>
             <script>
               $(document).ready(function () { $("#journal12").accordion({collapsible: true, heightStyle: "content"}); });
