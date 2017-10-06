@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post
 title: Recortes 2010
 category: clipping
 main_image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/noticias-de-guimaraes-31-12-20101312.jpg?sha=41eda0ba3ad2c5c9
@@ -37,6 +37,7 @@ image_list:
 class: media-pt
 media_active?: active
 formacao?: clipping
+permalink: pt-media/clipping/recortes-2010
 --- 
     
 {% include video-recorte.html %}

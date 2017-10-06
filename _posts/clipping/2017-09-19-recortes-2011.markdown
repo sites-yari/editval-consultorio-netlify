@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post
 title: Recortes 2011
 category: clipping
 main_image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/noticia-newsletter-vida-economica-07-09-2011407b.jpg?sha=dcf1715c6c494ff5
@@ -52,6 +52,7 @@ image_list:
 class: media-pt
 media_active?: active
 formacao?: clipping
+permalink: pt-media/clipping/recortes-2011
 --- 
     
 {% include video-recorte.html %}

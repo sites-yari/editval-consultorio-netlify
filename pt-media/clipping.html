@@ -84,7 +84,7 @@ formacao?: clipping
           <h1><span class=value>Clipping</span><span class=i18n></span></h1>
           {% assign clip = site.posts | where: "category" , "clipping" %}
           
-          {% for post in  %}
+          {% for post in clip %}
           <div class='album'>
             <a href='{{post.url}}'>
               <div class='thumb'><img class="image" src='{{post.main_image_path}}' /></div>

@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post
 title: Recortes 2009
 category: clipping
 main_image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/cm_17_07_2009d244.jpg?sha=c73be21611f18832
@@ -62,6 +62,7 @@ image_list:
 class: media-pt
 media_active?: active
 formacao?: clipping
+permalink: pt-media/clipping/recortes-2009
 --- 
     
 {% include video-recorte.html %}

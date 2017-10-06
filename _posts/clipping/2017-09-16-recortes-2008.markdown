@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post
 title: Recortes 2008
 category: clipping
 main_image_path: ../../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/10_04_2008_dm5686.jpg?sha=e2ddcd49a162a877
@@ -37,6 +37,7 @@ image_list:
 class: media-pt
 media_active?: active
 formacao?: clipping
+permalink: pt-media/clipping/recortes-2008
 --- 
     
 {% include video-recorte.html %}
