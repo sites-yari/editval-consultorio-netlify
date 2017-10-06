@@ -82,111 +82,19 @@ formacao?: galeria-fotos
       <div class='content' id='content_15077_container'>
         <div class='gallery album clipping'>
           <h1><span class=value>Galeria de Fotos</span><span class=i18n></span></h1>
+
+          {% assign fotos = site.posts | where: "category" , "galeria-de-fotos" %}
+          
+          {% for post in fotos %}
           <div class='album'>
-            <a href='galeria-fotos/dia-mundial-da-crianca.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/sdc10182ebba.jpg?sha=0ac2f6699fc3a52f' /></div>
-              <div class='name'>Dia Mundial da Criança</div>
-              <div class='description'>Oficinas de S. José | Braga</div>
+            <a href='../../../../{{post.url}}'>
+              <div class='thumb'><img class="image" src='../../../../{{post.main_image_path}}' /></div>
+              <div class='name'>{{post.title}}</div>
+              <div class='description'>{{post.description}}</div>
             </a>
           </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/feira-do-empreendedor-2011.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/sdc1007567d6.jpg?sha=ebf62a29d9b809d8' /></div>
-              <div class='name'>Feira do Empreendedor 2011</div>
-              <div class='description'>Universidade do Minho | Braga</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/entrexplorer-kick-off-meeting-2010.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/p10403145b87.jpg?sha=dd6c05be6cf04003' /></div>
-              <div class='name'>ENTRExplorer Kick-off Meeting 2010</div>
-              <div class='description'>Avepark | Guimarães</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/feira-do-empreendedor-2010.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQzNzEyMjQwNyJdLFsicCIsInRodW1iIiwiMTYweDE2MCM/fee-aaum-2010-24880.jpg?sha=29fae577540cc3e1' /></div>
-              <div class='name'>Feira do Empreendedor 2010</div>
-              <div class='description'>Universidade do Minho | Braga</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/happening-guimaraes-2009.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/dsc02318aaaa.jpg?sha=ec860bc297c6099e' /></div>
-              <div class='name'>Happening Guimarães 2009</div>
-              <div class='description'>AvePark | Guimarães</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/14-dot-o-ecnb-iapmei-2008.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/dsc01695cd22.jpg?sha=dc4959f8743f5ffd' /></div>
-              <div class='name'>14.º ECNB IAPMEI 2008</div>
-              <div class='description'>Bom Jesus | Braga</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/feira-do-empreendedor-2008.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/dsc02199a6dc.jpg?sha=3742dcc1e4be0a1b' /></div>
-              <div class='name'>Feira do Empreendedor 2008</div>
-              <div class='description'>Edifício da Alfândega | Porto</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/apresentacao-qren-2007.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/pb270574f915.jpg?sha=fcf91b18550b767d' /></div>
-              <div class='name'>Apresentação QREN 2007</div>
-              <div class='description'>Auditório ARCUM | Braga</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/iii-feira-de-emprego-2007.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/p4170153299c.jpg?sha=5db2aab7da977583' /></div>
-              <div class='name'>III Feira de Emprego 2007</div>
-              <div class='description'>Universidade do Minho | Braga</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/tertulia-empreendedorismo-2007.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/p5300298ae66.jpg?sha=7bf7c92828bfe3ab' /></div>
-              <div class='name'>Tertúlia Empreendedorismo 2007</div>
-              <div class='description'>Velha-a-Branca | Braga</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/comissao-europeia-cedefop-2006.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/cimg0470206c.jpg?sha=8e62f2237735d320' /></div>
-              <div class='name'>Comissão Europeia CEDEFOP 2006</div>
-              <div class='description'>S. Victor | Braga</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/ii-feira-de-emprego-2006.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/imagem12089.jpg?sha=46a229ac3ccb110f' /></div>
-              <div class='name'>II Feira de Emprego 2006</div>
-              <div class='description'>Universidade do Minho | Braga</div>
-            </a>
-          </div>
-          
-          <div class='album'>
-            <a href='galeria-fotos/happening-braga-2006.html'>
-              <div class='thumb'><img class="image" src='../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/100_35242e95.jpg?sha=a71e7b0494e6432c' /></div>
-              <div class='name'>Happening Braga 2006</div>
-              <div class='description'>S. Victor | Braga</div>
-            </a>
-          </div>
-          
-          
+          {% endfor %}
+
         </div>
       </div>
     </li>
