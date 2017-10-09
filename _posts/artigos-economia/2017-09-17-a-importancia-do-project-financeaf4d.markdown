@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: A importância do "project finance"
 data: 20-10-2008
 autor: Manuel Fernandes
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

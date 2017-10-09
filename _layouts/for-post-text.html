@@ -10,7 +10,12 @@
                         {% include menu-media-in.html %}
                         <div class='clearfix' id='container3'>
                             <div class='contents'>
-                                {% include press-release-post.html %}
+                                {% if page.category == "press-release"%}
+                                    {% include press-release-post.html %}
+
+                                {% elsif page.category == "artigos" %}
+                                    {% include artigos-post.html %}
+                                {% endif %}
                             </div>
                         </div>
                     </div>

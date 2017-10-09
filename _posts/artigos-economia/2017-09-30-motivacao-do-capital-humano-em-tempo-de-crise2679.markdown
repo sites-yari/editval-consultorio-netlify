@@ -3,6 +3,7 @@ layout: media-post
 title: Motivação do capital humano em tempo de crise
 data: 03-02-2014
 autor: André Costa
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

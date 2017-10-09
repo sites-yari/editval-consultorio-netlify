@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: A importância da Internet para os negócios
 data: 12-04-2011
 autor: Ângela Guedes
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

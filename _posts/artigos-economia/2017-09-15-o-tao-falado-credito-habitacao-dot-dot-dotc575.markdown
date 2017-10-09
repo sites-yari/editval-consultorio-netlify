@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: O tão falado Crédito Habitação…
 data: 05-02-2008
 autor: andreia Leite
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

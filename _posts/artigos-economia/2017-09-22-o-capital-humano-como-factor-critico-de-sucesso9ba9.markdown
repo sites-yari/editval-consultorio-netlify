@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: O Capital Humano como factor crítico de sucesso
 data: 31-05-2011
 autor: André Costa
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

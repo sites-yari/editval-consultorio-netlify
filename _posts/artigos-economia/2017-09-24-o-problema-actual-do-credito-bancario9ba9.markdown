@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: O problema actual do crédito bancário
 data: 04-07-2011
 autor: Tânia Rodrigues
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

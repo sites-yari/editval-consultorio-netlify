@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: Benchmarking e Boas Práticas
 data: 20-02-2007
 autor: Nuno Pinto Bastos
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

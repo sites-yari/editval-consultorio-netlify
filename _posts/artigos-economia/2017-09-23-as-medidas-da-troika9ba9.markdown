@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: As medidas da "Troika
 data: 14-06-2011
 autor: Fábio Cruz
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

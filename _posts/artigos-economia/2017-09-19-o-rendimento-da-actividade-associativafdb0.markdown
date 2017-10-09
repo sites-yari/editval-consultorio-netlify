@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: O rendimento da actividade associativa
 data: 06-01-2009
 autor: Carla Silva
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

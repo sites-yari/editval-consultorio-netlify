@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: Inovação e competitividade
 data: 16-07-2007
 autor: Manuel Fernandes
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

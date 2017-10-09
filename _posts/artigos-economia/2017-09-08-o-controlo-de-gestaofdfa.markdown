@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: O Controlo de Gestão
 data: 16-04-2007
 autor: Manuel Fernandes
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

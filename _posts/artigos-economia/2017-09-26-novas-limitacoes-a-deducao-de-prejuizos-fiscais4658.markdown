@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: Novas limitações à dedução de prejuízos fiscais
 data: 22-12-2012
 autor: Tânia Rodrigues
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: Oportunidade do QREN 2007-2013 para as Freguesias
 data: 25-06-2007
 autor: André Costa
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

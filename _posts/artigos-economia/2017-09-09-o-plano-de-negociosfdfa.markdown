@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: O Plano de Negócios
 data: 28-05-2007
 autor: Nuno Pinto Bastos
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

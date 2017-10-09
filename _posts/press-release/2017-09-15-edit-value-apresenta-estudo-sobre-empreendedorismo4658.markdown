@@ -2,6 +2,7 @@
 layout: for-post-text
 title: EDIT VALUE apresenta estudo sobre “Empreendedorismo”
 data: 17-04-2007
+category: press-release
 class: media-pt
 media_active?: active
 formacao?: press-release

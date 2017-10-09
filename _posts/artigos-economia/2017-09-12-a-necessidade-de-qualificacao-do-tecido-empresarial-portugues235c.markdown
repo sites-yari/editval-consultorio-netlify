@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: A necessidade de qualificação do tecido empresarial português
 data: 01-10-2007
 autor: Andreia Leite
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

@@ -2,6 +2,7 @@
 layout: for-post-text
 title: “Empreendedorismo Qualificado” em tertúlia na Velha-a-Branca
 data: 24-05-2007
+category: press-release
 class: media-pt
 media_active?: active
 formacao?: press-release

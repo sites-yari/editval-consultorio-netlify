@@ -2,6 +2,7 @@
 layout: for-post-text
 title: Encontro Nacional de Consultores de Benchmarking do IAPMEI pela 1.ª vez em Braga.
 data: 07-04-2008
+category: press-release
 class: media-pt
 media_active?: active
 formacao?: press-release

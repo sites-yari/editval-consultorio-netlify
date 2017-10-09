@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: Os cortes no seu Subsídio de Natal!
 data: 13-09-2011
 autor: Paula Fereira
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

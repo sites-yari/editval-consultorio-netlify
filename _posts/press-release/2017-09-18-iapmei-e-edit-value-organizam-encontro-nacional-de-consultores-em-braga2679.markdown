@@ -2,6 +2,7 @@
 layout: for-post-text
 title: EDIT VALUE Consultoria Empresarial- IAPMEI e EDIT VALUE organizam Encontro Nacional de Consultores em Braga
 data: 10-03-2008
+category: press-release
 class: media-pt
 media_active?: active
 formacao?: press-release

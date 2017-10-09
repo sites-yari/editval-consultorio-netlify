@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: Reforma da Tributação do Património
 data: 16-01-2007
 autor: Manuel Fernandes
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

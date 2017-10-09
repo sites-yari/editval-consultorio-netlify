@@ -2,6 +2,7 @@
 layout: for-post-text
 title: EDIT VALUE lança Campanha “Empreendedorismo XXI”
 data: 15-04-2007
+category: press-release
 class: media-pt
 media_active?: active
 formacao?: press-release

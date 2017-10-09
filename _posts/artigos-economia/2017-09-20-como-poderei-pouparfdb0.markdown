@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: Como poderei poupar?
 data: 15-03-2011
 autor: Andreia Leite
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

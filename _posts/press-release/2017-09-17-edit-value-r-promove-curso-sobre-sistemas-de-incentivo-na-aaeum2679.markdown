@@ -2,6 +2,7 @@
 layout: for-post-text
 title: EDIT VALUE promove curso sobre “Sistemas de Incentivo” na AAEUM
 data: 13-11-2007
+category: press-release
 class: media-pt
 media_active?: active
 formacao?: press-release

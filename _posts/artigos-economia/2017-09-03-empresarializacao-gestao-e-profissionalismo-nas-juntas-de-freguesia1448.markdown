@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: “Empresarialização”- Gestão e Profissionalismo nas Juntas de Freguesia
 data: 02-01-2007
 autor: André Costa
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

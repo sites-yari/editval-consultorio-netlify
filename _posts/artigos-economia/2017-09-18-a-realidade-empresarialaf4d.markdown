@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: A realidade empresarial
 data: 09-12-2008
 autor: Cristiano Guimarães
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

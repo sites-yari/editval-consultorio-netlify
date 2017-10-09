@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: QREN- Incentivos Empresariais
 data: 06-11-2007
 autor: Nuno Pinto Bastos
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: A Comunicação Empresarial
 data: 25-03-2008
 autor: Nuno Pinto Bastos
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

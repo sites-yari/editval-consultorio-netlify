@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: Formação e Competências nas Freguesias
 data: 13-03-2007
 autor: André Costa
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

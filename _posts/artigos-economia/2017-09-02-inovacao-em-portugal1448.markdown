@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: Inovação em Portugal
 data: 05-12-2006
 autor: António Fernandes
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia

@@ -1,8 +1,9 @@
 ---
-layout: media-post
+layout: for-post-text
 title: Invente-se um novo Portugal!
 data: 31-12-2012
 autor: Nuno Pinto Bastos
+category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia
