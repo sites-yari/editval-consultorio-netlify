@@ -19,11 +19,12 @@ Em Portugal, são diversas as instituições bancárias que detêm uma posição
 
 O project finance surge assim, como resposta a estas necessidades de financiamento e vem alterar radicalmente a metodologia de concessão de crédito em Portugal, sobretudo com a tendência que o Estado português vem demonstrando de recorrer a parcerias com o sector privado (parcerias público privadas), nomeadamente com a banca, para executar projectos de grande dimensão na área dos transportes, infra-estruturas, saúde, educação, ambiente e sistemas de telecomunicações.
 
-Os diversos players que participam na montagem de um project finance são:
-1) os empreendedores (sponsors), que têm a seu cargo a implementação do projecto e são muitas vezes os accionistas da sociedade empreendedora;
-2) os financiadores (leaders) que normalmente são os bancos e os demais agentes financiadores que fornecem a maior parte dos recursos financeiros necessários para a implementação do projecto;
-3) os construtores (constructors), operadores (operators), seguradoras (insurance companies), fornecedores (suppliers) e demais entidades cuja participação seja crucial ao sucesso do projecto;
-4) os advogados e consultores (financial advisors) que prestam os serviços de consultoria e assessoria legal e financeira necessária para a elaboração e execução dos contratos e projectos.
+Os diversos players que participam na montagem de um project finance são:<br>
+1) os empreendedores (sponsors), que têm a seu cargo a implementação do projecto e são muitas vezes os accionistas da sociedade empreendedora;<br>
+2) os financiadores (leaders) que normalmente são os bancos e os demais agentes financiadores que fornecem a maior parte dos recursos financeiros necessários para a implementação do projecto;<br>
+3) os construtores (constructors), operadores (operators), seguradoras (insurance companies), fornecedores (suppliers) e demais entidades cuja participação seja crucial ao sucesso do projecto;<br>
+4) os advogados e consultores (financial advisors) que prestam os serviços de consultoria e assessoria legal e financeira necessária para a elaboração e execução dos contratos e projectos.<br>
+
 Nem sempre estes players têm presente as notas fundamentais que distinguem o project finance das restantes formas de financiamento bancárias, ignorando os fundamentos da operação e causando alguns entraves no processo de negociação contratual. Importa referir que, os aspectos cruciais da implementação de um project finance são definidos nas negociações detalhadas e muito demoradas do complexo conjunto de instrumentos contratuais, facto que leva a que todos os intervenientes devam manter especial enfoque nas particularidades distintivas desta solução.
 
 É justo dizer que não é o project finance que faz com que um projecto “menos bom” no presente se torne num bom projecto no futuro. O que ele garante é uma série de vantagens de entre as quais convém destacar: uma maior “tranquilidade” para o empreendedor e para os próprios credores, pois não existe garantia mais líquida do que os cash-flows gerados pelo projecto como garantia do pagamento das prestações do financiamento; a não prestação de garantias reais e pessoais dos empreendedores; a transparência sobre os resultados do projecto em questão fruto dos inúmeros estudos, projecções e contratos exigidos; os balanços dos empreendedores ficam menos endividados e a possibilidade de avançar com projectos de investimento que, de outra forma, não poderiam realizar por falta de capitais próprios ou de capacidade de financiamento.

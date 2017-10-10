@@ -16,4 +16,4 @@ O estudo em causa pretende elucidar potenciais promotores de negócios, fomentar
 Agradecendo a dimensão pública que possam conceder ao evento, subscrevo-me com os melhores cumprimentos,
  
 Nuno Pinto Bastos<br>
-Administrador Edit Value
+Administrador Edit Value<br><br><br>

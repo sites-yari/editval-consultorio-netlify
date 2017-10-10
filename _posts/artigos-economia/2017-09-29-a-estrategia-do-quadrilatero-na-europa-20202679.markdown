@@ -17,15 +17,15 @@ O “Quadrilátero” deverá assentar a sua competitividade no princípio do pl
 
 “Europa 2020” identifica três vetores fundamentais dedicados ao crescimento e ao emprego na União Europeia: “Crescimento Inteligente”, para desenvolver uma economia baseada no conhecimento e na inovação; “Crescimento Sustentável”, para promover uma economia hipocarbónica, em termos de recursos e competitiva; e, “Crescimento Inclusivo”, para desenvolver uma economia com elevadas taxas de emprego que assegure a coesão social e territorial, o aumento das qualificações e a luta contra a pobreza. Os progressos para alcançar estes objetivos serão avaliados em função de cinco metas que deverão ser convertidas por cada um dos Estados-Membros em objetivos nacionais:
 
-- Aumentar a taxa de emprego da população com idade entre 20 e 64 anos do nível atual de 69% para, pelo menos, 75%;
+-- Aumentar a taxa de emprego da população com idade entre 20 e 64 anos do nível atual de 69% para, pelo menos, 75%;
 
-- Atingir o objetivo de investir 3% do PIB - Produto Interno Bruto em I&D - Investigação & Desenvolvimento, em especial melhorando as condições do investimento em I&D pelo setor privado, e desenvolver um novo indicador para acompanhar a inovação;
+-- Atingir o objetivo de investir 3% do PIB - Produto Interno Bruto em I&D - Investigação & Desenvolvimento, em especial melhorando as condições do investimento em I&D pelo setor privado, e desenvolver um novo indicador para acompanhar a inovação;
 
-- Reduzir as emissões de gases com efeito de estufa em, pelo menos, 20% relativamente aos níveis de 1990 ou em 30%, se as condições o permitirem, aumentar para 20% a parte das energias renováveis no nosso consumo final de energia e aumentar em 20% a eficiência energética;
+-- Reduzir as emissões de gases com efeito de estufa em, pelo menos, 20% relativamente aos níveis de 1990 ou em 30%, se as condições o permitirem, aumentar para 20% a parte das energias renováveis no nosso consumo final de energia e aumentar em 20% a eficiência energética;
 
-- Reduzir a percentagem de jovens que abandonam prematuramente a escola para 10%, relativamente aos atuais 15%, e aumentar a percentagem da população com idade entre 30 e 34 anos que completou estudos superiores de 31% para, pelo menos, 40%; e,
+-- Reduzir a percentagem de jovens que abandonam prematuramente a escola para 10%, relativamente aos atuais 15%, e aumentar a percentagem da população com idade entre 30 e 34 anos que completou estudos superiores de 31% para, pelo menos, 40%; e,
 
-- Reduzir em 25% o número de europeus que vivem abaixo dos limiares de pobreza nacionais, o que permitirá tirar da situação de pobreza 20 milhões de pessoas.
+-- Reduzir em 25% o número de europeus que vivem abaixo dos limiares de pobreza nacionais, o que permitirá tirar da situação de pobreza 20 milhões de pessoas.
 
 Este desafio coloca-se agora, não apenas aos Estados-Membros da União mas também às Regiões Europeias, no sentido de adaptarem as prioridades e os objetivos anunciados para a “Europa 2020” às suas estratégias e planos de ação, nacionais e regionais. O “Quadrilátero” tem aqui um papel importante a assumir, contribuindo para reposicionar o seu território (cujos contributos para o PIB são tão expressivos e significativos) numa ótica de desenvolvimento e de crescimento sustentado, com base numa economia que se quer do conhecimento, com valor acrescentado e com capacidade exportadora.
 

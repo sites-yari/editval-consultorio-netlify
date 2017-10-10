@@ -126,15 +126,15 @@ pagination:
           <div class="paginator">
             <div class="pagination">
               {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+                <a href="{{ paginator.previous_page_path }}" class="previous">P&aacute;gina anterior</a>
               {% else %}
-                <span class="previous">Previous</span>
+                <span class="previous_page disabled">P&aacute;gina anterior</span>
               {% endif %}
-              <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+              <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
               {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+                <a href="{{ paginator.next_page_path }}" class="next">Pr&oacute;xima p&aacute;gina</a>
               {% else %}
-                <span class="next ">Next</span>
+                <span class="next_page disabled">Pr&oacute;xima p&aacute;gina</span>
               {% endif %}
               <!--<span class="previous_page disabled">Página anterior</span>
               <em class="current">1</em>

@@ -27,7 +27,7 @@ Esta sobretaxa irá ser aplicada a todos os rendimentos em que seja obrigatório
 
 Essa taxa será de 3,5% (em termos percentuais) por cada sujeito passivo residente em território nacional que exceda o valor do SMN. Depois, ao valor da colecta da sobretaxa extraordinária, serão dedutíveis apenas:
 
-- 2,5% do valor do SMN por cada dependente ou afilhado civil que não seja sujeito passivo de IRS;
+-- 2,5% do valor do SMN por cada dependente ou afilhado civil que não seja sujeito passivo de IRS;
 
-- As importâncias retidas nos termos do artigo 99.º-A, que, quando superiores à sobretaxa devida, conferem direito ao reembolso da diferença.
+-- As importâncias retidas nos termos do artigo 99.º-A, que, quando superiores à sobretaxa devida, conferem direito ao reembolso da diferença.
 

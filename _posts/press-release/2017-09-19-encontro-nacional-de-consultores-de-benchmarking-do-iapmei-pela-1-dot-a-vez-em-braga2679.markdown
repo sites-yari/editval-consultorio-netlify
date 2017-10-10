@@ -16,7 +16,7 @@ A Rede de Consultores Nacionais de Benchmarking do IAPMEI (CNB’s) compõe-se a
  
 Ao nível do Benchmarking Internacional, Portugal é o país com mais exercícios de comparação efectuados (a seguir ao Reino Unido): apenas 12% da informação introduzida no sistema pertence a empresas localizadas fora do Reino Unido. Estes 12% correspondem a empresas oriundas de 9 países europeus e totalizam 2673 empresas. Destas, 30% são empresas portuguesas (só a Irlanda se aproxima de Portugal com 23% das empresas).
  
- 
+ <br>
 O sistema de comparações internacionais foi recentemente reformulado, tendo abandonado o processo de comparações modulares (Financeira, Gestão, Produção, etc) para adoptar uma abordagem "Balanced Scorecard", a qual possibilita uma avaliação nas perspectivas: Financeira; Cliente; Processo Interno; e, Aprendizagem e Desenvolvimento. Esta comparação internacional do desempenho das empresas pode ser feita com empresas da: Alemanha; Áustria; Bélgica; Eslovénia; Espanha; Finlândia; França; Grécia; Holanda; Irlanda; Itália; Lituânia, Polónia; Reino Unido; República Checa e Suécia.
  
 O 14.º Encontro Nacional pretende reunir numa sessão de trabalho cerca de uma centena de Consultores Nacionais de Benchmarking (CNB’s) de todo o país, pertencentes a uma rede acreditada pelo IAPMEI para a utilização da metodologia “BBP - Benchmarking e Boas Práticas” junto das empresas. Será ainda analisada a receptividade das empresas à avaliação de desempenho para a área de Inovação, assim como lançado um novo questionário de avaliação de práticas comparadas de “Responsabilidade Social”, o qual será acrescentado ao IBP - Índice de Benchmarking Português (plataforma/base de dados). Dada a importância da Ética nos dias de hoje, os trabalhos também vão incluir a revisão/construção de um “Código de Ética na Rede de CNB’s”.
@@ -25,9 +25,10 @@ Durante o encontro será feito um ponto de situação sobre o “Programa Fincre
  
 Aproveitamos desde já para convidar V.as Ex.cias para uma Conferência de Imprensa, onde se destaca a presença do Eng. Braz Costa - Vogal do Conselho de Administração do IAPMEI. A conversa com os jornalistas terá lugar no Hotel do Lago (Bom Jesus – Braga), no dia 9 de Abril às 11h30. O programa definitivo do 14.º Encontro segue em anexo.
  
-Agradecendo a dimensão pública que possam conceder ao evento, subscrevo-me com os melhores cumprimentos,
+Agradecendo a dimensão pública que possam conceder ao evento, subscrevo-me com os melhores cumprimentos,<br><br>
  
  
-Nuno Pinto Bastos
-Administrador EDIT VALUE®
-(Contacto: 918880033/967363747)
+Nuno Pinto Bastos<br>
+Administrador EDIT VALUE®<br>
+
+(Contacto: 918880033/967363747)<br><br><br>
