@@ -4,6 +4,9 @@ title: Press Release
 class: media-pt
 media_active?: active
 formacao?: press-release
+pagination:
+  enabled: true
+  category: press-release
 ---
 
 <body class='older_browser ev media'>            
@@ -18,7 +21,7 @@ formacao?: press-release
           </h1>
           <ul>
             <li class='media '>
-              <a href='rumo-economico.html'>
+              <a href='../../../pt-media/rumo-economico.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Notícias Rumo Económico
@@ -26,7 +29,7 @@ formacao?: press-release
               </a>
             </li>
             <li class='artigos-economia  '>
-              <a href='artigos-economia.html'>
+              <a href='../../../pt-media/artigos/index.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Artigos Suplemento de Economia
@@ -34,7 +37,7 @@ formacao?: press-release
               </a>
             </li>
             <li class='videos '>
-              <a href='videos.html'>
+              <a href='../../../pt-media/videos.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Vídeos
@@ -42,7 +45,7 @@ formacao?: press-release
               </a>
             </li>
             <li class='clipping  '>
-              <a href='clipping.html'>
+              <a href='../../../pt-media/clipping.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Clipping
@@ -50,7 +53,7 @@ formacao?: press-release
               </a>
             </li>
             <li class='press-release active '>
-              <a href='press-release.html'>
+              <a href='../../../pt-media/press-release/index.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Press Release
@@ -58,7 +61,7 @@ formacao?: press-release
               </a>
             </li>
             <li class='logo-marca '>
-              <a href='logo-marca.html'>
+              <a href='../../../pt-media/logo-marca.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Logo Marca
@@ -66,7 +69,7 @@ formacao?: press-release
               </a>
             </li>
             <li class='galeria-fotos -last  '>
-              <a href='galeria-fotos.html'>
+              <a href='../../../pt-media/galeria-fotos.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Galeria de Fotos
@@ -84,22 +87,24 @@ formacao?: press-release
           <h1>
             <span>Press Release</span>
             <div class="feed">
-              <a href="../feed/press-release">
+              <a href="../../../feed/press-release">
                 <div class="icon"></div>
                 <div class="label">feed</div>
               </a>
             </div>
           </h1>
 
+
+          {% for post in paginator.posts %}   
           <ul>
             <li class="article-0">
               <div class="article ">
                 <div class="head">
                   <div class="title">
-                    <span>Encontro Nacional de Consultores de Benchmarking do IAPMEI pela 1.ª vez em Braga.</span>
+                    <span>{{post.title}}</span>
                   </div>
                   <div class="data">
-                    <span>07-04-2008</span>
+                    <span>{{post.data}}</span>
                   </div>
                   <div class="author">
                     <span></span>
@@ -107,55 +112,7 @@ formacao?: press-release
                 </div>
                 <div class="foot">
                   <div class="more">
-                    <a href="press-release/encontro-nacional-de-consultores-de-benchmarking-do-iapmei-pela-1-dot-a-vez-em-braga2679.html?page=1">
-                      <div class="icon"></div>
-                      <div class="label">ler mais</div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            
-            <li class="article-0">
-              <div class="article ">
-                <div class="head">
-                  <div class="title">
-                    <span>IAPMEI e EDIT VALUE organizam Encontro Nacional de Consultores em Braga</span>
-                  </div>
-                  <div class="data">
-                    <span>10-03-2008</span>
-                  </div>
-                  <div class="author">
-                    <span></span>
-                  </div>
-                </div>
-                <div class="foot">
-                  <div class="more">
-                    <a href="press-release/iapmei-e-edit-value-organizam-encontro-nacional-de-consultores-em-braga2679.html?page=1">
-                      <div class="icon"></div>
-                      <div class="label">ler mais</div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            
-            <li class="article-0">
-              <div class="article ">
-                <div class="head">
-                  <div class="title">
-                    <span>EDIT VALUE® promove curso sobre “Sistemas de Incentivo” na AAEUM</span>
-                  </div>
-                  <div class="data">
-                    <span>13-11-2007</span>
-                  </div>
-                  <div class="author">
-                    <span></span>
-                  </div>
-                </div>
-                <div class="foot">
-                  <div class="more">
-                    <a href="press-release/edit-value-r-promove-curso-sobre-sistemas-de-incentivo-na-aaeum2679.html?page=1">
+                    <a href="{{post.url}}">
                       <div class="icon"></div>
                       <div class="label">ler mais</div>
                     </a>
@@ -164,16 +121,28 @@ formacao?: press-release
               </div>
             </li>
           </ul>
-
+          {% endfor %}
           
           <div class="paginator">
             <div class="pagination">
-              <span class="previous_page disabled">Página anterior</span>
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+              {% else %}
+                <span class="previous">Previous</span>
+              {% endif %}
+              <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+              {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+              {% else %}
+                <span class="next ">Next</span>
+              {% endif %}
+              <!--<span class="previous_page disabled">Página anterior</span>
               <em class="current">1</em>
               <a href="press-release4658.html?page=2">2</a>
-              <a class="next_page" rel="next" href="press-release4658.html?page=2">Próxima página</a>
+              <a class="next_page" rel="next" href="press-release4658.html?page=2">Próxima página</a>-->
             </div>
           </div>
+
           
         </div>
       </div>

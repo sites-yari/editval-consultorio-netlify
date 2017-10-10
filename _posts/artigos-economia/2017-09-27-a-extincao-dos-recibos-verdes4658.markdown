@@ -1,5 +1,5 @@
 ---
-layout: for-post-post
+layout: for-post-text
 title: A “extinção” dos Recibos Verdes
 data: 28-12-2012
 autor: Fábio Cruz

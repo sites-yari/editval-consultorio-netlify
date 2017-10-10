@@ -16,20 +16,21 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: 
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
 
-paginate: 3
-paginate_path: "press-release/page:num/"
-tag_page: tag
 
-tag_feed_dir: tag
-tag_page_layout: tag_page
-tag_feed_layout: tag_feed
+gems:
+  - jekyll-paginate-v2
 
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "page:num/"
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  collection: 'posts'
+
+permalink: /:year/:month/:title.html
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -4,6 +4,9 @@ title: Artigos Economia
 class: media-pt
 media_active?: active
 formacao?: artigos-economia
+pagination:
+  enabled: true
+  category: artigos
 ---
  
 
@@ -19,7 +22,7 @@ formacao?: artigos-economia
           </h1>
           <ul>
             <li class='media '>
-              <a href='rumo-economico.html'>
+              <a href='../../../pt-media/rumo-economico.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Notícias Rumo Económico
@@ -27,7 +30,7 @@ formacao?: artigos-economia
               </a>
             </li>
             <li class='artigos-economia active '>
-              <a href='artigos-economia.html'>
+              <a href='../../../pt-media/artigos/index.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Artigos Suplemento de Economia
@@ -35,7 +38,7 @@ formacao?: artigos-economia
               </a>
             </li>
             <li class='videos '>
-              <a href='videos.html'>
+              <a href='../../../pt-media/videos.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Vídeos
@@ -43,7 +46,7 @@ formacao?: artigos-economia
               </a>
             </li>
             <li class='clipping  '>
-              <a href='clipping.html'>
+              <a href='../../../pt-media/clipping.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Clipping
@@ -51,7 +54,7 @@ formacao?: artigos-economia
               </a>
             </li>
             <li class='press-release  '>
-              <a href='press-release.html'>
+              <a href='../../../pt-media/press-release/index.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Press Release
@@ -59,7 +62,7 @@ formacao?: artigos-economia
               </a>
             </li>
             <li class='logo-marca '>
-              <a href='logo-marca.html'>
+              <a href='../../../pt-media/logo-marca.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Logo Marca
@@ -67,7 +70,7 @@ formacao?: artigos-economia
               </a>
             </li>
             <li class='galeria-fotos -last  '>
-              <a href='galeria-fotos.html'>
+              <a href='../../../pt-media/galeria-fotos.html'>
                 <span class='icon'></span>
                 <span class='label'>
                   Galeria de Fotos
@@ -85,81 +88,32 @@ formacao?: artigos-economia
           <h1>
             <span>Suplemento de Economia</span>
             <div class="feed">
-              <a href="../feed/artigos-economia">
+              <a href="../../../feed/artigos-economia">
                 <div class="icon"></div>
                 <div class="label">feed</div>
               </a>
             </div>
-          </h1>
+          </h1>          
 
-          
-          
+          <!--{% assign pages = paginator.posts | where: "category" , "artigos" %}--> 
+          {% for post in paginator.posts %}    
           <ul>
-            
             <li class="article-0">
               <div class="article ">
                 <div class="head">
                   <div class="title">
-                    <span>Motivação do capital humano em tempo de crise</span>
+                    <span>{{post.title}}</span>
                   </div>
                   <div class="data">
-                    <span>03-02-2014</span>
+                    <span>{{post.data}}</span>
                   </div>
                   <div class="author">
-                    <span>André Costa</span>
+                    <span>{{post.autor}}</span>
                   </div>
                 </div>
                 <div class="foot">
                   <div class="more">
-                    <a href="artigos-economia/motivacao-do-capital-humano-em-tempo-de-crise2679.html?page=1">
-                      <div class="icon"></div>
-                      <div class="label">ler mais</div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            
-            <li class="article-0">
-              <div class="article ">
-                <div class="head">
-                  <div class="title">
-                    <span>A estratégia do Quadrilátero na “Europa 2020”</span>
-                  </div>
-                  <div class="data">
-                    <span>05-02-2013</span>
-                  </div>
-                  <div class="author">
-                    <span>Nuno Pinto Bastos</span>
-                  </div>
-                </div>
-                <div class="foot">
-                  <div class="more">
-                    <a href="artigos-economia/a-estrategia-do-quadrilatero-na-europa-20202679.html?page=1">
-                      <div class="icon"></div>
-                      <div class="label">ler mais</div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            
-            <li class="article-0">
-              <div class="article ">
-                <div class="head">
-                  <div class="title">
-                    <span>Invente-se um novo Portugal!</span>
-                  </div>
-                  <div class="data">
-                    <span>31-12-2012</span>
-                  </div>
-                  <div class="author">
-                    <span>Nuno Pinto Bastos</span>
-                  </div>
-                </div>
-                <div class="foot">
-                  <div class="more">
-                    <a href="artigos-economia/invente-se-um-novo-portugal2679.html?page=1">
+                    <a href="{{post.url}}">
                       <div class="icon"></div>
                       <div class="label">ler mais</div>
                     </a>
@@ -168,17 +122,21 @@ formacao?: artigos-economia
               </div>
             </li>
           </ul>
+          {% endfor %}
 
           <div class="paginator">
             <div class="pagination">
-              <span class="previous_page disabled">Página anterior</span>
-              <em class="current">1</em>
-              <a href="artigos-economia4658.html?page=2">2</a>
-              <a href="artigos-economia9ba9.html?page=3">3</a>
-              <em class="current">&hellip;</em>
-              <a href="artigos-economia0b08.html?page=9">9</a>
-              <em class="current">&hellip;</em>
-              <a class="next_page" rel="next" href="artigos-economia4658.html?page=2">Próxima página</a>
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+              {% else %}
+                <span class="previous">Previous</span>
+              {% endif %}
+              <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+              {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+              {% else %}
+                <span class="next ">Next</span>
+              {% endif %}
             </div>
           </div>
           
