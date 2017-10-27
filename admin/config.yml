@@ -5,7 +5,7 @@ backend:
   name: git-gateway
   repo: https://lepen@bitbucket.org/lepen/editvalue-consultoria-netlify.git
   branch: dev # Branch to update (optional; defaults to master)
-  site_domain: https://author-goat-77256.netlify.com/
+  site_domain: author-goat-77256.netlify.com
 
 collections:
   - name: "posts"
@@ -15,3 +15,4 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Titulo", name: "title", widget: "string" }
+      - { labe: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
