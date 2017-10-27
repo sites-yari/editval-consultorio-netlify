@@ -8,4 +8,10 @@ backend:
   site_domain: https://author-goat-77256.netlify.com/
 
  collections:
-
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titulo", name: "title", widget: "string" }
