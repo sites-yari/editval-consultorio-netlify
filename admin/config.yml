@@ -2,7 +2,7 @@ publish_mode: editorial_workflow
 media_folder: "assets/uploads"
 
 backend:
-  name: git-gateway
+  name: bitbucket
   repo: https://lepen@bitbucket.org/lepen/editvalue-consultoria-netlify.git
   branch: dev # Branch to update (optional; defaults to master)
   site_domain: author-goat-77256.netlify.com
