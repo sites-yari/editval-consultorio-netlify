@@ -5,7 +5,7 @@ backend:
   name: git-gateway
   repo: https://bitbucket.org/lepen/editvalue-consultoria-netlify
   branch: dev # Branch to update (optional; defaults to master)
-  site_domain: author-goat-77256.netlify.com
+
 
 collections:
 #====================| POSTS |===================================================|  
