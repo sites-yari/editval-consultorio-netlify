@@ -3,9 +3,9 @@ media_folder: "assets/uploads"
 
 backend:
   name: git-gateway
-  repo: 
+  repo: https://lepen@bitbucket.org/lepen/editvalue-consultoria-netlify.git
   branch: dev # Branch to update (optional; defaults to master)
-  site_domain: 
+  site_domain: https://author-goat-77256.netlify.com/
 
 # collections:
 
