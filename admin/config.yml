@@ -8,6 +8,7 @@ backend:
   site_domain: author-goat-77256.netlify.com
 
 collections:
+#====================| POSTS |===================================================|  
   - name: "posts"
     label: "Posts"
     folder: "_posts"
@@ -16,3 +17,21 @@ collections:
     fields:
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
+
+  - name: "artigos-economia"
+    label: "Artigos de Economia"
+    folder: "_posts/artigos-economia"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "for-post-text" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+      - { label: "Autor", name: "autor", widget: "string" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "artigos" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
+      - { label: "Activo", name: "media_active?", widget: "hidden", default: "active" }
+      - { label: "Formação?", name: "formacao?", widget: "hidden", default: "artigos-economia" }
+      - { label: "Contexto", name: "body", widget: "markdown" }
+
+
