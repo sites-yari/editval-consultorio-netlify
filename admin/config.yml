@@ -9,8 +9,9 @@ backend:
 
 collections:
 #====================| POSTS |===================================================|  
+  #-----| Read me |------------------------------|
   - name: "posts"
-    label: "Posts"
+    label: "Instruções"
     folder: "_posts"
     create: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -18,6 +19,7 @@ collections:
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
 
+  #-----| Artigos |-------------------------------|
   - name: "artigos-economia"
     label: "Artigos de Economia"
     folder: "_posts/artigos-economia"
@@ -33,5 +35,43 @@ collections:
       - { label: "Activo", name: "media_active?", widget: "hidden", default: "active" }
       - { label: "Formação?", name: "formacao?", widget: "hidden", default: "artigos-economia" }
       - { label: "Contexto", name: "body", widget: "markdown" }
+
+  #-----| Clipping |------------------------------|
+  - name: "clipping"
+    label: "Clipping"
+    folder: "_posts/clipping"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "" }
+
+  #-----| Galeria de fotos |----------------------|
+  - name: "galeria-fotos"
+    label: "Galeria de fotos"
+    folder: "_posts/galeria-fotos"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "" }
+
+  #-----| Press release |-------------------------|
+  - name: "press-release"
+    label: "Press Release"
+    folder: "_posts/press-release"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "" }
+
+  #-----| Redes |---------------------------------|
+  - name: "redes"
+    label: "Redes"
+    folder: "_posts/redes"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "" }
+
+#====================| DATA |====================================================|  
 
 
