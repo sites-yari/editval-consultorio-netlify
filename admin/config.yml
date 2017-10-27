@@ -7,7 +7,7 @@ backend:
   branch: dev # Branch to update (optional; defaults to master)
   site_domain: https://author-goat-77256.netlify.com/
 
- collections:
+collections:
   - name: "posts"
     label: "Posts"
     folder: "_posts"
