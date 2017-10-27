@@ -15,4 +15,4 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Titulo", name: "title", widget: "string" }
-      - { labe: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
+      - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
