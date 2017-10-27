@@ -1,0 +1,11 @@
+publish_mode: editorial_workflow
+media_folder: "assets/uploads"
+
+backend:
+  name: git-gateway
+  repo: 
+  branch: dev # Branch to update (optional; defaults to master)
+  site_domain: 
+
+# collections:
+
