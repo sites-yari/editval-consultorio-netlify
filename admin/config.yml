@@ -3,10 +3,9 @@ media_folder: "assets/uploads"
 
 backend:
   name: git-gateway
-  repo: https://lepen@bitbucket.org/lepen/editvalue-consultoria-netlify.git
+  repo: https://github.com/sites-yari/editval-consultorio-netlify
   branch: dev # Branch to update (optional; defaults to master)
-  baseulr: https://author-goat-77256.netlify.com/
-  site_domain: https://author-goat-77256.netlify.com/
+  site_domain: editvalue-consultoria-18284.netlify.com
 
 collections:
 #====================| POSTS |===================================================|  
