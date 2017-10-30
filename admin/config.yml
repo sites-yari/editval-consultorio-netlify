@@ -57,7 +57,7 @@ collections:
         fields:
           - { label: "Imagem", name: "image_path", widget: "image" }
           - { label: "Endereço de Imagem", name: "link_image_path", widget: "image" }
-          - { label: "Titulo da Image", name: "subtitles", widget: "string" }
+          - { label: "Titulo da Image", name: "subtitle", widget: "string" }
           - { label: "Data publicada", name: "date", widget: "datetime", format: "DD-MM-YYYY" } 
 
   #-----| Galeria de fotos |----------------------|
