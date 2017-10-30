@@ -44,7 +44,22 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "for-post" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "clipping" }
+      - { label: "Imagem de Capa", name: "main_image_path", widget: "image" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
+      - { label: "Media Active?", name: "media_active?", widget: "hidden", default: "active" }
+      - { label: "Formação?", name: "formacao?", widget: "hidden", default: "clipping" }
+      - { label: "Nome do Endereço", name: "permalink", widget: "string", default: "pt-media/clipping/recortes-" }
+      - label: "Lista de Imagens"
+        name: "image_list"
+        widget: "list"
+        fields:
+          - { label: "Imagem", name: "image_path", widget: "image" }
+          - { label: "Endereço de Imagem", name: "link_image_path", widget: "image" }
+          - { label: "Titulo da Image", name: "subtitles", widget: "string" }
+          - { label: "Data publicada", name: "date", widget: "datetime", format: "DD-MM-YYYY" } 
 
   #-----| Galeria de fotos |----------------------|
   - name: "galeria-fotos"
@@ -54,7 +69,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "" }
-
+      - { label: "", name: "", widget: "" }
+      - { label: "", name: "", widget: "" }
+      - { label: "", name: "", widget: "" }
+      - { label: "", name: "", widget: "" }
   #-----| Press release |-------------------------|
   - name: "press-release"
     label: "Press Release"
@@ -63,7 +81,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "" }
-
+      - { label: "", name: "", widget: "" }
+      - { label: "", name: "", widget: "" }
+      - { label: "", name: "", widget: "" }
+      - { label: "", name: "", widget: "" }
   #-----| Redes |---------------------------------|
   - name: "redes"
     label: "Redes"
@@ -72,7 +93,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "" }
-
+      - { label: "", name: "", widget: "" }
+      - { label: "", name: "", widget: "" }
+      - { label: "", name: "", widget: "" }
+      - { label: "", name: "", widget: "" }
 #====================| DATA |====================================================|  
 
 
