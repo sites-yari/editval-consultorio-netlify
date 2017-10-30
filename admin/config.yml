@@ -5,7 +5,7 @@ backend:
   name: git-gateway
   repo: https://github.com/sites-yari/editval-consultorio-netlify
   branch: dev # Branch to update (optional; defaults to master)
-  site_domain: editvalue-consultoria-18284.netlify.com
+  site_domain: consultoria-editvalue.netlify.com
 
 collections:
 #====================| POSTS |===================================================|  
@@ -17,7 +17,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
+      - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
 
   #-----| Artigos |-------------------------------|
   - name: "artigos-economia"
@@ -67,11 +67,22 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "" }
-      - { label: "", name: "", widget: "" }
-      - { label: "", name: "", widget: "" }
-      - { label: "", name: "", widget: "" }
-      - { label: "", name: "", widget: "" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "media-post" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "galeria-de-fotos" }
+      - { label: "Imagem de capa", name: "main_image_path", widget: "image" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
+      - { label: "Media Active?", name: "media_active?", widget: "hidden", default: "active" }
+      - { label: "Formação?", name: "formacao?", widget: "hidden", default: "galeria-fotos" }
+      - { label: "Nome do Endereço", name: "permalink", widget: "string", default: "pt-media/galeria-fotos/(nome)" }
+      - label: "Lista de Imagens"
+        name: "image_list"
+        widget: "list"
+        fields:
+          - { label: "Imagem", name: "image_path", widget: "image" }
+          - { label: "Endereço de Imagem", name: "link_image_path", widget: "image" }
+
   #-----| Press release |-------------------------|
   - name: "press-release"
     label: "Press Release"
@@ -79,11 +90,15 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "" }
-      - { label: "", name: "", widget: "" }
-      - { label: "", name: "", widget: "" }
-      - { label: "", name: "", widget: "" }
-      - { label: "", name: "", widget: "" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "for-post-text" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "press-release" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
+      - { label: "Media Active?", name: "media_active?", widget: "hidden", default: "active" }
+      - { label: "Formação?", name: "formacao?", widget: "press-release" }
+      - { label: "Descrição do titulo", name: "body", widget: "markdown" }
+
   #-----| Redes |---------------------------------|
   - name: "redes"
     label: "Redes"
@@ -91,11 +106,11 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "" }
-      - { label: "", name: "", widget: "" }
-      - { label: "", name: "", widget: "" }
-      - { label: "", name: "", widget: "" }
-      - { label: "", name: "", widget: "" }
+      - { label: "Nome", name: "title", widget: "string" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "Parcerias" }
+      - { label: "Imagem", name: "imagem_image_path", widget: "image" }
+      - { label: "Endereço/link", name: "link", widget: "string" }
+      - { label: "Descrição", name: "text", widget: "string" }
 #====================| DATA |====================================================|  
 
 
