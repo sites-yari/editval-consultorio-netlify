@@ -1,0 +1,71 @@
+#===========================================================================================================================================
+pt:
+  info:
+    data: 05-03-2014
+    titulo: Horizonte 2020!
+    text: O novo Programa-Quadro "Horizonte 2020" reúne todo o financiamento no domínio da investigação e da inovação na União Europeia para o período 2014-2020.
+          <br><br>
+          Neste momento, existem mais de 160 convites para apresentação de projetos para os diferentes pilares de atuação (Excelência Científica, Liderança Industrial e Desafios Socais) bem como para outras áreas identificadas, pela União Europeia, como sendo áreas de interesse para a investigação a nível europeu.
+  cvtube:
+    image_path: images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/cvtuberb3a7.jpg
+    titulo: CVTube; plataforma para CV em vídeo
+    text: O CVTube é um projeto de I&D internacional que tem por objetivo o desenvolvimento de uma ferramenta online que pretende facilitar a aproximação entre as oportunidades de emprego e as candidaturas dos jovens.
+          <br><br>
+          Este projeto inovador na área dos recursos humanos, tem a duração de dois anos e nele estão envolvidos sete parceiros (entre os quais está a EDIT VALUE®) provenientes de quatro países.
+          <br><br>
+          Mais informações sobre o CVTube em <a href="http://www.project.cvtuber.eu/">www.project.cvtuber.eu</a> .
+  learn2work: 
+    image_path: images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/LEARN2WORK5b07.jpg
+    titulo: Learn2Work; uma nova metodologia
+    text: O Learn2work é um projeto europeu que pretende criar uma ligação entre as oportunidades de trabalho geradas pela indústria e os perfis de educação não-formal, apoiando os jovens no contacto com profissões ligadas à indústria do calçado, tornando-as mais apelativas ao desenvolvimento de carreiras profissionais no setor.
+          <br><br>
+          Para alcançar este resultado, a EDIT VALUE® (enquanto líder do projeto) em conjunto com os outros seis parceiros deste consórcio, encontra-se a adaptar o modelo das escolas de produção dinamarquesas à realidade de Portugal, Itália e Espanha.
+          <br><br>
+          Visite o website do projeto em - <a href="http://www.learn2work.eu/">www.learn2work.eu</a> .
+
+
+
+#===========================================================================================================================================
+en:
+  info:
+    data: 28-03-2011
+    titulo: SME Excellence
+    text: The Portuguese Ministry of Economy distinguished EDIT VALUE® with the SME Leader award. This recognition is only to companies whose performance levels and risk profile positioned them as economy boosters in several business sectors. EDIT VALUE® was distinguished as SME Leader in 2009 and 2010. In 2010 the company was also recognized as SME Excellence, recognizing the top economic and financial indicators and the strategy of sustained growth and competitive leadership.
+  cvtube: 
+    image_path: images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/cvtuberb3a7.jpg
+    titulo: CVTube; platform for CV’s Video
+    text: The CV Tube is an international R&D project that aims to develop an online tool that seeks to facilitate an approximation as employment opportunities and as applications of young people.
+          <br><br>
+          This innovative project in the field of human resources has a two years duration and involves seven partners (among which is EDIT VALUE®) from four countries.
+          <br><br>
+          More information about CVTube in <a href="http://www.project.cvtuber.eu/">www.project.cvtuber.eu</a>.
+  learn2work: 
+    image_path: images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/LEARN2WORK5b07.jpg?
+    titulo: Learn2Work; a new methodology
+    text: Learn2work is an european project which intends to create a bridge between the industry working opportunities and non-formal educational paths that can support youngsters to get in contact with footwear industry careers,in order to work towards the appealing and attractiveness of this sector and consider it as a career option.
+          <br><br>
+          To achieve this goal, EDIT VALUE® (as project leader) with the other six project partners are adapting the “Production Schools” model from Denmark to can apply it in Portugal, Italy and Spain.
+          <br><br>
+          Visit the project website at - <a href="http://www.learn2work.eu/">www.learn2work.eu</a>.
+
+
+
+#===========================================================================================================================================
+es:
+  info:
+    data: 28-03-2011
+    titulo: PYME Excelencia
+    text: El Ministerio de Economía portugués distingue EDIT VALUE® con el premio PYME Líder. Este reconocimiento es sólo para las empresas cuyos niveles de desempeño y perfil de riesgo les posiciona como impulsores de economía en varios sectores empresariales. EDIT VALUE® fue distinguido como PYME Líder en el año 2009 y 2010. En 2010, la empresa también fue galardonada como la PYME Excelencia, reconociendo los principales indicadores económicos y financieros y la estrategia de crecimiento sostenido y liderazgo competitivo.
+  cvtube: 
+    image_path: images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/cvtuberb3a7.jpg
+    titulo: CVTube; plataforma para CV en vídeo
+    text: El CVTube es un proyecto internacional de I&D que se centra en el desarrollo de una nueva herramienta on-line destinada a facilitar el encuentro entre las vacantes de puestos de trabajo y las solicitudes de los jóvenes.
+          <br><br>
+          Este proyecto innovador en el ámbito de los recursos humanos, tiene un período de dos años y cuenta con siete socios (entre los cuales EDIT VALUE®) de cuatro países.
+          <br><br>
+          Para obtener más información sobre CVTube - <a href="http://www.project.cvtuber.eu/">www.project.cvtuber.eu</a>.
+  learn2work: 
+    image_path: images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MjcwMTA3NSJdLFsicCIsInRodW1iIiwiMzAweDMwMCM/yeu4d8b.png
+    titulo: EDIT VALUE® Unidad de Investigación
+    text: El lanzamiento oficial de "ENTRExplorer- Serious Game for Immersive Entrepreneurs" se celebró en Braga, en noviembre de 2012, los resultados del proyecto están disponibles en www.entrexplorer.com. El objetivo principal del proyecto fue crear y desarrollar un juego en línea dirigido a emprendedores que quieren simular una idea de negocio y crear su propio puesto de trabajo.<br>EDIT VALUE®, junto con otros ocho socios europeos, está involucrado en otro proyecto de I+D cuyo objetivo es apoyar y proveer capacitación empresarial a los jóvenes, con especial atención a los jóvenes que no estudian, no tienen empleo o están en formación ("NEET"). El "YEU - Youth Enterprise and Employment" está disponible en www.y-e-u.eu y estará terminado en 2014.
+

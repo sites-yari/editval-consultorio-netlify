@@ -1,3 +1,70 @@
+#===========================================================================================================================================
+missao:
+  pt:
+    titulo: Missão
+    image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42113/missao.jpg
+    text: Transformar conhecimento em valor, fomentando o desenvolvimento organizacional e a melhoria da competitividade e da produtividade empresarial.
+  en:
+    titulo: Mission
+    image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42113/missao.jpg
+    text: Transform knowledge into value, fostering organizational development and improvement of competitiveness and business productivity.
+  es:
+    titulo: Misión
+    image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42113/missao.jpg
+    text: Convertir el conocimiento en valor, promover el desarrollo organizacional y mejorar la competitividad y productividad empresarial.
+
+
+#===========================================================================================================================================
+visao:
+  pt:
+    titulo: Visão
+    image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42115/visao.jpg
+    text: Ser uma referência na prestação de serviços de gestão, pela criação de valor acrescentado às empresas, através de um forte empenho na área de IDI e da formação contínua do capital humano, rumo à Excelência.
+  en:
+    titulo: Vision
+    image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42115/visao.jpg
+    text: Be a reference in the provision of management services by creating added value to businesses through a strong commitment to the area of RDI and the training of human capital, towards Excellence.
+  es:
+    titulo: Visión
+    image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42115/visao.jpg
+    text: Ser un referente en la prestación de servicios de gestión mediante la creación de valor añadido para las empresas a través de un fuerte compromiso en el ámbito de la Investigación & Desarrollo y la formación de capital humano, hacia la Excelencia.
+
+
+
+#===========================================================================================================================================
+valores:
+  pt:
+    titulo: Valores
+    image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42116/valores.jpg
+    text: A nossa actuação é sustentada por um conjunto de valores nos quais acreditamos e por eles nos esforçamos, tais como;
+      <br> . Conhecimento e inovação
+      <br> . Compromisso e competência
+      <br> . Espírito de equipa e dinamismo
+      <br> . Confiança e honestidade
+      <br> . Responsabilidade ética, social e ambiental.
+  en:
+    titulo: Values
+    image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42116/valores.jpg
+    text: Our performance is underpinned by a set of values we believe in and strive for them, such as;
+      <br> . Knowledge and innovation
+      <br> . Commitment and competence
+      <br> . Team spirit and dynamism
+      <br> . Trust and honesty
+      <br> . Ethical, social and environmental.
+  es:
+    titulo: Valores
+    image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42116/valores.jpg
+    text: Nuestra actuación se basa en un conjunto de valores en los cuales creemos e por los cual luchamos, tales como;
+      <br> . Conocimiento e innovación
+      <br> . Compromiso e competencia
+      <br> . Espíritu de equipo e dinamismo
+      <br> . Confianza e honestidad
+      <br> . Ética social e laboral
+      <br> . Respeto del medio ambiente.
+
+
+
+#===========================================================================================================================================
 lista:
   equipa_pt:
     -

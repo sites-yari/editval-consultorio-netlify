@@ -12,6 +12,7 @@ servicios_active?: active
       <div class="content" id="content_691_container">
         <div class="ev-journal-solucoes">
           <h1><span>Soluções (es)</span></h1>
+
           <ul>
             <li class="article-0">
               <div class="article clearfix">
@@ -21,13 +22,16 @@ servicios_active?: active
                   <div class="data"><span></span></div>
                 </div>
                 <div id="journal40article127" class="expander body">
-                  <div class="text"><span><p><b>Solución avanzada </b><strong>EDIT VALUE<sub><sup>®</sup></sub></strong></p>
-                      <div>Servicio integrado de asesoramiento fiscal y contable. Incluye el seguimiento permamente en la gestión de la empresa, permitiendo a sus responsables y administradores una mayor seguridad y rapidez en el proceso de toma de decisiones..</div>
-                      <div>Este es un modelo de outsourcing, soportado por la elaboración de consultoría y asesoramiento fiscal y contable, en particular: la entrega de todas las declaraciones de impuestos; conciliaciones bancarias; el control de los bienes por hojas individuales; la preparación del Informe Anual de Impuestos, procesamiento de sueldos de los funcionarios y el personal directivo, acceso a documentos en línea a través del "Área de Clientes"; la entrega de informes trimestrales de apoyo a la gestión, presentación de informes financieros. A través de esta solución se pretende dar una respuesta integral y de excelencia, que va mucho más allá del simple cumplimiento de las obligaciones fiscales.</div></span></div>
+                  <div class="text">
+                    <span><p>{{site.data.servicos.es.solucao.avancada.titulo}}</p>
+                      <div>{{site.data.servicos.es.solucao.avancada.text}}</div>
+                    </span>
+                  </div>
                   <div class="more" data-expecial-widget="expander"><div><span></span></div></div>
                 </div>
               </div>
             </li>
+
             <li class="article-1">
               <div class="article clearfix">
                 <a name="anchor128"> </a>
@@ -36,15 +40,15 @@ servicios_active?: active
                   <div class="data"><span></span></div>
                 </div>
                 <div id="journal40article128" class="expander body">
-                  <div class="text"><span><p>
-                  <b>Solución completa </b><strong>EDIT VALUE<sub><sup>®</sup></sub></strong></p>
-                      <div>
-                  Asesoramiento contable y fiscal concebida de acuerdo con la organización-cliente. Todo el trabajo es realizado por el consultor en las instalaciones del cliente, lo que exige una completa adaptación a los modelos de comportamento y la cultura de la organización. El resultado de un i ns ourc i ng  de los procedimientos administrativos y financieros permite internalizar el Know-how en la misma organización y reducir sus costes operacionales. Este procedimento incluye un estudio de be nc hmar ki ng  que permite evaluar el posicionamiento de la empresa, para que se inicien las intervenciones complementares de asesoramiento. Al igual que en la solución avanzada EDIT VALUE<sub><sup>®</sup></sub>, hay un seguimiento y un apoyo a la gestión empresarial a través de una asesoría fiscal y contable estructurada y desarrollada en consonancia con la estrategia y las necesidades del cliente.</div>
-                    </span></div>
+                  <div class="text"><span><p>{{site.data.servicos.es.solucao.completa.titulo}}</p>
+                      <div>{{site.data.servicos.es.solucao.completa.text}}</div>
+                    </span>
+                  </div>
                   <div class="more" data-expecial-widget="expander"><div><span></span></div></div>
                 </div>
               </div>
             </li>
+
             <li class="article-2">
               <div class="article clearfix">
                 <a name="anchor129"> </a>
@@ -53,118 +57,55 @@ servicios_active?: active
                   <div class="data"><span></span></div>
                 </div>
                 <div id="journal40article129" class="expander body">
-                  <div class="text"><span><p><b>Solución personalizada </b><strong>EDIT VALUE<sub><sup>®</sup></sub></strong></p>
-                      <div>Solución diseñada de acuerdo con las necesidades específicas del cliente. Desarrollo a medida de servicios lo que exige el empleo de esfuerzo redoblado para garantizar el cumplimiento de los puntos específicos acordados. El desarrollo de cualquier proyecto de esta naturaleza implica que el cliente será el co-productor del servicio. Se trata de servicios tales como: Planes de Negocio; Benchmarking; Estudios de viabilidad económica y financiera; Proyectos de Inversión; Planes de comercialización; entre otros. A diferencia de los demás, tanto los clientes de Solución Avanzada como los clientes de Solución Completa, tienen una filosofía de riesgo compartido en cualquier aplicación que sea efectuada en el ámbito de una Solución Personalizada.</div></span></div>
+                  <div class="text"><span><p>{{site.data.servicos.es.solucao.personalizada.titulo}}</p>
+                      <div>{{site.data.servicos.es.solucao.personalizada.text}}</div>
+                    </span>
+                  </div>
                   <div class="more" data-expecial-widget="expander"><div><span></span></div></div>
                 </div>
               </div>
             </li>
           </ul>
+
         </div>
       </div>
     </li>
+
+
     <li class="container left">
       <div class="content" id="content_15337_container">
         <div class="list areas_actuacao  " id="list_173">
           <h1>
             <span class="value">Areas de Actuación</span><span class="i18n"></span>
           </h1>
-
           <div class="items">
+
             <ul>
+              {% for servicios in site.data.servicos.es.areas %}
               <li class="i-0    odd" id="item-7021">
                 <div class="item">
                   <div class="image">
-                    <img alt="Gestao-financeira" class="blur" src='../assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42320/s64-c/gestao-financeira.jpg'>
+                    <img alt="Gestao-financeira" class="blur" src='../{{servicios.image_path}}'>
                   </div>
-
                   <div class="folder">
                     <div class="name">
                       <span class="label">Nome</span>
-                      <span class="value">Gestión Financiera</span>
+                      <span class="value">{{servicios.titulo}}</span>
                     </div>
-
                     <div class="text1">
                       <span class="label">Texto 1</span>
-                      <span class="value"><p>Consultoría Fiscal y de Contabilidad, Asesoria Fiscal, Estudios de Viabilidad, Recuperación de Empresas, Análisis de Costes Industriales, Informes de Gestión</p>
+                      <span class="value"><p>{{servicios.text}}</p>
                       </span>
                     </div>
-
                   </div>
-
                 </div>
               </li>
-              <li class="i-1    even" id="item-7022">
-                <div class="item">
-                  <div class="image">
-                    <img alt="Gestao-estrategica" class="blur" src='../assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42322/s64-c/gestao-estrategica.jpg'>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <span class="label">Nome</span>
-                      <span class="value">Gestión Estrategica</span>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>Benchmarking, Planes de Marketing, Planes de Comunicación, Estudios de Mercado, Planes Estratégicos, Gestión de recursos humanos, Comunicación, Internacionalización.</p>
-                      </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              <li class="i-2    odd" id="item-7023">
-                <div class="item">
-                  <div class="image">
-                    <img alt="Empreendedorismo" class="blur" src='../assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42324/s64-c/empreendedorismo.jpg'>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <span class="label">Nome</span>
-                      <span class="value">Iniciativa Empresarial</span>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>Consultoría para la Creación de Empresas, Planes de Negocios</p>
-                      </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              <li class="i-3    even" id="item-7024">
-                <div class="item">
-                  <div class="image">
-                    <img alt="Programas-de-apoio-e-incentivo" class="blur" src='../assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42423/s64-c/programas-de-apoio-e-incentivo.jpg'>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <span class="label">Nome</span>
-                      <span class="value">Programas de apoyo y incentivo</span>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>FP7, QREN, Comercio Invierte, PAECPE, Practicas Profesionales, Apoyo a la Contratación.</p>
-                      </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
+              {% endfor %}
             </ul>
+
             <div class="footer">
             </div>
           </div>
-
           <script>
             $("a.lightbox").fancybox();
           </script>

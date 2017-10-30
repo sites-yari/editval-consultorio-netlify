@@ -30,11 +30,9 @@ servicos_active?: active
                         <div id="journal18article58" class="expander body">
                           <div class="text">
                             <span>
-                              <div> <strong>Solução Avançada </strong><strong>EDIT VALUE</strong><sub><sup><strong>®</strong></sup></sub> </div>
+                              <div> <strong>{{site.data.servicos.pt.solucao.avancada.titulo}}</strong> </div>
                               <div style="text-align: justify;"> </div>
-                              <div style="text-align: left;">Serviço integrado de consultoria contabilística e fiscal. Inclui um acompanhamento permanente ao nível da gestão da empresa, permitindo aos seus decisores e gestores uma maior segurança e rapidez no processo de tomada de decisão.</div>
-                              <div style="text-align: left;">Trata-se de um modelo de outsourcing, suportado pelo desenvolvimento de consultoria e assessoria contabilística e fiscal, nomeadamente: entrega de todas as declarações fiscais; reconciliações bancárias; controlo de imobilizado por fichas individualizadas; elaboração do Relatório e Contas e Dossier Fiscal; processamento de salários e quadros de pessoal; acesso documental online através da “Área Cliente”; entrega de relatórios periódicos de apoio à gestão; reporting financeiro.</div>
-                              <div style="text-align: left;">Através desta solução pretende-se dar uma resposta integrada e de excelência, que vá muito além do mero cumprimento das obrigações fiscais.</div>
+                              <div style="text-align: left;">{{site.data.servicos.pt.solucao.avancada.text}}</div>
                             </span>
                           </div>
                           <div class="more" data-expecial-widget="expander">
@@ -43,7 +41,6 @@ servicos_active?: active
                         </div>
                       </div>
                     </li>
-
 
                     <li class="article-1">
                       <div class="article clearfix">
@@ -55,11 +52,9 @@ servicos_active?: active
                         <div id="journal18article63" class="expander body">
                           <div class="text">
                             <span>
-                              <div> <strong>Solução Completa EDIT VALUE</strong><sub><sup><strong>®</strong></sup></sub> </div>
+                              <div> <strong>{{site.data.servicos.pt.solucao.completa.titulo}}</strong> </div>
                               <div> </div>
-                              <div>Consultoria contabilística e fiscal concebida de acordo com a organização-cliente. Todo o trabalho é desenvolvido pelo consultor nas instalações do cliente, o que implica uma adaptação completa do modelo de atuação à cultura organizacional.</div>
-                              <div>Resulta de um insourcing de procedimentos administrativos e financeiros, que permite internalizar Know-how na própria organização, reduzindo custos operacionais. Este serviço inclui a realização de um Estudo de Benchmarking que permite avaliar (de forma transversal à atividade) o posicionamento da empresa, para que sejam iniciadas intervenções complementares de consultoria.</div>
-                              <div>Tal como na Solução Avançada EDIT VALUE<sub><sup>®</sup></sub>, existe um acompanhamento e um apoio à gestão empresarial, através de consultoria fiscal e contabilística estruturada e desenvolvida em sintonia com a estratégia e exigências do cliente.</div>
+                              <div>{{site.data.servicos.pt.solucao.completa.text}}</div>
                             </span>
                           </div>
                           <div class="more" data-expecial-widget="expander">
@@ -68,7 +63,6 @@ servicos_active?: active
                         </div>
                       </div>
                     </li>
-
 
                     <li class="article-2">
                       <div class="article clearfix">
@@ -80,10 +74,9 @@ servicos_active?: active
                         <div id="journal18article64" class="expander body">
                           <div class="text">
                             <span>
-                              <div><strong>Solução Personalizada </strong><strong>EDIT VALUE<sub><sup>®</sup></sub></strong></div>
+                              <div><strong>{{site.data.servicos.pt.solucao.personalizada.titulo}}</strong></div>
                               <div> </div>
-                              <div>Solução desenhada em função de necessidades pontuais do cliente. Serviço desenvolvido à medida. Exige a cativação de esforços redobrados para assegurar o cumprimento das especificidades contratualizadas. O desenvolvimento de um qualquer projeto desta natureza envolve o cliente como co-produtor do serviço. Estamos perante serviços como: Planos de Negócio; Benchmarking; Estudos de Viabilidade Económico-Financeira; Projectos de Investimento; Planos de Marketing; entre outros.</div>
-                              <div>Ao contrário dos demais, tanto os clientes da Solução Avançada como os clientes da Solução Completa, gozam de uma filosofia de risco partilhado em qualquer candidatura que seja efectuada no âmbito de uma Solução Personalizada.</div>
+                              <div>{{site.data.servicos.pt.solucao.personalizada.text}}</div>
                             </span>
                           </div>
                           <div class="more" data-expecial-widget="expander">
@@ -92,7 +85,6 @@ servicos_active?: active
                         </div>
                       </div>
                     </li>
-
                   </ul>
                 </div>
               </div>
@@ -106,84 +98,26 @@ servicos_active?: active
                   <div class="items">
 
                     <ul>
+                      {% for servicos in site.data.servicos.pt.areas %}
                       <li class="i-0    odd" id="item-7021">
                         <div class="item">
                           <div class="image">
-                            <img alt="Gestao-financeira" class="blur" src='assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42320/s64-c/gestao-financeira.jpg'>
+                            <img alt="Gestao-financeira" class="blur" src='{{servicos.image_path}}'>
                           </div>
                           <div class="folder">
                             <div class="name">
                               <span class="label">Nome</span>
-                              <span class="value">Gestão Financeira</span>
+                              <span class="value">{{servicos.titulo}}</span>
                             </div>
                             <div class="text1">
                               <span class="label">Texto 1</span>
-                              <span class="value"><p>Consultoria Fiscal e Contabilística, Assessoria Fiscal, Estudos de Viabilidade, Recuperação de Empresas, Análise de Custos Industriais, Relatórios de Gestão.</p>
+                              <span class="value"><p>{{servicos.text}}</p>
                               </span>
                             </div>
                           </div>
                         </div>
                       </li>
-
-
-                      <li class="i-1    even" id="item-7022">
-                        <div class="item">
-                          <div class="image">
-                            <img alt="Gestao-estrategica" class="blur" src='assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42322/s64-c/gestao-estrategica.jpg'>
-                          </div>
-                          <div class="folder">
-                            <div class="name">
-                              <span class="label">Nome</span>
-                              <span class="value">Gestão Estratégica</span>
-                            </div>
-                            <div class="text1">
-                              <span class="label">Texto 1</span>
-                              <span class="value"><p>Benchmarking, Planos de Marketing, Planos de Comunicação, Estudos de Mercado, Planos Estratégicos, Gestão de Recursos Humanos, Comunicação, Internacionalização.</p>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li class="i-2    odd" id="item-7023">
-                        <div class="item">
-                          <div class="image">
-                            <img alt="Empreendedorismo" class="blur" src='assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42324/s64-c/empreendedorismo.jpg'>
-                          </div>
-                          <div class="folder">
-                            <div class="name">
-                              <span class="label">Nome</span>
-                              <span class="value">Empreendedorismo</span>
-                            </div>
-                            <div class="text1">
-                              <span class="label">Texto 1</span>
-                              <span class="value"><p>Consultoria para a Criação de Empresas, Plano de Negócios</p>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li class="i-3    even" id="item-7024">
-                        <div class="item">
-                          <div class="image">
-                            <img alt="Programas-de-apoio-e-incentivo" class="blur" src='assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42423/s64-c/programas-de-apoio-e-incentivo.jpg'>
-                          </div>
-                          <div class="folder">
-                            <div class="name">
-                              <span class="label">Nome</span>
-                              <span class="value">Programas de Apoio e Incentivo</span>
-                            </div>
-                            <div class="text1">
-                              <span class="label">Texto 1</span>
-                              <span class="value"><p>FP7, QREN, Comércio Investe, PAECPE, Estágios Profissionais, Apoios à Contratação.</p>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
+                      {% endfor %}
                     </ul>
                     
                     <div class="footer">

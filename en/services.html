@@ -13,49 +13,54 @@ services_active?: active
         <div class="ev-journal-solucoes">
           <h1><span>Soluções (en)</span></h1>
           <ul>
+
             <li class="article-0">
               <div class="article clearfix">
-                <a name="anchor70"> </a>
+                <a name="anchor127"> </a>
                 <div class="header">
-                  <div class="title"><span>Advanced Solution</span></div>
+                  <div class="title"><span>Solução Avançada (en)</span></div>
                   <div class="data"><span></span></div>
                 </div>
-                <div id="journal28article70" class="expander body">
-                  <div class="text"><span><p><b>Advanced Solution EDIT VALUE®  </b></p>
-                      <div style="text-align: justify;">Integrated service of accounting and tax consultancy. It includes a permanent monitoring in the management of the company, allowing their CEO and managers greater security and speed in the decision-making process.</div>
-                      <div style="text-align: justify;">It concerns an outsourcing model, supported by the development of consultancy and accounting and tax advice, namelly: delivery of all tax returns, banking reconciliations, control of property by individual sheets, preparing the Annual Report and File Tax; remuneration processing and managers board, online access of documents through the "Customer Area"; delivery of quarterly reports to support management, financial reporting.</div>
-                      <div style="text-align: justify;">Through this solution we intend to give an integrated and excellent answer, which goes far beyond a simple compliance of tax obligations.</div></span></div>
+                <div id="journal40article127" class="expander body">
+                  <div class="text">
+                    <span><p>{{site.data.servicos.en.solucao.avancada.titulo}}</p>
+                      <div>{{site.data.servicos.en.solucao.avancada.text}}</div>
+                    </span>
+                  </div>
                   <div class="more" data-expecial-widget="expander"><div><span></span></div></div>
                 </div>
               </div>
             </li>
+
             <li class="article-1">
               <div class="article clearfix">
-                <a name="anchor71"> </a>
+                <a name="anchor128"> </a>
                 <div class="header">
-                  <div class="title"><span>Complete solution</span></div>
+                  <div class="title"><span>Solução Personalizada (en)</span></div>
                   <div class="data"><span></span></div>
                 </div>
-                <div id="journal28article71" class="expander body">
-                  <div class="text"><span><p><b>Complete Solution EDIT VALUE®</b></p>
-                      <div style="text-align: justify;">Accounting and tax consultancy tailored to the organization-customer. The entire work is developed by the consultant in the customer company, which requires a complete adaptation of the model behavior to organizational culture.</div>
-                      <div style="text-align: justify;">It results from an insourcing of administrative and financial procedures, which allows internalize Know-how in own organization, reducing operating costs. This includes a Benchmarking study for assessing (in a cross to work) the positioning of the company, in order to implement complementary interventions of consultancy.</div>
-                      <div style="text-align: justify;">As well as in EDIT VALUE® Advanced Solution, we can find a monitoring and support to business management, through tax and accounting consultancy, structured and developed in line with the strategy and requirements of the customer.</div></span></div>
+                <div id="journal40article128" class="expander body">
+                  <div class="text"><span><p>{{site.data.servicos.en.solucao.completa.titulo}}</p>
+                      <div>{{site.data.servicos.en.solucao.completa.text}}</div>
+                    </span>
+                  </div>
                   <div class="more" data-expecial-widget="expander"><div><span></span></div></div>
                 </div>
               </div>
             </li>
+
             <li class="article-2">
               <div class="article clearfix">
-                <a name="anchor72"> </a>
+                <a name="anchor129"> </a>
                 <div class="header">
-                  <div class="title"><span>Custom Solution</span></div>
+                  <div class="title"><span>Solução Completa (en)</span></div>
                   <div class="data"><span></span></div>
                 </div>
-                <div id="journal28article72" class="expander body">
-                  <div class="text"><span><p><b>Custom Solution EDIT VALUE® </b></p>
-                      <div style="text-align: justify;">Solution designed according to customer's specific needs. Measure service. It requires the blocking of efforts to ensure compliance with contracted specifications. The development of any project of this nature involves the customer as co-producer of the service. We are dealing with services such as: Business Plans; Benchmarking, economic and financial viability studies; Investment Projects, Marketing Plans, among others.</div>
-                      <div style="text-align: justify;">Unlike the others, both customers, of Advanced or Complete Solution, play a shared risk philosophy in any application made according to a Custom Solution.</div></span></div>
+                <div id="journal40article129" class="expander body">
+                  <div class="text"><span><p>{{site.data.servicos.en.solucao.personalizada.titulo}}</p>
+                      <div>{{site.data.servicos.en.solucao.personalizada.text}}</div>
+                    </span>
+                  </div>
                   <div class="more" data-expecial-widget="expander"><div><span></span></div></div>
                 </div>
               </div>
@@ -64,113 +69,46 @@ services_active?: active
         </div>
       </div>
     </li>
+
+
     <li class="container left">
       <div class="content" id="content_15335_container">
         <div class="list areas_actuacao  " id="list_173">
           <h1>
             <span class="value">Áreas de atuação</span><span class="i18n"></span>
           </h1>
-
           <div class="items">
+
             <ul>
+              {% for services in site.data.servicos.en.areas %}
               <li class="i-0    odd" id="item-7021">
                 <div class="item">
                   <div class="image">
-                    <img alt="Gestao-financeira" class="blur" src='../assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42320/s64-c/gestao-financeira.jpg'>
+                    <img alt="Gestao-financeira" class="blur" src='../{{services.image_path}}'>
                   </div>
-
                   <div class="folder">
                     <div class="name">
                       <span class="label">Nome</span>
-                      <span class="value">Financial management</span>
+                      <span class="value">{{services.titulo}}</span>
                     </div>
-
                     <div class="text1">
                       <span class="label">Texto 1</span>
-                      <span class="value"><p>Tax and Accounting Consulting, Fiscal Assessorship, Feasibility studies, Recovery of Companies, Analysis of Industrial Costs, Reports of Management.</p>
+                      <span class="value"><p>{{services.text}}</p>
                       </span>
                     </div>
-
                   </div>
-
                 </div>
               </li>
-              <li class="i-1    even" id="item-7022">
-                <div class="item">
-                  <div class="image">
-                    <img alt="Gestao-estrategica" class="blur" src='../assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42322/s64-c/gestao-estrategica.jpg'>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <span class="label">Nome</span>
-                      <span class="value">Strategical management</span>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>Benchmarking, Plans of Marketing, Plans of Communication, Strategical Studies of Market, Plans, Human Resource Management, Communication, Internationalization.</p>
-                      </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              <li class="i-2    odd" id="item-7023">
-                <div class="item">
-                  <div class="image">
-                    <img alt="Empreendedorismo" class="blur" src='../assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42324/s64-c/empreendedorismo.jpg'>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <span class="label">Nome</span>
-                      <span class="value">Entrepreneurship</span>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>Consulting for the Creation of Companies, Plan business-oriented</p>
-                      </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
-              <li class="i-3    even" id="item-7024">
-                <div class="item">
-                  <div class="image">
-                    <img alt="Programas-de-apoio-e-incentivo" class="blur" src='../assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42423/s64-c/programas-de-apoio-e-incentivo.jpg'>
-                  </div>
-
-                  <div class="folder">
-                    <div class="name">
-                      <span class="label">Nome</span>
-                      <span class="value">Programs of Support and Incentive</span>
-                    </div>
-
-                    <div class="text1">
-                      <span class="label">Texto 1</span>
-                      <span class="value"><p>FP7, QREN, Trade Invest, PAECPE, Professional Periods of training, Support to the Act of contract.</p>
-                      </span>
-                    </div>
-
-                  </div>
-
-                </div>
-              </li>
+              {% endfor %}
             </ul>
+
             <div class="footer">
             </div>
           </div>
-
           <script>
             $("a.lightbox").fancybox();
           </script>
         </div>
-
       </div>
     </li>
   </ol>

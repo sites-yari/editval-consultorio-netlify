@@ -7,6 +7,7 @@ research_active?: active
 
 <body class='older_browser ev research'>            
   <ol class="contents clearfix">
+    
     <li class="container left">
       <div class="content" id="content_15719_container">
         <div class="text ev-texto-investigacao">
@@ -14,26 +15,15 @@ research_active?: active
             {% for investigacao in site.data.investigacao.en.textos%}
             <h1 style="text-align:justify">{{investigacao.titulo}}</h1>
             <div style="text-align: justify;">
-              <p>{{investigacao.paragrafo1}}</p>
-              <p>{{investigacao.paragrafo2}}</p>
-              <p>{{investigacao.paragrafo3}}</p>
-              <p>{{investigacao.paragrafo4}}</p>
-              <p>{{investigacao.paragrafo5}}</p>
-            </div>
-            <div style="text-align: justify;">
-              <div>{{investigacao.texto_alinhado1}}</div>
-              <div>{{investigacao.texto_alinhado2}}</div>
-              <div>{{investigacao.texto_alinhado3}}</div>
-              <div>{{investigacao.texto_alinhado4}}</div>
-              <div>{{investigacao.texto_alinhado5}}</div>
+              <p>{{investigacao.paragrafo}}</p>
             </div>
             <p> </p>
             {% endfor %}
           </div>
         </div>
-
       </div>
     </li>
+    
     <li class="container left">
       <div class="content" id="content_698_container">
         <div class="ev-journal-publicacoes">
