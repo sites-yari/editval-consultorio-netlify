@@ -1,0 +1,44 @@
+pt:
+  sede:
+    rua: Praceta João Beltrão, N.º 16
+    distrito: S. Victor
+    postal: 4715-292 Braga, Portugal
+  contactos:
+    telefone: +351 253 257 037
+    fax: +351 253 214 111
+    telemovel: +351 918 884 108
+    email: consultoria@editvalue.com
+  gps: 41.550802 ºN -8.404207 ºW
+  horario:
+    aberto: Segunda a Sexta (9h-13h | 14h30-18h30)
+    fechado: Encerramento aos Sábados, Domingos e feriados.
+
+en:
+  sede:
+    rua: Praceta João Beltrão, N.º 16
+    distrito: S. Victor
+    postal: 4715-292 Braga, Portugal
+  contactos:
+    telefone: +351 253 257 037
+    fax: +351 253 214 111
+    telemovel: +351 918 884 108
+    email: consultoria@editvalue.com
+  gps: 41.550802 ºN -8.404207 ºW
+  horario:
+    aberto: Monday to Friday (9h-13h | 14h30-18h30)
+    fechado: Closed on Saturdays, Sundays and holydays.
+    
+es:
+  sede:
+    rua: Praceta João Beltrão, N.º 16
+    distrito: S. Victor
+    postal: 4715-292 Braga, Portugal
+  contactos:
+    telefone: +351 253 257 037
+    fax: +351 253 214 111
+    telemovel: +351 918 884 108
+    email: consultoria@editvalue.com
+  gps: 41.550802 ºN -8.404207 ºW
+  horario:
+    aberto: De lunes a viernes (9h-13h | 14h30-18h30)
+    fechado: Cierre los sábados, domingos y días festivos.

@@ -104,11 +104,11 @@ formacao?: rumo-economico
       <div class='content' id='content_766_container'>
         <div class='text ev-texto ev-texto-rumo'>
           <div class='i'>
-            <div>A economia que interessa na Universitária. Todas as sextas-feiras às 10h45 e 16h30.</div>
+            <div>{{site.data.rumo-economico.economia.text}}</div>
             <div>&nbsp;</div>
-            <div>Informação da responsabilidade da EDIT VALUE®.&nbsp;</div>
+            <div>{{site.data.rumo-economico.economia.info}}&nbsp;</div>
             <div>&nbsp;</div>
-            <div>Ouça o último programa emitido...</div>
+            <div>{{site.data.rumo-economico.economia.ultimo}}</div>
             <div>&nbsp;</div>
           </div>
         </div>
@@ -124,8 +124,8 @@ formacao?: rumo-economico
           <ul>
             <li>
               <div class="i">
-                <div class="name">15-08-2015</div>
-                <div class="link"><a href="../../www.rum.pt/shows/list/podcasts/uploads/Rumo_Economico/RUMO_ECON-2015-08-07.html">download mp3</a></div>
+                <div class="name">{{site.data.rumo-economico.economia.ficheiro.data}}</div>
+                <div class="link"><a href="../../{{site.data.rumo-economico.economia.ficheiro.link}}">download {{site.data.rumo-economico.economia.ficheiro.tipo}}</a></div>
                 <div class="player">
                   <!--[if !IE]><!-->
                   <object type="application/x-shockwave-flash"

@@ -18,23 +18,11 @@ class: etica-pt
                     <h1><strong>Política da Qualidade</strong></h1>
                     <div style="text-align: justify;">
                       <div class="content editable">
-                        <p>A EDIT VALUE® Consultoria Empresarial tem por <strong>Missão</strong> transformar conhecimento em valor, fomentando o desenvolvimento organizacional e a melhoria da competitividade e da produtividade empresarial.</p>
-                        <p>Esta Missão é sustentada por uma Visão e um conjunto de Valores específicos:</p>
-                        <p><strong>Visão</strong></p>
-                        <p>Ser uma referência na prestação de serviços de gestão, pela criação de valor acrescentado às empresas, através de um forte empenho na área de IDI e da formação contínua do capital humano, rumo à Excelência.</p>
-                        <p><strong>Valores</strong></p>
-                        <p>A nossa actuação é sustentada por um conjunto de valores nos quais acreditamos e por eles nos esforçamos, tais como:</p>
-
-                        <ul>
-                          <li>. Conhecimento e inovação;</li>
-                          <li>. Compromisso e competência;</li>
-                          <li>. Espírito de equipa e dinamismo;</li>
-                          <li>. Confiança e honestidade;</li>
-                          <li>. Responsabilidade ética, social e ambiental.</li>
-                        </ul>
-
-                        <p>Com vista à satisfação das necessidades dos nossos clientes, a equipa EDIT VALUE® compromete-se a cumprir com as disposições do <strong>Sistema de Gestão da Qualidade</strong> e reger a sua actuação de acordo com os seguintes princípios, que constituem a <strong>Política da Qualidade</strong> da EDIT VALUE® Consultoria Empresarial:</p>
-                        <p>Focalização permanente na Missão da Empresa, suportada por valores, objectivos, metas e processos relevantes, orientados para as necessidades dos nossos clientes, assegurando a realização dos nossos colaboradores, a procura constante da inovação e o desenvolvimento da nossa estrutura organizacional, com vista à melhoria contínua da Qualidade dos serviços prestados.</p>
+                        <p>{{site.data.rodape.qualidade.text}}</p>
+                        {% for seguranca in site.data.rodape.qualidade.x %}
+                        <p><strong>{{seguranca.tema}}</strong></p>
+                        <p>{{seguranca.text}}</p>
+                        {% endfor %}
                       </div>
                     </div>
                   </div>

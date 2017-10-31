@@ -30,19 +30,23 @@ contactos_active?: active
                   <div class="text ev-texto-contactos">
                     <div class="i">
                       <h1>Braga | Sede</h1>
-                      <div>Praceta João Beltrão, N.º 16<br>
-                        S. Victor<br>
-                        4715-292 Braga, Portugal</div>
+                      <div>{{site.data.contactos.pt.sede.rua}}<br>
+                        {{site.data.contactos.pt.sede.distrito}}<br>
+                        {{site.data.contactos.pt.sede.postal}}</div>
+                        
                       <h1>Contactos</h1>
-                      <div>Telefone: +351 253 257 037<br>
-                        Fax: +351 253 214 111<br>
-                        Telemóvel: +351 918 884 108</div>
-                      <div>Email: consultoria@editvalue.com</div>
+                      <div>Telefone: {{site.data.contactos.pt.contactos.telefone}}<br>
+                        Fax: {{site.data.contactos.pt.contactos.fax}}<br>
+                        Telemóvel: {{site.data.contactos.pt.contactos.telemovel}}</div>
+                      <div>Email: {{site.data.contactos.pt.contactos.email}}</div>
+
                       <h1>Coordenadas GPS</h1>
-                      <div>41.550802 ºN -8.404207 ºW</div>
+                      <div>{{site.data.contactos.pt.gps}}</div>
+
                       <h1>Horário de Funcionamento</h1>
-                      <div>Segunda a Sexta (9h-13h | 14h30-18h30)<br>
-                        Encerramento aos Sábados, Domingos e feriados.</div>
+                      <div>{{site.data.contactos.pt.horario.aberto}}<br>
+                        {{site.data.contactos.pt.horario.fechado}}</div>
+
                     </div>
                   </div>
                 </div>
