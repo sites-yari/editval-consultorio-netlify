@@ -595,7 +595,7 @@ collections:
               - label: Contactos
                 name: contactos
                 widget: object
-                fileds: 
+                fields: 
                   - { label: "Telefone", name: "telefone", widget: "string" }
                   - { label: "Fax", name: "fax", widget: "string" }
                   - { label: "Telemovel", name: "telemovel", widget: "string" }
@@ -604,7 +604,7 @@ collections:
               - label: Sede
                 name: sede
                 widget: object
-                fileds: 
+                fields: 
                   - { label: "Aberto", name: "aberto", widget: "string" }
                   - { label: "Fechado", name: "fechado", widget: "string" }
           - label: EN #----- EN
@@ -640,14 +640,14 @@ collections:
               - label: Sede
                 name: sede
                 widget: object
-                fileds: 
+                fields: 
                   - { label: "Rua", name: "rua", widget: "string" }
                   - { label: "Distrito", name: "distrito", widget: "string" }
                   - { label: "Código-Postal", name: "postal", widget: "string" }
               - label: Contactos
                 name: contactos
                 widget: object
-                fileds: 
+                fields: 
                   - { label: "Telefone", name: "telefone", widget: "string" }
                   - { label: "Fax", name: "fax", widget: "string" }
                   - { label: "Telemovel", name: "telemovel", widget: "string" }
@@ -656,7 +656,7 @@ collections:
               - label: Sede
                 name: sede
                 widget: object
-                fileds: 
+                fields: 
                   - { label: "Aberto", name: "aberto", widget: "string" }
                   - { label: "Fechado", name: "fechado", widget: "string" }
         #---| RUMO ECONOMICO |---
@@ -679,5 +679,5 @@ collections:
                 - { label: "Data publicada", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
                 - { label: "Endereço / Link", name: "link", widget: "string" }
                 - { label: "Tipo de ficheiro", name: "tipo", widget: "string" }
-        
+      
 
