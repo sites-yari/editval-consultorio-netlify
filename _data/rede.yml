@@ -1,276 +1,276 @@
 clientes:
   industria:
-    - A. Neves & Correia Lda
-    - Alanol - Electrobombas Submersíveis S.A. | PME Líder
-    - Alvo Panorâmico Lda
-    - Amertrade - Têxteis Lda | PME Líder
-    - Amishoes - Calçados Lda | PME Líder
-    - Américo Cerqueira & Filhos Lda
-    - Aníbal Carneiro Barbosa Lda | PME Líder
-    - Aquatlantis - Produtos para Animais Domésticos S.A. | PME Líder
-    - Barros & Vieira Lda | PME Líder
-    - Best Wear Unipessoal Lda
-    - Bordainveste - Fábrica de Bordados Lda
-    - Brukinag - Engenharia Unipessoal Lda
-    - Cadubal - Companhia de Adubos S.A. | PME Líder
-    - Canteiro Virtual Cultura Biológica Lda
-    - Castelbel - Artigos de Beleza S.A. | PME Líder
-    - Combined Tex - Comércio de Malhas Lda | PME Líder
-    - Confecção Livi Lda
-    - Confecções Chouselas Lda
-    - Construções Manuel José Ribeiro de Oliveira Lda
-    - Critical Materials Lda
-    - Dav - Acessórios para a Indústria de Torneiras Lda | PME Líder
-    - Esfani - Confecções Lda
-    - FermentUM - Engenharia das Fermentações Lda
-    - Fernando Braga - Empreendimentos Turísticos Lda
-    - Fluidráulica - Equipamentos Hidráulicos Lda
-    - Fórmula da Avó Lda
-    - Graficamares Lda | PME Líder
-    - Ideias Precisosas - Alumínios Unipessoal Lda
-    - Interhigiene - Indústria de Produtos de Higiene Lda
-    - J. C. Peixoto - Móveis Lda
-    - José Manuel Leite de Castro Lda | PME Líder
-    - Lactilouro Lda
-    - Lourofood Lda
-    - Lusoimpress - Artes Gráficas S.A.
-    - Madeicávado - Madeiras S.A. | PME Líder
-    - Majoba - Confecções Lda | PME Líder
-    - Manoel D. Poças Junior - Vinhos S.A. | PME Líder
-    - Metade Métrica Unipessoal Lda
-    - Máximo Internacional - Importação e Exportação S.A. | PME Líder
-    - NaturalConcepts Lda | Spin-Off
-    - Nogueira & Monteiro Lda | PME Líder
-    - Nova Extral - Indústria de Alumínio S.A.
-    - O Feliz - Metalomecânica S.A. | PME Líder
-    - ONM Madeiras Lda
-    - Panga Panga - Carpintaria Lda | PME Líder
-    - Paniprado - Panificadora do Prado Lda
-    - Pastelaria e Pão Quente Nobreza Lda | PME Líder
-    - PerfilNorte - Empresa de Perfilagem S.A. | PME Líder
-    - Pormecalu - Working Aluminium Solutions Lda
-    - Porminho - Indústria e Comércio de Carnes Lda | PME Líder
-    - Pão do Pai - Padaria e Pastelaria Unipessoal Lda
-    - R. P. Industries Piscinas Lda | PME Excelência
-    - Ricardo Costa e Pereira Lda
-    - Rosa Maria Baptista - Confecções Lda
-    - Santinhoconfex - Confecções Lda
-    - Soja de Portugal SGPS S.A.
-    - Sorgal - Sociedade de Óleos e Rações S.A.
-    - Soryclau Confecções Lda
-    - Space Reflex - Fábrica de Isolamentos Termo-Acústicos Lda
-    - Sá Machado & Filhos S.A. | PME Líder
-    - Taíde Confeccções Lda
-    - Teorias Pioneiras Lda
-    - Tipografia Priscos Lda
-    - Trandéfil - Indústria de Plásticos S.A.
-    - Trecar - Tecidos e Revestimentos S.A.
-    - Trijoias - Comércio de Ourivesaria Lda
-    - Wiese & Krohn Sucessores Lda | PME Líder
+    - cliente: A. Neves & Correia Lda
+    - cliente: Alanol - Electrobombas Submersíveis S.A. | PME Líder
+    - cliente: Alvo Panorâmico Lda
+    - cliente: Amertrade - Têxteis Lda | PME Líder
+    - cliente: Amishoes - Calçados Lda | PME Líder
+    - cliente: Américo Cerqueira & Filhos Lda
+    - cliente: Aníbal Carneiro Barbosa Lda | PME Líder
+    - cliente: Aquatlantis - Produtos para Animais Domésticos S.A. | PME Líder
+    - cliente: Barros & Vieira Lda | PME Líder
+    - cliente: Best Wear Unipessoal Lda
+    - cliente: Bordainveste - Fábrica de Bordados Lda
+    - cliente: Brukinag - Engenharia Unipessoal Lda
+    - cliente: Cadubal - Companhia de Adubos S.A. | PME Líder
+    - cliente: Canteiro Virtual Cultura Biológica Lda
+    - cliente: Castelbel - Artigos de Beleza S.A. | PME Líder
+    - cliente: Combined Tex - Comércio de Malhas Lda | PME Líder
+    - cliente: Confecção Livi Lda
+    - cliente: Confecções Chouselas Lda
+    - cliente: Construções Manuel José Ribeiro de Oliveira Lda
+    - cliente: Critical Materials Lda
+    - cliente: Dav - Acessórios para a Indústria de Torneiras Lda | PME Líder
+    - cliente: Esfani - Confecções Lda
+    - cliente: FermentUM - Engenharia das Fermentações Lda
+    - cliente: Fernando Braga - Empreendimentos Turísticos Lda
+    - cliente: Fluidráulica - Equipamentos Hidráulicos Lda
+    - cliente: Fórmula da Avó Lda
+    - cliente: Graficamares Lda | PME Líder
+    - cliente: Ideias Precisosas - Alumínios Unipessoal Lda
+    - cliente: Interhigiene - Indústria de Produtos de Higiene Lda
+    - cliente: J. C. Peixoto - Móveis Lda
+    - cliente: José Manuel Leite de Castro Lda | PME Líder
+    - cliente: Lactilouro Lda
+    - cliente: Lourofood Lda
+    - cliente: Lusoimpress - Artes Gráficas S.A.
+    - cliente: Madeicávado - Madeiras S.A. | PME Líder
+    - cliente: Majoba - Confecções Lda | PME Líder
+    - cliente: Manoel D. Poças Junior - Vinhos S.A. | PME Líder
+    - cliente: Metade Métrica Unipessoal Lda
+    - cliente: Máximo Internacional - Importação e Exportação S.A. | PME Líder
+    - cliente: NaturalConcepts Lda | Spin-Off
+    - cliente: Nogueira & Monteiro Lda | PME Líder
+    - cliente: Nova Extral - Indústria de Alumínio S.A.
+    - cliente: O Feliz - Metalomecânica S.A. | PME Líder
+    - cliente: ONM Madeiras Lda
+    - cliente: Panga Panga - Carpintaria Lda | PME Líder
+    - cliente: Paniprado - Panificadora do Prado Lda
+    - cliente: Pastelaria e Pão Quente Nobreza Lda | PME Líder
+    - cliente: PerfilNorte - Empresa de Perfilagem S.A. | PME Líder
+    - cliente: Pormecalu - Working Aluminium Solutions Lda
+    - cliente: Porminho - Indústria e Comércio de Carnes Lda | PME Líder
+    - cliente: Pão do Pai - Padaria e Pastelaria Unipessoal Lda
+    - cliente: R. P. Industries Piscinas Lda | PME Excelência
+    - cliente: Ricardo Costa e Pereira Lda
+    - cliente: Rosa Maria Baptista - Confecções Lda
+    - cliente: Santinhoconfex - Confecções Lda
+    - cliente: Soja de Portugal SGPS S.A.
+    - cliente: Sorgal - Sociedade de Óleos e Rações S.A.
+    - cliente: Soryclau Confecções Lda
+    - cliente: Space Reflex - Fábrica de Isolamentos Termo-Acústicos Lda
+    - cliente: Sá Machado & Filhos S.A. | PME Líder
+    - cliente: Taíde Confeccções Lda
+    - cliente: Teorias Pioneiras Lda
+    - cliente: Tipografia Priscos Lda
+    - cliente: Trandéfil - Indústria de Plásticos S.A.
+    - cliente: Trecar - Tecidos e Revestimentos S.A.
+    - cliente: Trijoias - Comércio de Ourivesaria Lda
+    - cliente: Wiese & Krohn Sucessores Lda | PME Líder
 
   comercio:
-    - Achados d'Outrora Lda
-    - Adnarim - Comércio de Automóveis Lda | PME Líder
-    - Agor Pecuária Casa Vilas Boas Lda
-    - Agrifer - Equipamentos Agrícolas e Industriais Lda | PME Líder
-    - Ana Rodrigues & Carmo Silva Lda
-    - Armando Soares Silva & Filhos Lda | PME Líder
-    - Artur Matos Xavier Forte & C.ª Lda
-    - Autoparabrisas S.A.
-    - Bluecorner Lda
-    - Castillo - Soluções para Marmoristas Unipessoal Lda
-    - Cohispo - Comércio Importação Exportação de Produtos Alimentares Lda | PME Líder
-    - Conforsense Unipessoal Lda
-    - Costa Leite & Costa Lda
-    - Cunha & Mendes Cunha Lda
-    - Despertacanela Lda
-    - Drogaria Feliz Lda
-    - Earboxwear S.A.
-    - Estilo & Fantasia Lda
-    - Famo Comercial - Mobiliário de Escritório Lda | PME Líder
-    - Farmácia Araújo Rodrigues
-    - Farmácia S. José
-    - Frescos do Dia - Supermercado Unipessoal Lda
-    - Golden Lotus - Aesthetical Care Lda
-    - Houspring - Têxtil Lda
-    - Irmãos Faria dos Santos Lda | PME Líder
-    - Irresistívelesfera Unipessoal Lda
-    - Jaime Oculista Unipessoal Lda
-    - Joarca - Armazém de Tecidos Lda
-    - José Manuel dos Santos & Filhos Lda | PME Líder
-    - José Maria Araújo Rodrigues & Filhas Lda
-    - Lambriroad - Mecânica Automóvel Unipessoal Lda
-    - Lumber Xorca Timber Trading S.A.
-    - Megatrónica - Informática e Electrónica Lda | PME Líder
-    - Mimosalegria Lda
-    - Nostrobiz Lda
-    - Nuno Miguel Faria Martins, Unipessoal, Lda
-    - Perestrelo & Cunha Lda | PME Líder
-    - Plantit Unipessoal Lda
-    - Pneu Feliz - Comércio de Pneus Lda | PME Líder
-    - Prazo Ideal Lda
-    - Projecto A2 Lda
-    - Pulsar Discreto Lda
-    - Páginamania Unipessoal Lda
-    - Ramalha Carnes Lda
-    - Rosa Maria Costa & Filhos Lda
-    - SCS - Shoes Concept Store Lda
-    - Sepseg - Soluções de Segurança Unipessoal Lda
-    - Sidertubos - Produtos Siderúrgicos S.A.
-    - Simplux - Comércio de Material Eléctrico Lda
-    - Toronobre - Comércio de Madeiras Lda | PME Líder
-    - Trialarmes Lda
-    - Tubinox - Aços Inoxidáveis Lda | PME Líder
-    - Valfios - Armazém de Fios Têxteis Lda
-    - Vimagás - Comércio de Gás e Lubrificantes Lda | PME Líder
+    - cliente: Achados d'Outrora Lda
+    - cliente: Adnarim - Comércio de Automóveis Lda | PME Líder
+    - cliente: Agor Pecuária Casa Vilas Boas Lda
+    - cliente: Agrifer - Equipamentos Agrícolas e Industriais Lda | PME Líder
+    - cliente: Ana Rodrigues & Carmo Silva Lda
+    - cliente: Armando Soares Silva & Filhos Lda | PME Líder
+    - cliente: Artur Matos Xavier Forte & C.ª Lda
+    - cliente: Autoparabrisas S.A.
+    - cliente: Bluecorner Lda
+    - cliente: Castillo - Soluções para Marmoristas Unipessoal Lda
+    - cliente: Cohispo - Comércio Importação Exportação de Produtos Alimentares Lda | PME Líder
+    - cliente: Conforsense Unipessoal Lda
+    - cliente: Costa Leite & Costa Lda
+    - cliente: Cunha & Mendes Cunha Lda
+    - cliente: Despertacanela Lda
+    - cliente: Drogaria Feliz Lda
+    - cliente: Earboxwear S.A.
+    - cliente: Estilo & Fantasia Lda
+    - cliente: Famo Comercial - Mobiliário de Escritório Lda | PME Líder
+    - cliente: Farmácia Araújo Rodrigues
+    - cliente: Farmácia S. José
+    - cliente: Frescos do Dia - Supermercado Unipessoal Lda
+    - cliente: Golden Lotus - Aesthetical Care Lda
+    - cliente: Houspring - Têxtil Lda
+    - cliente: Irmãos Faria dos Santos Lda | PME Líder
+    - cliente: Irresistívelesfera Unipessoal Lda
+    - cliente: Jaime Oculista Unipessoal Lda
+    - cliente: Joarca - Armazém de Tecidos Lda
+    - cliente: José Manuel dos Santos & Filhos Lda | PME Líder
+    - cliente: José Maria Araújo Rodrigues & Filhas Lda
+    - cliente: Lambriroad - Mecânica Automóvel Unipessoal Lda
+    - cliente: Lumber Xorca Timber Trading S.A.
+    - cliente: Megatrónica - Informática e Electrónica Lda | PME Líder
+    - cliente: Mimosalegria Lda
+    - cliente: Nostrobiz Lda
+    - cliente: Nuno Miguel Faria Martins, Unipessoal, Lda
+    - cliente: Perestrelo & Cunha Lda | PME Líder
+    - cliente: Plantit Unipessoal Lda
+    - cliente: Pneu Feliz - Comércio de Pneus Lda | PME Líder
+    - cliente: Prazo Ideal Lda
+    - cliente: Projecto A2 Lda
+    - cliente: Pulsar Discreto Lda
+    - cliente: Páginamania Unipessoal Lda
+    - cliente: Ramalha Carnes Lda
+    - cliente: Rosa Maria Costa & Filhos Lda
+    - cliente: SCS - Shoes Concept Store Lda
+    - cliente: Sepseg - Soluções de Segurança Unipessoal Lda
+    - cliente: Sidertubos - Produtos Siderúrgicos S.A.
+    - cliente: Simplux - Comércio de Material Eléctrico Lda
+    - cliente: Toronobre - Comércio de Madeiras Lda | PME Líder
+    - cliente: Trialarmes Lda
+    - cliente: Tubinox - Aços Inoxidáveis Lda | PME Líder
+    - cliente: Valfios - Armazém de Fios Têxteis Lda
+    - cliente: Vimagás - Comércio de Gás e Lubrificantes Lda | PME Líder
 
   servicos:
-    - 07 Área - Gabinete de Arquitectura Lda
-    - Aeronorte - Transportes Aéreos S.A.
-    - Agomesdent Lda
-    - André Castro - Sociedade Unipessoal Lda
-    - Arborvalue - Valorização do Património Vegetal Lda | Spin-Off
-    - Berci - Desenho Têxtil Lda
-    - Biotempo - Consultoria em Biotecnologia Lda | Spin-Off
-    - Bitreserve Unipessoal Lda
-    - BragaRedes - Implementação de Redes Informáticas e Telecomunicações Lda
-    - CH Consulting S.A.
-    - Campe - Centro de Apoio Médico, Psicológico e Educacional de Braga Lda
-    - Casa de Lobos - Turismo Rural, Sociedade Unipessoal Lda
-    - Casa do Reguengo - Serviço de Apoio Social e Saúde Crl
-    - Ceser3C - Consultoria, Estudos e Soluções de Engenharia Crl
-    - Chimp - Comunicação Especializada Unipessoal Lda
-    - Clínica Dr. Nuno R. Santiago Lda
-    - Cobersun Lda
-    - Cooperativa dos Produtores Agrícolas de Fafe Crl
-    - CriaEsboço Lda
-    - CrossPlan - Gestão de Projectos Lda
-    - Decor Machine - Decoração, Projecto e Construção de Interiores Lda
-    - Definir Esquemas Lda
-    - Divulgamérito Lda
-    - DragonRoad Unipessoal Lda
-    - EV Formação Empresarial Lda
-    - Edoobba - Negócios em Web 2.0 Lda
-    - Empresa Hoteleira Bastos Ribeiro Lda
-    - Energias Renováveis de FafeBasto Lda
-    - Eufinity Solutions Lda
-    - Everyday On Earth Lda
-    - ExactBrain Lda
-    - FLZ Lda
-    - FSTC Unipessoal Lda
-    - Firemap Lda
-    - Foco Criativo Unipessoal Lda
-    - GLW Lda
-    - GeoAtributo - Consultadoria e Informação para o Planeamento e Ordenamento do Território Lda
-    - GeoJustiça Lda | Spin-Off
-    - Geosite Lda
-    - Gestritium - Ambiente Território e Informação Unipessoal Lda
-    - Gizz Lda
-    - Globiconfer Lda
-    - HVB - Hospital Veterinário de Braga Lda
-    - Hunting Solutions Lda
-    - Hélder Nascimento Matos Unipessoal Lda
-    - IK Consult Lda
-    - Iberiana Technical Lda
-    - Iberlenha - Exploração Florestal e Carvões Lda
-    - Improveat Lda
-    - Incidências de Luz - Iluminações Festivas Lda
-    - Inflection Point - Unipessoal Lda
-    - Inno - Serviços Especializados em Veterinária Lda
-    - Inspiredraft Lda
-    - Jet Stand - Montagem de Stands, Feiras e Exposições Lda
-    - Joaquim Guimarães, Manuela Malheiro e Mário Guimarães SROC
-    - Jorge Luis Navarro Lda
-    - Jorge Pinheiro Unipessoal Lda
-    - José Gomes Unipessoal Lda
-    - José Rodrigues Lourenço - Arquitectura e Urbanismo Lda
-    - Keep Solutions Lda | Spin-Off
-    - KualityAttribute - Tecnologias de Informação Lda
-    - Lan Communication Lda
-    - Laços de Nós Unipessoal Lda
-    - MakeSolid Lda
-    - Mondim Tâmega Park - Empreendimentos Turísticos S.A.
-    - Monte St.ª Isabel Lda
-    - Muqia - Sociedade Unipessoal Lda
-    - Mão Forte Imobiliária Lda
-    - Netgócio - Soluções Internet para Empresas Lda
-    - NextBracom - Sistemas e Engenharias Unipessoal Lda
-    - Nortal Seguros Lda
-    - Nuno Araújo Arquitecto Lda
-    - Nuno Oliveira Paiva Arquitecto Unipessoal Lda
-    - Open Your Business Unipessoal Lda
-    - Palmira Arantes Unipessoal Lda
-    - Patrícia Pontes Unipessoal Lda
-    - Pedro Ferreira & Ferreira Lda
-    - Placemark Lda
-    - Preference Portugal - Sistemas Informáticos Lda
-    - Profijecto - Fiscalização de Obras e Projectos de Engenharia Lda
-    - Quinta da Travessa - Turismo no Espaço Rural Crl
-    - Real Hospital Veterinário - Braga Lda
-    - Regadas e Guimarães Lda
-    - Rilhadas - Sociedade Comercial e Agrícola S.A.
-    - SNU Lda
-    - SQI - Sociedade Imobiliária Lda
-    - Samura Unipessoal Lda
-    - Seegno Lda
-    - Sekurekode Lda
-    - Sensitive Details Lda
-    - SilicoLife Lda | Spin-Off
-    - Simbiente - Engenharia e Gestão Ambiental Lda | Spin-Off
-    - Simbiente Açores - Engenharia e Gestão Ambiental Lda
-    - Sinergeo - Soluções Aplicadas em Geologia, Hidrogeologia e Ambiente Lda | Spin-Off
-    - Sketchpixel - Multimédia e Visual Effects Lda | Spin-Off
-    - Slan4Invest SGPS S.A.
-    - Soluciona - Sistemas Integrados de Gestão Lda
-    - SpinValor - Consultoria em Gestão Empresarial e Desenvolvimento Científico S.A.
-    - Sprenplan Lda
-    - Studio 387 - Cabeleireiro e Visagista Lda
-    - TaquisMetris - Serviços de Topografia Crl
-    - Tecnin - Tecnologias Industriais S.A.
-    - Tecnowave Lda | Spin-Off
-    - Tetraworld Lda
-    - Texto Virtual Lda
-    - Top Informática Lda | PME Excelência
-    - Toque Campestre Lda
-    - Transportes de Mercadorias Rendufenses Lda | PME Líder
-    - Tuizzi S.A.
-    - Turicouto - Investimentos Imobiliários e Turísticos Lda
-    - Twinmind Lda
-    - Vector21.com - Tecnologias de Informação S.A.
-    - Vinalia - Soluções de Biotecnologia para a Vitivinicultura Lda | Spin-Off
-    - Wearemateria Unipessoal Lda
-    - Wiremaze - Sistemas de Informação S.A.
-    - WorkInov - Arquitectura e Construção Lda
-    - Índice - Pinturas Publicitárias Lda
+    - cliente: 07 Área - Gabinete de Arquitectura Lda
+    - cliente: Aeronorte - Transportes Aéreos S.A.
+    - cliente: Agomesdent Lda
+    - cliente: André Castro - Sociedade Unipessoal Lda
+    - cliente: Arborvalue - Valorização do Património Vegetal Lda | Spin-Off
+    - cliente: Berci - Desenho Têxtil Lda
+    - cliente: Biotempo - Consultoria em Biotecnologia Lda | Spin-Off
+    - cliente: Bitreserve Unipessoal Lda
+    - cliente: BragaRedes - Implementação de Redes Informáticas e Telecomunicações Lda
+    - cliente: CH Consulting S.A.
+    - cliente: Campe - Centro de Apoio Médico, Psicológico e Educacional de Braga Lda
+    - cliente: Casa de Lobos - Turismo Rural, Sociedade Unipessoal Lda
+    - cliente: Casa do Reguengo - Serviço de Apoio Social e Saúde Crl
+    - cliente: Ceser3C - Consultoria, Estudos e Soluções de Engenharia Crl
+    - cliente: Chimp - Comunicação Especializada Unipessoal Lda
+    - cliente: Clínica Dr. Nuno R. Santiago Lda
+    - cliente: Cobersun Lda
+    - cliente: Cooperativa dos Produtores Agrícolas de Fafe Crl
+    - cliente: CriaEsboço Lda
+    - cliente: CrossPlan - Gestão de Projectos Lda
+    - cliente: Decor Machine - Decoração, Projecto e Construção de Interiores Lda
+    - cliente: Definir Esquemas Lda
+    - cliente: Divulgamérito Lda
+    - cliente: DragonRoad Unipessoal Lda
+    - cliente: EV Formação Empresarial Lda
+    - cliente: Edoobba - Negócios em Web 2.0 Lda
+    - cliente: Empresa Hoteleira Bastos Ribeiro Lda
+    - cliente: Energias Renováveis de FafeBasto Lda
+    - cliente: Eufinity Solutions Lda
+    - cliente: Everyday On Earth Lda
+    - cliente: ExactBrain Lda
+    - cliente: FLZ Lda
+    - cliente: FSTC Unipessoal Lda
+    - cliente: Firemap Lda
+    - cliente: Foco Criativo Unipessoal Lda
+    - cliente: GLW Lda
+    - cliente: GeoAtributo - Consultadoria e Informação para o Planeamento e Ordenamento do Território Lda
+    - cliente: GeoJustiça Lda | Spin-Off
+    - cliente: Geosite Lda
+    - cliente: Gestritium - Ambiente Território e Informação Unipessoal Lda
+    - cliente: Gizz Lda
+    - cliente: Globiconfer Lda
+    - cliente: HVB - Hospital Veterinário de Braga Lda
+    - cliente: Hunting Solutions Lda
+    - cliente: Hélder Nascimento Matos Unipessoal Lda
+    - cliente: IK Consult Lda
+    - cliente: Iberiana Technical Lda
+    - cliente: Iberlenha - Exploração Florestal e Carvões Lda
+    - cliente: Improveat Lda
+    - cliente: Incidências de Luz - Iluminações Festivas Lda
+    - cliente: Inflection Point - Unipessoal Lda
+    - cliente: Inno - Serviços Especializados em Veterinária Lda
+    - cliente: Inspiredraft Lda
+    - cliente: Jet Stand - Montagem de Stands, Feiras e Exposições Lda
+    - cliente: Joaquim Guimarães, Manuela Malheiro e Mário Guimarães SROC
+    - cliente: Jorge Luis Navarro Lda
+    - cliente: Jorge Pinheiro Unipessoal Lda
+    - cliente: José Gomes Unipessoal Lda
+    - cliente: José Rodrigues Lourenço - Arquitectura e Urbanismo Lda
+    - cliente: Keep Solutions Lda | Spin-Off
+    - cliente: KualityAttribute - Tecnologias de Informação Lda
+    - cliente: Lan Communication Lda
+    - cliente: Laços de Nós Unipessoal Lda
+    - cliente: MakeSolid Lda
+    - cliente: Mondim Tâmega Park - Empreendimentos Turísticos S.A.
+    - cliente: Monte St.ª Isabel Lda
+    - cliente: Muqia - Sociedade Unipessoal Lda
+    - cliente: Mão Forte Imobiliária Lda
+    - cliente: Netgócio - Soluções Internet para Empresas Lda
+    - cliente: NextBracom - Sistemas e Engenharias Unipessoal Lda
+    - cliente: Nortal Seguros Lda
+    - cliente: Nuno Araújo Arquitecto Lda
+    - cliente: Nuno Oliveira Paiva Arquitecto Unipessoal Lda
+    - cliente: Open Your Business Unipessoal Lda
+    - cliente: Palmira Arantes Unipessoal Lda
+    - cliente: Patrícia Pontes Unipessoal Lda
+    - cliente: Pedro Ferreira & Ferreira Lda
+    - cliente: Placemark Lda
+    - cliente: Preference Portugal - Sistemas Informáticos Lda
+    - cliente: Profijecto - Fiscalização de Obras e Projectos de Engenharia Lda
+    - cliente: Quinta da Travessa - Turismo no Espaço Rural Crl
+    - cliente: Real Hospital Veterinário - Braga Lda
+    - cliente: Regadas e Guimarães Lda
+    - cliente: Rilhadas - Sociedade Comercial e Agrícola S.A.
+    - cliente: SNU Lda
+    - cliente: SQI - Sociedade Imobiliária Lda
+    - cliente: Samura Unipessoal Lda
+    - cliente: Seegno Lda
+    - cliente: Sekurekode Lda
+    - cliente: Sensitive Details Lda
+    - cliente: SilicoLife Lda | Spin-Off
+    - cliente: Simbiente - Engenharia e Gestão Ambiental Lda | Spin-Off
+    - cliente: Simbiente Açores - Engenharia e Gestão Ambiental Lda
+    - cliente: Sinergeo - Soluções Aplicadas em Geologia, Hidrogeologia e Ambiente Lda | Spin-Off
+    - cliente: Sketchpixel - Multimédia e Visual Effects Lda | Spin-Off
+    - cliente: Slan4Invest SGPS S.A.
+    - cliente: Soluciona - Sistemas Integrados de Gestão Lda
+    - cliente: SpinValor - Consultoria em Gestão Empresarial e Desenvolvimento Científico S.A.
+    - cliente: Sprenplan Lda
+    - cliente: Studio 387 - Cabeleireiro e Visagista Lda
+    - cliente: TaquisMetris - Serviços de Topografia Crl
+    - cliente: Tecnin - Tecnologias Industriais S.A.
+    - cliente: Tecnowave Lda | Spin-Off
+    - cliente: Tetraworld Lda
+    - cliente: Texto Virtual Lda
+    - cliente: Top Informática Lda | PME Excelência
+    - cliente: Toque Campestre Lda
+    - cliente: Transportes de Mercadorias Rendufenses Lda | PME Líder
+    - cliente: Tuizzi S.A.
+    - cliente: Turicouto - Investimentos Imobiliários e Turísticos Lda
+    - cliente: Twinmind Lda
+    - cliente: Vector21.com - Tecnologias de Informação S.A.
+    - cliente: Vinalia - Soluções de Biotecnologia para a Vitivinicultura Lda | Spin-Off
+    - cliente: Wearemateria Unipessoal Lda
+    - cliente: Wiremaze - Sistemas de Informação S.A.
+    - cliente: WorkInov - Arquitectura e Construção Lda
+    - cliente: Índice - Pinturas Publicitárias Lda
 
   entidades:
-    - Agência de Desenvolvimento Regional do Vale do Ave
-    - Associação Académica da Universidade do Minho
-    - Associação Empresarial de Fafe, Cabeceiras de Basto e Celorico de Basto
-    - Associação Empresarial de Portugal
-    - Associação Industrial Portuguesa
-    - Associação Industrial do Minho
-    - Associação Spinpark - Centro de Incubação de Base Tecnológica
-    - Associação de Municípios de Fins Específicos Quadrilátero Urbano
-    - Associação dos Antigos Estudantes da Universidade do Minho
-    - Bragahabit E.M.
-    - Centro Tecnológico da Indústria Têxtil e do Vestuário de Portugal
-    - Centro Tecnológico do Calçado de Portugal
-    - Centro de Apoio Tecnológico à Indústria Metalomecânica
-    - Centro de Apoio Tecnológico à Indústria Metalomecânica
-    - Centro de Formação Profissional da Indústria de Ourivesaria e Relojoaria
-    - Centro para a Valorização de Resíduos
-    - Câmara Municipal de Braga
-    - Engenharia para o Desenvolvimento e Assistência Humanitária / Associação para a Cooperação
-    - Fundação AAUM
-    - Fundação Bracara Augusta
-    - Instituto Português da Juventude
-    - Instituto de Apoio às Pequenas e Médias Empresas e à Inovação
-    - Instituto de Emprego e Formação Profissional
-    - Oficinas de S. José IPSS
-    - ProGeo - The European Association for the Conservation of the Geological Heritage
-    - Rádio Universiitária do Minho
-    - Teatro Circo de Braga S.A. E.M
-    - TecMinho - Associação Universidade-Empresa para o Desenvolvimento
-    - Universidade do Minho
+    - cliente: Agência de Desenvolvimento Regional do Vale do Ave
+    - cliente: Associação Académica da Universidade do Minho
+    - cliente: Associação Empresarial de Fafe, Cabeceiras de Basto e Celorico de Basto
+    - cliente: Associação Empresarial de Portugal
+    - cliente: Associação Industrial Portuguesa
+    - cliente: Associação Industrial do Minho
+    - cliente: Associação Spinpark - Centro de Incubação de Base Tecnológica
+    - cliente: Associação de Municípios de Fins Específicos Quadrilátero Urbano
+    - cliente: Associação dos Antigos Estudantes da Universidade do Minho
+    - cliente: Bragahabit E.M.
+    - cliente: Centro Tecnológico da Indústria Têxtil e do Vestuário de Portugal
+    - cliente: Centro Tecnológico do Calçado de Portugal
+    - cliente: Centro de Apoio Tecnológico à Indústria Metalomecânica
+    - cliente: Centro de Apoio Tecnológico à Indústria Metalomecânica
+    - cliente: Centro de Formação Profissional da Indústria de Ourivesaria e Relojoaria
+    - cliente: Centro para a Valorização de Resíduos
+    - cliente: Câmara Municipal de Braga
+    - cliente: Engenharia para o Desenvolvimento e Assistência Humanitária / Associação para a Cooperação
+    - cliente: Fundação AAUM
+    - cliente: Fundação Bracara Augusta
+    - cliente: Instituto Português da Juventude
+    - cliente: Instituto de Apoio às Pequenas e Médias Empresas e à Inovação
+    - cliente: Instituto de Emprego e Formação Profissional
+    - cliente: Oficinas de S. José IPSS
+    - cliente: ProGeo - The European Association for the Conservation of the Geological Heritage
+    - cliente: Rádio Universiitária do Minho
+    - cliente: Teatro Circo de Braga S.A. E.M
+    - cliente: TecMinho - Associação Universidade-Empresa para o Desenvolvimento
+    - cliente: Universidade do Minho
 

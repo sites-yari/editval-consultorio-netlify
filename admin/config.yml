@@ -490,10 +490,22 @@ collections:
                name: "industria"
                widget: list
                fields:
-                - { label: "campos", widget: string }
-             - { label: "Comercio", name: "comercio", widget: list }
-             - { label: "Serviços", name: "servicos", widget: list }
-             - { label: "Entidades", name: "entidades", widget: list }
+                - { label: "Campo", name: "cliente", widget: string }
+             - label: "Comercio"
+               name: "comercio"
+               widget: list 
+               fields:
+                - { label: "Campo", name: "cliente", widget: string }
+             - label: "Serviços"
+               name: "servicos"
+               widget: list 
+               fields:
+                - { label: "Campo", name: "cliente", widget: string }
+             - label: "Entidades"
+               name: "entidades"
+               widget: list 
+               fields:
+                - { label: "Campo", name: "cliente", widget: string }
         #---| BOLSA DE IDEAS |---
       - name: "bolsa-ideias"
         label: "Bolsa de Ideias - Empreender"
