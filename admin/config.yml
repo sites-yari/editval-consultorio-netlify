@@ -286,7 +286,7 @@ collections:
             fields:
               - label: Equipa PT
                 name: equipa_pt
-                widget: object
+                widget: list
                 fields:
                   - { label: "Titulo", name: "nome", widget: "string" }
                   - { label: "Cargo", name: "cargo", widget: "string" }
@@ -295,7 +295,7 @@ collections:
                   - { label: "Email", name: "email", widget: "string" }
               - label: Equipa EN
                 name: equipa_en
-                widget: object
+                widget: list
                 fields:
                   - { label: "Titulo", name: "nome", widget: "string" }
                   - { label: "Cargo", name: "cargo", widget: "string" }
@@ -304,7 +304,7 @@ collections:
                   - { label: "Email", name: "email", widget: "string" }
               - label: Equipa ES
                 name: equipa_es
-                widget: object
+                widget: list
                 fields:
                   - { label: "Titulo", name: "nome", widget: "string" }
                   - { label: "Cargo", name: "cargo", widget: "string" }
@@ -505,7 +505,7 @@ collections:
               - { label: "Autor", name: "autor", widget: "string" }
               - { label: "Descrição", name: "paragrafo", widget: "markdown" }
           - label: Ideias Partilhadas #----- clientes
-            name: ideas_partilhadas
+            name: ideias_partilhadas
             widget: list
             fields:
               - { label: "Tema", name: "tema", widget: "string" }
