@@ -1,0 +1,108 @@
+---
+layout: default
+title: Rede
+class: rede-pt
+rede_active?: active
+---
+
+  <body class='older_browser ev rede'>
+    <div class='' id='main_container'>
+      {% include header.html %}        
+      <div class='' id='middle_container'>
+        {% include menu.html %}        
+        <div class='clearfix' id='container3'>
+          <div class='contents'>
+
+
+
+            
+            <ol class="contents clearfix">
+              <li class="container container_expand">
+                <div class="content" id="content_646_container">
+
+                  <div class="ev-journal-parcerias">
+                    <h1><span>Parcerias</span></h1>
+                    <ul>
+                      {% assign wire = site.posts | where: "category" , "Parcerias" %}                        
+                      {% for post in wire %}
+                      <li>
+                        <div class="article ">
+                          <div class="title">
+                            <a href='{{post.link}}' target="_blank"><span>{{post.title}}</span></a>
+                          </div>
+                          <div class="img">
+                            <a href='{{post.link}}' target="_blank"><img alt="Spin-off" src='{{post.imagem_image_path}}'></a>
+                          </div>
+                          <div class="text">
+                            <p>{{post.text}}</p>
+                          </div>
+                        </div>
+                      </li>
+                      {% endfor %}                      
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ol>
+
+
+              <div class="content" style="padding-top: 20px;">
+                <li class="container container_expand">
+                  <div class="content" id="content_646_container">
+                    <div class="ev-journal-parcerias">
+                      <h1><span>Clientes</span></h1>
+                      <div class="ev-journal-clientes">
+                        <div class="contents">
+                          <div id="journal53">
+
+                            <h3><a href="#">Indústria</a></h3>
+                            <div>
+                              {% for rede in site.data.rede.clientes.industria %}
+                                <div>{{rede.cliente}}</div>
+                              {% endfor %}
+                            </div>
+
+
+                            <h3><a href="#">Comércio</a></h3>
+                            <div>
+                              {% for rede in site.data.rede.clientes.comercio %}
+                                <div>{{rede.cliente}}</div>
+                              {% endfor %}
+                            </div>
+                              
+                              
+                            <h3><a href="#">Serviços</a></h3>
+                            <div>
+                              {% for rede in site.data.rede.clientes.servicos %}
+                                <div>{{rede.cliente}}</div>
+                              {% endfor %}
+                            </div>
+
+
+                            <h3><a href="#">Entidades</a></h3>
+                            <div>
+                              {% for rede in site.data.rede.clientes.entidades %}
+                                <div>{{rede.cliente}}</div>
+                              {% endfor %}
+                            </div>
+                          </div>
+                          <script>
+                            $(document).ready(function() { $("#journal53").accordion({active: false, collapsible: true, heightStyle: "content"}); });
+                          </script>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </div>
+            </ol>
+
+
+
+
+          </div>
+        </div>
+      </div>
+      {% include footer.html %}
+    </div>
+  </body>

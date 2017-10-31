@@ -1,0 +1,4250 @@
+html {
+  overflow-y: scroll;
+}
+
+/* body class */
+.ev {
+  background:  url("../images/designs/edit-value/page-bg.gif") center top repeat;
+  margin: 0;
+}
+
+/* HELPERS */
+div#main_container {
+  margin: 0px auto 0px auto;
+  /* FF centers de container */
+  width: 910px;
+  border: none;
+}
+
+div#middle_container {
+  width: 866px;
+  padding: 0 22px;
+  border: none;
+  /*overflow: hidden;*/
+  background:  url("../images/designs/edit-value/bg-line.png") center top repeat-y;
+}
+
+/* CONTENTORES */
+div#container1 {
+  height: 43px;
+  margin: 0;
+  padding: 43px 26px 0;
+  *overflow: hidden;
+  background:  url("../images/foreigners/edit-value/58/35921/bg_sprite_v2.png") 0px 10px no-repeat;
+}
+
+div#container2 {
+  width: 866px;
+  margin: 0;
+  padding: 0;
+}
+
+div#container3 {
+  width: 866px;
+  margin: 20px 0;
+  padding: 0;
+}
+
+div#container4 {
+  clear: both;
+  margin: 0 0 -8px;
+  padding: 10px 20px;
+  min-height: 33px;
+  background:  url("../images/albums-us/edit-value/4655/bg_sprite.png") 0px -82px no-repeat;
+}
+
+.container_float_left,
+.container-float-left,
+.left {
+  float: left;
+}
+
+.container_float_right,
+.container-float-right,
+.right {
+  float: right;
+}
+
+/***************************************************************************************/
+/* para o IE6 */
+div#main_container div ol.contents {
+  *_list-style: none;
+  *_position: relative;
+  *_float: left;
+  *_width: 100%;
+  *_border: none;
+  *_margin: 0;
+  *_padding: 0;
+  overflow: hidden;
+  height: auto;
+}
+
+div#main_container div ol.contents li {
+  *_position: relative;
+  *_margin: 0;
+}
+
+/* para os restantes */
+div#main_container div > ol.contents {
+  list-style: none;
+  position: relative;
+  *float: left;
+  *width: 100%;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div#main_container div > ol.contents > li {
+  position: relative;
+  margin: 0;
+}
+
+/***************************************************************************************/
+/* configuraÃ§Ãµes para cada pÃ¡gina haha */
+div#container2 {
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+
+body.index div#container2,
+body.es div#container2,
+body.en div#container2,
+body[class~="404"] div#container2 {
+  padding: 254px 0 0;
+  background-image:  url("../images/foreigners/edit-value/58/42175/1_universo.jpg?1452626171");
+}
+
+body.equipa div#container2,
+body.equipo div#container2,
+body.team div#container2 {
+  padding: 254px 0 0;
+  background-image:  url("../images/foreigners/edit-value/58/42177/2_equipa.jpg?1452626171");
+}
+
+body.servicos div#container2,
+body.servicios div#container2,
+body.services div#container2 {
+  padding: 254px 0 0;
+  background-image:  url("../images/foreigners/edit-value/58/42176/3_servicos.jpg?1452626171");
+}
+
+body.media div#container2 {
+  padding: 254px 0 0;
+  background-image:  url("../images/foreigners/edit-value/58/42185/4_media.jpg?1452626171");
+}
+
+body.research div#container2,
+body.investigacion div#container2,
+body.investigacao div#container2 {
+  padding: 254px 0 0;
+  background-image:  url("../images/foreigners/edit-value/58/42186/5_investigacao.jpg?1452626171");
+}
+
+body.rede div#container2 {
+  padding: 254px 0 0;
+  background-image:  url("../images/foreigners/edit-value/58/42179/6_rede.jpg?1452626171");
+}
+
+body.bolsa-de-ideias div#container2 {
+  padding: 254px 0 0;
+  background-image:  url("../images/foreigners/edit-value/58/42180/7_bolsa_de_ideias.jpg?1452626171");
+}
+
+body.contactos div#container2,
+body.contactos-es div#container2,
+body.contacts div#container2 {
+  padding: 254px 0 0;
+  background-image:  url("../images/foreigners/edit-value/58/42178/8_contactos.jpg?1452626171");
+}
+
+body.formacao div#container2 {
+  padding: 254px 0 0;
+  background-image:  url("../images/designs/edit-value/formacao-top.jpg?1452626171");
+}
+
+body.clientes div#container2 {
+  padding: 254px 0 0;
+  background-image:  url("../images/designs/edit-value/clientarea-top.jpg?1452626171");
+}
+
+/* para os estilos que utilizem flash */
+.flash-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* reset style */
+body, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  border: none;
+}
+
+/* clearfix */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/*.clearfix {
+  display: inline-block;
+}*/
+
+/*html .clearfix {
+  display: block;
+}*/
+
+* html .clearfix {
+  height: 1%;
+}
+
+
+/*************
+ *** STYLE ***
+ *************/
+.journal.ev-journal-agenda {
+  height: 308px;
+}
+
+/* definiÃ§Ãµes base */
+html {
+  scrollbar-face-color: #888;
+  scrollbar-highlight-color: #ccc;
+  scrollbar-3dlight-color: #ccc;
+  scrollbar-darkshadow-color: #ccc;
+  scrollbar-shadow-color: #ccc;
+  scrollbar-arrow-color: #504a5e;
+  scrollbar-track-color: #ccc;
+}
+
+body {
+  font-family: "Lucida Sans", Helvetica, Tahoma, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #444;
+}
+
+a {
+  color: #b00000;
+}
+
+a:hover {
+  color: #e00000;
+}
+
+input[type="submit"] {
+  font-size: 12px;
+  color: #fff;
+  border: 1px solid;
+  border-color: #ccc #aaa #aaa #ccc;
+  background-color: #bbb;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  border: 1px solid;
+  border-color: #e18687 #912627 #912627 #e18687;
+  background-color: #d12627;
+}
+
+/**
+ * Estilo para a lightwindow que abre automÃ¡ticamente
+ **/
+div.auto-lightwindow {
+  display: none;
+}
+
+body > .preview div.auto-lightwindow {
+  display: block;
+}
+
+body > .preview div.auto-lightwindow img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* desactivar nas pÃ¡ginas que abrem dentro de lightboxes */
+body.etica div#poweredby,
+body.sugestoes-e-reclamacoes div#poweredby,
+body.oportunidades div#poweredby,
+body.responsabilidade-social div#poweredby,
+body.privacidade div#poweredby,
+body.newsletter div#poweredby,
+body.seguranca div#poweredby {
+  display: none;
+}
+
+/********************************** Menus ***************************************************/
+/***
+ * ev-main-menu (PT)
+ **/
+div.ev-main-menu {
+  width: 864px;
+  height: 88px;
+  overflow: hidden;
+  display: block;
+  background: transparent  url("../images/foreigners/edit-value/58/46980/menu_top_sprite_pt.png?1452626171") no-repeat 0px -176px;
+}
+
+div.ev-main-menu h1 {
+  display: none;
+}
+
+div.ev-main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+div.ev-main-menu ul li {
+  float: left;
+  margin-right: 1px;
+  width: 107px;
+  height: 83px;
+  display: block;
+  background: transparent  url("../images/designs/edit-value/menu_top_sprite_pt.png?1452626171") no-repeat top left;
+}
+
+div.ev-main-menu ul li:last-child {
+  margin-right: 0;
+}
+
+div.ev-main-menu ul li a,
+div.ev-main-menu ul li a:link,
+div.ev-main-menu ul li a:focus,
+div.ev-main-menu ul li a:active,
+div.ev-main-menu ul li a:visited {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  width: 107px;
+  height: 83px;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+div.ev-main-menu ul li a div.icon {
+  display: block;
+  position: relative;
+  top: -83px;
+  width: 107px;
+  height: 166px;
+  background: transparent  url("../images/designs/edit-value/menu_top_sprite_pt.png?1452626171") no-repeat;
+}
+
+div.ev-main-menu ul li a div {
+  display: block;
+}
+
+/* configuraÃ§Ã£o de cada link (PT) */
+div.ev-main-menu ul li.index {
+  background-position: 0px 0px;
+}
+
+div.ev-main-menu ul li.equipa {
+  background-position: -107px 0px;
+}
+
+div.ev-main-menu ul li.servicos {
+  background-position: -214px 0px;
+}
+
+div.ev-main-menu ul li.media {
+  background-position: -321px 0px;
+}
+
+div.ev-main-menu ul li.investigacao {
+  background-position: -428px 0px;
+}
+
+div.ev-main-menu ul li.rede {
+  background-position: -535px 0px;
+}
+
+div.ev-main-menu ul li.bolsa-de-ideias {
+  background-position: -642px 0px;
+}
+
+div.ev-main-menu ul li.contactos {
+  background-position: -749px 0px;
+}
+
+/* icon */
+div.ev-main-menu ul li.index div.icon {
+  background-position: 0px 0px;
+}
+
+div.ev-main-menu ul li.equipa div.icon {
+  background-position: -107px 0px;
+}
+
+div.ev-main-menu ul li.servicos div.icon {
+  background-position: -214px 0px;
+}
+
+div.ev-main-menu ul li.media div.icon {
+  background-position: -321px 0px;
+}
+
+div.ev-main-menu ul li.investigacao div.icon {
+  background-position: -428px 0px;
+}
+
+div.ev-main-menu ul li.rede div.icon {
+  background-position: -535px 0px;
+}
+
+div.ev-main-menu ul li.bolsa-de-ideias div.icon {
+  background-position: -642px 0px;
+}
+
+div.ev-main-menu ul li.contactos div.icon {
+  background-position: -749px 0px;
+}
+
+/* aspecto do link activo */
+div.ev-main-menu ul li.active div.icon {
+  background: none;
+}
+
+/* hack para o media tambÃ©m estar activo nos sublinks */
+body.media div.ev-main-menu ul li.media div.icon {
+  background: none;
+}
+
+/***
+ * ev-main-menu (EN)
+ **/
+div.ev-main-menu-en {
+  width: 864px;
+  height: 88px;
+  overflow: hidden;
+  display: block;
+  background: transparent  url("../images/foreigners/edit-value/58/46978/menu_top_sprite_en.png?1452626171") no-repeat 0px -176px;
+}
+
+div.ev-main-menu-en h1 {
+  display: none;
+}
+
+div.ev-main-menu-en ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+div.ev-main-menu-en ul li {
+  float: left;
+  margin-right: 1px;
+  width: 107px;
+  height: 83px;
+  display: block;
+  background: transparent  url("../images/foreigners/edit-value/58/46978/menu_top_sprite_en.png?1452626171") no-repeat top left;
+}
+
+div.ev-main-menu-en ul li:last-child {
+  margin-right: 0;
+}
+
+div.ev-main-menu-en ul li a,
+div.ev-main-menu-en ul li a:link,
+div.ev-main-menu-en ul li a:focus,
+div.ev-main-menu-en ul li a:active,
+div.ev-main-menu-en ul li a:visited {
+  position: relative;
+  display: block;
+  width: 107px;
+  height: 83px;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+div.ev-main-menu-en ul li a div.icon {
+  display: block;
+  position: relative;
+  top: -83px;
+  width: 107px;
+  height: 166px;
+  background: transparent  url("../images/foreigners/edit-value/58/46978/menu_top_sprite_en.png?1452626171") no-repeat;
+}
+
+div.ev-main-menu-en ul li a div {
+  display: block;
+}
+
+/* configuraÃ§Ã£o de cada link (EN) */
+div.ev-main-menu-en ul li.index-en {
+  background-position: 0px 0px;
+}
+
+div.ev-main-menu-en ul li.team {
+  background-position: -107px 0px;
+}
+
+div.ev-main-menu-en ul li.services {
+  background-position: -214px 0px;
+}
+
+div.ev-main-menu-en ul li.research {
+  background-position: -321px 0px;
+}
+
+div.ev-main-menu-en ul li.contacts {
+  background-position: -428px 0px;
+}
+
+/* icon */
+div.ev-main-menu-en ul li.index-en div.icon {
+  background-position: 0px 0px;
+}
+
+div.ev-main-menu-en ul li.team div.icon {
+  background-position: -107px 0px;
+}
+
+div.ev-main-menu-en ul li.services div.icon {
+  background-position: -214px 0px;
+}
+
+div.ev-main-menu-en ul li.research div.icon {
+  background-position: -321px 0px;
+}
+
+div.ev-main-menu-en ul li.contacts div.icon {
+  background-position: -428px 0px;
+}
+
+/* aspecto do link activo */
+div.ev-main-menu-en ul li.active div.icon {
+  background: none;
+}
+
+/***
+ * ev-main-menu (ES)
+ **/
+div.ev-main-menu-es {
+  width: 864px;
+  height: 88px;
+  overflow: hidden;
+  display: block;
+  background: transparent  url("../images/foreigners/edit-value/58/46979/menu_top_sprite_es.png?1452626171") no-repeat 0px -176px;
+}
+
+div.ev-main-menu-es h1 {
+  display: none;
+}
+
+div.ev-main-menu-es ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+div.ev-main-menu-es ul li {
+  float: left;
+  margin-right: 1px;
+  width: 107px;
+  height: 83px;
+  display: block;
+  background: transparent  url("../images/foreigners/edit-value/58/46979/menu_top_sprite_es.png?1452626171") no-repeat top left;
+}
+
+div.ev-main-menu-es ul li:last-child {
+  margin-right: 0;
+}
+
+div.ev-main-menu-es ul li a,
+div.ev-main-menu-es ul li a:link,
+div.ev-main-menu-es ul li a:focus,
+div.ev-main-menu-es ul li a:active,
+div.ev-main-menu-es ul li a:visited {
+  position: relative;
+  display: block;
+  width: 107px;
+  height: 83px;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+div.ev-main-menu-es ul li a div.icon {
+  display: block;
+  position: relative;
+  top: -83px;
+  width: 107px;
+  height: 166px;
+  background: transparent  url("../images/foreigners/edit-value/58/46979/menu_top_sprite_es.png?1452626171") no-repeat;
+}
+
+div.ev-main-menu-es ul li a div {
+  display: block;
+}
+
+/* configuraÃ§Ã£o de cada link (EN) */
+div.ev-main-menu-es ul li.index-es {
+  background-position: 0px 0px;
+}
+
+div.ev-main-menu-es ul li.equipo {
+  background-position: -107px 0px;
+}
+
+div.ev-main-menu-es ul li.servicios {
+  background-position: -214px 0px;
+}
+
+div.ev-main-menu-es ul li.investigacion {
+  background-position: -321px 0px;
+}
+
+div.ev-main-menu-es ul li.contactos-es {
+  background-position: -428px 0px;
+}
+
+/* icon */
+div.ev-main-menu-es ul li.index-es div.icon {
+  background-position: 0px 0px;
+}
+
+div.ev-main-menu-es ul li.equipo div.icon {
+  background-position: -107px 0px;
+}
+
+div.ev-main-menu-es ul li.servicios div.icon {
+  background-position: -214px 0px;
+}
+
+div.ev-main-menu-es ul li.investigacion div.icon {
+  background-position: -321px 0px;
+}
+
+div.ev-main-menu-es ul li.contactos-es div.icon {
+  background-position: -428px 0px;
+}
+
+/* aspecto do link activo */
+div.ev-main-menu-es ul li.active div.icon {
+  background: none;
+}
+
+/** MENU/TEXTO :: redes sociais **/
+.menu-redes-sociais p {
+  margin: 0;
+  paddin: 0;
+}
+
+.menu-redes-sociais a {
+  width: 24px;
+  height: 24px;
+  margin: 0px 4px;
+  overflow: hidden;
+  float: left;
+  display: block;
+  background: transparent  url("../images/designs/edit-value/social-icons-sprite.png?1452626171") no-repeat 0px 0px;
+}
+
+.menu-redes-sociais a span {
+  display: none;
+}
+
+.menu-redes-sociais a.twitter {
+  background-position: 0px 0px;
+}
+
+.menu-redes-sociais a.facebook {
+  background-position: -24px 0px;
+}
+
+.menu-redes-sociais a.linkedin {
+  background-position: -48px 0px;
+}
+
+.menu-redes-sociais a.blogger {
+  background-position: -72px 0px;
+}
+
+.menu-redes-sociais a.twitter:hover {
+  background-position: 0px -24px;
+}
+
+.menu-redes-sociais a.facebook:hover {
+  background-position: -24px -24px;
+}
+
+.menu-redes-sociais a.linkedin:hover {
+  background-position: -48px -24px;
+}
+
+.menu-redes-sociais a.blogger:hover {
+  background-position: -72px -24px;
+}
+
+/*** menu destaques ***/
+div.ev-menu-destaques {
+  width: 216px;
+  height: 259px;
+  margin-left: 13px;
+  overflow: hidden;
+  display: block;
+  background: transparent  url("../images/designs/edit-value/menu-destaques-sprite.png?1452626171") no-repeat -432px 0px;
+}
+
+/* hack para a pÃ¡gina - galeria de imagens - para as galerias ficarem alinhadas Ã  direita
+   importante, para funcionar no firefox, tem de estar aqui (depois da da definiÃ§Ã£o inicial do height) */
+body.galeria-fotos div.ev-menu-destaques {
+  width: 216px;
+  height: 510px;
+}
+
+/* */
+div.ev-menu-destaques h1 {
+  display: none;
+}
+
+div.ev-menu-destaques ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+div.ev-menu-destaques ul li {
+  margin-bottom: 1px;
+  width: 212px;
+  height: 36px;
+  *height: 33px;
+  display: block;
+  background: transparent  url("../images/designs/edit-value/menu-destaques-sprite.png?1452626171") no-repeat top left;
+}
+
+div.ev-menu-destaques ul li:last-child {
+  margin-right: 0;
+}
+
+div.ev-menu-destaques ul li a,
+div.ev-menu-destaques ul li a:link,
+div.ev-menu-destaques ul li a:focus,
+div.ev-menu-destaques ul li a:active,
+div.ev-menu-destaques ul li a:visited {
+  position: relative;
+  display: block;
+  width: 212px;
+  height: 36px;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+div.ev-menu-destaques ul li a span {
+  display: none;
+}
+
+/* configuraÃ§Ã£o de cada link */
+div.ev-menu-destaques ul li.media {
+  background-position: -216px 0;
+}
+
+div.ev-menu-destaques ul li.artigos-economia {
+  background-position: -216px  -37px;
+}
+
+div.ev-menu-destaques ul li.videos {
+  background-position: -216px  -74px;
+}
+
+div.ev-menu-destaques ul li.clipping {
+  background-position: -216px -111px;
+}
+
+div.ev-menu-destaques ul li.press-release {
+  background-position: -216px -147px;
+}
+
+div.ev-menu-destaques ul li.logo-marca {
+  background-position: -216px -183px;
+}
+
+div.ev-menu-destaques ul li.galeria-fotos {
+  background-position: -216px -219px;
+}
+
+/* propriedades hover e active - esconder do IE6 */
+div.ev-menu-destaques ul > li.media.active,
+div.ev-menu-destaques ul > li.media:hover {
+  background-position: 0 0;
+}
+
+div.ev-menu-destaques ul > li.artigos-economia.active,
+div.ev-menu-destaques ul > li.artigos-economia:hover {
+  background-position: 0  -37px;
+}
+
+div.ev-menu-destaques ul > li.videos.active,
+div.ev-menu-destaques ul > li.videos:hover {
+  background-position: 0  -74px;
+}
+
+div.ev-menu-destaques ul > li.clipping.active,
+div.ev-menu-destaques ul > li.clipping:hover {
+  background-position: 0 -111px;
+}
+
+div.ev-menu-destaques ul > li.press-release.active,
+div.ev-menu-destaques ul > li.press-release:hover {
+  background-position: 0 -147px;
+}
+
+div.ev-menu-destaques ul > li.logo-marca.active,
+div.ev-menu-destaques ul > li.logo-marca:hover {
+  background-position: 0 -183px;
+}
+
+div.ev-menu-destaques ul > li.galeria-fotos.active,
+div.ev-menu-destaques ul > li.galeria-fotos:hover {
+  background-position: 0 -219px;
+}
+
+/*** menu linguas ***/
+div.ev-menu-linguas {
+  overflow: hidden;
+  display: block;
+  font-size: 11px;
+  line-height: 10px;
+}
+
+/*** menu linguas nas outras linguas simula o menu clientes com uma imagem ***/
+body.index-en div.ev-menu-header,
+body.index-es div.ev-menu-header {
+  padding-right: 97px;
+  background: transparent  url("../images/designs/edit-value/menu-clientes-sprite.png?1452626171") no-repeat right -42px;
+}
+
+.nested-menu.language_header {
+  overflow: hidden;
+  display: block;
+  font-size: 11px;
+  line-height: 10px;
+  margin-left: 10px;
+}
+.nested-menu.language_header ul {
+  list-style: none;
+  overflow: hidden;
+}
+.nested-menu.language_header ul li {
+  float: left;
+  border-left: 1px solid #999;
+  margin: 5px 2px;
+  padding: 0 0 2px 4px;
+}
+.nested-menu.language_header ul li a {
+  text-decoration: none;
+  color: #999;
+  outline: none;
+}
+.nested-menu.language_header ul li a:hover {
+  color: #cc1111;
+}
+.nested-menu.language_header ul li:first-child, .nested-menu.language_header ul li.formacao, .nested-menu.language_header ul li.clientes {
+  border: none;
+}
+.nested-menu.language_header ul li.formacao {
+  border: none;
+  margin: 0 10px 0 0;
+  padding: 0;
+  /*a:hover { background-color: #d12627; border-color: #e89494 #c92a2b #c61d1e #e89494; color: #fff; }*/
+}
+.nested-menu.language_header ul li.formacao a {
+  display: block;
+  margin: 0 0 0 10px;
+  padding: 5px 0;
+  height: 9px;
+  width: 6.5em;
+  text-align: center;
+  border: 1px solid;
+  border-color: #dddddd #b2b2b2 #adadad #dddddd;
+  color: #fff;
+  background: #bbb;
+}
+.nested-menu.language_header ul li.formacao a:hover {
+  border-color: #30a8e7 #004887 #004887 #30a8e7;
+  background: #0078b7;
+  color: #fff;
+}
+.nested-menu.language_header ul li.clientes {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.nested-menu.language_header ul li.clientes a {
+  display: block;
+  height: 9px;
+  margin: 0;
+  padding: 5px 7px 5px 22px;
+  border: 1px solid;
+  border-color: #dddddd #b2b2b2 #adadad #dddddd;
+  color: #fff;
+  background: #bbbbbb  url("../images/icon-area-clientes.png?1452626171") no-repeat 8px;
+}
+.nested-menu.language_header ul li.clientes a:hover {
+  background-color: #d12627;
+  border-color: #e89494 #c92a2b #c61d1e #e89494;
+  color: #fff;
+}
+.nested-menu.language_header ul li.clientes.active a {
+  background-color: #d12627;
+}
+
+/*** menu clientes ***/
+div.ev-menu-clientes {
+  overflow: hidden;
+  display: block;
+  font-size: 10px;
+}
+
+div.ev-menu-clientes h1 {
+  display: none;
+}
+
+div.ev-menu-clientes ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.ev-menu-clientes ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+div.ev-menu-clientes ul li a,
+div.ev-menu-clientes ul li a:link,
+div.ev-menu-clientes ul li a:focus,
+div.ev-menu-clientes ul li a:active,
+div.ev-menu-clientes ul li a:visited {
+  display: block;
+  width: 97px;
+  height: 21px;
+  background: transparent  url("../images/designs/edit-value/menu-clientes-sprite.png?1452626171") no-repeat 0px -21px;
+  outline: none;
+}
+
+div.ev-menu-clientes ul li a:hover {
+  display: block;
+  background-position: 0px 0px;
+  *width: 97px;
+  *height: 21px;
+}
+
+div.ev-menu-clientes ul li a span {
+  display: none;
+}
+
+div.ev-menu-clientes ul li.active a {
+  background-position: 0px 0px;
+}
+
+/* manter o link activo mesmo quando estamos numa "subpÃ¡gina" */
+body.clientes div.ev-menu-clientes ul li a,
+body.lista-de-clientes div.ev-menu-clientes ul li a,
+body.testemunhos-de-clientes div.ev-menu-clientes ul li a {
+  background-position: 0px 0px;
+}
+
+/*** menu clientes-v ***/
+div.ev-menu-v-clientes {
+  width: 216px;
+  height: 259px;
+  margin-left: 13px;
+  overflow: hidden;
+  display: block;
+  background: transparent  url("../images/designs/edit-value/menu-clientes-v-sprite.png?1452626171") no-repeat -432px -37px;
+}
+
+div.ev-menu-v-clientes h1 {
+  display: none;
+}
+
+div.ev-menu-v-clientes ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+div.ev-menu-v-clientes ul li {
+  margin-bottom: 1px;
+  width: 212px;
+  height: 36px;
+  *height: 33px;
+  display: block;
+  background: transparent  url("../images/designs/edit-value/menu-clientes-v-sprite.png?1452626171") no-repeat top left;
+}
+
+div.ev-menu-v-clientes ul li:last-child {
+  margin-right: 0;
+}
+
+div.ev-menu-v-clientes ul li a,
+div.ev-menu-v-clientes ul li a:link,
+div.ev-menu-v-clientes ul li a:focus,
+div.ev-menu-v-clientes ul li a:active,
+div.ev-menu-v-clientes ul li a:visited {
+  position: relative;
+  display: block;
+  width: 212px;
+  height: 36px;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+div.ev-menu-v-clientes ul li a span {
+  display: none;
+}
+
+/* configuraÃ§Ã£o de cada link */
+div.ev-menu-v-clientes ul li.testemunhos-de-clientes {
+  background-position: -216px 0;
+}
+
+div.ev-menu-v-clientes ul li.lista-de-clientes {
+  background-position: -216px  -37px;
+}
+
+div.ev-menu-v-clientes ul li.clientes {
+  background-position: -216px  -74px;
+}
+
+/* propriedades hover e active */
+div.ev-menu-v-clientes ul li.testemunhos-de-clientes.active,
+div.ev-menu-v-clientes ul li.testemunhos-de-clientes:hover {
+  background-position: 0 0;
+}
+
+div.ev-menu-v-clientes ul li.lista-de-clientes.active,
+div.ev-menu-v-clientes ul li.lista-de-clientes:hover {
+  background-position: 0  -37px;
+}
+
+div.ev-menu-v-clientes ul li.clientes.active,
+div.ev-menu-v-clientes ul li.clientes:hover {
+  background-position: 0  -74px;
+}
+
+/*** menu rodapÃ© ***/
+div.menu1 {
+  overflow: hidden;
+  margin: 0;
+}
+
+div.menu1 h1 {
+  display: none;
+}
+
+div.menu1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+div.menu1 ul li {
+  display: block;
+  float: left;
+  color: #847b74;
+  padding: 2px 4px;
+  background: transparent  url("../images/designs/edit-value/verticalbar.gif?1452626171") no-repeat 0px 5px;
+}
+
+div.menu1 ul li:first-child {
+  background: none;
+  padding-left: 0px;
+}
+
+div.menu1 ul li a,
+div.menu1 ul li a:link,
+div.menu1 ul li a:active,
+div.menu1 ul li a:focus,
+div.menu1 ul li a:visited {
+  padding: 0 5px;
+  color: #262525;
+  text-decoration: none;
+  outline: none;
+}
+
+div.menu1 ul li a:hover {
+  color: #cc1111;
+}
+
+div.menu1 ul li a span {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+/* for all browsers */
+body:last-child div.menu1 ul li a span {
+  font-size: 11px;
+  *font-size: 10px;
+  /* for IE7 */
+}
+
+/* hide from IE8 */
+div.menu1 ul li a span.icon {
+  display: none;
+}
+
+div.menu1 ul li.active a {
+  color: #cc1111;
+}
+
+body.older_browser div.menu1 ul li,
+body.ie7 div.menu1 ul li,
+body.ie8 div.menu1 ul li,
+body.ie9 div.menu1 ul li,
+body.ie10 div.menu1 ul li {
+  padding: 2px 2px;
+}
+
+/********************************** Aliens ***************************************************/
+/* alien media/destaques (rumo econÃ³mico) */
+div.ev-alien-media {
+  overflow: hidden;
+  margin-left: 12px;
+  width: 161px;
+  *padding-left: 12px;
+  *width: 147px;
+}
+
+div.ev-alien-media h1 {
+  display: none;
+}
+
+div.ev-alien-media ul {
+  font-size: 10px;
+  line-height: 11px;
+  display: block;
+  width: 100%;
+  margin: 0 0 0 -10px;
+  padding: 0;
+}
+
+div.ev-alien-media ul li {
+  margin: 5px 0px 5px 10px;
+  *margin: 0;
+  float: left;
+  overflow: hidden;
+  width: 156px;
+  *width: 161px;
+  height: 60px;
+  *height: 50px;
+}
+
+div.ev-alien-media div.i {
+  width: 154px;
+  height: 46px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+div.ev-alien-media div.i div.name {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-weight: bold;
+}
+
+div.ev-alien-media div.i div.link {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  font-weight: bold;
+}
+
+div.ev-alien-media div.i div.link a {
+  color: #666;
+  text-decoration: none;
+}
+
+div.ev-alien-media div.i div.link a:hover {
+  color: #bb2222;
+  text-decoration: underline;
+}
+
+div.ev-alien-media div.i div.player {
+  position: absolute;
+  top: 15px;
+  display: block;
+  width: 148px;
+  height: 30px;
+  padding: 0 3px;
+  border-top: 1px solid #eee;
+}
+
+/* twitter */
+.twitter {
+  width: 213px;
+  overflow: hidden;
+  margin: 0px 5px 0 0;
+  background-color: #eee;
+}
+
+.twitter .name {
+  font-weight: bold;
+  height: 32px;
+  padding-left: 15px;
+}
+
+.twitter .name span {
+  display: block;
+  padding: 4px 0;
+}
+
+.twitter h2 {
+  display: none;
+}
+
+.twitter ul {
+  height: 108px;
+  margin: 0;
+  padding: 0 15px 5px;
+  list-style: none;
+}
+
+.twitter ul > li {
+  padding-bottom: 5px;
+}
+
+.twitter ul > li > span {
+  line-height: 12px;
+  text-align: left;
+}
+
+.twitter a {
+  color: #444;
+}
+
+/********************************** Jornais ***************************************************/
+/* jornal destaques */
+.ev-journal-slidedown {
+  overflow: hidden;
+  margin: 0 0 0 3px;
+}
+
+.ev-journal-slidedown h1 {
+  display: none;
+}
+
+.ev-journal-slidedown ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ev-journal-slidedown ul li {
+  float: left;
+  margin-left: 6px;
+  *_padding-left: 7px;
+  overflow: hidden;
+}
+
+.ev-journal-slidedown ul li + li {
+  margin-left: 9px;
+}
+
+.ev-journal-slidedown .article {
+  width: 300px;
+  height: 300px;
+  padding: 7px;
+  background: transparent  url("../images/designs/edit-value/bg_destaques.png?1452626171") no-repeat 0 0;
+}
+
+.ev-journal-slidedown .article .header {
+  display: none;
+}
+
+.ev-journal-slidedown .article .body {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.ev-journal-slidedown .article .body .img {
+  position: absolute;
+  top: 0;
+}
+
+.ev-journal-slidedown .article .body .img .title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 2px 6px;
+  max-width: 265px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.ev-journal-slidedown .article .body .text {
+  color: #444;
+  padding: 15px;
+}
+
+.ev-journal-slidedown .article .body .text h1 {
+  color: #222;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* diferenÃ§as entre o jornal slidedown e jornal missÃ£o visao valores (apenas as dimensÃµes das imagens)*/
+div.ev-journal-slide-team {
+  overflow: hidden;
+  margin: 0 0 0 3px;
+}
+
+div.ev-journal-slide-team > h1 {
+  display: none;
+}
+
+div.ev-journal-slide-team h1 {
+  *display: none;
+}
+
+div.ev-journal-slide-team > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+div.ev-journal-slide-team > ul > li {
+  float: left;
+  overflow: hidden;
+}
+
+div.ev-journal-slide-team div.article {
+  height: 273px;
+  background: transparent  url("../images/designs/edit-value/bg_destaques.png?1452626171") no-repeat -5px -5px;
+}
+
+div.ev-journal-slide-team div.article div.header {
+  display: none;
+}
+
+div.ev-journal-slide-team div.article div.body {
+  position: relative;
+  height: 267px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 3px solid #262525;
+}
+
+div.ev-journal-slide-team div.article div.body div.img {
+  position: absolute;
+  top: 0;
+}
+
+div.ev-journal-slide-team div.article div.body div.text {
+  color: #444;
+  padding: 15px;
+}
+
+div.ev-journal-slide-team div.article div.body div.text h1 {
+  color: #222;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+div.ev-journal-missao {
+  margin: 20px 0 0 0;
+}
+
+div.ev-journal-visao {
+  margin: 20px 0 0 10px;
+}
+
+div.ev-journal-valores {
+  margin: 20px 0 0 10px;
+}
+
+div.ev-journal-missao div.article,
+div.ev-journal-visao div.article,
+div.ev-journal-valores div.article {
+  width: 280px;
+}
+
+div.ev-journal-missao div.article div.body,
+div.ev-journal-visao div.article div.body,
+div.ev-journal-valores div.article div.body {
+  width: 274px;
+}
+
+/* jornal agenda */
+div.ev-journal-agenda {
+  width: 213px;
+  overflow: hidden;
+  margin: 3px 5px 0 0;
+  background-color: #eee;
+}
+
+div.ev-journal-agenda > h3,
+div.ev-journal-agenda > h1 {
+  display: none;
+}
+
+div.ev-journal-agenda > ul {
+  margin: 0;
+  padding: 15px;
+  list-style: none;
+}
+
+div.ev-journal-agenda > ul > li {
+  border-bottom: 1px dotted #666;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+
+body.index-en div.ev-journal-agenda > ul > li,
+body.index-es div.ev-journal-agenda > ul > li {
+  margin-bottom: 20px;
+}
+
+div.ev-journal-agenda > ul > li + li {
+  border-bottom: none;
+}
+
+div.ev-journal-agenda div.article div.data {
+  background-color: black;
+  color: white;
+  display: inline;
+  font-family: tahoma;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1px 3px;
+}
+
+div.ev-journal-agenda div.article div.img {
+  position: absolute;
+  top: 0;
+}
+
+div.ev-journal-agenda div.article div.title {
+  margin: 8px 0;
+}
+
+div.ev-journal-agenda div.article div.title span {
+  font-weight: bold;
+}
+
+div.ev-journal-agenda div.article div.title a:hover {
+  text-decoration: none;
+}
+
+div.ev-journal-agenda div.article div.text {
+  line-height: 12px;
+  text-align: left;
+}
+
+div.ev-journal-agenda div.article div.more {
+  display: none;
+}
+
+/* jornal soluÃ§Ãµes */
+div.ev-journal-solucoes {
+  font-size: 8pt;
+  color: #fff;
+  overflow: hidden;
+  margin: 0;
+  width: 863px;
+  height: 530px;
+  background: transparent  url("../images/designs/edit-value/servicos-middle.jpg?1452626171") no-repeat bottom;
+}
+
+div.ev-journal-solucoes > h1 {
+  display: none;
+}
+
+div.ev-journal-solucoes > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+div.ev-journal-solucoes > ul > li {
+  margin: 0;
+  float: left;
+  overflow: hidden;
+}
+
+div.ev-journal-solucoes > ul > li.article-0 {
+  margin: 0;
+}
+
+div.ev-journal-solucoes > ul > li.article-1 {
+  margin: 0 0 0 1px;
+}
+
+div.ev-journal-solucoes > ul > li.article-2 {
+  margin: 0 0 0 1px;
+}
+
+div.ev-journal-solucoes div.article {
+  position: relative;
+}
+
+div.ev-journal-solucoes div.article div.header {
+  display: none;
+}
+
+div.ev-journal-solucoes div.article div.body {
+  position: relative;
+  width: 287px;
+  height: 267px;
+  overflow: hidden;
+  margin: 0;
+  background-color: #ddd0d0;
+}
+
+div.ev-journal-solucoes div.article div.body div.img {
+  position: absolute;
+  top: 0;
+}
+
+div.ev-journal-solucoes div.article div.body div.text {
+  margin: 15px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.ev-journal-solucoes div.article div.body div.more {
+  cursor: pointer;
+  position: absolute;
+}
+
+div.ev-journal-solucoes div.article div.body div.more div {
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+
+div.ev-journal-solucoes li.article-0 div.article div.body {
+  background: #7b7e7c;
+}
+
+div.ev-journal-solucoes li.article-0 div.article div.body div.more {
+  bottom: 0;
+  right: 0;
+  width: 267px;
+  height: 60px;
+  background: #505251;
+}
+
+div.ev-journal-solucoes li.article-0 div.article div.body div.more div {
+  right: 10px;
+  top: 25px;
+}
+
+div.ev-journal-solucoes li.article-1 div.article div.body {
+  background: #585c5d;
+}
+
+div.ev-journal-solucoes li.article-1 div.article div.body div.more {
+  bottom: 0;
+  right: 0;
+  width: 287px;
+  height: 60px;
+  background: #3a3c3d;
+}
+
+div.ev-journal-solucoes li.article-1 div.article div.body div.more div {
+  right: 10px;
+  top: 25px;
+}
+
+div.ev-journal-solucoes li.article-2 div.article div.body {
+  background: #45484b;
+}
+
+div.ev-journal-solucoes li.article-2 div.article div.body div.more {
+  bottom: 0;
+  left: 0;
+  width: 267px;
+  height: 60px;
+  background: #2e3032;
+}
+
+div.ev-journal-solucoes li.article-2 div.article div.body div.more div {
+  right: 10px;
+  top: 25px;
+}
+
+/* linguas */
+div.ev-journal-solucoes div.article div.body div.more div span {
+  display: block;
+  width: 76px;
+  height: 14px;
+  background: transparent  url("../images/designs/edit-value/saber-mais-sprite.png?1452626171") no-repeat bottom;
+}
+
+div.ev-journal-solucoes div.article div.body div.more div span {
+  *_background-image:  url("../images/designs/edit-value/saber-mais-sprite-8bit.png?1452626171");
+}
+
+body.servicos div.ev-journal-solucoes div.article div.body div.more div span {
+  background-position: 0px 0px;
+}
+
+body.services div.ev-journal-solucoes div.article div.body div.more div span {
+  background-position: 0px -14px;
+}
+
+body.servicios div.ev-journal-solucoes div.article div.body div.more div span {
+  background-position: 0px -28px;
+}
+
+/* jornal Ã¡reas de actuaÃ§Ã£o */
+div.ev-journal-areas {
+  overflow: hidden;
+  margin: 0;
+  width: 863px;
+  height: 190px;
+  background: #999;
+  color: #fff;
+  font-size: 10px;
+  line-height: 11px;
+}
+
+div.ev-journal-areas > h3,
+div.ev-journal-areas > h1 {
+  display: block;
+  width: 287px;
+  height: 190px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: #777;
+}
+
+div.ev-journal-areas > h3 span,
+div.ev-journal-areas > h1 span {
+  float: right;
+  margin: 15px;
+  line-height: 16px;
+  font-size: 14px;
+}
+
+div.ev-journal-areas > ul {
+  display: block;
+  width: 576px;
+  height: 190px;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+div.ev-journal-areas > ul > li {
+  margin: 15px -10px -5px 15px;
+  float: left;
+  overflow: hidden;
+  width: 275px;
+  height: 80px;
+}
+
+div.ev-journal-areas div.article div.data {
+  display: none;
+}
+
+div.ev-journal-areas div.article div.title {
+  margin-left: 77px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+div.ev-journal-areas div.article div.img {
+  float: left;
+  margin-top: -14px;
+  border: 1px solid #fff;
+}
+
+div.ev-journal-areas div.article div.text {
+  margin-left: 77px;
+}
+
+/* jornal videos */
+.ev-journal-videos {
+  margin: 0;
+  width: 618px;
+}
+
+.ev-journal-videos > .head {
+  margin: 7px 0 25px 25px;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.ev-journal-videos > ul {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.ev-journal-videos > ul li {
+  margin: 0 0 0 25px;
+  float: left;
+}
+
+.ev-journal-videos .article a {
+  text-decoration: none;
+  border: 1px solid #e0e0e0;
+  display: block;
+  padding: 5px;
+  width: 160px;
+  height: 132px;
+  overflow: hidden;
+  color: #000;
+  *cursor: pointer;
+}
+
+.ev-journal-videos .article a:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fffafa;
+}
+
+.ev-journal-videos .article a:hover .head .title,
+.ev-journal-videos .article a:hover .foot .text {
+  color: #330000;
+}
+
+.ev-journal-videos .article .head .title {
+  text-align: left;
+  height: 1.5em;
+  font-weight: bold;
+  font-size: 10px;
+  overflow: hidden;
+  margin-left: 0.2em;
+}
+
+.ev-journal-videos .article .body .img {
+  text-align: center;
+  height: 90px;
+  overflow: hidden;
+}
+
+.ev-journal-videos .article .body .img img {
+  height: 120px;
+}
+
+.ev-journal-videos .article .foot .data {
+  display: none;
+}
+
+.ev-journal-videos .article .foot .text {
+  text-align: right;
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+body.videos div.player {
+  display: block;
+  position: relative;
+  width: 425px;
+  height: 344px;
+  margin: 9px 0 0 9px;
+}
+
+/* editvalue galerias de imagens */
+.ev-picasa {
+  margin-left: 25px;
+  overflow: hidden;
+  width: 610px;
+}
+
+.ev-picasa > h1 {
+  margin: 0 0 5px;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.ev-picasa ul li.pwi_album .content,
+.ev-picasa ul.photos a {
+  font-size: 0.8em;
+  color: black;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+}
+
+.ev-picasa ul li.pwi_album .content:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fff9f9;
+}
+
+/* preview das galerias */
+.ev-picasa ul li.pwi_album {
+  margin: 0;
+  float: left;
+}
+
+.ev-picasa ul li.pwi_album .content {
+  position: relative;
+  width: 160px;
+  height: 132px;
+  margin: 0 0 25px 25px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ev-picasa ul li.pwi_album .content .title,
+.ev-picasa ul li.pwi_album .content .date,
+.ev-picasa ul li.pwi_album .content .location {
+  position: absolute;
+  z-index: 100;
+  width: 160px;
+  background: #fff;
+}
+
+.ev-picasa ul li.pwi_album .content .title {
+  top: 0;
+  left: 0;
+  height: 14px;
+  padding: 3px 6px 2px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.ev-picasa ul li.pwi_album .content .date {
+  bottom: 14px;
+  *bottom: 16px;
+  right: 0;
+  height: 12px;
+  *height: 13px;
+  text-align: right;
+  color: #aaa;
+  padding: 2px 6px 0px;
+}
+
+.ev-picasa ul li.pwi_album .content .location {
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  *height: 13px;
+  text-align: right;
+  color: #aaa;
+  padding: 0 6px 5px;
+  *padding: 0 6px 3px;
+}
+
+.ev-picasa ul li.pwi_album .content:hover .title,
+.ev-picasa ul li.pwi_album .content:hover .date,
+.ev-picasa ul li.pwi_album .content:hover .location {
+  color: inherit;
+}
+
+/* imagens */
+.ev-picasa .album-photos {
+  margin: 0;
+}
+
+.ev-picasa .album-photos .pwi_album_backlink {
+  margin: 3px 0 10px;
+  padding: 3px;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+.ev-picasa .album-photos .pwi_album_backlink .i {
+  color: #666;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+.ev-picasa .album-photos .pwi_album_backlink .i .icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: transparent  url("../images/designs/edit-value/arrows-sprite.png?1452626171") no-repeat 0px 0px;
+}
+
+.ev-picasa .album-photos .pwi_album_backlink .i .label {
+  float: left;
+  padding-left: 4px;
+}
+
+.ev-picasa .album-photos .pwi_album_backlink .i:hover {
+  color: #ff6262;
+}
+
+.ev-picasa .album-photos .pwi_album_backlink .i:hover .icon {
+  background-position: 0px -16px;
+}
+
+.ev-picasa .album-photos .pwi_album_description {
+  float: right;
+  margin-top: -29px;
+}
+
+.ev-picasa .album-photos .pwi_album_description > div {
+  float: left;
+  margin-left: 5px;
+}
+
+.ev-picasa .album-photos .pwi_album_description .show-presentation {
+  display: none;
+}
+
+.ev-picasa .album-photos .pwi_album_description .details {
+  display: none;
+}
+
+.ev-picasa .album-photos ul.photos {
+  display: block;
+  width: 608px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.ev-picasa .album-photos ul.photos li {
+  display: block;
+  margin: 5px;
+  float: left;
+}
+
+.ev-picasa .album-photos ul.photos a {
+  width: 128px;
+  height: 94px;
+  overflow: hidden;
+  *cursor: pointer;
+}
+
+.ev-picasa .album-photos ul.photos a .title {
+  display: none;
+}
+
+.ev-picasa .album-photos ul.photos a .image {
+  width: 126px;
+  height: 92px;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+.ev-picasa .album-photos ul.photos a .image img {
+  max-width: 126px;
+  max-height: 126px;
+}
+
+.ev-picasa .album-photos ul.photos a .description {
+  display: none;
+}
+
+.ev-picasa .album-photos ul.photos a:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fff9f9;
+}
+
+/* ligeira diferenÃ§a para as fotos do clipping */
+.ev-picasa.ev-clipping ul li.pwi_album .content .date {
+  display: none;
+}
+
+.ev-picasa.ev-clipping .album-photos ul.photos a {
+  width: 128px;
+  height: 124px;
+}
+
+.ev-picasa.ev-clipping .album-photos ul.photos a div.description {
+  display: block;
+  line-height: 11px;
+}
+
+/* editvalue galerias de imagens */
+.gallery {
+  margin-left: 25px;
+  overflow: hidden;
+  width: 610px;
+}
+
+.gallery > h1 {
+  margin: 0 0 5px;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.gallery .albums ul li.album a,
+.gallery .photos ul a {
+  font-size: 0.8em;
+  color: black;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+}
+
+.gallery ul li.album a:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fff9f9;
+}
+
+/* preview das galerias */
+.gallery ul li.album {
+  margin: 0;
+  float: left;
+}
+
+.gallery ul li.album a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 160px;
+  height: 132px;
+  margin: 0 0 25px 25px;
+}
+
+.gallery ul li.album a .name,
+.gallery ul li.album a .description {
+  position: absolute;
+  z-index: 100;
+  width: 160px;
+  background: #fff;
+}
+
+.gallery ul li.album a .name {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 14px;
+  padding: 3px 6px 2px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.gallery ul li.album a .description {
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  *height: 13px;
+  text-align: right;
+  color: #aaa;
+  padding: 0 6px 5px;
+  *padding: 0 6px 3px;
+}
+
+.gallery ul li.album a:hover .name,
+.gallery ul li.album a:hover .description {
+  color: inherit;
+}
+
+/* imagens */
+.gallery .photos {
+  margin: 0;
+}
+
+.gallery .photos .back {
+  margin: 3px 0 10px;
+  padding: 3px;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+.gallery .photos .back a {
+  display: block;
+  overflow: hidden;
+  color: #666;
+  text-decoration: none;
+}
+
+.gallery .photos .back a .icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: transparent  url("../images/designs/edit-value/arrows-sprite.png?1452626171") no-repeat 0px 0px;
+}
+
+.gallery .photos .back a .label {
+  float: left;
+  padding-left: 4px;
+}
+
+.gallery .photos .back a:hover {
+  color: #ff6262;
+}
+
+.gallery .photos .back a:hover .icon {
+  background-position: 0px -16px;
+}
+
+.gallery .photos .album {
+  float: right;
+  margin-top: -29px;
+}
+
+.gallery .photos .album .title {
+  float: left;
+  margin-left: 5px;
+}
+
+.gallery .photos .album .details {
+  display: none;
+}
+
+.gallery .photos ul {
+  display: block;
+  width: 608px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery .photos ul li {
+  display: block;
+  margin: 5px;
+  float: left;
+}
+
+.gallery .photos ul a {
+  display: block;
+  width: 128px;
+  height: 94px;
+  overflow: hidden;
+  *cursor: pointer;
+}
+
+.gallery .photos ul a .name {
+  display: none;
+}
+
+.gallery .photos ul a .thumb {
+  width: 126px;
+  height: 92px;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+.gallery .photos ul a .thumb img {
+  max-width: 126px;
+  max-height: 126px;
+}
+
+.gallery .photos ul a .description {
+  display: none;
+}
+
+.gallery .photos ul a:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fff9f9;
+}
+
+/* ligeira diferenÃ§a para as fotos do clipping */
+.gallery.clipping ul li.album .content .date {
+  display: none;
+}
+
+.gallery.clipping .photos ul a {
+  width: 128px;
+  height: 124px;
+}
+
+.gallery.clipping .photos ul a .description {
+  display: block;
+  line-height: 11px;
+}
+
+.list.testemunhos {
+  width: 613px;
+  margin-left: 20px;
+  overflow: hidden;
+  background-color: #eee;
+}
+.list.testemunhos h1 {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+.list.testemunhos ul {
+  background-color: #f6f6f6;
+}
+.list.testemunhos ul li {
+  margin: 0;
+  overflow: hidden;
+}
+.list.testemunhos ul li .label {
+  display: none;
+}
+.list.testemunhos ul li .name {
+  float: left;
+  width: 580px;
+  margin: 15px 15px 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.list.testemunhos ul li .image {
+  float: left;
+  margin: 5px 15px;
+}
+.list.testemunhos ul li .text1 {
+  width: 580px;
+  margin: 0 15px 15px;
+}
+
+/* jornal parcerias */
+.ev-journal-parcerias {
+  overflow: hidden;
+  margin: 0;
+  width: 863px;
+  *width: 865px;
+}
+
+.ev-journal-parcerias h1 {
+  top: 0;
+  *left: 1px;
+  width: 833px;
+  *width: 831px;
+  height: 20px;
+  margin: 0;
+  padding: 6px 15px;
+  background: #eaeaea;
+  font-size: 1.3em;
+}
+
+.ev-journal-parcerias ul {
+  display: block;
+  margin: 0px 0 0 -1px;
+  *_margin: 41px 0 0 0;
+  padding: 0;
+  *_padding-left: 2px;
+}
+
+.ev-journal-parcerias ul li {
+  margin: 1px 0 0 1px;
+  *border-right: 1px solid white;
+  *border-top: 1px solid white;
+  float: left;
+  overflow: hidden;
+  width: 431px;
+  *width: 429px;
+  height: 180px;
+  background: #f2f2f2;
+}
+
+.ev-journal-parcerias .article {
+  padding: 10px;
+  position: relative;
+}
+
+.ev-journal-parcerias .article a {
+  display: block;
+  color: #444;
+  text-decoration: none;
+}
+
+.ev-journal-parcerias .article a:hover {
+  color: #e00000;
+}
+
+.ev-journal-parcerias .article .data {
+  display: none;
+}
+
+.ev-journal-parcerias .article .title {
+  margin-left: 107px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.ev-journal-parcerias .article .img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border: 1px solid #222;
+  width: 94px;
+  height: 94px;
+  overflow: hidden;
+}
+
+.ev-journal-parcerias .article .img img {
+  margin: -1px;
+  width: 96px;
+  height: 96px;
+}
+
+.ev-journal-parcerias .article .img a {
+  width: 96px;
+  height: 96px;
+}
+
+.ev-journal-parcerias .article .text {
+  font-size: 11px;
+  line-height: 13px;
+  margin-left: 107px;
+}
+
+/* jornal publicaÃ§Ãµes */
+div.ev-journal-publicacoes {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 260px;
+}
+
+div.ev-journal-publicacoes .header .name {
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 20px;
+  margin: 0 0 5px 1px;
+  padding: 5px 15px;
+  background: #eaeaea;
+}
+
+/* Vertical Accordion */
+div.ev-journal-publicacoes .contents {
+  min-height: 800px;
+  border-left: 1px solid #eaeaea;
+}
+
+div.ev-journal-publicacoes .ui-accordion-header {
+  padding: 5px 10px;
+  margin: 0;
+  outline: none;
+}
+
+div.ev-journal-publicacoes .ui-accordion-header a {
+  overflow: hidden;
+  display: block;
+  width: 230px;
+  line-height: 20px;
+  padding: 0 5px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+  color: #444;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+div.ev-journal-publicacoes .ui-state-hover a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+div.ev-journal-publicacoes .ui-state-active a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+div.ev-journal-publicacoes .ui-accordion-content {
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 10px 15px;
+}
+
+div.ev-journal-publicacoes .ui-accordion-content span {
+  border-bottom: 1px dotted #aaa;
+  display: block;
+}
+
+/* jornal bolsa de ideias */
+div.ev-journal-ideias {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+}
+
+div.ev-journal-ideias .header .name {
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 20px;
+  margin: 0 1px 5px 1px;
+  padding: 5px 15px;
+  background: #eaeaea;
+}
+
+/* Vertical Accordion */
+div.ev-journal-ideias .ui-accordion-header {
+  outline: none;
+}
+
+div.ev-journal-ideias .ui-accordion-header a {
+  overflow: hidden;
+  display: block;
+  width: 570px;
+  line-height: 20px;
+  padding: 0 14px;
+  margin: 2px 0 0 1px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+  color: #444;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+div.ev-journal-ideias .ui-state-hover a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+div.ev-journal-ideias .ui-state-active a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+div.ev-journal-ideias .ui-accordion-content {
+  border-left: 1px dotted #aaa;
+  border-bottom: 1px dotted #aaa;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 1px 15px 1px;
+}
+
+div.ev-journal-ideias .ui-accordion-content span {
+  display: block;
+}
+
+/* Journal - Lista de clientes */
+.ev-journal-clientes .header .name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Vertical Accordion */
+.ev-journal-clientes .ui-accordion-header {
+  padding: 2px 0 0 1px;
+  margin: 0;
+  outline: none;
+}
+
+.ev-journal-clientes .ui-accordion-header a {
+  overflow: hidden;
+  display: block;
+  line-height: 20px;
+  padding: 0 14px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #444;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+.ev-journal-clientes .ui-state-hover a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+.ev-journal-clientes .ui-state-active a {
+  background-color: #d12627;
+  color: #fff;
+}
+
+.ev-journal-clientes .ui-accordion-content {
+  background-color: #fff;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 15px 15px;
+}
+
+.ev-journal-clientes .ui-accordion-content span {
+  display: block;
+}
+
+/* journal press release */
+.ev-journal-minimized {
+  overflow: hidden;
+  margin: 0;
+  margin-left: 25px;
+  width: 600px;
+}
+
+.ev-journal-minimized h1 {
+  margin: 7px 0 25px;
+  padding: 0;
+}
+
+.ev-journal-minimized h1 .feed {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ev-journal-minimized h1 .feed a {
+  cursor: pointer;
+}
+
+.ev-journal-minimized h1 .feed .label {
+  display: none;
+}
+
+.ev-journal-minimized h1 .feed .icon {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: transparent  url("../images/designs/edit-value/feed-icon-14x14.png?1452626171") no-repeat 0px 0px;
+}
+
+.ev-journal-minimized ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ev-journal-minimized ul li {
+  margin: 0;
+  overflow: hidden;
+}
+
+.ev-journal-minimized .article {
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ev-journal-minimized .article .header,
+.ev-journal-minimized .article .head {
+  position: relative;
+  height: 20px;
+}
+
+.ev-journal-minimized .article div.data {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ev-journal-minimized .article div.data span {
+  color: #fff;
+  background-color: #444;
+  padding: 1px 4px;
+}
+
+.ev-journal-minimized .article div.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000000;
+  height: 1em;
+  margin-top: 3px;
+  overflow: hidden;
+}
+
+.ev-journal-minimized .article div.author {
+  display: none;
+}
+
+.ev-journal-minimized .article div.text {
+  color: #666;
+}
+
+.ev-journal-minimized .article div.foot {
+  margin-top: 3px;
+  padding: 3px 0;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+.ev-journal-minimized .article .more a {
+  color: #666;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+.ev-journal-minimized .article .more a .icon {
+  float: right;
+  width: 16px;
+  height: 16px;
+  background: transparent  url("../images/designs/edit-value/arrows-sprite.png?1452626171") no-repeat -16px 0px;
+}
+
+.ev-journal-minimized .article .more a .label {
+  float: left;
+}
+
+.ev-journal-minimized .article .more a:hover .icon {
+  background-position: -16px -16px;
+}
+
+.ev-journal-minimized .article .more a:hover .label {
+  color: #ff6262;
+}
+
+/* */
+.ev-journal-minimized li.article .article .foot {
+  margin-top: 3px;
+  padding: 3px 0;
+  border: none;
+}
+
+.ev-journal-minimized .back {
+  margin: 3px 0 10px;
+  padding: 3px;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+.ev-journal-minimized .back a {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+.ev-journal-minimized .back a .icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: transparent  url("../images/designs/edit-value/arrows-sprite.png?1452626171") no-repeat 0px 0px;
+}
+
+.ev-journal-minimized .back a .label {
+  color: #666;
+  float: left;
+  padding-left: 4px;
+}
+
+.ev-journal-minimized .back a:hover .icon {
+  background-position: 0px -16px;
+}
+
+.ev-journal-minimized .back a:hover .label {
+  color: #ff6262;
+}
+
+/* journal economia */
+.ev-journal-economia {
+  overflow: hidden;
+  margin: 0;
+  margin-left: 25px;
+  width: 600px;
+}
+
+.ev-journal-economia h1 {
+  margin: 7px 0 25px;
+  padding: 0;
+}
+
+.ev-journal-economia h1 .feed {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ev-journal-economia h1 .feed a {
+  cursor: pointer;
+}
+
+.ev-journal-economia h1 .feed .label {
+  display: none;
+}
+
+.ev-journal-economia h1 .feed .icon {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: transparent  url("../images/designs/edit-value/feed-icon-14x14.png?1452626171") no-repeat 0px 0px;
+}
+
+.ev-journal-economia ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ev-journal-economia ul li {
+  margin: 0;
+  overflow: hidden;
+}
+
+/* consulta de artigo */
+.ev-journal-economia li.article .article {
+  margin-bottom: 20px;
+}
+
+.ev-journal-economia li.article .header {
+  overflow: hidden;
+  font-size: 1.1em;
+}
+
+.ev-journal-economia li.article .header .title,
+.ev-journal-economia li.article .header .data {
+  float: left;
+  color: #fff;
+  background-color: #555;
+  padding: 1px 4px;
+}
+
+.ev-journal-economia li.article .header .data {
+  padding-left: 0;
+}
+
+.ev-journal-economia li.article .header .title:after {
+  content: ' |';
+}
+
+.ev-journal-economia li.article .header .author {
+  float: right;
+  color: #555;
+}
+
+.ev-journal-economia li.article .text {
+  color: #666;
+}
+
+.ev-journal-economia li.article .footer {
+  margin-top: 3px;
+  padding: 3px 0;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+.ev-journal-economia li.article .footer .back a {
+  color: #666;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  padding-left: 16px;
+  background: transparent  url("../images/designs/edit-value/bullet-arrow-back.png?1452626171") no-repeat bottom left;
+}
+
+.ev-journal-economia li.article .footer .back a:hover {
+  color: #ff6262;
+  /* background-position: top left; */
+}
+
+.ev-journal-economia li.article .more a {
+  color: #666;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  background: transparent  url("../images/designs/edit-value/bullet-arrow.png?1452626171") no-repeat 588px -16px;
+}
+
+.ev-journal-economia li.article .more a:hover {
+  color: #ff6262;
+  background-position: 588px 0px;
+}
+
+/* lista de artigos */
+.ev-journal-economia li .article {
+  margin-bottom: 10px;
+}
+
+.ev-journal-economia li .article .head {
+  overflow: hidden;
+  font-size: 1.1em;
+}
+
+.ev-journal-economia li .article .head .title,
+.ev-journal-economia li .article .head .data {
+  float: left;
+  color: #fff;
+  background-color: #555;
+  padding: 1px 4px;
+}
+
+.ev-journal-economia li .article .head .data {
+  padding-left: 0;
+}
+
+.ev-journal-economia li .article .head .title:after {
+  content: ' |';
+}
+
+.ev-journal-economia li .article .head .author {
+  float: right;
+  color: #555;
+}
+
+.ev-journal-economia li .article .foot {
+  margin-top: 3px;
+  padding: 3px 0;
+  border: none;
+}
+
+.ev-journal-economia li .article .foot .more {
+  margin: 3px 0 10px;
+  padding: 3px;
+  border-top: 1px dotted silver;
+  border-bottom: 1px dotted silver;
+}
+
+.ev-journal-economia li .article .foot .more a {
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+  display: block;
+}
+
+.ev-journal-economia li .article .foot .more a .icon {
+  width: 16px;
+  height: 16px;
+  float: right;
+  background: transparent  url("../images/designs/edit-value/arrows-sprite.png?1452626171") no-repeat -16px 0px;
+}
+
+.ev-journal-economia li .article .foot .more a .label {
+  color: #666;
+  float: left;
+}
+
+.ev-journal-economia li .article .foot .more a:hover .icon {
+  background-position: -16px -16px;
+}
+
+.ev-journal-economia li .article .foot .more a:hover .label {
+  background-color: #fffafa;
+  color: #ff6262;
+}
+
+/* paginator style shared with ev-journal-economia and ev-journal-minimized */
+.pagination {
+  padding: 3px;
+  margin: 3px;
+  float: right;
+}
+
+.pagination a {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #aaa;
+  text-decoration: none;
+  color: #999;
+}
+
+.pagination a:hover, div.pagination a:active {
+  border: 1px solid #d12627;
+  color: #d12627;
+}
+
+.pagination span.current {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #d12627;
+  font-weight: bold;
+  background-color: #d12627;
+  color: #fff;
+}
+
+.pagination span.disabled {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #eee;
+  color: #ddd;
+}
+
+/********************************** Equipas ***************************************************/
+div.ev-team {
+  font-size: 10px;
+  *margin: -5px;
+}
+
+div.ev-team > div.name {
+  display: none;
+}
+
+div.ev-team div.name {
+  *display: none;
+}
+
+div.ev-team > ul {
+  margin: -5px;
+  padding: 0;
+  overflow: hidden;
+}
+
+div.ev-team ul {
+  *_width: 874px;
+}
+
+div.ev-team li.unit {
+  position: relative;
+  margin: 5px;
+  padding: 10px;
+  float: left;
+  width: 188px;
+  height: 188px;
+  background: #ececec;
+  overflow: hidden;
+}
+
+div.ev-team li.unit {
+  *_width: 196px;
+  *_margin: 0;
+}
+
+div.ev-team li.unit div.icon {
+  background-repeat: no-repeat;
+}
+
+div.ev-team li.unit div.name {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+div.ev-team ul li.unit div.name {
+  *display: block;
+}
+
+div.ev-team li.unit div.role {
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: 5px;
+  background: transparent  url("../images/designs/edit-value/equipa-sprite.gif?1452626171") no-repeat 0px 15px;
+}
+
+div.ev-team li.unit div.text {
+  clear: left;
+  margin-top: 10px;
+}
+
+div.ev-team li.unit div.place {
+  display: none;
+}
+
+div.ev-team li.unit div.phone {
+  position: absolute;
+  bottom: 55px;
+}
+
+div.ev-team li.unit div.phone div.icon {
+  background-position: -7px -4px;
+  margin-top: 2px;
+  float: left;
+  width: 13px;
+  height: 11px;
+  background-image:  url("../images/designs/edit-value/equipa-sprite.gif?1452626171");
+}
+
+div.ev-team li.unit div.phone span {
+  margin-left: 5px;
+}
+
+div.ev-team li.unit div.email {
+  position: absolute;
+  bottom: 40px;
+}
+
+div.ev-team li.unit div.email div.icon {
+  background-position: -25px -4px;
+  margin-top: 2px;
+  float: left;
+  width: 13px;
+  height: 11px;
+  background-image:  url("../images/designs/edit-value/equipa-sprite.gif?1452626171");
+}
+
+div.ev-team li.unit div.email span {
+  margin-left: 5px;
+}
+
+div.ev-team li.unit div.email a {
+  text-decoration: none;
+  color: #666;
+}
+
+div.ev-team li.unit div.email a:hover {
+  text-decoration: underline;
+}
+
+/* configuraÃ§Ã£o da Ã¡rea de consultores */
+div.ev-team li.unit.area-de-consultores div.text span {
+  display: block;
+}
+
+div.ev-team li.unit.area-de-consultores div.text a {
+  display: block;
+  width: 180px;
+  height: 140px;
+  background:  url("../images/designs/edit-value/equipa-clides.png?1452626171") no-repeat -15px -55px;
+}
+
+div.ev-team li.unit.area-de-consultores div.text a span {
+  display: none;
+}
+
+div.ev-team li.unit.area-de-consultores div.place,
+div.ev-team li.unit.area-de-consultores div.phone,
+div.ev-team li.unit.area-de-consultores div.email {
+  display: none;
+}
+
+/********************************** Textos ***************************************************/
+div.ev-texto p {
+  margin: 0;
+  padding: 0;
+}
+
+/*** contactos - titulo ***/
+div.ev-texto-contactos-titulo {
+  position: relative;
+  width: 833px;
+  height: 20px;
+  padding: 6px 15px;
+  margin: 0 0 1px;
+  font-size: 1.3em;
+  font-weight: bold;
+  background: #eaeaea;
+}
+
+/*** contactos ***/
+.ev-texto-contactos {
+  width: 289px;
+  height: 325px;
+  margin: 0 1px 0 0;
+  font-size: 12px;
+  color: #fff;
+  background-color: #a8b1b6;
+}
+.ev-texto-contactos .i {
+  padding: 0 15px;
+}
+.ev-texto-contactos .i h1 {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 15px 0 0;
+}
+
+div.ev-texto-contactos-guima {
+  background-color: #939a9f;
+  width: 573px;
+  height: 270px;
+}
+
+/* InvestigaÃ§Ã£o */
+div.ev-texto-investigacao {
+  width: 600px;
+}
+
+div.ev-texto-investigacao .i {
+  padding: 0 20px 0 15px;
+  line-height: 1.5em;
+}
+
+div.ev-texto-investigacao .i h1 {
+  font-size: 1.2em;
+  margin: 0 -20px 0.3em;
+  text-indent: 0;
+  line-height: 30px;
+  padding: 0 15px;
+  background-color: #eaeaea;
+}
+
+div.ev-texto-investigacao .i h2 {
+  font-size: 1.15em;
+  margin: 0 0 0.3em;
+  text-indent: 0;
+  line-height: normal;
+}
+
+/* Bolsa de ideias */
+.ev-bolsa-de-ideias {
+  font-size: 1.1em;
+  *font-size: 1.2em;
+  *line-height: 17px;
+  margin: 0;
+  width: 600px;
+}
+
+.ev-bolsa-de-ideias .i {
+  padding: 0 20px 0 15px;
+  line-height: 1.5em;
+}
+
+.ev-bolsa-de-ideias .i h1 {
+  font-size: 1.2em;
+  line-height: 30px;
+  margin: 0 -20px 0.3em;
+  padding: 0 15px;
+  text-indent: 0;
+  background-color: #eaeaea;
+}
+
+/* Logo marca */
+.ev-texto-logomarca {
+  float: left;
+  margin-left: 25px;
+  *margin-left: 20px;
+  width: 600px;
+  *width: 590px;
+}
+.ev-texto-logomarca .i img {
+  border: 1px solid #fff;
+}
+.ev-texto-logomarca .i h1 {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0 0 0.5em;
+}
+.ev-texto-logomarca .i a:hover img {
+  border: 1px solid #e00000;
+}
+
+#container3 .ev-texto-logomarca .i a {
+  background: none;
+  padding-left: 0;
+}
+
+/* Rumo econÃ³mico */
+div.ev-texto-rumo-titulo {
+  float: left;
+  margin-left: 25px;
+  width: 600px;
+}
+
+div.ev-texto-rumo-titulo h1 {
+  font-size: 1.2em;
+  margin: 0 0 5px;
+}
+
+div.ev-texto-rumo {
+  float: left;
+  margin-left: 15px;
+  width: 150px;
+  line-height: 1.1em;
+}
+
+div.ev-texto-rumo .i h1 {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 1em 0 0.5em;
+}
+
+/* Texto nas lightboxes */
+div.ev-texto-lightbox {
+  font-size: 1em;
+  *font-size: 1.2em;
+  *line-height: 17px;
+  margin: 10px;
+  font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+}
+
+div.ev-texto-lightbox h1 {
+  font-size: 1.45em;
+  *font-size: 1.2em;
+  margin: 10px 0;
+}
+
+div.ev-texto-lightbox h2 {
+  font-size: 1.30em;
+  *font-size: 1.05em;
+  margin: 10px 0;
+}
+
+/* Texto de copyright */
+div.ev-texto-copyright {
+  font-size: 0.75em;
+  padding: 3px 0 0;
+}
+
+body.ie7 div.ev-texto-copyright,
+body.ie8 div.ev-texto-copyright,
+body.ie9 div.ev-texto-copyright {
+  font-size: 0.75em;
+}
+
+/********************************** Imagens ***************************************************/
+.ev-imagem-rumo {
+  margin-left: 25px;
+}
+
+/********************************** GMAP e GMAP container *************************************/
+div.gmap h1 {
+  display: none;
+}
+
+.ev-container-gmap-braga {
+  float: left;
+  width: 573px;
+  height: 325px;
+}
+.ev-container-gmap-braga > div {
+  width: 100%;
+  height: 325px;
+  margin: 0;
+  padding: 0;
+}
+.ev-container-gmap-braga div.gmap {
+  float: left;
+  width: 573px;
+  height: 325px;
+}
+
+li.ev-container-gmap-guimaraes {
+  float: left;
+  width: 290px;
+  height: 270px;
+}
+
+li.ev-container-gmap-guimaraes > div {
+  width: 100%;
+  height: 270px;
+  margin: 0;
+  padding: 0;
+}
+
+li.ev-container-gmap-guimaraes div.gmap {
+  float: left;
+  width: 290px;
+  height: 270px;
+}
+
+/********************************** FormulÃ¡rios *************************************/
+.form {
+  font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+}
+.form fieldset {
+  border: none;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+}
+.form fieldset {
+  *padding: 0 0 10px 10px;
+}
+.form fieldset ul {
+  overflow: hidden;
+}
+.form li {
+  margin: 0.5em 0;
+  overflow: hidden;
+}
+.form li span {
+  display: block;
+}
+.form li .label {
+  font-size: 13px;
+  font-weight: bold;
+}
+.form li .error {
+  padding-left: 0.5em;
+  color: red;
+}
+.form li .input input,
+.form li .input textarea {
+  background: white  url("../images/designs/edit-value/fieldbg.gif?1452626171") repeat-x scroll center top;
+  border-color: #7c7c7c #c3c3c3 #dddddd;
+  border-style: solid;
+  border-width: 1px;
+}
+.form li .input textarea {
+  height: 6em;
+}
+.form .actions {
+  margin: 10px 0 0 8px;
+  *margin: 10px 0 0 4px;
+  overflow: hidden;
+}
+.form .actions input[type="reset"] {
+  display: none;
+}
+
+/* form - bolsa de ideias */
+div.ev-form-ideias {
+  width: 260px;
+  margin-right: 6px;
+}
+
+div.ev-form-ideias div.form {
+  border-left: 1px solid #eaeaea;
+}
+
+div.ev-form-ideias h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 20px;
+  margin: 0 0 5px 1px;
+  padding: 7px 15px 3px;
+  background: #eaeaea none repeat scroll 0 0;
+}
+
+div.ev-form-ideias fieldset {
+  border: none;
+}
+
+div.ev-form-ideias li.field span.input input,
+div.ev-form-ideias li.field span.input textarea {
+  width: 240px;
+}
+
+div.ev-form-ideias li.field span.input textarea {
+  height: 8em;
+  *height: 6em;
+}
+
+div.ev-form-ideias fieldset {
+  *padding-bottom: 0;
+}
+
+/* form - sugestÃµes */
+div.ev-form-sugestoes h1 {
+  display: none;
+}
+
+div.ev-form-sugestoes li.field {
+  float: left;
+  position: relative;
+  margin: 0.5em 1em 0 0;
+}
+
+div.ev-form-sugestoes li.field span.input input#form_nome {
+  width: 463px;
+}
+
+div.ev-form-sugestoes li.field span.input input#form_telefone {
+  width: 130px;
+  *width: 127px;
+}
+
+div.ev-form-sugestoes li.field span.input input#form_email {
+  width: 320px;
+}
+
+div.ev-form-sugestoes li.field.Mensagem {
+  *float: none;
+  *clear: left;
+}
+
+div.ev-form-sugestoes li.field span.input textarea {
+  width: 463px;
+}
+
+/* form - oportunidades */
+div.ev-form-oportunidades h1 {
+  display: none;
+}
+
+div.ev-form-oportunidades li.field {
+  float: left;
+  position: relative;
+  margin: 0.5em 1em 0 0;
+  *margin: 0.25em 1em 0 0;
+}
+
+/* configuraÃ§Ãµes individuais dos campos */
+div.ev-form-oportunidades li.field span.input input#form_nome {
+  width: 579px;
+  *width: 574px;
+}
+
+div.ev-form-oportunidades li.field span.input input#form_curso {
+  width: 285px;
+}
+
+div.ev-form-oportunidades li.field span.input input#form_instituicao-de-ensino {
+  width: 280px;
+  *width: 273px;
+}
+
+div.ev-form-oportunidades li.field span.input input#form_telemovel {
+  width: 130px;
+  *width: 127px;
+}
+
+div.ev-form-oportunidades li.field span.input input#form_email {
+  width: 435px;
+  *width: 431px;
+}
+
+.form.oportunidades fieldset.root > legend {
+  display: none;
+}
+.form.oportunidades li {
+  float: left;
+  position: relative;
+  margin: 0.5em 1em 0 0;
+  *margin: 0.25em 1em 0 0;
+}
+.form.oportunidades li .label {
+  font-size: 13px;
+  font-weight: bold;
+}
+.form.oportunidades li input#form_nome {
+  width: 579px;
+  *width: 574px;
+}
+.form.oportunidades li input#form_curso {
+  width: 285px;
+}
+.form.oportunidades li input#form_instituicao-de-ensino {
+  width: 280px;
+  *width: 273px;
+}
+.form.oportunidades li input#form_telemovel {
+  width: 130px;
+  *width: 127px;
+}
+.form.oportunidades li input#form_email {
+  width: 435px;
+  *width: 431px;
+}
+
+/* form - newsletter */
+div.ev-form-newsletter h1 {
+  display: none;
+}
+
+div.ev-form-newsletter li.field span.input input#form_email {
+  width: 385px;
+}
+
+/********************************** Ãrea de clientes *************************************/
+.questionario-clientes > div {
+  width: 595px;
+  height: 30px;
+  padding: 10px;
+  margin: 0 0 20px 20px;
+  font-weight: bold;
+  text-align: center;
+  background: #f3f3f3;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px #aaa;
+}
+
+div.ev-area-de-clientes {
+  margin-left: 20px;
+  padding: 0;
+  width: 615px;
+}
+
+div.ev-area-de-clientes .notice-message {
+  color: #dd3333;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+div.ev-area-de-clientes h1 {
+  border-bottom: 1px dotted #a8b1b6;
+  margin: 5px 0 15px;
+}
+
+div.ev-area-de-clientes ul {
+  overflow: hidden;
+}
+
+div.ev-area-de-clientes li span.age {
+  position: absolute;
+  right: 0;
+  width: 70px;
+}
+
+div.ev-area-de-clientes li span.size {
+  display: none;
+}
+
+/* tree default style */
+/*
+ * jsTree default theme 1.0
+ * Supported features: dots/no-dots, icons/no-icons, focused, loading
+ * Supported plugins: ui (hovered, clicked), checkbox, contextmenu, search
+ */
+.jstree-default li,
+.jstree-default ins {
+  background-image:  url("../images/plataforma/jstree-sprite.png?1452626171");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.jstree-default li {
+  background-position: -90px 0;
+  background-repeat: repeat-y;
+}
+
+.jstree-default li.jstree-last {
+  background: transparent;
+}
+
+.jstree-default .jstree-open > ins {
+  background-position: -72px 0;
+}
+
+.jstree-default .jstree-closed > ins {
+  background-position: -54px 0;
+}
+
+.jstree-default .jstree-leaf > ins {
+  background-position: -36px 0;
+}
+
+.jstree-default .jstree-hovered {
+  background: #e7f4f9;
+  border: 1px solid #d8f0fa;
+  padding: 0 2px 0 1px;
+}
+
+.jstree-default .jstree-clicked {
+  background: #beebff;
+  border: 1px solid #99defd;
+  padding: 0 2px 0 1px;
+}
+
+.jstree-default a .jstree-icon {
+  background-position: -56px -19px;
+}
+
+.jstree-default a.jstree-loading .jstree-icon {
+  background:  url("../images/plataforma/throbber.gif?1452626171") center center no-repeat !important;
+}
+
+.jstree-default.jstree-focused {
+  background: #ffffee;
+}
+
+.jstree-default .jstree-no-dots li,
+.jstree-default .jstree-no-dots .jstree-leaf > ins {
+  background: transparent;
+}
+
+.jstree-default .jstree-no-dots .jstree-open > ins {
+  background-position: -18px 0;
+}
+
+.jstree-default .jstree-no-dots .jstree-closed > ins {
+  background-position: 0 0;
+}
+
+.jstree-default .jstree-no-icons a .jstree-icon {
+  display: none;
+}
+
+.jstree-default .jstree-search {
+  font-style: italic;
+}
+
+.jstree-default .jstree-no-icons .checkbox {
+  display: inline-block;
+}
+
+.jstree-default .jstree-no-checkboxes .checkbox {
+  display: none !important;
+}
+
+.jstree-default .jstree-checked > a > .checkbox {
+  background-position: -38px -19px;
+}
+
+.jstree-default .jstree-unchecked > a > .checkbox {
+  background-position: -2px -19px;
+}
+
+.jstree-default .jstree-undetermined > a > .checkbox {
+  background-position: -20px -19px;
+}
+
+.jstree-default .jstree-checked > a > .checkbox:hover {
+  background-position: -38px -37px;
+}
+
+.jstree-default .jstree-unchecked > a > .checkbox:hover {
+  background-position: -2px -37px;
+}
+
+.jstree-default .jstree-undetermined > a > .checkbox:hover {
+  background-position: -20px -37px;
+}
+
+/********************************
+ *** CUSTOMERS FILES SETTINGS ***
+ ********************************/
+.jstree-default li[rel='folder'] > a ins {
+  background-image:  url("../images/filemanager/folder.png?1452626171");
+  background-position: 0 0;
+}
+
+.jstree-default li > a ins {
+  background-image: url(assets/sites/55a8a0b6301be3e68f000002/theme/images/plataforma/file.png?1452626171);
+  background-position: 0 0;
+}
+
+/** icons por tipo de ficheiro **/
+.jstree-default li > a ins {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: url(assets/sites/55a8a0b6301be3e68f000002/theme/images/plataforma/file-extensions-sprite.png?1452626171) no-repeat;
+}
+
+.jstree-default li[rel='jpg'] > a ins,
+.jstree-default li[rel='jpeg'] > a ins,
+.jstree-default li[rel='png'] > a ins,
+.jstree-default li[rel='gif'] > a ins {
+  background-position: 0px -96px;
+}
+
+.jstree-default li[rel='pdf'] > a ins {
+  background-position: 0px -80px;
+}
+
+.jstree-default li[rel='arj'] > a ins,
+.jstree-default li[rel='rar'] > a ins,
+.jstree-default li[rel='zip'] > a ins {
+  background-position: 0px -144px;
+}
+
+.jstree-default li[rel='doc'] > a ins {
+  background-position: 0px -32px;
+}
+
+.jstree-default li[rel='xls'] > a ins,
+.jstree-default li[rel='xlsx'] > a ins {
+  background-position: 0px -48px;
+}
+
+/* identity area tool */
+div.identity-tool {
+  display: block;
+  margin: 0px;
+  padding: 0;
+  width: 610px;
+}
+
+div.identity-tool .header h1 {
+  font-size: 1.2em;
+  margin: 1em 1em 0.5em 0.5em;
+}
+
+div.identity-tool .header p {
+  font-size: 1.15em;
+  margin: 1em 1em 0.5em 0.5em;
+}
+
+div.identity-tool .header p sup {
+  line-height: 1.3em;
+  vertical-align: top;
+}
+
+div.identity-tool .header div {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #dd3333;
+  padding: 5px;
+}
+
+div.identity-tool .body p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1em 1em 0.5em 0.5em;
+}
+
+div.identity-tool.change-password .body p {
+  font-weight: normal;
+}
+
+div.identity-tool div.footer {
+  margin: 0;
+  padding: 10px 0 0 80px;
+}
+
+div.identity-tool div.footer a {
+  font-style: italic;
+  color: #666;
+  text-decoration: none;
+}
+
+div.identity-tool div.footer a:hover {
+  font-style: italic;
+  color: #b00000;
+  text-decoration: underline;
+}
+
+div.identity-tool p {
+  font-size: 13px;
+}
+
+div.identity-tool ul,
+div.identity-tool form fieldset {
+  border: 1px solid #eee;
+  background-color: #fafafa;
+}
+
+div.identity-tool form fieldset {
+  padding: 5px;
+}
+
+div.identity-tool .field {
+  overflow: hidden;
+  padding: 5px 0;
+}
+
+div.identity-tool .field.password a {
+  padding: 0 5px;
+}
+
+div.identity-tool label {
+  float: left;
+  display: block;
+  width: 6em;
+  margin-top: 2px;
+}
+
+div.identity-tool fieldset input {
+  border: 1px solid #5555aa;
+}
+
+div.identity-tool fieldset input[name="email"] {
+  width: 20em;
+  display: block;
+  float: left;
+}
+
+div.identity-tool fieldset input[name="password"],
+div.identity-tool fieldset input[name="password_confirmation"] {
+  width: 20em;
+  display: block;
+  float: left;
+}
+
+div.identity-tool fieldset input[type="submit"] {
+  margin-left: 6em;
+  font-size: 12px;
+  color: #fff;
+  border: 1px solid;
+  border-color: #ccc #aaa #aaa #ccc;
+  background-color: #bbb;
+  cursor: pointer;
+  height: 24px;
+  padding: 4px 5px;
+}
+
+div.identity-tool fieldset input[type="submit"]:hover {
+  border: 1px solid;
+  border-color: #e18687 #912627 #912627 #e18687;
+  background-color: #d12627;
+}
+
+/* change-password */
+div.identity-tool.change-password label {
+  width: 12em;
+}
+
+div.identity-tool.change-password fieldset input[type="submit"] {
+  margin-left: 12em;
+}
+
+/* activation tool */
+div.activation-tool {
+  display: block;
+  margin-left: 20px;
+  padding: 0;
+  width: 610px;
+}
+
+div.activation-tool h1 {
+  font-size: 16px;
+}
+
+div.activation-tool div.footer {
+  margin: 20px 0 10px 0;
+  padding: 10px;
+  background: #ffe;
+}
+
+div.activation-tool p {
+  font-size: 13px;
+}
+
+div.activation-tool ul,
+div.activation-tool form fieldset {
+  border: 1px solid #eee;
+  background-color: #fafafa;
+}
+
+div.activation-tool ul li {
+  margin: 5px 10px;
+}
+
+div.activation-tool ul li.google {
+  background: url(http://www.google.pt/favicon.ico) no-repeat;
+  padding-left: 22px;
+}
+
+div.activation-tool ul li.yahoo {
+  background: url(http://www.yahoo.com/favicon.ico) no-repeat;
+  padding-left: 22px;
+}
+
+div.activation-tool ul li.myopenid {
+  background: url(http://www.myopenid.com/favicon.ico) no-repeat;
+  padding-left: 22px;
+}
+
+div.activation-tool input[type="text"] {
+  width: 20em;
+  height: 18px;
+  background: white url(assets/sites/55a8a0b6301be3e68f000002/theme/images/openid-icon-16x16.png?1452626171) no-repeat 2px 3px;
+  padding: 4px 0 0 21px;
+  border: 1px solid #5555aa;
+}
+
+div.activation-tool input[type="submit"] {
+  border: 1px solid #bbb;
+  cursor: pointer;
+  height: 24px;
+  padding: 3px 5px 2px;
+}
+
+div.activation-tool input[type="submit"]:hover {
+  border: 1px solid #990000;
+  background-color: orange;
+}
+
+/* user info tool */
+div.user-info-tool {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div.user-info-tool a {
+  font-size: 11px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid;
+  border-color: #ccc #aaa #aaa #ccc;
+  background-color: #bbb;
+  cursor: pointer;
+  height: 18px;
+  padding: 0px 5px;
+}
+
+div.user-info-tool a:hover {
+  border: 1px solid;
+  border-color: #e18687 #912627 #912627 #e18687;
+  background-color: #d12627;
+}
+
+.list.destaques_equipa {
+  overflow: hidden;
+}
+.list.destaques_equipa ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list.destaques_equipa ul li {
+  float: left;
+  margin: 0px 0 20px 10px;
+  overflow: hidden;
+}
+.list.destaques_equipa ul li .item {
+  width: 274px;
+  height: 267px;
+  background: transparent  url("../images/designs/edit-value/bg_destaques.png?1452626171") no-repeat -5px -5px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  border: 3px solid #262525;
+}
+.list.destaques_equipa ul li .item .label {
+  display: none;
+}
+.list.destaques_equipa ul li .item .folder {
+  position: absolute;
+  top: 0px;
+}
+.list.destaques_equipa ul li .item .folder .image {
+  position: absolute;
+  width: 300px;
+  overflow: hidden;
+  height: 300px;
+}
+.list.destaques_equipa ul li .item .folder .name {
+  /*position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 1;*/
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  z-index: 1;
+  padding: 2px 5px;
+  background: black;
+  text-decoration: none;
+}
+.list.destaques_equipa ul li .item .folder .name a {
+  padding: 2px 6px;
+  max-width: 265px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+}
+.list.destaques_equipa ul li .item .text1 {
+  color: #444;
+  padding: 15px;
+  width: 250px;
+  height: 243px;
+  overflow-y: auto;
+}
+.list.destaques_equipa ul li:first-child {
+  margin-left: 0;
+}
+
+.list.equip_list {
+  width: 872px;
+  margin: 20px 0 0px -5px;
+  font-size: 10px;
+}
+.list.equip_list > .items ul li {
+  position: relative;
+  float: left;
+  width: 188px;
+  height: 188px;
+  padding: 10px;
+  margin: 5px;
+  overflow: hidden;
+  background: #ececec;
+}
+.list.equip_list > .items ul li .label {
+  display: none;
+}
+.list.equip_list > .items ul li .text1 {
+  min-height: 100px;
+}
+.list.equip_list > .items ul li .name {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.list.equip_list > .items ul li .string1 {
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: 5px;
+  background: transparent  url("../images/designs/edit-value/equipa-sprite.gif?1452626171") no-repeat 0px 15px;
+}
+.list.equip_list > .items ul li .string2 {
+  overflow: hidden;
+}
+.list.equip_list > .items ul li .string2 .label {
+  display: block;
+  float: left;
+  width: 13px;
+  height: 11px;
+  margin: 2px 5px 0 0;
+  background:  url("../images/designs/edit-value/equipa-sprite.gif?1452626171") -7px -4px;
+  text-indent: -20000px;
+}
+.list.equip_list > .items ul li .string3 {
+  overflow: hidden;
+}
+.list.equip_list > .items ul li .string3 .label {
+  display: block;
+  float: left;
+  width: 13px;
+  height: 11px;
+  margin: 2px 5px 0 0;
+  background:  url("../images/designs/edit-value/equipa-sprite.gif?1452626171") -25px -4px;
+  text-indent: -20000px;
+}
+.list.equip_list > .items ul li .string3 a {
+  text-decoration: none;
+  color: #666;
+}
+.list.equip_list > .items ul li .string3 a:hover {
+  text-decoration: underline;
+}
+
+.nested-menu.list_equipa {
+  position: relative;
+  float: left;
+  width: 184px;
+  height: 184px;
+  padding: 12px;
+  margin: 5px;
+  overflow: hidden;
+  font-size: 10px;
+  color: #444;
+  background: #ececec;
+}
+.nested-menu.list_equipa .label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: bold; 
+}
+.nested-menu.list_equipa .alt {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  background: transparent  url("../images/designs/edit-value/equipa-sprite.gif?1452626171") no-repeat 0px 15px;
+}
+.nested-menu.list_equipa a {
+  display: block;
+  width: 180px;
+  height: 187px;
+  color: #444;
+  text-decoration: none;
+  background:  url("../images/designs/edit-value/equipa-clides.png?1452626171") no-repeat -15px -20px;
+}
+
+.list.left_agenda {
+  width: 213px;
+  height: 308px;
+  overflow: hidden;
+  margin: 3px 5px 0 0;
+  background-color: #eee;
+}
+.list.left_agenda ul {
+  margin: 0;
+  padding: 15px;
+  list-style: none;
+}
+.list.left_agenda ul li {
+  border-bottom: 1px dotted #666;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+.list.left_agenda ul li .label {
+  display: none;
+}
+.list.left_agenda ul li .date {
+  background-color: black;
+  color: white;
+  display: inline;
+  font-family: tahoma;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1px 3px;
+}
+.list.left_agenda ul li .date .time {
+  display: none;
+}
+.list.left_agenda ul li .name {
+  margin: 8px 0;
+  font-weight: bold;
+}
+.list.left_agenda ul li .text1 {
+  line-height: 12px;
+  text-align: left;
+}
+.list.left_agenda ul li:last-child {
+  border: none;
+}
+
+.list.areas_actuacao {
+  overflow: hidden;
+  margin: 0;
+  width: 863px;
+  height: 190px;
+  background: #999;
+  color: #fff;
+  font-size: 10px;
+  line-height: 11px;
+}
+.list.areas_actuacao h1 {
+  display: block;
+  width: 287px;
+  height: 190px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: #777;
+}
+.list.areas_actuacao h1 span {
+  float: right;
+  margin: 15px;
+  line-height: 16px;
+  font-size: 14px;
+  color: white;
+}
+.list.areas_actuacao .items {
+  display: block;
+  width: 576px;
+  height: 190px;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.list.areas_actuacao .items li {
+  margin: 15px -10px -5px 15px;
+  float: left;
+  overflow: hidden;
+  width: 275px;
+  height: 80px;
+}
+.list.areas_actuacao .items li .label {
+  display: none;
+}
+.list.areas_actuacao .items li .name {
+  font-weight: bold;
+}
+.list.areas_actuacao .items li .image {
+  float: left;
+}
+.list.areas_actuacao .items li .image img {
+  width: 64px;
+}
+.list.areas_actuacao .items li .folder {
+  float: right;
+  width: 195px;
+  margin-left: -5px;
+}
+
+.list.destaques_right {
+  overflow: hidden;
+  margin: 0 0 0 2px;
+}
+.list.destaques_right ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list.destaques_right ul li {
+  float: left;
+  margin-left: 6px;
+  overflow: hidden;
+}
+.list.destaques_right ul li .item {
+  width: 300px;
+  height: 300px;
+  padding: 7px;
+  background: transparent url("../images/designs/edit-value/bg_destaques.png?1452626171") no-repeat 0 0;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+.list.destaques_right ul li .item .label {
+  display: none;
+}
+.list.destaques_right ul li .item .folder {
+  position: absolute;
+  top: 0px;
+}
+.list.destaques_right ul li .item .folder .image {
+  position: absolute;
+  top: 7px;
+  width: 300px;
+  overflow: hidden;
+  height: 300px;
+}
+.list.destaques_right ul li .item .folder .name {
+  position: relative;
+  top: 15px;
+  left: 10px;
+  z-index: 1;
+}
+.list.destaques_right ul li .item .folder .name a {
+  padding: 2px 6px;
+  max-width: 265px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+}
+.list.destaques_right ul li .item .text1 {
+  color: #444;
+  padding: 15px;
+  width: 270px;
+  height: 270px;
+  overflow-y: auto;
+}
+
+.gallery.album.clipping {
+  width: 610px;
+  margin: 0px;
+}
+.gallery.album.clipping .album {
+  margin: 0;
+  float: left;
+}
+.gallery.album.clipping .album a {
+  font-size: 0.8em;
+  color: black;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  width: 160px;
+  height: 150px;
+  margin: 0 0 25px 25px;
+}
+.gallery.album.clipping .album a .name {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 28px;
+  padding: 3px 6px 2px;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  z-index: 100;
+  width: 160px;
+  background: #fff;
+}
+.gallery.album.clipping .album a .description {
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  text-align: right;
+  color: #aaa;
+  padding: 5px 6px;
+  position: absolute;
+  z-index: 100;
+  width: 160px;
+  background: #fff;
+}
+.gallery.album.clipping .album a:hover {
+  color: #330000;
+  border-color: #d02020;
+  background-color: #fff9f9;
+}
+.gallery.album.clipping > .photos .album {
+  float: right;
+  margin-top: -29px;
+}

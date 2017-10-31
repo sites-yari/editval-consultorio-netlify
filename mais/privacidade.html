@@ -1,0 +1,35 @@
+---
+title: Privacidade
+class: etica-pt
+---
+
+{% include footer-head.html %}
+   
+<body class="ev windows older_browser">    
+  <div class="clearfix" id="main_container">
+    <div id="header_container">
+      <div class="clearfix" id="container1">
+        <div class="contents">
+          <ol class="contents clearfix">
+            <li class="container ">
+              <div class="content" id="content_642_container">
+                <div class="text ev-texto-lightbox">
+                  <div class="i">
+                    <div class="content editable">
+                      <h1 style="text-align:center">DECLARAÇÃO DE PRIVACIDADE</h1>
+                      <div style="text-align: center;">{{site.data.rodape.privacidade.subtitulo}}</div>
+                      {% for privacidade in site.data.rodape.privacidade.x %}
+                      <h2>{{privacidade.tema}}</h2>
+                      <div style="text-align: justify;">{{privacidade.text}}</div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

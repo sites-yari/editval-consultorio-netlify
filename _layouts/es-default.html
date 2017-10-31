@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+{% include es-head.html %}
+    <body>
+        <div class="pusher">
+            <div class="">
+                <div class='' id='main_container'>
+                    {% include es-header.html %}
+                    <div class='' id='middle_container'>
+                        {% include es-menu.html %}
+                        <div class='clearfix' id='container3'>
+                            <div class='contents'>
+                                {{ content }}
+                            </div>
+                        </div>
+                    </div>
+                    {% include es-footer.html %}
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>

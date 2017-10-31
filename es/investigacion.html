@@ -1,0 +1,52 @@
+---
+layout: es-default
+title: Investigación
+class: investigacion-es
+investigacion_active?: active
+---
+  
+
+<body class='older_browser ev investigacion'>
+  <ol class="contents clearfix">
+    <li class="container left">
+      <div class="content" id="content_15723_container">
+        <div class="text ev-texto-investigacao">
+          <div class="i">
+            {% for investigacao in site.data.investigacao.es.textos%}
+            <h1 style="text-align:justify">{{investigacao.titulo}}</h1>
+            <div style="text-align: justify;">
+              <p>{{investigacao.paragrafo}}</p>
+            </div>
+            <p> </p>
+            {% endfor %}
+          </div>
+        </div>
+
+      </div>
+    </li>
+    <li class="container left">
+      <div class="content" id="content_698_container">
+        <div class="ev-journal-publicacoes">
+          <div class="header">
+            <div class="name">Publicações</div>
+          </div>
+          <div class="contents">
+            <div id="journal12">
+              {% for investigacao in site.data.investigacao.es.publicacoes %}
+              <h3><a href="#">{{investigacao.assunto}}</a></h3>
+              <div>
+                <p>{{investigacao.paragrafo1}}</p>
+                <p>{{investigacao.paragrafo2}}</p>
+                <p><a href="{{investigacao.link}}" target="_blank">Download</a></p>
+              </div>
+              {% endfor %}
+            </div>
+            <script>
+              $(document).ready(function () { $("#journal12").accordion({collapsible: true, heightStyle: "content"}); });
+            </script>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ol>
+</body>

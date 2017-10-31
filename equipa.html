@@ -1,0 +1,155 @@
+---
+layout: default
+title: Equipa
+class: equipa-pt
+equipa_active?: active
+---
+
+<body class='older_browser ev equipa'>
+  <div class='' id='main_container'>
+    {% include header.html %}      
+    <div class='' id='middle_container'>
+      {% include menu.html %}        
+      <div class='clearfix' id='container3'>
+        <div class='contents'>
+          
+          <ol class="contents clearfix">
+            <li class="container left">
+              <div class="content" id="content_15237_container">
+                <div class="list destaques_equipa  " id="list_160">
+                  <div class="items">
+                    <ul>
+                      <li class="i-0    odd" id="item-6882">
+                        <div class="item">
+                          <div class="text1">
+                            <span class="label">Texto 1</span>
+                            <span class="value">
+                              <p>{{site.data.equipa.missao.pt.text}}</p>
+                            </span>
+                          </div>
+                          <div class="folder">
+                            <div class="name">
+                              <span class="label">Nome</span>
+                              <span class="value">{{site.data.equipa.missao.pt.titulo}}</span>
+                            </div>
+                            <div class="image">
+                              <img alt="Missao" class="blur" src='{{site.data.equipa.missao.pt.image_path}}'>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li class="i-1    even" id="item-6883">
+                        <div class="item">
+                          <div class="text1">
+                            <span class="label">Texto 1</span>
+                            <span class="value">
+                              <p>{{site.data.equipa.visao.pt.text}}</p>
+                            </span>
+                          </div>
+                          <div class="folder">
+                            <div class="name">
+                              <span class="label">Nome</span>
+                              <span class="value">{{site.data.equipa.visao.pt.titulo}}</span>
+                            </div>
+                            <div class="image">
+                              <img alt="Visao" class="blur" src='{{site.data.equipa.visao.pt.image_path}}'>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li class="i-2    odd" id="item-6885">
+                        <div class="item">
+                          <div class="text1">
+                            <span class="label">Texto 1</span>
+                            <span class="value">
+                              <div style="color: rgb(68, 68, 68); font-family: 'Lucida Sans', Helvetica, Tahoma, Verdana, sans-serif; font-size: 12px; line-height: normal;">{{site.data.equipa.valores.pt.text}}</div>
+                            </span>
+                          </div>
+                          <div class="folder">
+                            <div class="name">
+                              <span class="label">Nome</span>
+                              <span class="value">{{site.data.equipa.valores.pt.titulo}}</span>
+                            </div>
+                            <div class="image">
+                              <img alt="Valores" class="blur" src='{{site.data.equipa.valores.pt.image_path}}'>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+
+                    <div class="footer">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="container ignore">
+              <div class="content" id="content_15033_container">
+                <div class="list equip_list " id="list_159">
+                  <div class="items">
+                    <ul> 
+                      {% for equipa in site.data.equipa.lista.equipa_pt%}
+                        <li class="i-0   no-image even" id="item-6859">
+                          <div class="item">
+                            <div class="folder">
+                              <div class="name">
+                                <span class="label">Nome</span>
+                                <span class="value">{{equipa.nome}}</span>
+                              </div>
+
+                              <div class="string1">
+                                <span class="label">Função</span>
+                                <span class="value">{{equipa.cargo}}</span>
+                              </div>
+                            </div>
+
+                            <div class="text1">
+                              <span class="label">Texto 1</span>
+                              <span class="value"><p>{{equipa.texto}}</p></span>
+                            </div>
+
+                            <div class="string2">
+                              <span class="label">Telefone</span>
+                              <span class="value">{{equipa.telefone}}</span>
+                            </div>
+
+                            <div class="string3" style="white-space: nowrap;">
+                              <span class="label">Email</span>
+                              <span class="value">{{equipa.email}}</span>
+                            </div>
+                          </div>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                    
+                    <div class="footer">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="container ignore">
+              <div class="content" id="content_15035_container">
+                <div class="nested-menu list_equipa ">
+                  <ul>
+                    <li class="http-edit-value-clides-com -last">
+                      <div class="wrapper">
+                        <a href="http://edit-value.clides.com/" target="" alt=""><span class="icon"></span><span class="label">ÁREA DE CONSULTORES</span><span class="alt"></span></a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}    
+  </div>
+</body>

@@ -1,0 +1,25 @@
+---
+layout: for-post-text
+title: Imposto sobre o Rendimento das Pessoas Singulares
+data: 20-03-2007
+autor: Carla Silva
+category: artigos
+class: media-pt
+media_active?: active
+formacao?: artigos-economia
+---  
+
+
+Uma vez chegada esta altura do ano, grande parte dos contribuintes sente a necessidade de procurar um especialista em matéria de I.R.S.. Esta situação acontece uma vez que existem contribuintes que sentem a necessidade de serem esclarecidos acerca de determinados pormenores no preenchimento de uma declaração modelo 3 de I.R.S.. É neste sentido que a Edit Value - Consultoria Empresarial Lda, Spin-off Académico da Universidade do Minho, tem promovido nos últimos anos um curso prático sobre I.R.S.. O objectivo passa por alertar todos os interessados para aqueles aspectos que podem fazer a diferença no preenchimento da nossa própria declaração de I.R.S..
+
+É verdade que, para a maioria dos contribuintes (ou seja, para aqueles que trabalham por conta de outrem), o preenchimento da referida declaração não tem grande segredo, na medida em que lhes basta ler as instruções e preencher os campos respectivos da folha de rosto e do anexo A ao modelo 3 de I.R.S.. No entanto, quando o contribuinte se depara com uma situação em que, por exemplo, para além do seu trabalho por conta de outrem também aufere rendimentos através dos designados “recibos verdes” (e cujos recibos tenham sido emitidos apenas para uma única entidade), então nestas situações é necessário verificar se compensa optar pela tributação segundo as regras estabelecidas para a categoria A. Ora, para o contribuinte comum, saber se lhe é favorável ou não optar pelas regras de cálculo estabelecidas para a categoria A acaba por ser uma questão de sorte, na medida em que muito provavelmente até considera que a opção afirmativa será a sua melhor decisão. No entanto, cada caso é um caso, e só percebendo a forma de cálculo deste imposto é que o contribuinte estará apto a definir a sua melhor opção.
+
+Desengane-se o contribuinte que diz que “essas coisas são para o meu contabilista”, uma vez que nem sempre existe a formação necessária para aconselhar nestas situações. Isto acontece, muito por força dos planos curriculares de alguns cursos superiores não contemplarem nos respectivos programas um módulo relativo ao I.R.S. que, por si só, já se trata de um imposto complexo por enquadrar as mais diversas situações relativamente à obtenção de rendimentos por parte do sujeito passivo.
+
+É de salientar que, acima de tudo, é necessária uma actualização permanente nestas questões, se não veja-se: em 2005 não foram considerados como benefícios fiscais os valores entregues para depósito em contas poupança-reforma, mas em 2006 esta situação já se encontra contemplada embora com algumas limitações relacionadas com a idade do sujeito passivo; outra situação semelhante é o caso da aquisição de computadores, que em 2005 não era considerada mas em 2006 já é contemplada mas também com algumas limitações.
+
+Para além disto, é comum o sujeito passivo incluir como dedução à colecta todas as despesas que teve com fármacos não separando devidamente os produtos que incluem 5% de IVA daqueles que incluem 21% de IVA. Ora, importa aqui evidenciar que estas despesas que incluem 21% de IVA só poderão ser consideradas como dedução à colecta se forem acompanhadas de receita médica. No entanto, existem algumas incongruências no mercado, nomeadamente, temos o exemplo do soro fisiológico, na medida em que se adquirirmos uma embalagem pequena deste produto, esta é tributada em IVA a 21%, mas se adquirirmos uma embalagem de meio litro, esta já será tributada em IVA a 5%.
+
+Dada a natureza deste imposto, o I.R.S. pretende também atender à situação concreta de cada sujeito passivo, ou seja, se tem maior ou menor solidez económica, qual a constituição do seu agregado familiar e se é solteiro ou casado. No caso das deduções à colecta, são consideradas limitações em função do estado civil do sujeito passivo e, como é óbvio, os limites de valores a deduzir para os casados serão mais elevados, contrariamente aos limites para solteiros que serão inferiores. No entanto, podemos observar uma situação em que compensa estar solteiro: dois solteiros que paguem juros e amortização de dívidas contraídas para obtenção da mesma casa como habitação própria e permanente podem deduzir 30% desse valor até ao limite de 562 euros em cada uma das suas declarações de I.R.S.; mas se casarem, apenas poderão deduzir 562 euros (os dois), uma vez que a declaração nesta situação é preenchida em conjunto e neste tipo de dedução à colecta não há diferenciação entre casados e solteiros.
+
+Para além destas situações referenciadas, muitas outras poderíamos evidenciar, restando-nos apenas esperar que o legislador fique mais atento e proceda à simplificação de diversos procedimentos, para que cada um dos contribuintes tenha consciência dos factos que declara e perceba todo o mecanismo de tributação de um modo mais simples e claro.

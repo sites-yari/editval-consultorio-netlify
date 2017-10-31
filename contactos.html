@@ -1,0 +1,136 @@
+---
+layout: default
+title: Contactos
+class: contactos-pt
+contactos_active?: active
+---
+
+
+<body class='older_browser ev contactos'>
+  <div class='' id='main_container'>
+    {% include header.html %}
+    <div class='' id='middle_container'>
+      {% include menu.html %}
+
+      <div class='clearfix' id='container3'>
+        <div class='contents'>
+          
+            <ol class="contents clearfix">
+              <li class="container container_float_left">
+                <div class="content" id="content_647_container">
+                  <div class="text ev-texto-contactos-titulo">
+                    <div class="i">
+                      Contactos
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="container container_float_left">
+                <div class="content" id="content_648_container">
+                  <div class="text ev-texto-contactos">
+                    <div class="i">
+                      <h1>Braga | Sede</h1>
+                      <div>{{site.data.contactos.pt.sede.rua}}<br>
+                        {{site.data.contactos.pt.sede.distrito}}<br>
+                        {{site.data.contactos.pt.sede.postal}}</div>
+                        
+                      <h1>Contactos</h1>
+                      <div>Telefone: {{site.data.contactos.pt.contactos.telefone}}<br>
+                        Fax: {{site.data.contactos.pt.contactos.fax}}<br>
+                        Telemóvel: {{site.data.contactos.pt.contactos.telemovel}}</div>
+                      <div>Email: {{site.data.contactos.pt.contactos.email}}</div>
+
+                      <h1>Coordenadas GPS</h1>
+                      <div>{{site.data.contactos.pt.gps}}</div>
+
+                      <h1>Horário de Funcionamento</h1>
+                      <div>{{site.data.contactos.pt.horario.aberto}}<br>
+                        {{site.data.contactos.pt.horario.fechado}}</div>
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="container ev-container-gmap-braga">
+              <div class="content" id="content_670_container">
+                <div id="gmap_670" class="gmap gmap">
+                  <div id="map_canvas_670" style="width: 573px; height: 325px"></div>
+
+                  <script src="http://maps.google.com/maps/api/js?key=AIzaSyCGq4U7CCMWYPfuDZbNKMzj9e6C-nBdTrY&sensor=false" type="text/javascript"></script>
+                  <script type="text/javascript">
+                  function gmaps670_initialize() {
+                    var latlng = new google.maps.LatLng(41.55056112605405,-8.40419627116398);
+                    var myOptions = {
+                      zoom: 18.0,
+                      center: latlng,
+                      mapTypeId: google.maps.MapTypeId.HYBRID
+                    };
+
+                    var map = new google.maps.Map(document.getElementById("map_canvas_670"), myOptions);
+
+                    setMarkers(map, [["EDIT VALUE® Braga", 41.55081335488455, -8.40423918650822, "EDIT VALUE® Sede\rBraga, Portugal\r"]]);
+
+
+                  }
+
+                  /**
+                  * setMarkers
+                  */
+                  function setMarkers(map, locations) {
+
+
+                    for (var i = 0; i < locations.length; i++) {
+                      var mk = locations[i];
+                      var myLatLng = new google.maps.LatLng(mk[1], mk[2]);
+
+                      var marker = new google.maps.Marker({
+                        position: myLatLng,
+                        map: map,
+                          animation: google.maps.Animation.DROP,
+                        title: mk[0],
+                        zIndex: i
+                      });
+
+                      listenMarker(map, marker, mk[3]);
+
+                      // This will add each local/marker to a list external to gmap
+                      // The user will be able to click at each marker and see the gmap
+                      // automaticaly pan the map to center the marker
+                      // Because handlers are closures that both have access to markers.
+                      // To "fix" this potential problem were passing the position using the eventData.
+                      $("<li />")
+                        .html(mk[0])
+                        .bind('click', { pos: marker.getPosition() } , function(event) {
+                          map.panTo(event.data.pos);
+                        })
+                        .appendTo("#map_markers_670");
+
+                    }
+                  }
+
+                  /**
+                  * listenMarker
+                  */
+                  function listenMarker (map, marker, message) {
+                      // Add a "directions" link
+                      message += "<br> <a href='http://maps.google.com/maps?saddr=&daddr=" + marker.position.toUrlValue() + "' target ='_blank'>Get directions<\/a>";
+
+                    // so marker is associated with the closure created for the listenMarker function call
+                    var infowindow = new google.maps.InfoWindow({ content: message });
+                    google.maps.event.addListener(marker, 'click', function() {
+                      infowindow.open(map, marker);
+                    });
+                  }
+
+                  $("document").ready(function(){ gmaps670_initialize(); });
+                  </script>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </div>
+</body>

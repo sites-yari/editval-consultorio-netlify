@@ -1,0 +1,117 @@
+---
+layout: default
+title: Índice
+class: index-pt
+index_active?: active
+---
+  
+<body class='older_browser ev index'>
+  <div class='' id='main_container'>
+    {% include header.html %}
+    <div class='' id='middle_container'>
+      {% include menu.html %}
+
+      <div class='clearfix' id='container3'>
+        <div class='contents'>
+          <ol class='contents clearfix'>
+
+            <li class="container left">
+              <div class='content' id='content_610_container'>
+                <div class='journal ev-journal-agenda'>
+                  <h3><span>Em Agenda</span></h3>
+                  <ul class="content editable">
+                    <li>
+                      <div class='article '>
+                        <a name='anchor295'></a>
+                        <div class='data'>
+                          <span>{{site.data.pagina-index.pt.info.data}}</span>
+                        </div>
+                        <div class='title'>
+                          <span>{{site.data.pagina-index.pt.info.titulo}}</span>
+                        </div>
+                        <div class='text'>
+                          <p>{{site.data.pagina-index.pt.info.text}}</p>
+                          &nbsp;</p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="container left">
+              <div class='content' id='content_15071_container'>
+                <div class='list destaques_right ' id='list_162'>
+                  <div class='items'>
+                    <ul class="content editable">
+                      <li class='i-0 odd'>
+                        <div class='item'>
+                          <div class='folder'>
+                            <div class='name'>
+                              <a href='#'>
+                                <span class='label'>Nome</span>
+                                <span class='value'>{{site.data.pagina-index.pt.cvtube.titulo}} </span>
+                              </a>
+                            </div>
+                            <div class='image'>
+                              <img alt="{{site.data.pagina-index.pt.cvtube.titulo}}" class="blur" src='{{site.data.pagina-index.pt.cvtube.image_path}}' />
+                            </div>
+                          </div>
+                          <div class='text1'>
+                            <span class='value'>
+                              <p>{{site.data.pagina-index.pt.cvtube.text}}</p>
+                            </span>
+                          </div>
+                        </div>
+                      </li>
+                      
+                      <li class='i-0 odd'>
+                        <div class='item'>
+                          <div class='folder'>
+                            <div class='name'>
+                              <a href='#'>
+                                <span class='label'>Nome</span>
+                                <span class='value'>{{site.data.pagina-index.pt.learn2work.titulo}}</span>
+                              </a>
+                            </div>
+                            <div class='image'>
+                              <img alt="{{site.data.pagina-index.pt.learn2work.titulo}}" class="blur" src='{{site.data.pagina-index.pt.learn2work.image_path}}' />
+                            </div>
+                          </div>
+                          <div class='text1'>
+                            <span class='value'>
+                              <p>{{site.data.pagina-index.pt.learn2work.text}}</p>
+                            </span>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class='footer'>
+                    </div>
+                  </div>
+                  <script>
+                    $("a.lightbox").fancybox();
+                  </script>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}    
+  </div>
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>

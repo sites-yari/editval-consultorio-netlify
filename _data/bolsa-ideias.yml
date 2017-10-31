@@ -1,0 +1,22 @@
+bolsa:
+  -
+    titulo: Bolsa de ideias
+    ditado: |
+     "Um homem com uma ideia nova é um excêntrico, até que a ideia resulte."
+    autor: Mark Twain
+    paragrafo: A Bolsa de Ideias pretende ser um espaço criativo para promoção do empreendedorismo. Nem sempre o empreendedor encontra ideias de negócio válidas para as colocar em prática por via do seu espírito de iniciativa. Do mesmo modo, nem sempre o detentor de ideias novas tem a capacidade e a motivação suficientes para avançar da teoria à prática. Este pretende ser um ponto de encontro que vai premiar as ideias até que resultem.
+
+
+ideias_partilhadas:
+  -
+    tema: Transporte coletivo de crianças
+    resumo: Organizar uma rede de transporte coletivo de crianças, entre os 0 e os 12 anos de idade, com acompanhamento, que assegure os horários de trabalho dos pais, dentro e fora do concelho do Entroncamento. esta é uma dificuldade que eu sinto dia-a-dia.
+    promotora: Ana Margarida Melenas
+    publico_alvo: Famílias
+    investimento: 50.000€
+  -
+    tema: Site de busca
+    resumo: Um site de buscas orgânicas, atualizado em tempo real, com retorno financeiro através de publicidade.
+    promotora: Silvex
+    publico_alvo: Internautas
+    investimento: 100.000€

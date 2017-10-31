@@ -1,0 +1,117 @@
+<body class='older_browser ev media'>            
+  <ol class='contents '>
+    <li class="container container_float_left">
+      <div class='content' id='content_624_container'>
+        <div class='menu ev-menu-destaques'>
+          <h1>
+            <span>
+              Media
+            </span>
+          </h1>
+          <ul>
+            <li class='media '>
+              <a href='../../pt-media/rumo-economico.html'>
+                <span class='icon'></span>
+                <span class='label'>
+                  Notícias Rumo Económico
+                </span>
+              </a>
+            </li>
+            <li class='artigos-economia  '>
+              <a href='../../pt-media/artigos/index.html'>
+                <span class='icon'></span>
+                <span class='label'>
+                  Artigos Suplemento de Economia
+                </span>
+              </a>
+            </li>
+            <li class='videos '>
+              <a href='../../pt-media/videos.html'>
+                <span class='icon'></span>
+                <span class='label'>
+                  Vídeos
+                </span>
+              </a>
+            </li>
+            <li class='clipping  active'>
+              <a href='../../pt-media/clipping.html'>
+                <span class='icon'></span>
+                <span class='label'>
+                  Clipping
+                </span>
+              </a>
+            </li>
+            <li class='press-release  '>
+              <a href='../press-release/index.html'>
+                <span class='icon'></span>
+                <span class='label'>
+                  Press Release
+                </span>
+              </a>
+            </li>
+            <li class='logo-marca '>
+              <a href='../../pt-media/logo-marca.html'>
+                <span class='icon'></span>
+                <span class='label'>
+                  Logo Marca
+                </span>
+              </a>
+            </li>
+            <li class='galeria-fotos -last  '>
+              <a href='../../pt-media/galeria-fotos.html'>
+                <span class='icon'></span>
+                <span class='label'>
+                  Galeria de Fotos
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    
+    <li class="container right ">
+      <div class='content' id='content_15079_container'>
+        <div class='gallery album clipping'>
+          <h1>Clipping</h1>
+
+          
+          <div class='photos'>
+            <div class='back'>
+              <a href='../../pt-media/clipping.html'>
+                <div class='icon'></div>
+                <div class='label'>voltar</div>
+              </a>
+            </div>
+            <div class='album'><div class='title'>{{page.title}}</div></div>
+            <ul>
+              {% for page in page.image_list %}
+              <li>
+                <div class='wrapper'>
+                  <a class='lightbox' href='../../../../../../{{page.link_image_path}}' rel='fotos' title=''>
+                    <div class='thumb'><img class="image" src='../../../../../../{{page.image_path}}' /></div>
+                    <div class='description'>
+                      {{page.subtitle}}
+                      <br>
+                      
+                      {{page.date}}
+                      
+                    </div>
+                  </a>
+                </div>
+              </li>
+              {% endfor %} 
+            </ul>
+            <script>
+              $(document).ready(function() {
+              $("a.lightbox").fancybox({type : "image", 'overlayShow': true, 'titleShow': true, 'titlePosition': "inside" });
+              });
+            </script>
+          </div>
+
+
+        </div>
+      </div>
+    </li>
+  </ol>
+</body>

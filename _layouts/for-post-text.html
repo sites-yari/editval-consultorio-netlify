@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+{% include head-post.html %}
+    <body>
+        <div class="pusher">
+            <div class="">
+                <div class='' id='main_container'>
+                    {% include header.html %}
+                    <div class='' id='middle_container'>
+                        {% include menu-media-in.html %}
+                        <div class='clearfix' id='container3'>
+                            <div class='contents'>
+                                {% if page.category == "press-release"%}
+                                    {% include press-release-post.html %}
+
+                                {% elsif page.category == "artigos" %}
+                                    {% include artigos-post.html %}
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% include footer.html %}
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>

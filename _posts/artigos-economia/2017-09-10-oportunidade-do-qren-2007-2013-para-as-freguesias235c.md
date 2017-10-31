@@ -1,0 +1,23 @@
+---
+layout: for-post-text
+title: Oportunidade do QREN 2007-2013 para as Freguesias
+data: 25-06-2007
+autor: André Costa
+category: artigos
+class: media-pt
+media_active?: active
+formacao?: artigos-economia
+---  
+  
+ 
+Como em qualquer outra entidade pública neste país, também as freguesias foram alvo de cortes no seu financiamento. Neste sentido, é necessário contornar estas dificuldades sem pôr em causa o normal funcionamento destas instituições.
+
+Uma das primeiras preocupações dos autarcas, quando se deparam com avultados cortes por parte dos órgãos municipais e da Administração Central, passa pela necessidade de equipar a freguesia com as infra-estruturas necessárias ou com a reabilitação do seu património, medidas essas que requerem sempre um grande esforço financeiro autárquico. A solução, que não pode passar por aumento das receitas, pois nem o enquadramento legal das Freguesias nem a sua dimensão o permite, terá de passar por uma gestão mais rigorosa e moderna e por outras formas de financiamento alternativas (que podem ser provenientes de fundos de apoio comunitário).
+
+No entanto, as boas práticas de gestão podem resolver pequenos problemas de tesouraria ou a própria manutenção do espaço e dos serviços, mas não o problema das infra-estruturas. Aqui, as alternativas não são muitas e as que existem ainda estão em fase de implementação. Falo do Quadro de Referencia Estratégico Nacional para 2007-2013, que irá ser assinado com a Comissão Europeia já no próximo dia 2 de Julho pelo Governo Português, depois de ter sido já ter sido aprovado o modelo de governação e os respectivos programas operacionais que sustentam este instrumento financeiro que envolve verbas no valor de 40 mil milhões de euros.
+
+No âmbito do QREN, foram estabelecidos objectivos prioritários de intervenção reflectidos em três Agendas Temáticas: a Agenda Operacional para o Potencial Humano (que intervém na formação e qualificação dos portugueses promovendo o emprego e a inclusão social); a Agenda Operacional para os Factores de Competitividade da Economia (que privilegia a aposta na inovação e no desenvolvimento tecnológico do tecido empresarial português bem como o estímulo do empreendedorismo); e, por fim, a Agenda Operacional para a Valorização Territorial (que pretende melhorar as condições de atractividade para o investimento produtivo das regiões e sub-regiões do país, bem como a qualidade de vida dos portugueses através de apoios ao nível das infra-estruturas e equipamentos essenciais à qualificação dos territórios e ao reforço da coesão económica e social).
+
+Estas Agendas estão concretizadas em programas operacionais, dentro dos quais são de destacar aqueles que mais se enquadram com os objectivos e ambições das freguesias: o Programa Operacional Temático Valorização do Território e o Programa Operacional Regional do Norte. O primeiro estará assente em sete eixos prioritários e com uma aposta mais concreta na construção de redes e equipamentos estruturantes, na prevenção, gestão e monitorização de riscos naturais e tecnológicos, infra-estruturas para a conectividade e a qualificação territorial e em equipamentos e acções inovadoras para o desenvolvimento urbano. No segundo programa, onde os princípios de orientação estratégica e operacional são baseados em critérios de localização, a sua prioridade assenta nos seguintes factores: a promoção da competitividade, da inovação e do conhecimento através da consolidação dos serviços regionais de suporte à inovação e no apoio à criação de clusters emergentes e de empresas de base tecnológica; na qualificação ambiental e valorização económica dos recursos naturais e culturais; na qualificação do sistema urbano através da promoção de operações para excelência urbana, operações integradas em zonas prioritárias de regeneração urbana e promoção da mobilidade urbana; a valorização do território para a coesão através da melhoria da igualdade de oportunidades e na equidade de acesso aos serviços públicos e a infra-estruturas; a governação e a capacitação institucional visando a modernização do governo electrónico e a relação entre o cidadão e a Administração Pública.
+
+Estes programas podem permitir que as freguesias formatem possíveis soluções para as algumas das suas carências, através de candidaturas cujos projectos assumam o interesse e a importância necessária para que o respectivo financiamento possa contribuir para suprir o que nem o Governo nem os Municípios podem responder. Neste sentido, fica a sugestão para todos os autarcas estejam atentos às oportunidades do QREN 2007-2013 (www.qren.pt).

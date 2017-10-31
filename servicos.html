@@ -1,0 +1,136 @@
+---
+layout: default
+title: Serviços
+class: servicos-pt
+servicos_active?: active
+---
+
+<body class='older_browser ev servicos'>
+  <div class='' id='main_container'>
+    {% include header.html %}
+    <div class='' id='middle_container'>
+      {% include menu.html %}        
+      <div class='clearfix' id='container3'>
+        <div class='contents'>
+          
+          <ol class="contents clearfix">
+            <li class="container container_expand">
+              <div class="content" id="content_644_container">
+                <div class="ev-journal-solucoes">
+                  <h1><span>Soluções</span></h1>
+                  <ul>
+
+                    <li class="article-0">
+                      <div class="article ">
+                        <a name="anchor58"> </a>
+                        <div class="header">
+                          <div class="title"><span>Solução Avançada</span></div>
+                          <div class="data"><span>28-08-2013</span></div>
+                        </div>
+                        <div id="journal18article58" class="expander body">
+                          <div class="text">
+                            <span>
+                              <div> <strong>{{site.data.servicos.pt.solucao.avancada.titulo}}</strong> </div>
+                              <div style="text-align: justify;"> </div>
+                              <div style="text-align: left;">{{site.data.servicos.pt.solucao.avancada.text}}</div>
+                            </span>
+                          </div>
+                          <div class="more" data-expecial-widget="expander">
+                            <div><span></span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="article-1">
+                      <div class="article clearfix">
+                        <a name="anchor63"> </a>
+                        <div class="header">
+                          <div class="title"><span>Solução Completa</span></div>
+                          <div class="data"><span>28-08-2013</span></div>
+                        </div>
+                        <div id="journal18article63" class="expander body">
+                          <div class="text">
+                            <span>
+                              <div> <strong>{{site.data.servicos.pt.solucao.completa.titulo}}</strong> </div>
+                              <div> </div>
+                              <div>{{site.data.servicos.pt.solucao.completa.text}}</div>
+                            </span>
+                          </div>
+                          <div class="more" data-expecial-widget="expander">
+                            <div><span></span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="article-2">
+                      <div class="article clearfix">
+                        <a name="anchor64"> </a>
+                        <div class="header">
+                          <div class="title"><span>Solução Personalizada</span></div>
+                          <div class="data"><span>28-08-2013</span></div>
+                        </div>
+                        <div id="journal18article64" class="expander body">
+                          <div class="text">
+                            <span>
+                              <div><strong>{{site.data.servicos.pt.solucao.personalizada.titulo}}</strong></div>
+                              <div> </div>
+                              <div>{{site.data.servicos.pt.solucao.personalizada.text}}</div>
+                            </span>
+                          </div>
+                          <div class="more" data-expecial-widget="expander">
+                            <div><span></span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="container left">
+              <div class="content" id="content_15333_container">
+                <div class="list areas_actuacao  " id="list_173">
+                  <h1><span class="value">Áreas de atuação</span><span class="i18n"></span></h1>
+                  <div class="items">
+
+                    <ul>
+                      {% for servicos in site.data.servicos.pt.areas %}
+                      <li class="i-0    odd" id="item-7021">
+                        <div class="item">
+                          <div class="image">
+                            <img alt="Gestao-financeira" class="blur" src='{{servicos.image_path}}'>
+                          </div>
+                          <div class="folder">
+                            <div class="name">
+                              <span class="label">Nome</span>
+                              <span class="value">{{servicos.titulo}}</span>
+                            </div>
+                            <div class="text1">
+                              <span class="label">Texto 1</span>
+                              <span class="value"><p>{{servicos.text}}</p>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      {% endfor %}
+                    </ul>
+                    
+                    <div class="footer">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}    
+  </div>
+</body>
+
