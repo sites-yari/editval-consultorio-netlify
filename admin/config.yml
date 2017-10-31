@@ -111,6 +111,453 @@ collections:
       - { label: "Imagem", name: "imagem_image_path", widget: "image" }
       - { label: "Endereço/link", name: "link", widget: "string" }
       - { label: "Descrição", name: "text", widget: "string" }
-#====================| DATA |====================================================|  
+
+
+  - name: "data" #|=====================| DATA |====================================================|
+    label: "Data"
+    editor:
+      preview: true
+    files:
+        #---| INDEX |---
+      - name: "pagina-index"
+        label: "Pagina de Inicio"
+        file: "_data/pagina-index.yml"
+        description: Everything needed for the index
+        fields:
+          - label: PT #-------PT
+            name: pt
+            widget: object
+            fields:
+              - label: Informação
+                name: info
+                widget: object
+                fields:
+                  - { label: "Data de publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: CVtube
+                name: cvtube
+                widget: object
+                fields:
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: Learn 2 work
+                name: learn2work
+                widget: object
+                fields:
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: EN #-------EN
+            name: en
+            widget: object
+            fields:
+              - label: Informação
+                name: info
+                widget: object
+                fields:
+                  - { label: "Data de publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: CVtube
+                name: cvtube
+                widget: object
+                fields:
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: Learn 2 work
+                name: learn2work
+                widget: object
+                fields:
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: ES #-------ES
+            name: es
+            widget: object
+            fields:
+              - label: Informação
+                name: info
+                widget: object
+                fields:
+                  - { label: "Data de publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: CVtube
+                name: cvtube
+                widget: object
+                fields:
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: Learn 2 work
+                name: learn2work
+                widget: object
+                fields:
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+        #---| EQUIPA |---
+      - name: "equipa"
+        label: "Equipa - quem somos"
+        file: "_data/equipa.yml"
+        description: Dados da pagina equipa
+        fields:
+          - label: Missão #----- Missão
+            name: missao
+            widget: object
+            fields:
+              - label: PT
+                name: pt
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: EN
+                name: en
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: ES
+                name: es
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: Visão #----- Visão
+            name: visao
+            widget: object
+            fields:
+              - label: PT
+                name: pt
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: EN
+                name: en
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: ES
+                name: es
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: Valores #----- Valores
+            name: valores
+            widget: object
+            fields:
+              - label: PT
+                name: pt
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: EN
+                name: en
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: ES
+                name: es
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: Lista #----- Lista
+            name: lista
+            widget: object
+            fields:
+              - label: Equipa PT
+                name: equipa_pt
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "nome", widget: "string" }
+                  - { label: "Cargo", name: "cargo", widget: "string" }
+                  - { label: "Descrição", name: "texto", widget: "string" }
+                  - { label: "Telefone", name: "telefone", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+              - label: Equipa EN
+                name: equipa_en
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "nome", widget: "string" }
+                  - { label: "Cargo", name: "cargo", widget: "string" }
+                  - { label: "Descrição", name: "texto", widget: "string" }
+                  - { label: "Telefone", name: "telefone", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+              - label: Equipa ES
+                name: equipa_es
+                widget: object
+                fields:
+                  - { label: "Titulo", name: "nome", widget: "string" }
+                  - { label: "Cargo", name: "cargo", widget: "string" }
+                  - { label: "Descrição", name: "texto", widget: "string" }
+                  - { label: "Telefone", name: "telefone", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+        #---| SERVIÇOS |---
+      - name: "servicos"
+        label: "Serviços - mais valor"
+        file: "_data/servicos.yml"
+        description: Dados da pagina serviços
+        fields:
+          - label: PT #----- PT
+            name: pt
+            widget: object
+            fields:
+              - label: Solução
+                name: solucao
+                widget: object
+                fields:
+                  - label: Avançada
+                    name: avancada
+                    widget: object
+                    fields:
+                      - { label: "Titulo", name: "titulo", widget: "string" }
+                      - { label: "Descrição", name: "text", widget: "markdown" }
+                  - label: Completa
+                    name: completa
+                    widget: object
+                    fields:
+                      - { label: "Titulo", name: "titulo", widget: "string" }
+                      - { label: "Descrição", name: "text", widget: "markdown" }
+                  - label: Personalizada
+                    name: personalizada
+                    widget: object
+                    fields:
+                      - { label: "Titulo", name: "titulo", widget: "string" }
+                      - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: Áreas
+                name: areas
+                widget: list
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: EN #----- EN
+            name: en
+            widget: object
+            fields:
+              - label: Solução
+                name: solucao
+                widget: object
+                fields:
+                  - label: Avançada
+                    name: avancada
+                    widget: object
+                    fields:
+                      - { label: "Titulo", name: "titulo", widget: "string" }
+                      - { label: "Descrição", name: "text", widget: "markdown" }
+                  - label: Completa
+                    name: completa
+                    widget: object
+                    fields:
+                      - { label: "Titulo", name: "titulo", widget: "string" }
+                      - { label: "Descrição", name: "text", widget: "markdown" }
+                  - label: Personalizada
+                    name: personalizada
+                    widget: object
+                    fields:
+                      - { label: "Titulo", name: "titulo", widget: "string" }
+                      - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: Áreas
+                name: areas
+                widget: list
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+          - label: ES #----- ES
+            name: es
+            widget: object
+            fields:
+              - label: Solução
+                name: solucao
+                widget: object
+                fields:
+                  - label: Avançada
+                    name: avancada
+                    widget: object
+                    fields:
+                      - { label: "Titulo", name: "titulo", widget: "string" }
+                      - { label: "Descrição", name: "text", widget: "markdown" }
+                  - label: Completa
+                    name: completa
+                    widget: object
+                    fields:
+                      - { label: "Titulo", name: "titulo", widget: "string" }
+                      - { label: "Descrição", name: "text", widget: "markdown" }
+                  - label: Personalizada
+                    name: personalizada
+                    widget: object
+                    fields:
+                      - { label: "Titulo", name: "titulo", widget: "string" }
+                      - { label: "Descrição", name: "text", widget: "markdown" }
+              - label: Áreas
+                name: areas
+                widget: list
+                fields:
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Imagem", name: "image_path", widget: "image" }
+                  - { label: "Descrição", name: "text", widget: "markdown" }
+        #---| INVESTIGAÇÃO |---
+      - name: "investigacao"
+        label: "Investigação - Núcleo i&d"
+        file: "_data/investigacao.yml"
+        description: Dados da pagina investigacao
+        fields:
+          - label: PT #----- PT
+            name: pt
+            widget: object
+            fields:
+              - label: Publicações
+                name: publicacoes
+                widget: list
+                fields:
+                  - { label: "Assunto", name: "assunto", widget: "string" }
+                  - { label: "Texto 1", name: "paragrafo1", widget: "string" }
+                  - { label: "Texto 2", name: "paragrafo2", widget: "string" }
+                  - { label: "Download", name: "link", widget: "file" }
+              - label: Textos
+                name: textos
+                widget: list
+                fields: 
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "paragrafo", widget: "markdown" }
+          - label: EN #----- EN
+            name: en
+            widget: object
+            fields:
+              - label: Publicações
+                name: publicacoes
+                widget: list
+                fields:
+                  - { label: "Assunto", name: "assunto", widget: "string" }
+                  - { label: "Texto 1", name: "paragrafo1", widget: "string" }
+                  - { label: "Texto 2", name: "paragrafo2", widget: "string" }
+                  - { label: "Download", name: "link", widget: "file" }
+              - label: Textos
+                name: textos
+                widget: list
+                fields: 
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "paragrafo", widget: "markdown" }
+          - label: ES #----- ES
+            name: es
+            widget: object
+            fields:
+              - label: Publicações
+                name: publicacoes
+                widget: list
+                fields:
+                  - { label: "Assunto", name: "assunto", widget: "string" }
+                  - { label: "Texto 1", name: "paragrafo1", widget: "string" }
+                  - { label: "Texto 2", name: "paragrafo2", widget: "string" }
+                  - { label: "Download", name: "link", widget: "file" }
+              - label: Textos
+                name: textos
+                widget: list
+                fields: 
+                  - { label: "Titulo", name: "titulo", widget: "string" }
+                  - { label: "Descrição", name: "paragrafo", widget: "markdown" }
+        #---| REDE |---
+      - name: "rede"
+        label: "Rede - Parcerias"
+        file: "_data/rede.yml"
+        description: Dados da pagina Rede
+        fields:
+          - label: Clientes #----- clientes
+            name: clientes
+            widget: object
+            fields:
+             - { label: "Industria", name: "industria", widget: list }
+             - { label: "Comercio", name: "comercio", widget: list }
+             - { label: "Serviços", name: "servicos", widget: list }
+             - { label: "Entidades", name: "entidades", widget: list }
+        #---| BOLSA DE IDEAS |---
+      - name: "bolsa-ideias"
+        label: "Bolsa de Ideias - Empreender"
+        file: "_data/bolsa-ideias.yml"
+        description: Dados da pagina Bolsa de Ideias
+        fields:
+          - label: Bolsa #----- Bolsa
+            name: bolsa
+            widget: list
+            fields:
+              - { label: "Titulo", name: "titulo", widget: "string" }
+              - { label: "Ditado", name: "ditado", widget: "string" }
+              - { label: "Autor", name: "autor", widget: "string" }
+              - { label: "Descrição", name: "paragrafo", widget: "markdown" }
+          - label: Ideias Partilhadas #----- clientes
+            name: ideas_partilhadas
+            widget: list
+            fields:
+              - { label: "Tema", name: "tema", widget: "string" }
+              - { label: "Resumo", name: "resumo", widget: "string" }
+              - { label: "Promotora", name: "promotora", widget: "string" }
+              - { label: "Alvo Publico", name: "publico_alvo", widget: "string" }
+              - { label: "Investimento", name: "investimento", widget: "string" }
+        #---| ICONS SOCIAIS |---
+      - name: "paginas-sociais"
+        label: "Icons de páginas Sóciais"
+        file: "_data/paginas-sociais.yml"
+        description: Dados dos links das paginas sociais
+        fields:
+          - label: PT #----- PT
+            name: pt
+            widget: object
+            fields:
+              - { label: "Blogpost", name: "blogpost", widget: "string" }
+              - { label: "Twitter", name: "twitter", widget: "string" }
+              - { label: "Linked-In", name: "linked-in", widget: "string" }
+              - { label: "Facebook", name: "facebook", widget: "string" }
+          - label: EN #----- EN
+            name: en
+            widget: object
+            fields:
+              - { label: "Blogpost", name: "blogpost", widget: "string" }
+              - { label: "Twitter", name: "twitter", widget: "string" }
+              - { label: "Linked-In", name: "linked-in", widget: "string" }
+              - { label: "Facebook", name: "facebook", widget: "string" }
+          - label: ES #----- ES
+            name: es
+            widget: object
+            fields:
+              - { label: "Blogpost", name: "blogpost", widget: "string" }
+              - { label: "Twitter", name: "twitter", widget: "string" }
+              - { label: "Linked-In", name: "linked-in", widget: "string" }
+              - { label: "Facebook", name: "facebook", widget: "string" }
+        #---| MÉDIA - VIDEOS |---
+      - name: "media-videos"
+        label: "Média: Videos"
+        file: "_data/media-videos.yml"
+        description: Dados de videos
+        fields:
+          - label: Videos #----- PT
+            name: videos
+            widget: list
+            fields:
+              - { label: "Titulo", name: "titulo", widget: "string" }
+              - { label: "Categoria", name: "category", widget: "hidden", default: "videos" }
+              - { label: "Endereço / Link", name: "link", widget: "string" }
+              - { label: "Imagem de capa", name: "image_path", widget: "image" }
+              - { label: "Ano publicado", name: "ano", widget: number }
+              - { label: "Cidade", name: "cidade", widget: "string" }
 
 
