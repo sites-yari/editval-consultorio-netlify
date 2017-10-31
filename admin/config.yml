@@ -588,7 +588,7 @@ collections:
               - label: Sede
                 name: sede
                 widget: object
-                fileds: 
+                fields: 
                   - { label: "Rua", name: "rua", widget: "string" }
                   - { label: "Distrito", name: "distrito", widget: "string" }
                   - { label: "Código-Postal", name: "postal", widget: "string" }
@@ -614,14 +614,14 @@ collections:
               - label: Sede
                 name: sede
                 widget: object
-                fileds: 
+                fields: 
                   - { label: "Rua", name: "rua", widget: "string" }
                   - { label: "Distrito", name: "distrito", widget: "string" }
                   - { label: "Código-Postal", name: "postal", widget: "string" }
               - label: Contactos
                 name: contactos
                 widget: object
-                fileds: 
+                fields: 
                   - { label: "Telefone", name: "telefone", widget: "string" }
                   - { label: "Fax", name: "fax", widget: "string" }
                   - { label: "Telemovel", name: "telemovel", widget: "string" }
@@ -630,7 +630,7 @@ collections:
               - label: Sede
                 name: sede
                 widget: object
-                fileds: 
+                fields: 
                   - { label: "Aberto", name: "aberto", widget: "string" }
                   - { label: "Fechado", name: "fechado", widget: "string" }
           - label: ES #----- ES
