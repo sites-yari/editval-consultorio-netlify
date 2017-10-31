@@ -486,7 +486,11 @@ collections:
             name: clientes
             widget: object
             fields:
-             - { label: "Industria", name: "industria", widget: list }
+             - label: "Industria"
+               name: "industria"
+               widget: list
+               fields:
+                - { label: "campos", widget: string }
              - { label: "Comercio", name: "comercio", widget: list }
              - { label: "Serviços", name: "servicos", widget: list }
              - { label: "Entidades", name: "entidades", widget: list }
