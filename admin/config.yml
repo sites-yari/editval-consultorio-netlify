@@ -601,8 +601,8 @@ collections:
                   - { label: "Telemovel", name: "telemovel", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
               - { label: "GPS", name: "gps", widget: "string" }
-              - label: Sede
-                name: sede
+              - label: Horario
+                name: horario
                 widget: object
                 fields: 
                   - { label: "Aberto", name: "aberto", widget: "string" }
@@ -627,8 +627,8 @@ collections:
                   - { label: "Telemovel", name: "telemovel", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
               - { label: "GPS", name: "gps", widget: "string" }
-              - label: Sede
-                name: sede
+              - label: Horario
+                name: horario
                 widget: object
                 fields: 
                   - { label: "Aberto", name: "aberto", widget: "string" }
@@ -653,8 +653,8 @@ collections:
                   - { label: "Telemovel", name: "telemovel", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
               - { label: "GPS", name: "gps", widget: "string" }
-              - label: Sede
-                name: sede
+              - label: Horario
+                name: horario
                 widget: object
                 fields: 
                   - { label: "Aberto", name: "aberto", widget: "string" }
