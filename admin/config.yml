@@ -18,6 +18,7 @@ collections:
     fields:
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Instruções", name: "body", widget: "markdown" }
 
   #-----| Artigos |-------------------------------|
   - name: "artigos-economia"
