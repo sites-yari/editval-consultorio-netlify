@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post-foto
 title: Happening Braga 2009
 description: AvePark | Guimarães
 category: galeria-de-fotos
@@ -65,5 +65,4 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/happening-guimaraes-2009
 --- 
 
-{% include galeria-fotos.html %}
               

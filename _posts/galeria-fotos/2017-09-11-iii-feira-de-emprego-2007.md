@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post-foto
 title: III Feira de Emprego 2007
 description: Universidade do Minho | Braga
 category: galeria-de-fotos
@@ -32,4 +32,3 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/III-feira-de-emprego-2007
 --- 
 
-{% include galeria-fotos.html %}

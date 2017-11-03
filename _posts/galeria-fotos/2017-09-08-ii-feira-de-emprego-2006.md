@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post-foto
 title: II Feira de Emprego 2006
 description: Universidade do Minho | Braga
 category: galeria-de-fotos
@@ -14,4 +14,3 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/II-feira-de-emprego-2016
 --- 
 
-{% include galeria-fotos.html %}

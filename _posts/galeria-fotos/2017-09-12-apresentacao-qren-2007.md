@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post-foto
 title: Apresentação QREN 2007
 description: Auditório ARCUM | Braga
 category: galeria-de-fotos
@@ -23,4 +23,3 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/apresentacao-QREN-2007
 --- 
 
-{% include galeria-fotos.html %}

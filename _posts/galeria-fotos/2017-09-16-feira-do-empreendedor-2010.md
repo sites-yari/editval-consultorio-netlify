@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post-foto
 title: Feira do Empreendedor 2010
 description: Universidade do Minho | Braga
 category: galeria-de-fotos
@@ -23,5 +23,4 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/feira-do-empreededor-2010
 --- 
 
-{% include galeria-fotos.html %}
               

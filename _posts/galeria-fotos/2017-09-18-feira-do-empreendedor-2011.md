@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post-foto
 title: Feira do Empreendedor 2011
 description: Universidade do Minho | Braga
 category: galeria-de-fotos
@@ -77,5 +77,4 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/feira-do-empreendedor-2011
 --- 
 
-{% include galeria-fotos.html %}
 

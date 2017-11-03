@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post-foto
 title: Tertúlia Empreendedorismo 2007
 description: Velha-a-Branca | Braga
 category: galeria-de-fotos
@@ -47,4 +47,3 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/tertulia-empreendedorismo-2007
 --- 
 
-{% include galeria-fotos.html %}

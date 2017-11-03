@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post-foto
 title: Happening Braga 2006
 description: S. Victor | Braga
 category: galeria-de-fotos
@@ -53,5 +53,4 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/happening-braga-2006
 --- 
 
-{% include galeria-fotos.html %}
               

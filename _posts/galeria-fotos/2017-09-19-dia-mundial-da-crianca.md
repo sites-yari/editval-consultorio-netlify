@@ -1,5 +1,5 @@
 ---
-layout: for-post
+layout: for-post-foto
 title: Dia Mundial da Criança
 description: Oficinas de S. José | Braga
 category: galeria-de-fotos
@@ -53,4 +53,4 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/dia-mundial-da-criança
 --- 
  
-{% include galeria-fotos.html %}
+
