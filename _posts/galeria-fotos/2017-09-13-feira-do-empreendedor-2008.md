@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post-foto
 title: Feira do Empreendedor 2008
 description: Edifício da Alfândega | Porto
 category: galeria-de-fotos
@@ -26,4 +26,3 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/feira-do-empreendedor-2008
 --- 
 
-{% include galeria-fotos.html %}

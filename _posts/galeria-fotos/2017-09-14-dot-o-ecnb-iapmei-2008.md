@@ -1,5 +1,5 @@
 ---
-layout: media-post
+layout: for-post-foto
 title: 14.º ECNB IAPMEI 2008
 description: Bom Jesus | Braga
 category: galeria-de-fotos
@@ -53,4 +53,3 @@ formacao?: galeria-fotos
 permalink: pt-media/galeria-fotos/ECNB-IAPMEI-2008
 --- 
 
-{% include galeria-fotos.html %}
