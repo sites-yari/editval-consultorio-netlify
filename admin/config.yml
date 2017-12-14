@@ -5,7 +5,7 @@ backend:
   name: git-gateway
   repo: https://github.com/sites-yari/editval-consultorio-netlify
   branch: master # Branch to update (optional; defaults to master)
-  site_domain: consultoria-editvalue.netlify.com
+  site_domain: editvalue-consultoria.netlify.com
 
 collections:
 #====================| POSTS |===================================================|  
