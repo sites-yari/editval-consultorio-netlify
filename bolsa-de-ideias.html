@@ -120,19 +120,67 @@ bolsa_active?: active
                       </script>-->
 
                       <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify>
-                        <p class="hidden">
+                          <fieldset>
+                              <ul>
+                                <li class="title field required text_field" data-ajax-form-field-wrapper="title">
+                                  <span class="label">Ideia</span>
+                                  <span class="input">
+                                    <input name="title" value="" type="text" required>
+                                  </span>
+                                </li>
+                                <li class="description field required text_area" data-ajax-form-field-wrapper="description">
+                                  <span class="label">Resumo da ideia</span>
+                                  <span class="input">
+                                    <textarea name="description" required></textarea>
+                                  </span>
+                                </li>
+                                <li class="kindfield required selection_field" data-ajax-form-field-wrapper="kind">
+                                  <span class="label">Tipo</span>
+                                  <div class="input">
+                                    <select name="kind" required>
+                                      <option value="Confidencial" >Confidencial</option>
+                                      <option value="A partilhar"  >A partilhar</option>
+                                    </select>
+                                  </div>
+                                </li>
+                                <li class="author field required text_field" data-ajax-form-field-wrapper="author">
+                                  <span class="label">Nome do promotor</span>
+                                  <span class="input">
+                                    <input name="author" value="" type="text" required>
+                                  </span>
+                                </li>
+                                <li class="other_authors field text_field" data-ajax-form-field-wrapper="other_authors">
+                                  <span class="label">Outros promotores</span>
+                                  <span class="input">
+                                    <input name="other_authors" value="" type="text">
+                                  </span>
+                                </li>
+                                <li class="target field required text_field" data-ajax-form-field-wrapper="target">
+                                  <span class="label">Público-alvo</span>
+                                  <span class="input">
+                                    <input name="target" value="" type="text" required>
+                                  </span>
+                                </li>
+                                <li class="capital field required text_field" data-ajax-form-field-wrapper="capital">
+                                  <span class="label">Necessidades de investimento</span>
+                                  <span class="input">
+                                    <input name="capital" value="" type="text" required>
+                                  </span>
+                                </li>
+                                <li class="email field required text_field" data-ajax-form-field-wrapper="email">
+                                  <span class="label">Email</span>
+                                  <span class="input">
+                                    <input name="email" value="" type="text" required>
+                                  </span>
+                                </li>
+                              </ul>
+                            </fieldset>
                           <label>Don’t fill this out: <input name="bot-field"></label>
-                        </p>
-                        <p>
                           <label>Email: <input type="text" name="name"></label>
-                        </p>
-                        <p>
                           <label>Message: <textarea name="message"></textarea></label>
-                        </p>
-                        <p>
                           <button type=”submit”>Send</button>
-                        </p>
-                        
+                          <button class="resetBtn">Limpar</button>
+                          
                       </form>
 
                     </div>
