@@ -32,41 +32,33 @@ class: etica-pt
                 <div class="form ev-form ev-form-sugestoes">
                   <h1 class="content editable"><span>Sugestões e reclamações</span></h1>
                   <div class="form" id="form_6_div">
-                    <form method="POST"
-                          action="http://consultoria.editvalue.com/entry_submissions/suggestions.json"
-                          data-ajax-form="true"
-                          data-ajax-form-fail-action="render-errors"
-                          data-ajax-form-fail-field-template="suggestions-form-fail-field-template"
-                          data-ajax-form-success-action="replace-form"
-                          data-ajax-form-success-template="suggestions-form-success-template">
-                      <input type="hidden" name="authenticity_token" value="7BDwUYOwMoW3gqTdmD2n51L45DbmX+ykMPYJLRglM50=">
-
+                    <form name="contact-Sugestões-Reclamações" netlify-honeypot="bot-field" action="thank-you" netlify >
                       <fieldset>
                         <ul>
                           <li class="field required name text_field" data-ajax-form-field-wrapper="name" style="width: 100%;">
                             <span class="label">Nome</span>
                             <span class="input">
-                              <input name="content[name]" type="text" value="" required style="width: 75%;">
+                              <input name="Nome" type="text" value="" required style="width: 75%;">
                             </span>
                           </li>
 
                           <li class="field required phone text_field" data-ajax-form-field-wrapper="phone" style="width: 100%; clear: left;">
                             <span class="label">Telefone</span>
                             <span class="input">
-                              <input name="content[phone]" type="text" value="" required style="width: 50%;">
+                              <input name="Telemovel" type="text" value="" required style="width: 50%;">
                             </span>
                           </li>
 
                           <li class="field required email text_field" data-ajax-form-field-wrapper="email" style="width: 100%; clear: left;">
                             <span class="label">Email</span>
                             <span class="input">
-                              <input name="content[email]" type="email" value="" required style="width: 50%;">
+                              <input name="Email" type="email" value="" required style="width: 50%;">
                             </span>
                           </li>
 
                           <li class="field required tipo selection_field" data-ajax-form-field-wrapper="kind" style="clear:left;">
                             <span class="label">Tipo</span><div class="input">
-                              <select name="content[kind]" required>
+                              <select name="Tipo" required>
                                 <option >Sugestão</option>
                                 <option >Reclamação</option>
                               </select>
@@ -75,7 +67,7 @@ class: etica-pt
 
                           <li class="field required mensagem text_area" data-ajax-form-field-wrapper="message">
                             <span class="label">Mensagem</span><span class="input">
-                              <textarea name="content[message]" required></textarea>
+                              <textarea name="Mensagem" required></textarea>
                             </span>
                           </li>
                         </ul>
@@ -83,17 +75,10 @@ class: etica-pt
 
                       <div class="actions">
                         <button class="submitBtn" type="submit"><span>Enviar</span></button>
-                        <button class="resetBtn" data-action="reset-form"><span>Limpar</span></button>
+                        <!-- <button class="resetBtn" data-action="reset-form"><span>Limpar</span></button> -->
                       </div>
                     </form>
 
-                    <script id="suggestions-form-fail-field-template" type="text/x-handlebars-template">
-                      <span class="error" data-role="form-field-error">{{message}}</span>
-                    </script>
-
-                    <script id="suggestions-form-success-template" type="text/x-handlebars-template">
-                      <span>A sua mensagem foi enviada com sucesso.</span>
-                    </script>
                   </div>
                 </div>
               </div>
