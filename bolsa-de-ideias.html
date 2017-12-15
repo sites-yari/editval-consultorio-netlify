@@ -119,66 +119,19 @@ bolsa_active?: active
                         <a href="/bolsa-de-ideias">Voltar</a>
                       </script>-->
 
-                      <form id="my-form"name="bolsas-de-ideias" action="thank-you" netlify>
-                        <fieldset>
-                          <ul>
-                            <li class="title field required text_field">
-                              <span class="label">Ideia</span>
-                              <span class="input">
-                                <input name="idea" value="" type="text" required>
-                              </span>
-                            </li>
-                            <li class="description field required text_area">
-                              <span class="label">Resumo da ideia</span>
-                              <span class="input">
-                                <textarea name="description" required></textarea>
-                              </span>
-                            </li>
-                            <li class="kindfield required selection_field" >
-                              <span class="label">Tipo</span>
-                              <div class="input">
-                                <select name="kind" required>
-                                  <option value="Confidencial" >Confidencial</option>
-                                  <option value="A partilhar"  >A partilhar</option>
-                                </select>
-                              </div>
-                            </li>
-                            <li class="author field required text_field" >
-                              <span class="label">Nome do promotor</span>
-                              <span class="input">
-                                <input name="author" value="" type="text" required>
-                              </span>
-                            </li>
-                            <li class="other_authors field text_field" >
-                              <span class="label">Outros promotores</span>
-                              <span class="input">
-                                <input name="other_authors" value="" type="text">
-                              </span>
-                            </li>
-                            <li class="target field required text_field">
-                              <span class="label">Público-alvo</span>
-                              <span class="input">
-                                <input name="target" value="" type="text" required>
-                              </span>
-                            </li>
-                            <li class="capital field required text_field">
-                              <span class="label">Necessidades de investimento</span>
-                              <span class="input">
-                                <input name="capital" value="" type="text" required>
-                              </span>
-                            </li>
-                            <li class="email field required text_field">
-                              <span class="label">Email</span>
-                              <span class="input">
-                                <input name="email" value="" type="text" required>
-                              </span>
-                            </li>
-                          </ul>
-                          <div class="actions">
-                            <button class="submitBtn" type="submit"><span>Enviar</span></button>
-                            <button class="resetBtn" data-action="reset-form"><span>Limpar</span></button>
-                          </div>
-                        </fieldset>
+                      <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify>
+                        <p class="hidden">
+                          <label>Don’t fill this out: <input name="bot-field"></label>
+                        </p>
+                        <p>
+                          <label>Email: <input type="text" name="name"></label>
+                        </p>
+                        <p>
+                          <label>Message: <textarea name="message"></textarea></label>
+                        </p>
+                        <p>
+                          <button type=”submit”>Send</button>
+                        </p>
                         
                       </form>
 
