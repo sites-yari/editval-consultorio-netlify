@@ -119,7 +119,7 @@ bolsa_active?: active
                         <a href="/bolsa-de-ideias">Voltar</a>
                       </script>-->
 
-                      <form id="my-form"name="bolsas-de-ideias" netlify-honeypot="bot-field" action="thank-you" netlify>
+                      <form method="POST" id="my-form"name="bolsas-de-ideias" action="/index.html" netlify>
                         <fieldset>
                           <ul>
                             <li class="title field required text_field">
@@ -176,7 +176,7 @@ bolsa_active?: active
                           </ul>
                         </fieldset>
                         <div class="actions">
-                          <button class="submitBtn" type="submit"><span>Enviar</span></button>
+                          <button class="submitBtn" type="submit">Enviar</button>
                           <button class="resetBtn" data-action="reset-form"><span>Limpar</span></button>
                         </div>
                       </form>
