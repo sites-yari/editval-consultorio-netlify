@@ -24,22 +24,14 @@ class: etica-pt
                 <div class="form ev-form ev-form-newsletter">
                   <div class="form_root " id="form_325_div">
                     <div class="form">
-                      <form method="POST"
-                            action="http://consultoria.editvalue.com/entry_submissions/newsletter_subscriptions.json"
-                            data-ajax-form="true"
-                            data-ajax-form-fail-action="render-errors"
-                            data-ajax-form-fail-field-template="newsletter-form-fail-field-template"
-                            data-ajax-form-success-action="replace-form"
-                            data-ajax-form-success-template="newsletter-form-success-template">
-                        <input type="hidden" name="authenticity_token" value="7BDwUYOwMoW3gqTdmD2n51L45DbmX+ykMPYJLRglM50=">
-
+                      <form name="contact-Newsletter" netlify-honeypot="bot-field" action="thank-you" netlify >
                         <fieldset class="root">
                           <legend class="content editable">Inscrição na Newsletter Editvalue</legend>
                           <ul>
                             <li class="text_field email field required" data-ajax-form-field-wrapper="email">
                               <span class="label">Email</span>
                               <span class="input">
-                                <input name="content[email]" placeholder="" type="email" value="" required>
+                                <input name="Email" placeholder="" type="email" value="" required>
                               </span>
                             </li>
                           </ul>
@@ -47,17 +39,9 @@ class: etica-pt
 
                         <div class="actions">
                           <button class="submitBtn" type="submit"><span>Enviar</span></button>
-                          <button class="resetBtn" data-action="reset-form"><span>Limpar</span></button>
+                          <!-- <button class="resetBtn" data-action="reset-form"><span>Limpar</span></button> -->
                         </div>
                       </form>
-
-                      <script id="newsletter-form-fail-field-template" type="text/x-handlebars-template">
-                        <span class="error" data-role="form-field-error">{{message}}</span>
-                      </script>
-
-                      <script id="newsletter-form-success-template" type="text/x-handlebars-template">
-                        <span>A sua mensagem foi enviada com sucesso.</span>
-                      </script>
 
                     </div>
                   </div>

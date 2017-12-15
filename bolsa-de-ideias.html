@@ -36,7 +36,7 @@ bolsa_active?: active
                     <h1><span>Partilha a tua ideia</span></h1>
                     <div class="form" id="form_5_div">
 
-                      <form method="POST"
+                      <!--<form method="POST"
                             action="https://formspree.io/websites_forms+editvalue-consultoria@yarilabs.com"
                             data-ajax-form="true"
                             data-ajax-form-fail-action="render-errors"
@@ -117,8 +117,73 @@ bolsa_active?: active
                       <script id="ideas-form-success-template" type="text/x-handlebars-template">
                         <span>A sua mensagem foi enviada com sucesso.</span> <hr />
                         <a href="/bolsa-de-ideias">Voltar</a>
-                      </script>
+                      </script>-->
 
+                      <form name="contact-bolsa-ideias" netlify-honeypot="bot-field" action="thank-you" netlify >
+                        
+                          <fieldset>
+                              <ul>
+                                <li class="title field required text_field" data-ajax-form-field-wrapper="title">
+                                  <span class="label">Ideia</span>
+                                  <span class="input">
+                                    <input name="Ideia" value="" type="text" required>
+                                  </span>
+                                </li>
+                                <li class="description field required text_area" data-ajax-form-field-wrapper="description">
+                                  <span class="label">Resumo da ideia</span>
+                                  <span class="input">
+                                    <textarea name="Resumo-da-Ideia" required></textarea>
+                                  </span>
+                                </li>
+                                <li class="kindfield required selection_field" data-ajax-form-field-wrapper="kind">
+                                  <span class="label">Tipo</span>
+                                  <div class="input">
+                                    <select name="Tipo" required>
+                                      <option value="Confidencial" >Confidencial</option>
+                                      <option value="A partilhar"  >A partilhar</option>
+                                    </select>
+                                  </div>
+                                </li>
+                                <li class="author field required text_field" data-ajax-form-field-wrapper="author">
+                                  <span class="label">Nome do promotor</span>
+                                  <span class="input">
+                                    <input name="Nome-do-promotor" value="" type="text" required>
+                                  </span>
+                                </li>
+                                <li class="other_authors field text_field" data-ajax-form-field-wrapper="other_authors">
+                                  <span class="label">Outros promotores</span>
+                                  <span class="input">
+                                    <input name="Outros-promotores" value="" type="text">
+                                  </span>
+                                </li>
+                                <li class="target field required text_field" data-ajax-form-field-wrapper="target">
+                                  <span class="label">Público-alvo</span>
+                                  <span class="input">
+                                    <input name="Público-alvo" value="" type="text" required>
+                                  </span>
+                                </li>
+                                <li class="capital field required text_field" data-ajax-form-field-wrapper="capital">
+                                  <span class="label">Necessidades de investimento</span>
+                                  <span class="input">
+                                    <input name="Necessidades-de-investimento" value="" type="text" required>
+                                  </span>
+                                </li>
+                                <li class="email field required text_field" data-ajax-form-field-wrapper="email">
+                                  <span class="label">Email</span>
+                                  <span class="input">
+                                    <input name="Email" value="" type="text" required>
+                                  </span>
+                                </li>
+                              </ul>
+                            </fieldset>
+                            <div class="actions">
+                                
+                              <button class="submitBtn" type=”submit”>Send</button>
+                            </div>
+                          <!--0<button>Limpar</button>-->
+                          
+                          
+                      </form>
 
                     </div>
                   </div>

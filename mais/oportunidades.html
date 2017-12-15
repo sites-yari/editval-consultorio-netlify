@@ -37,57 +37,49 @@ class: etica-pt
                 <div class="form oportunidades ">
                   <div class="form_root" id="form_339_div">
                     <div class="form">
-                      <form method="POST"
-                            action="http://consultoria.editvalue.com/entry_submissions/applications.json"
-                            data-ajax-form="true"
-                            data-ajax-form-fail-action="render-errors"
-                            data-ajax-form-fail-field-template="applications-form-fail-field-template"
-                            data-ajax-form-success-action="replace-form"
-                            data-ajax-form-success-template="applications-form-success-template">
-                        <input type="hidden" name="authenticity_token" value="7BDwUYOwMoW3gqTdmD2n51L45DbmX+ykMPYJLRglM50=">
-
+                      <form name="contact-Oportunidades" netlify-honeypot="bot-field" action="thank-you" netlify >
                         <fieldset class="root">
                           <legend class="content editable">Oportunidade Root</legend>
                           <ul>
                             <li class="text_field name field required" data-ajax-form-field-wrapper="name">
                               <div class="label">Nome</div>
                               <div class="input">
-                                <input name="content[name]" placeholder="" type="text" value="" required>
+                                <input name="Nome" placeholder="" type="text" value="" required>
                               </div>
                             </li>
 
                             <li class="text_field course field required" data-ajax-form-field-wrapper="course">
                               <div class="label">Curso</div>
                               <div class="input">
-                                <input name="content[course]" placeholder="" type="text" value="" required>
+                                <input name="Curso" placeholder="" type="text" value="" required>
                               </div>
                             </li>
 
                             <li class="text_field institution field required" data-ajax-form-field-wrapper="institution">
                               <div class="label">Instituição de Ensino</div>
                               <div class="input">
-                                <input name="content[institution]" placeholder="" type="text" value="" required>
+                                <input name="Ensino" placeholder="" type="text" value="" required>
                               </div>
                             </li>
 
                             <li class="text_field phone field required" data-ajax-form-field-wrapper="phone">
                               <div class="label">Telemóvel</div>
                               <div class="input">
-                                <input name="content[phone]" placeholder="" type="text" value="" required>
+                                <input name="Telemóvel" placeholder="" type="text" value="" required>
                               </div>
                             </li>
 
                             <li class="text_field email field required" data-ajax-form-field-wrapper="email">
                               <div class="label">Email</div>
                               <div class="input">
-                                <input name="content[email]" placeholder="" type="email" value="" required>
+                                <input name="Email" placeholder="" type="email" value="" required>
                               </div>
                             </li>
 
                             <li class="file_field curriculum field required" data-ajax-form-field-wrapper="curriculum_vitae">
                               <span class="label">Curriculum Vitae</span>
                               <span class="input">
-                                <input name="content[curriculum_vitae]" type="file" required>
+                                <input name="Curriculum_vitae" type="file" required>
                               </span>
                             </li>
                           </ul>
@@ -95,17 +87,9 @@ class: etica-pt
 
                         <div class="actions">
                           <button class="submitBtn" type="submit"><span>Enviar</span></button>
-                          <button class="resetBtn" data-action="reset-form"><span>Limpar</span></button>
+                          <!-- <button class="resetBtn" data-action="reset-form"><span>Limpar</span></button> -->
                         </div>
                       </form>
-
-                      <script id="applications-form-fail-field-template" type="text/x-handlebars-template">
-                        <span class="error" data-role="form-field-error">{{message}}</span>
-                      </script>
-
-                      <script id="applications-form-success-template" type="text/x-handlebars-template">
-                        <span>A sua mensagem foi enviada com sucesso.</span>
-                      </script>
 
                     </div>
                   </div>
