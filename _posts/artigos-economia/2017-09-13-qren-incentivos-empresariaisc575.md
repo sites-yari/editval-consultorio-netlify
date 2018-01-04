@@ -1,13 +1,14 @@
 ---
 layout: for-post-text
-title: QREN- Incentivos Empresariais
+title: 'QREN: Incentivos Empresariais'
 data: 06-11-2007
 autor: Nuno Pinto Bastos
 category: artigos
 class: media-pt
 media_active?: active
 formacao?: artigos-economia
----  
+---
+  
   
 
 O QREN - Quadro de Referência Estratégico Nacional para o período 2007-2013, apresenta-se para Portugal como um instrumento passível de permitir ao tecido empresarial português um salto qualitativo no seu crescimento, desenvolvimento e competitividade, se baseado nos vectores do conhecimento, da tecnologia e da inovação.
