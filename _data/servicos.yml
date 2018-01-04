@@ -1,102 +1,215 @@
-#===========================================================================================================================================
 pt:
-  solucao:
-    avancada:
-        titulo: Solução Avançada EDIT VALUE®
-        text: Serviço integrado de consultoria contabilística e fiscal. Inclui um acompanhamento permanente ao nível da gestão da empresa, permitindo aos seus decisores e gestores uma maior segurança e rapidez no processo de tomada de decisão.
-          <br>Trata-se de um modelo de outsourcing, suportado pelo desenvolvimento de consultoria e assessoria contabilística e fiscal, nomeadamente; entrega de todas as declarações fiscais; reconciliações bancárias; controlo de imobilizado por fichas individualizadas; elaboração do Relatório e Contas e Dossier Fiscal; processamento de salários e quadros de pessoal; acesso documental online através da “Área Cliente”; entrega de relatórios periódicos de apoio à gestão; reporting financeiro.
-          <br>Através desta solução pretende-se dar uma resposta integrada e de excelência, que vá muito além do mero cumprimento das obrigações fiscais.
-    completa: 
-        titulo: Solução Completa EDIT VALUE®
-        text: Consultoria contabilística e fiscal concebida de acordo com a organização-cliente. Todo o trabalho é desenvolvido pelo consultor nas instalações do cliente, o que implica uma adaptação completa do modelo de atuação à cultura organizacional.
-          <br>Resulta de um insourcing de procedimentos administrativos e financeiros, que permite internalizar Know-how na própria organização, reduzindo custos operacionais. Este serviço inclui a realização de um Estudo de Benchmarking que permite avaliar (de forma transversal à atividade) o posicionamento da empresa, para que sejam iniciadas intervenções complementares de consultoria.
-          <br>Tal como na Solução Avançada EDIT VALUE®, existe um acompanhamento e um apoio à gestão empresarial, através de consultoria fiscal e contabilística estruturada e desenvolvida em sintonia com a estratégia e exigências do cliente.
-    personalizada: 
-        titulo: Solução Personalizada EDIT VALUE®
-        text: Solução desenhada em função de necessidades pontuais do cliente. Serviço desenvolvido à medida. Exige a cativação de esforços redobrados para assegurar o cumprimento das especificidades contratualizadas. O desenvolvimento de um qualquer projeto desta natureza envolve o cliente como co-produtor do serviço. Estamos perante serviços como - Planos de Negócio; Benchmarking; Estudos de Viabilidade Económico-Financeira; Projectos de Investimento; Planos de Marketing; entre outros.
-          <br>ário dos demais, tanto os clientes da Solução Avançada como os clientes da Solução Completa, gozam de uma filosofia de risco partilhado em qualquer candidatura que seja efectuada no âmbito de uma Solução Personalizada.
   areas:
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42320/s64-c/gestao-financeira.jpg
+      text: >-
+        Consultoria Fiscal e Contabilística, Assessoria Fiscal, Estudos de
+        Viabilidade, Recuperação de Empresas, Análise de Custos Industriais,
+        Relatórios de Gestão.
       titulo: Gestão Financeira
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42320/s64-c/gestao-financeira.jpg
-      text: Consultoria Fiscal e Contabilística, Assessoria Fiscal, Estudos de Viabilidade, Recuperação de Empresas, Análise de Custos Industriais, Relatórios de Gestão.
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42322/s64-c/gestao-estrategica.jpg
+      text: >-
+        Benchmarking, Planos de Marketing, Planos de Comunicação, Estudos de
+        Mercado, Planos Estratégicos, Gestão de Recursos Humanos, Comunicação,
+        Internacionalização.
       titulo: Gestão Estratégica
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42322/s64-c/gestao-estrategica.jpg
-      text: Benchmarking, Planos de Marketing, Planos de Comunicação, Estudos de Mercado, Planos Estratégicos, Gestão de Recursos Humanos, Comunicação, Internacionalização.
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42324/s64-c/empreendedorismo.jpg
+      text: 'Consultoria para a Criação de Empresas, Plano de Negócios'
       titulo: Empreendedorismo
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42324/s64-c/empreendedorismo.jpg
-      text: Consultoria para a Criação de Empresas, Plano de Negócios
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42423/s64-c/programas-de-apoio-e-incentivo.jpg
+      text: >-
+        H2020, Portugal 2020, Comércio Investe, PAECPE, Estágios Profissionais,
+        Apoios à Contratação.
       titulo: Programas de Apoio e Incentivo
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42423/s64-c/programas-de-apoio-e-incentivo.jpg
-      text: FP7, QREN, Comércio Investe, PAECPE, Estágios Profissionais, Apoios à Contratação.
-      
-
-#===========================================================================================================================================
+  solucao:
+    avancada:
+      text: >-
+        Serviço integrado de consultoria contabilística e fiscal. Inclui um
+        acompanhamento permanente ao nível da gestão da empresa, permitindo aos
+        seus decisores e gestores uma maior segurança e rapidez no processo de
+        tomada de decisão. <br>Trata-se de um modelo de outsourcing, suportado
+        pelo desenvolvimento de consultoria e assessoria contabilística e
+        fiscal, nomeadamente; entrega de todas as declarações fiscais;
+        reconciliações bancárias; controlo de imobilizado por fichas
+        individualizadas; elaboração do Relatório e Contas e Dossier Fiscal;
+        processamento de salários e quadros de pessoal; acesso documental online
+        através da “Área Cliente”; entrega de relatórios periódicos de apoio à
+        gestão; reporting financeiro. <br>Através desta solução pretende-se dar
+        uma resposta integrada e de excelência, que vá muito além do mero
+        cumprimento das obrigações fiscais.
+      titulo: Solução Avançada EDIT VALUE®
+    completa:
+      text: >-
+        Consultoria contabilística e fiscal concebida de acordo com a
+        organização-cliente. Todo o trabalho é desenvolvido pelo consultor nas
+        instalações do cliente, o que implica uma adaptação completa do modelo
+        de atuação à cultura organizacional. <br>Resulta de um insourcing de
+        procedimentos administrativos e financeiros, que permite internalizar
+        Know-how na própria organização, reduzindo custos operacionais. Este
+        serviço inclui a realização de um Estudo de Benchmarking que permite
+        avaliar (de forma transversal à atividade) o posicionamento da empresa,
+        para que sejam iniciadas intervenções complementares de consultoria.
+        <br>Tal como na Solução Avançada EDIT VALUE®, existe um acompanhamento e
+        um apoio à gestão empresarial, através de consultoria fiscal e
+        contabilística estruturada e desenvolvida em sintonia com a estratégia e
+        exigências do cliente.
+      titulo: Solução Completa EDIT VALUE®
+    personalizada:
+      text: >-
+        Solução desenhada em função de necessidades pontuais do cliente. Serviço
+        desenvolvido à medida. Exige a cativação de esforços redobrados para
+        assegurar o cumprimento das especificidades contratualizadas. O
+        desenvolvimento de um qualquer projeto desta natureza envolve o cliente
+        como co-produtor do serviço. Estamos perante serviços como - Planos de
+        Negócio; Benchmarking; Estudos de Viabilidade Económico-Financeira;
+        Projectos de Investimento; Planos de Marketing; entre outros. <br>ário
+        dos demais, tanto os clientes da Solução Avançada como os clientes da
+        Solução Completa, gozam de uma filosofia de risco partilhado em qualquer
+        candidatura que seja efectuada no âmbito de uma Solução Personalizada.
+      titulo: Solução Personalizada EDIT VALUE®
 en:
-  solucao:
-    avancada:
-        titulo: Advanced Solution EDIT VALUE® 
-        text: Integrated service of accounting and tax consultancy. It includes a permanent monitoring in the management of the company, allowing their CEO and managers greater security and speed in the decision-making process.
-          <br>It concerns an outsourcing model, supported by the development of consultancy and accounting and tax advice, namelly; delivery of all tax returns, banking reconciliations, control of property by individual sheets, preparing the Annual Report and File Tax; remuneration processing and managers board, online access of documents through the "Customer Area"; delivery of quarterly reports to support management, financial reporting.
-          <br>Through this solution we intend to give an integrated and excellent answer, which goes far beyond a simple compliance of tax obligations.
-    completa: 
-        titulo: Complete Solution EDIT VALUE®
-        text: Accounting and tax consultancy tailored to the organization-customer. The entire work is developed by the consultant in the customer company, which requires a complete adaptation of the model behavior to organizational culture.
-          <br>It results from an insourcing of administrative and financial procedures, which allows internalize Know-how in own organization, reducing operating costs. This includes a Benchmarking study for assessing (in a cross to work) the positioning of the company, in order to implement complementary interventions of consultancy.
-          <br>As well as in EDIT VALUE® Advanced Solution, we can find a monitoring and support to business management, through tax and accounting consultancy, structured and developed in line with the strategy and requirements of the customer.
-    personalizada: 
-        titulo: Custom Solution EDIT VALUE®
-        text: Solution designed according to customer's specific needs. Measure service. It requires the blocking of efforts to ensure compliance with contracted specifications. The development of any project of this nature involves the customer as co-producer of the service. We are dealing with services such as - Business Plans; Benchmarking, economic and financial viability studies; Investment Projects, Marketing Plans, among others.
-          <br>Unlike the others, both customers, of Advanced or Complete Solution, play a shared risk philosophy in any application made according to a Custom Solution.
   areas:
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42320/s64-c/gestao-financeira.jpg
+      text: >-
+        Tax and Accounting Consulting, Fiscal Assessorship, Feasibility studies,
+        Recovery of Companies, Analysis of Industrial Costs, Reports of
+        Management.
       titulo: Financial management
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42320/s64-c/gestao-financeira.jpg
-      text: Tax and Accounting Consulting, Fiscal Assessorship, Feasibility studies, Recovery of Companies, Analysis of Industrial Costs, Reports of Management.
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42322/s64-c/gestao-estrategica.jpg
+      text: >-
+        Benchmarking, Plans of Marketing, Plans of Communication, Strategical
+        Studies of Market, Plans, Human Resource Management, Communication,
+        Internationalization.
       titulo: Strategical management
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42322/s64-c/gestao-estrategica.jpg
-      text: Benchmarking, Plans of Marketing, Plans of Communication, Strategical Studies of Market, Plans, Human Resource Management, Communication, Internationalization.
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42324/s64-c/empreendedorismo.jpg
+      text: 'Consulting for the Creation of Companies, Plan business-oriented'
       titulo: Entrepreneurship
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42324/s64-c/empreendedorismo.jpg
-      text: Consulting for the Creation of Companies, Plan business-oriented
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42423/s64-c/programas-de-apoio-e-incentivo.jpg
+      text: >-
+        H2020, Portugal 2020, Trade Invest, PAECPE, Professional Periods of
+        training, Support to the Act of contract.
       titulo: Programs of Support and Incentive
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42423/s64-c/programas-de-apoio-e-incentivo.jpg
-      text: FP7, QREN, Trade Invest, PAECPE, Professional Periods of training, Support to the Act of contract.
-
-#===========================================================================================================================================
-es:
   solucao:
     avancada:
-        titulo: Solución avanzada EDIT VALUE®
-        text: Servicio integrado de asesoramiento fiscal y contable. Incluye el seguimiento permamente en la gestión de la empresa, permitiendo a sus responsables y administradores una mayor seguridad y rapidez en el proceso de toma de decisiones..
-          <br>Este es un modelo de outsourcing, soportado por la elaboración de consultoría y asesoramiento fiscal y contable, en particular; la entrega de todas las declaraciones de impuestos; conciliaciones bancarias; el control de los bienes por hojas individuales; la preparación del Informe Anual de Impuestos, procesamiento de sueldos de los funcionarios y el personal directivo, acceso a documentos en línea a través del "Área de Clientes"; la entrega de informes trimestrales de apoyo a la gestión, presentación de informes financieros. A través de esta solución se pretende dar una respuesta integral y de excelencia, que va mucho más allá del simple cumplimiento de las obligaciones fiscales.
-    completa: 
-        titulo: Solución completa EDIT VALUE®
-        text: Asesoramiento contable y fiscal concebida de acuerdo con la organización-cliente. Todo el trabajo es realizado por el consultor en las instalaciones del cliente, lo que exige una completa adaptación a los modelos de comportamento y la cultura de la organización. El resultado de un i ns ourc i ng  de los procedimientos administrativos y financieros permite internalizar el Know-how en la misma organización y reducir sus costes operacionales. Este procedimento incluye un estudio de be nc hmar ki ng  que permite evaluar el posicionamiento de la empresa, para que se inicien las intervenciones complementares de asesoramiento. Al igual que en la solución avanzada EDIT VALUE®, hay un seguimiento y un apoyo a la gestión empresarial a través de una asesoría fiscal y contable estructurada y desarrollada en consonancia con la estrategia y las necesidades del cliente.
-    personalizada: 
-        titulo: Solución personalizada EDIT VALUE®
-        text: Solución diseñada de acuerdo con las necesidades específicas del cliente. Desarrollo a medida de servicios lo que exige el empleo de esfuerzo redoblado para garantizar el cumplimiento de los puntos específicos acordados. El desarrollo de cualquier proyecto de esta naturaleza implica que el cliente será el co-productor del servicio. Se trata de servicios tales como - Planes de Negocio; Benchmarking; Estudios de viabilidad económica y financiera; Proyectos de Inversión; Planes de comercialización; entre otros. A diferencia de los demás, tanto los clientes de Solución Avanzada como los clientes de Solución Completa, tienen una filosofía de riesgo compartido en cualquier aplicación que sea efectuada en el ámbito de una Solución Personalizada.
+      text: >-
+        Integrated service of accounting and tax consultancy. It includes a
+        permanent monitoring in the management of the company, allowing their
+        CEO and managers greater security and speed in the decision-making
+        process. <br>It concerns an outsourcing model, supported by the
+        development of consultancy and accounting and tax advice, namelly;
+        delivery of all tax returns, banking reconciliations, control of
+        property by individual sheets, preparing the Annual Report and File Tax;
+        remuneration processing and managers board, online access of documents
+        through the "Customer Area"; delivery of quarterly reports to support
+        management, financial reporting. <br>Through this solution we intend to
+        give an integrated and excellent answer, which goes far beyond a simple
+        compliance of tax obligations.
+      titulo: Advanced Solution EDIT VALUE®
+    completa:
+      text: >-
+        Accounting and tax consultancy tailored to the organization-customer.
+        The entire work is developed by the consultant in the customer company,
+        which requires a complete adaptation of the model behavior to
+        organizational culture. <br>It results from an insourcing of
+        administrative and financial procedures, which allows internalize
+        Know-how in own organization, reducing operating costs. This includes a
+        Benchmarking study for assessing (in a cross to work) the positioning of
+        the company, in order to implement complementary interventions of
+        consultancy. <br>As well as in EDIT VALUE® Advanced Solution, we can
+        find a monitoring and support to business management, through tax and
+        accounting consultancy, structured and developed in line with the
+        strategy and requirements of the customer.
+      titulo: Complete Solution EDIT VALUE®
+    personalizada:
+      text: >-
+        Solution designed according to customer's specific needs. Measure
+        service. It requires the blocking of efforts to ensure compliance with
+        contracted specifications. The development of any project of this nature
+        involves the customer as co-producer of the service. We are dealing with
+        services such as - Business Plans; Benchmarking, economic and financial
+        viability studies; Investment Projects, Marketing Plans, among others.
+        <br>Unlike the others, both customers, of Advanced or Complete Solution,
+        play a shared risk philosophy in any application made according to a
+        Custom Solution.
+      titulo: Custom Solution EDIT VALUE®
+es:
   areas:
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42320/s64-c/gestao-financeira.jpg
+      text: >-
+        Consultoría Fiscal y de Contabilidad, Asesoria Fiscal, Estudios de
+        Viabilidad, Recuperación de Empresas, Análisis de Costes Industriales,
+        Informes de Gestión
       titulo: Gestión Financiera
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42320/s64-c/gestao-financeira.jpg
-      text: Consultoría Fiscal y de Contabilidad, Asesoria Fiscal, Estudios de Viabilidad, Recuperación de Empresas, Análisis de Costes Industriales, Informes de Gestión
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42322/s64-c/gestao-estrategica.jpg
+      text: >-
+        Benchmarking, Planes de Marketing, Planes de Comunicación, Estudios de
+        Mercado, Planes Estratégicos, Gestión de recursos humanos, Comunicación,
+        Internacionalización.
       titulo: Gestión Estrategica
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42322/s64-c/gestao-estrategica.jpg
-      text: Benchmarking, Planes de Marketing, Planes de Comunicación, Estudios de Mercado, Planes Estratégicos, Gestión de recursos humanos, Comunicación, Internacionalización.
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42324/s64-c/empreendedorismo.jpg
+      text: 'Consultoría para la Creación de Empresas, Planes de Negocios'
       titulo: Iniciativa Empresarial
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42324/s64-c/empreendedorismo.jpg
-      text: Consultoría para la Creación de Empresas, Planes de Negocios
-    - 
+    - image_path: >-
+        assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42423/s64-c/programas-de-apoio-e-incentivo.jpg
+      text: >-
+        H2020, Portugal 2020, Comercio Invierte, PAECPE, Practicas
+        Profesionales, Apoyo a la Contratación.
       titulo: Programas de apoyo y incentivo
-      image_path: assets/sites/55a8a0b6301be3e68f000002/theme/images/foreigners/edit-value/58/42423/s64-c/programas-de-apoio-e-incentivo.jpg
-      text: FP7, QREN, Comercio Invierte, PAECPE, Practicas Profesionales, Apoyo a la Contratación.
-
+  solucao:
+    avancada:
+      text: >-
+        Servicio integrado de asesoramiento fiscal y contable. Incluye el
+        seguimiento permamente en la gestión de la empresa, permitiendo a sus
+        responsables y administradores una mayor seguridad y rapidez en el
+        proceso de toma de decisiones.. <br>Este es un modelo de outsourcing,
+        soportado por la elaboración de consultoría y asesoramiento fiscal y
+        contable, en particular; la entrega de todas las declaraciones de
+        impuestos; conciliaciones bancarias; el control de los bienes por hojas
+        individuales; la preparación del Informe Anual de Impuestos,
+        procesamiento de sueldos de los funcionarios y el personal directivo,
+        acceso a documentos en línea a través del "Área de Clientes"; la entrega
+        de informes trimestrales de apoyo a la gestión, presentación de informes
+        financieros. A través de esta solución se pretende dar una respuesta
+        integral y de excelencia, que va mucho más allá del simple cumplimiento
+        de las obligaciones fiscales.
+      titulo: Solución avanzada EDIT VALUE®
+    completa:
+      text: >-
+        Asesoramiento contable y fiscal concebida de acuerdo con la
+        organización-cliente. Todo el trabajo es realizado por el consultor en
+        las instalaciones del cliente, lo que exige una completa adaptación a
+        los modelos de comportamento y la cultura de la organización. El
+        resultado de un i ns ourc i ng  de los procedimientos administrativos y
+        financieros permite internalizar el Know-how en la misma organización y
+        reducir sus costes operacionales. Este procedimento incluye un estudio
+        de be nc hmar ki ng  que permite evaluar el posicionamiento de la
+        empresa, para que se inicien las intervenciones complementares de
+        asesoramiento. Al igual que en la solución avanzada EDIT VALUE®, hay un
+        seguimiento y un apoyo a la gestión empresarial a través de una asesoría
+        fiscal y contable estructurada y desarrollada en consonancia con la
+        estrategia y las necesidades del cliente.
+      titulo: Solución completa EDIT VALUE®
+    personalizada:
+      text: >-
+        Solución diseñada de acuerdo con las necesidades específicas del
+        cliente. Desarrollo a medida de servicios lo que exige el empleo de
+        esfuerzo redoblado para garantizar el cumplimiento de los puntos
+        específicos acordados. El desarrollo de cualquier proyecto de esta
+        naturaleza implica que el cliente será el co-productor del servicio. Se
+        trata de servicios tales como - Planes de Negocio; Benchmarking;
+        Estudios de viabilidad económica y financiera; Proyectos de Inversión;
+        Planes de comercialización; entre otros. A diferencia de los demás,
+        tanto los clientes de Solución Avanzada como los clientes de Solución
+        Completa, tienen una filosofía de riesgo compartido en cualquier
+        aplicación que sea efectuada en el ámbito de una Solución Personalizada.
+      titulo: Solución personalizada EDIT VALUE®
