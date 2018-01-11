@@ -9,8 +9,8 @@ pt:
       jovens. <br><br> Este projeto inovador na área dos recursos humanos, tem a
       duração de dois anos e nele estão envolvidos sete parceiros (entre os
       quais está a EDIT VALUE®) provenientes de quatro países. <br><br> Mais
-      informações sobre o CVTube em <a
-      href="http://www.project.cvtuber.eu/" target="_blank">www.project.cvtuber.eu</a> .
+      informações sobre o CVTube em <a href="http://www.project.cvtuber.eu/"
+      target="_blank">www.project.cvtuber.eu</a> .
     titulo: 'CVTube: plataforma para CV em vídeo'
   info:
     data: 01/04/2018
@@ -24,20 +24,16 @@ pt:
       para a investigação a nível europeu.
     titulo: Horizonte 2020!
   learn2work:
-    image_path: >-
-      images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/LEARN2WORK5b07.jpg
+    image_path: /assets/uploads/intro 4.0.png
     text: >-
-      O Learn2Work é um projeto europeu que pretende criar uma ligação entre as
-      oportunidades de trabalho geradas pela indústria e os perfis de educação
-      não-formal, apoiando os jovens no contacto com profissões ligadas à
-      indústria do calçado, tornando-as mais apelativas ao desenvolvimento de
-      carreiras profissionais no setor. <br><br> Para alcançar este resultado, a
-      EDIT VALUE® (enquanto líder do projeto) em conjunto com os outros seis
-      parceiros deste consórcio, encontra-se a adaptar o modelo das escolas de
-      produção dinamarquesas à realidade de Portugal, Itália e Espanha. <br><br>
-      Visite o website do projeto em - <a
-      href="http://www.learn2work.eu/" target="_blank">www.learn2work.eu</a> .
-    titulo: 'Learn2Work: uma nova metodologia'
+      O Intro 4.0 é um projeto europeu que pretende desenvolver uma nova base de
+      conhecimento online, na qual irá constar informação relevante sobre a 4ª
+      revolução industrial na Europa.  Para alcançar este resultado, a EDIT
+      VALUE® (enquanto parceira do projeto) em conjunto com os outros três
+      parceiros deste consórcio, encontra-se a recolher e a analisar toda a
+      informação já disponível que será posteriormente organizada, adaptada e
+      disponibilizada em [www.intro40.eu](www.intro40.eu)
+    titulo: 'Intro 4.0: A INDÚSTRIA 4.0 à distância de um clique'
 en:
   cvtube:
     image_path: >-
@@ -48,8 +44,8 @@ en:
       and as applications of young people. <br><br> This innovative project in
       the field of human resources has a two years duration and involves seven
       partners (among which is EDIT VALUE®) from four countries. <br><br> More
-      information about CVTube in <a
-      href="http://www.project.cvtuber.eu/" target="_blank">www.project.cvtuber.eu</a>.
+      information about CVTube in <a href="http://www.project.cvtuber.eu/"
+      target="_blank">www.project.cvtuber.eu</a>.
     titulo: 'CVTube: platform for CV’s Video'
   info:
     data: 01/04/2018
@@ -63,19 +59,16 @@ en:
       sustained growth and competitive leadership.
     titulo: SME Excellence
   learn2work:
-    image_path: >-
-      images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/LEARN2WORK5b07.jpg?
+    image_path: /assets/uploads/intro 4.0.png
     text: >-
-      Learn2Work is an european project which intends to create a bridge between
-      the industry working opportunities and non-formal educational paths that
-      can support youngsters to get in contact with footwear industry careers,in
-      order to work towards the appealing and attractiveness of this sector and
-      consider it as a career option. <br><br> To achieve this goal, EDIT VALUE®
-      (as project leader) with the other six project partners are adapting the
-      “Production Schools” model from Denmark to can apply it in Portugal, Italy
-      and Spain. <br><br> Visit the project website at - <a
-      href="http://www.learn2work.eu/" target="_blank">www.learn2work.eu</a>.
-    titulo: 'Learn2Work: a new methodology'
+      Intro 4.0 is a European project that aims to develop a new online
+      knowledge base, which will contain relevant information about the 4th
+      industrial revolution in Europe. In order to achieve this result, EDIT
+      VALUE® (as a partner of the project) together with the other three
+      partners of this consortium, is collecting and analyzing all information
+      already available that will be later organized, adapted and made public at
+      www.intro40 .
+    titulo: 'Inttro 4.0: INDUSTRY 4.0 one click away!'
 es:
   cvtube:
     image_path: >-
@@ -87,8 +80,8 @@ es:
       los jóvenes. <br><br> Este proyecto innovador en el ámbito de los recursos
       humanos, tiene un período de dos años y cuenta con siete socios (entre los
       cuales EDIT VALUE®) de cuatro países. <br><br> Para obtener más
-      información sobre CVTube - <a
-      href="http://www.project.cvtuber.eu/" target="_blank">www.project.cvtuber.eu</a>.
+      información sobre CVTube - <a href="http://www.project.cvtuber.eu/"
+      target="_blank">www.project.cvtuber.eu</a>.
     titulo: 'CVTube: plataforma para CV en vídeo'
   info:
     data: 28-03-2011
