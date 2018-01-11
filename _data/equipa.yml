@@ -186,6 +186,12 @@ lista:
       texto: >-
         Consultant of Benchmarking and specialist in the area of consultancy in
         Human Resources Management.
+    - cargo: Consultant
+      email: claudia.pereira@editvalue.com
+      nome: Cláudia Pereira
+      telefone: +351 960 362 336
+      texto: >-
+        Consultant, specialist in the area of consultancy in business management
     - cargo: Principal Consultant
       email: alvaro.cristovam@editvalue.com
       nome: Álvaro Cristóvam
@@ -312,6 +318,12 @@ lista:
       texto: >-
         Consultora de Benchmarking y experta en el ámbito de la consultoría en
         Gestión de Recursos Humanos.
+    - cargo: Consultora
+      email: claudia.pereira@editvalue.com
+      nome: Cláudia Pereira
+      telefone: +351 960 362 336
+      texto: >-
+        Consultora, especialista en el área de consultoria en Gestión Empresarial
     - cargo: Consultor Principal
       email: alvaro.cristovam@editvalue.com
       nome: Álvaro Cristóvam
@@ -436,6 +448,12 @@ lista:
         Embaixadora da Rede Europeia de Empreendedorismo Feminino, Consultora de
         Benchmarking e especialista na área de consultoria em Gestão de Recursos
         Humanos.
+    - cargo: Consultora
+      email: claudia.pereira@editvalue.com
+      nome: Cláudia Pereira
+      telefone: +351 960 362 336
+      texto: >-
+        Consultora, especialista na área de consultoria em Gestão Empresarial
     - cargo: Consultor Principal
       email: alvaro.cristovam@editvalue.com
       nome: Álvaro Cristóvam
@@ -458,3 +476,4 @@ lista:
         Mentor Científico e Professor Investigador do Departamento de Relações
         Internacionais e Administração Pública da Escola de Economia e Gestão da
         Universidade do Minho.
+
