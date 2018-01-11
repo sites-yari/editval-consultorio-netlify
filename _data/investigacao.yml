@@ -215,28 +215,32 @@ pt:
       titulo: Departamento de IDI
     - paragrafo: >-
         . ENTRExplorer | Serious Game for Immersive Entrepreneurs; <a
-        href="http://www.entrexplorer.com/">www.entrexplorer.com</a>
+        href="http://www.entrexplorer.com/" target="_blank">www.entrexplorer.com</a>
         (2010/2012);
 
         <br><br>. YEU | Young Enterprise and Unemployment; <a
-        href="http://www.y-e-u.eu/">www.y-e-u.eu</a> (2012/2014);
+        href="http://www.y-e-u.eu/" target="_blank">www.y-e-u.eu</a> (2012/2014);
 
         <br><br>. dualTRAIN | Building a Sustainable Approach to the Dual
         Vocational Training System in Portugal, Spain and Germany; <a
-        href="http://www.dualtrain.eu/">www.dualtrain.eu</a> (2014/2016);
+        href="http://www.dualtrain.eu/" target="_blank">www.dualtrain.eu</a> (2014/2016);
 
         <br><br>. Learn2Work | Adapt Production Schools Model to Attract
         Learners Into Footwear Careers; <a
-        href="http://www.learn2work.eu/">www.learn2work.eu</a>
+        href="http://www.learn2work.eu/" target="_blank">www.learn2work.eu</a>
         (2015/2018);<br><br>. CVTube | Online Talent Platform with Video based
         CV's; <a
-        href="http://www.project.cvtuber.eu/">www.project.cvtuber.eu</a>
+        href="http://www.project.cvtuber.eu/" target="_blank">www.project.cvtuber.eu</a>
         (2016/2018); <br><br>. Intro 4.0 | Introduction to the Industrial
         Revolution (2017/2019);<br><br>. Boats4Schools | An Educational
         Challenge (2017/2020); <br><br>. Skills4Succession | Innovative training
         to promote a sustainable succession in family based SMEs
         (2017/2020);<br><br><br><br>
       titulo: Projetos Internacionais de I&D
+
+
+
+
 en:
   publicacoes:
     - assunto: >-
@@ -400,7 +404,37 @@ en:
         estabelece um paralelo entre o sistema tradicional e os novos métodos
         que agora vigoram.
   textos:
-    - titulo: O Núcleo Científico
+    - paragrafo: >
+        A EDIT VALUE<sup>®</sup> diferencia-se no mercado pela sua filosofia de
+        vanguarda e inovação. Neste sentido, o Núcleo Científico da EDIT
+        VALUE<sup>®</sup> apresenta-se como uma mais-valia para empresa, em
+        especial para o desenvolvimento das atividades de Investigação &
+        Desenvolvimento.
+
+        <br><br>O Núcleo Científico visa promover condições para a elaboração de
+        trabalhos de carácter académico e científico, valorizar o conhecimento
+        produzido e fomentar uma cultura científica no seio da empresa. A
+        existência de um núcleo com estas competências confere potencialidades
+        únicas à EDIT VALUE<sup>®</sup> e permite-lhe acrescentar valor em todas
+        as suas áreas de intervenção, reforçando a sua base de conhecimento.
+
+        <br><br>A composição do Núcleo Científico demonstra a importância
+        atribuída à ligação que existe entre a EDIT VALUE<sup>®</sup> e a
+        Universidade do Minho, sendo este o elo mais tangível. O Núcleo
+        Científico é composto por dois professores doutorados e investigadores
+        da Universidade do Minho e por um consultor com vasta experiência nas
+        áreas da economia e da gestão;
+
+        <br><br>. Prof. Doutor António Tavares (Professor Associado do
+        Departamento de Relações Internacionais e Administração Pública da
+        Escola de Economia e Gestão da Universidade do Minho);
+
+        <br>. Prof.ª Doutora Carolina Machado (Professora Associada do
+        Departamento de Gestão da Escola de Economia e Gestão da Universidade do
+        Minho); e,
+
+        <br>. Dr. Álvaro Cristóvam (Consultor Formador).<br><br><br>
+      titulo: O Núcleo Científico
     - paragrafo: >
         O Departamento de IDI da EDIT VALUE<sup>®</sup> pretende impulsionar a
         inovação e a melhoria contínua de processos e produtos.
@@ -424,21 +458,27 @@ en:
       titulo: Departamento de IDI
     - paragrafo: >
         . ENTRExplorer | Serious Game for Immersive Entrepreneurs; <a
-        href="http://www.entrexplorer.com/">www.entrexplorer.com</a>
-        (concluído);
+        href="http://www.entrexplorer.com/" target="_blank">www.entrexplorer.com</a>
+        (2010/2012);
 
         <br><br>. YEU | Young Enterprise and Unemployment; <a
-        href="http://www.y-e-u.eu/">www.y-e-u.eu</a> (concluído); e,
+        href="http://www.y-e-u.eu/" target="_blank">www.y-e-u.eu</a> (2012/2014);
 
         <br><br>. dualTRAIN | Building a Sustainable Approach to the Dual
         Vocational Training System in Portugal, Spain and Germany; <a
-        href="http://www.dualtrain.eu/">www.dualtrain.eu</a> (concluído).
+        href="http://www.dualtrain.eu/" target="_blank">www.dualtrain.eu</a> (2014/2016);
 
         <br><br>. Learn2Work | Adapt Production Schools Model to Attract
         Learners Into Footwear Careers; <a
-        href="http://www.learn2work.eu/">www.learn2work.eu</a> (em curso); e,
-
-        <br><br>. CVTube | (em curso).<br><br><br><br>
+        href="http://www.learn2work.eu/" target="_blank">www.learn2work.eu</a>
+        (2015/2018);<br><br>. CVTube | Online Talent Platform with Video based
+        CV's; <a
+        href="http://www.project.cvtuber.eu/" target="_blank">www.project.cvtuber.eu</a>
+        (2016/2018); <br><br>. Intro 4.0 | Introduction to the Industrial
+        Revolution (2017/2019);<br><br>. Boats4Schools | An Educational
+        Challenge (2017/2020); <br><br>. Skills4Succession | Innovative training
+        to promote a sustainable succession in family based SMEs
+        (2017/2020);<br><br><br><br>
       titulo: Projetos Internacionais de I&D
 es:
   publicacoes:
@@ -657,18 +697,22 @@ es:
       titulo: Departamento de IDI
     - paragrafo: >-
         . ENTRExplorer | Serious Game for Immersive Entrepreneurs; <a
-        href="http://www.entrexplorer.com/">www.entrexplorer.com</a>
-        (2010/2012); <br><br>. YEU | Young Enterprise and Unemployment; <a
-        href="http://www.y-e-u.eu/">www.y-e-u.eu</a> (2012/2014); <br><br>.
-        dualTRAIN | Building a Sustainable Approach to the Dual Vocational
-        Training System in Portugal, Spain and Germany; <a
-        href="http://www.dualtrain.eu/">www.dualtrain.eu</a> (2014/2016);
+        href="http://www.entrexplorer.com/" target="_blank">www.entrexplorer.com</a>
+        (2010/2012);
+
+        <br><br>. YEU | Young Enterprise and Unemployment; <a
+        href="http://www.y-e-u.eu/" target="_blank">www.y-e-u.eu</a> (2012/2014);
+
+        <br><br>. dualTRAIN | Building a Sustainable Approach to the Dual
+        Vocational Training System in Portugal, Spain and Germany; <a
+        href="http://www.dualtrain.eu/" target="_blank">www.dualtrain.eu</a> (2014/2016);
+
         <br><br>. Learn2Work | Adapt Production Schools Model to Attract
         Learners Into Footwear Careers; <a
-        href="http://www.learn2work.eu/">www.learn2work.eu</a>
+        href="http://www.learn2work.eu/" target="_blank">www.learn2work.eu</a>
         (2015/2018);<br><br>. CVTube | Online Talent Platform with Video based
         CV's; <a
-        href="http://www.project.cvtuber.eu/">www.project.cvtuber.eu</a>
+        href="http://www.project.cvtuber.eu/" target="_blank">www.project.cvtuber.eu</a>
         (2016/2018); <br><br>. Intro 4.0 | Introduction to the Industrial
         Revolution (2017/2019);<br><br>. Boats4Schools | An Educational
         Challenge (2017/2020); <br><br>. Skills4Succession | Innovative training
