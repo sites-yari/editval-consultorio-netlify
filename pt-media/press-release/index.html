@@ -126,20 +126,20 @@ pagination:
           <div class="paginator">
             <div class="pagination">
               {% if paginator.previous_page %}
+                <a href="{{ paginator.first_page_path }}" class="next">P&aacute;gina inicial</a>
                 <a href="{{ paginator.previous_page_path }}" class="previous">P&aacute;gina anterior</a>
               {% else %}
+                <span class="previous_page disabled">P&aacute;gina inicial</span>
                 <span class="previous_page disabled">P&aacute;gina anterior</span>
               {% endif %}
               <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
               {% if paginator.next_page %}
                 <a href="{{ paginator.next_page_path }}" class="next">Pr&oacute;xima p&aacute;gina</a>
+                <a href="{{ paginator.last_page_path }}" class="next">Ultima p&aacute;gina</a>
               {% else %}
                 <span class="next_page disabled">Pr&oacute;xima p&aacute;gina</span>
+                <span class="next_page disabled">Ultima p&aacute;gina</span>
               {% endif %}
-              <!--<span class="previous_page disabled">Página anterior</span>
-              <em class="current">1</em>
-              <a href="press-release4658.html?page=2">2</a>
-              <a class="next_page" rel="next" href="press-release4658.html?page=2">Próxima página</a>-->
             </div>
           </div>
 
