@@ -1,2 +1,2 @@
 # Redirect domain aliases to primary domain
-http://consultoria.edivalue.com/* http://consultoriaempresarial.editvalue.com/:splat 301!
+http://consultoria.editvalue.com/* http://consultoriaempresarial.editvalue.com/:splat 301!
