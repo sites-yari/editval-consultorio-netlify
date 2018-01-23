@@ -42,3 +42,6 @@ permalink: /:year/:month/:title.html
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include:
+  - _redirects
