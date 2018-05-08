@@ -163,19 +163,19 @@ lista:
     - cargo: Consultant
       email: marco.vilaca@editvalue.com
       nome: Marco Vilaça
-      telefone: +351 911 047 498
+      telefone: +351 918 888 555
       texto: Consultant and specialist in the area of consultancy in Accounting.
     - cargo: Consultant
       email: vania.campos@editvalue.com
       nome: Vânia Campos
-      telefone: +351 917 830 991
+      telefone: +351 918 888 095
       texto: >-
         Official Technician of Accounts and specialist in the area of
         consultancy in Accounting.
     - cargo: Consultant
       email: sofia.alves@editvalue.com
       nome: Sofia Alves
-      telefone: +351 912 088 779
+      telefone: +351 918 889 891
       texto: >-
         Consultant and specialist in the area of consultancy in business
         management.
@@ -190,8 +190,7 @@ lista:
       email: claudia.pereira@editvalue.com
       nome: Cláudia Pereira
       telefone: +351 960 362 336
-      texto: >-
-        Consultant, specialist in the area of consultancy in business management
+      texto: 'Consultant, specialist in the area of consultancy in business management'
     - cargo: Principal Consultant
       email: alvaro.cristovam@editvalue.com
       nome: Álvaro Cristóvam
@@ -295,19 +294,19 @@ lista:
     - cargo: Consultor
       email: marco.vilaca@editvalue.com
       nome: Marco Vilaça
-      telefone: +351 911 047 498
+      telefone: +351 918 888 555
       texto: 'Consultor, experto en el ámbito de la consultoría en contabilidad.'
     - cargo: Consultora
       email: vania.campos@editvalue.com
       nome: Vânia Campos
-      telefone: +351 917 830 991
+      telefone: +351 918 888 095
       texto: >-
         Contable Autorizada, experta en el ámbito de la consultoría en
         contabilidad.
     - cargo: Consultora
       email: sofia.alves@editvalue.com
       nome: Sofia Alves
-      telefone: +351 912 088 779
+      telefone: +351 918 889 891
       texto: >-
         Consultora de Benchmarking y experta en el ámbito de la consultoría en
         gestión empresarial.
@@ -323,7 +322,8 @@ lista:
       nome: Cláudia Pereira
       telefone: +351 960 362 336
       texto: >-
-        Consultora, especialista en el área de consultoria en Gestión Empresarial
+        Consultora, especialista en el área de consultoria en Gestión
+        Empresarial
     - cargo: Consultor Principal
       email: alvaro.cristovam@editvalue.com
       nome: Álvaro Cristóvam
@@ -426,19 +426,19 @@ lista:
     - cargo: Consultor
       email: marco.vilaca@editvalue.com
       nome: Marco Vilaça
-      telefone: +351 911 047 498
+      telefone: +351 918 888 555
       texto: 'Consultor, especialista na área de consultoria em Gestão Empresarial.'
     - cargo: Consultora
       email: vania.campos@editvalue.com
       nome: Vânia Campos
-      telefone: +351 917 830 991
+      telefone: +351 918 888 095
       texto: >-
         Contabilista Certificada e especialista na área de consultoria em
         Contabilidade.
     - cargo: Consultora
       email: sofia.alves@editvalue.com
       nome: Sofia Alves
-      telefone: +351 912 088 779
+      telefone: +351 918 889 891
       texto: 'Consultora, especialista na área de consultoria em Gestão Empresarial.'
     - cargo: Consultora
       email: sandra.araujo@editvalue.com
@@ -452,8 +452,7 @@ lista:
       email: claudia.pereira@editvalue.com
       nome: Cláudia Pereira
       telefone: +351 960 362 336
-      texto: >-
-        Consultora, especialista na área de consultoria em Gestão Empresarial
+      texto: 'Consultora, especialista na área de consultoria em Gestão Empresarial'
     - cargo: Consultor Principal
       email: alvaro.cristovam@editvalue.com
       nome: Álvaro Cristóvam
@@ -476,4 +475,3 @@ lista:
         Mentor Científico e Professor Investigador do Departamento de Relações
         Internacionais e Administração Pública da Escola de Economia e Gestão da
         Universidade do Minho.
-
