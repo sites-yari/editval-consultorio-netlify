@@ -10,7 +10,7 @@ formacao?: artigos-economia
 ---
 Designação do Projeto: Definição de uma estratégia para a transformação digital do negócio da empresa.
 
-![](/assets/uploads/21728315_1775010295859596_7950071071217455592_n.jpg)
+![null](/assets/uploads/logopt2020.png)
 
 Código do projeto: NORTE-02-0853-FEDER-035887
 
