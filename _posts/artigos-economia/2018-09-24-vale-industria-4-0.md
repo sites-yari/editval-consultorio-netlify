@@ -10,13 +10,13 @@ formacao?: artigos-economia
 ---
 Designação do Projeto: Definição de uma estratégia para a transformação digital do negócio da empresa.
 
+![](/assets/uploads/21728315_1775010295859596_7950071071217455592_n.jpg)
+
 Código do projeto: NORTE-02-0853-FEDER-035887
 
 Região de intervenção: Norte
 
 Entidade beneficiária: Edit Value, Consultoria Empresarial Lda
-
-
 
 Data de aprovação: 16/03/2018
 
@@ -28,24 +28,15 @@ Custo total elegível: 9.500,00 euros
 
 Apoio financeiro da União Europeia:  FEDER – 7.125,00 euros
 
-
-
 Objetivo Temático: Reforçar a competitividade das PME
 
 Objetivos estratégicos:
 
 1. Criar uma estratégia de transformação digital adaptada à realidade e objetivos da empresa;
-
 2. Definir os requisitos da solução a implementar e definir a abordagem do design;
-
 3. Aumentar a satisfação dos clientes;
-
 4. Melhorar a competitividade da empresa;
-
 5. Aprimorar a experiência do cliente na sua relação com a empresa;
-
 6. Incrementar a eficiência e a produtividade da empresa;
-
 7. Digitalizar toda a interface de ligação com os clientes da empresa;
-
 8. Adaptar o seu modelo de negócio.
