@@ -97,7 +97,7 @@ collections:
       - { label: "Categoria", name: "category", widget: "hidden", default: "press-release" }
       - { label: "Classe", name: "class", widget: "hidden", default: "media-pt" }
       - { label: "Media Active?", name: "media_active?", widget: "hidden", default: "active" }
-      - { label: "Formação?", name: "formacao?", widget: "press-release" }
+      - { label: "Formação?", name: "formacao?", widget: "hidden", default: "press-release" }
       - { label: "Descrição do titulo", name: "body", widget: "markdown" }
 
   #-----| Redes |---------------------------------|
