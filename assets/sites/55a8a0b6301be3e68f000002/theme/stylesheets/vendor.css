@@ -704,7 +704,7 @@ div.ev-menu-destaques {
   margin-left: 13px;
   overflow: hidden;
   display: block;
-  background: transparent  url("../../../../../../../assets/sites/55a8a0b6301be3e68f000002/theme/images/designs/edit-value/menu-destaques-sprite.png") no-repeat -432px 0px;
+  background: transparent  url("../../../../../../../assets/sites/55a8a0b6301be3e68f000002/theme/images/designs/edit-value/menu-destaques-sprite3.png") no-repeat -432px 0px;
 }
 
 /* hack para a pÃ¡gina - galeria de imagens - para as galerias ficarem alinhadas Ã  direita
@@ -732,7 +732,7 @@ div.ev-menu-destaques ul li {
   height: 36px;
   *height: 33px;
   display: block;
-  background: transparent  url("../../../../../../../assets/sites/55a8a0b6301be3e68f000002/theme/images/designs/edit-value/menu-destaques-sprite.png") no-repeat top left;
+  background: transparent  url("../../../../../../../assets/sites/55a8a0b6301be3e68f000002/theme/images/designs/edit-value/menu-destaques-sprite3.png") no-repeat top left;
 }
 
 div.ev-menu-destaques ul li:last-child {
@@ -786,6 +786,10 @@ div.ev-menu-destaques ul li.galeria-fotos {
   background-position: -216px -219px;
 }
 
+div.ev-menu-destaques ul li.projetos {
+  background-position: -216px -255px;
+}
+
 /* propriedades hover e active - esconder do IE6 */
 div.ev-menu-destaques ul > li.media.active,
 div.ev-menu-destaques ul > li.media:hover {
@@ -820,6 +824,10 @@ div.ev-menu-destaques ul > li.logo-marca:hover {
 div.ev-menu-destaques ul > li.galeria-fotos.active,
 div.ev-menu-destaques ul > li.galeria-fotos:hover {
   background-position: 0 -219px;
+}
+div.ev-menu-destaques ul > li.projetos.active,
+div.ev-menu-destaques ul > li.projetos:hover {
+  background-position: 0 -255px;
 }
 
 /*** menu linguas ***/

@@ -1,16 +1,12 @@
 ---
 layout: media-post
-title: Artigos Economia
+title: Projetos
 class: media-pt
 media_active?: active
-formacao?: artigos-economia
-pagination:
-  enabled: true
-  category: artigos
+formacao?: projetos
 ---
- 
 
-<body class='older_browser ev media'>
+<body class='older_browser ev media'>            
   <ol class='contents '>
     <li class="container container_float_left">
       <div class='content' id='content_624_container'>
@@ -29,7 +25,7 @@ pagination:
                 </span>
               </a>
             </li>
-            <li class='artigos-economia active '>
+            <li class='artigos-economia  '>
               <a href='../../../pt-media/artigos/index.html'>
                 <span class='icon'></span>
                 <span class='label'>
@@ -53,7 +49,7 @@ pagination:
                 </span>
               </a>
             </li>
-            <li class='press-release  '>
+            <li class='press-release '>
               <a href='../../../pt-media/press-release/index.html'>
                 <span class='icon'></span>
                 <span class='label'>
@@ -77,7 +73,7 @@ pagination:
                 </span>
               </a>
             </li>
-            <li class='projetos '>
+            <li class='projetos active '>
               <a href='../../../pt-media/projetos.html'>
                 <span class='icon'></span>
                 <span class='label'>
@@ -91,20 +87,20 @@ pagination:
     </li>
     
     <li class="container container_float_left">
-      <div class="content" id="content_653_container">
-        <div class="ev-journal-economia">
+      <div class="content" id="content_656_container">
+        <div class="ev-journal-minimized">
           <h1>
-            <span>Suplemento de Economia</span>
-            <div class="feed">
-              <a href="../../../feed/artigos-economia">
+            <span>Projetos</span>
+            <!-- <div class="feed">
+              <a href="../../../feed/press-release">
                 <div class="icon"></div>
                 <div class="label">feed</div>
               </a>
-            </div>
-          </h1>          
+            </div> -->
+          </h1>
 
-          <!--{% assign pages = paginator.posts | where: "category" , "artigos" %}--> 
-          {% for post in paginator.posts %}    
+          {% assign proj = site.posts | where: "formacao?", "projetos" %}
+          {% for post in proj %}   
           <ul>
             <li class="article-0">
               <div class="article ">
@@ -116,7 +112,7 @@ pagination:
                     <span>{{post.data}}</span>
                   </div>
                   <div class="author">
-                    <span>{{post.autor}}</span>
+                    <span></span>
                   </div>
                 </div>
                 <div class="foot">
@@ -132,25 +128,6 @@ pagination:
           </ul>
           {% endfor %}
 
-          <div class="paginator">
-            <div class="pagination">
-              {% if paginator.previous_page %}
-                <a href="{{ paginator.first_page_path }}" class="next">P&aacute;gina inicial</a>
-                <a href="{{ paginator.previous_page_path }}" class="previous">P&aacute;gina anterior</a>
-              {% else %}
-                <span class="previous_page disabled">P&aacute;gina inicial</span>
-                <span class="previous_page disabled">P&aacute;gina anterior</span>
-              {% endif %}
-              <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-              {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path }}" class="next">Pr&oacute;xima p&aacute;gina</a>
-                <a href="{{ paginator.last_page_path }}" class="next">Ultima p&aacute;gina</a>
-              {% else %}
-                <span class="next_page disabled">Pr&oacute;xima p&aacute;gina</span>
-                <span class="next_page disabled">Ultima p&aacute;gina</span>
-              {% endif %}
-            </div>
-          </div>
           
         </div>
       </div>

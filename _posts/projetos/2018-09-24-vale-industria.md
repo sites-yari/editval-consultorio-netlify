@@ -2,10 +2,11 @@
 layout: for-post-text
 title: Vale Indústria 4.0
 data: 24-09-2018
-category: press-release
+category: projetos
 class: media-pt
+permalink: /2018/09/vale-industria.html
 media_active?: active
-formacao?: press-release
+formacao?: projetos
 ---
 ![](/assets/uploads/logopt2020.png)
 
